@@ -31,8 +31,12 @@ We use [Opportunity Insights](https://tracktherecovery.org/) team's [Economic Tr
 * CDC Model Assumptions and Method Types \
 The underlying model assumptions and method types of involved [COVID-19 Forecasts](https://github.com/reichlab/COVID19-forecast-hub) are linked to the [CDC reported data](https://github.com/cdcepi/COVID-19-Forecasts). However, the naming schema are quite different between these two repositories. Therefore, we manually matched the team names used by CDC and project names used by COVID-19 Forecast. Moreoever, we categorized the methods into types such as: Machine Leanring, SEIR, SIR, Regression Analysis, Bayesian Analysis, and so on. The processed data is stored as [cdc_model_assumptions.csv](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/cdc_model_assumptions.csv) 
 
+Folder [output_forecast](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output_forecast) contains the triplified forecasts untill 09-30-2020, folder [output2_forecast](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output2_forecast) include forecasts after 09-30-2020. Folder [output_economy] collects graphs of economic-related observations. All data are represnted in the format of [RDF](https://www.w3.org/RDF/) and stored as [turtle files](https://www.w3.org/TR/turtle/). 
+
+The graph and corresponding [endpoint](http://stko-roy.geog.ucsb.edu:7201 ) are updated every Tuesday. 
+
 ## COVID-SO Ontology
-To increase the interoperability and reusability of the data, we design a COVID-19 related ontology - COVID-SO - on top of the [W3C recommended Semantic Sensor Network ontology](https://www.w3.org/TR/vocab-ssn/) and [its extensions](https://www.w3.org/TR/vocab-ssn-ext/). Concretely, we designed a three-tier ontology demonstrated as below. COVID-SO can be at in the folder of [COVID-SO Ontology] (https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/COVID-SO%20Ontology). 
+To increase the interoperability and reusability of the data, we design a COVID-19 related ontology - COVID-SO - on top of the [W3C recommended Semantic Sensor Network ontology](https://www.w3.org/TR/vocab-ssn/) and [its extensions](https://www.w3.org/TR/vocab-ssn-ext/). Concretely, we designed a three-tier ontology demonstrated as below. COVID-SO can be at in the folder of [COVID-SO Ontology](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/COVID-SO%20Ontology). 
 
 * Upper-level ontology
 <p align="center">
@@ -46,7 +50,7 @@ To increase the interoperability and reusability of the data, we design a COVID-
     </p>
   * Economic indicators 
     <p align="center">
-    <img src="https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/COVID-SO%20Ontology/images/ecomonic.png" alt="framework" >
+    <img src="https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/COVID-SO%20Ontology/images/economic.png" alt="framework" >
     </p>
   * Reported 'ground truth' 
     <p align="center">
