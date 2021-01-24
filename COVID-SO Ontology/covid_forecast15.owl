@@ -1,0 +1,421 @@
+@prefix : <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@base <http://covid.geog.ucsb.edu/lod/ontology/> .
+
+<http://covid.geog.ucsb.edu/lod/ontology/> rdf:type owl:Ontology ;
+                                            owl:imports sosa: ;
+                                            <http://purl.org/dc/elements/1.1/creator> "Rui Zhu"^^rdfs:Literal ;
+                                            rdfs:comment "ontology for covid-19 predictions"^^rdfs:Literal .
+
+#################################################################
+#    Annotation properties
+#################################################################
+
+###  http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> rdf:type owl:AnnotationProperty .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://covid.geog.ucsb.edu/lod/ontology/assumptionType
+covid:assumptionType rdf:type owl:ObjectProperty ;
+                     rdfs:domain covid:Assumption ;
+                     rdfs:range covid:AssumptionType .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/assumptionType_hr
+covid:assumptionType_hr rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf covid:assumptionType .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/assumptionType_sd
+covid:assumptionType_sd rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf covid:assumptionType .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/fundingSource
+covid:fundingSource rdf:type owl:ObjectProperty ;
+                    rdfs:domain covid:Team ;
+                    rdfs:range covid:Organization .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/hasAssumption
+covid:hasAssumption rdf:type owl:ObjectProperty ;
+                    rdfs:domain covid:Model ;
+                    rdfs:range covid:Assumption .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/hasLicense
+covid:hasLicense rdf:type owl:ObjectProperty ;
+                 rdfs:domain covid:Model ;
+                 rdfs:range covid:License .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/hasTargetType
+covid:hasTargetType rdf:type owl:ObjectProperty ;
+                    rdfs:domain covid:Target ;
+                    rdfs:range covid:TargetType .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/methodType
+covid:methodType rdf:type owl:ObjectProperty ;
+                 rdfs:domain covid:Method ;
+                 rdfs:range covid:MethodType .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/modelDesignation
+covid:modelDesignation rdf:type owl:ObjectProperty ;
+                       rdfs:domain covid:Model ;
+                       rdfs:range covid:ModelDesignation .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/owner
+covid:owner rdf:type owl:ObjectProperty ;
+            rdfs:domain covid:Model ;
+            rdfs:range covid:Team .
+
+
+###  http://www.w3.org/ns/sosa/hasFeatureOfInterest
+sosa:hasFeatureOfInterest rdfs:domain sosa:Observation ;
+                          rdfs:range sosa:FeatureOfInterest .
+
+
+###  http://www.w3.org/ns/sosa/hasMember
+sosa:hasMember rdf:type owl:ObjectProperty ;
+               rdfs:domain sosa:ObservationCollection ;
+               rdfs:range [ rdf:type owl:Class ;
+                            owl:unionOf ( sosa:Observation
+                                          sosa:ObservationCollection
+                                        )
+                          ] .
+
+
+###  http://www.w3.org/ns/sosa/madeBySensor
+sosa:madeBySensor rdfs:domain sosa:ObservationCollection ;
+                  rdfs:range sosa:Sensor .
+
+
+###  http://www.w3.org/ns/sosa/observedProperty
+sosa:observedProperty rdfs:domain sosa:Observation ;
+                      rdfs:range sosa:ObservableProperty .
+
+
+###  http://www.w3.org/ns/sosa/phenomenonTime
+sosa:phenomenonTime rdfs:domain sosa:Observation ;
+                    rdfs:range time:TemporalEntity .
+
+
+###  http://www.w3.org/ns/sosa/usedProcedure
+sosa:usedProcedure rdfs:domain sosa:ObservationCollection ;
+                   rdfs:range sosa:Procedure .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://covid.geog.ucsb.edu/lod/ontology/assumptionFull
+covid:assumptionFull rdf:type owl:DatatypeProperty ;
+                     rdfs:domain covid:Assumption ;
+                     rdfs:range xsd:string .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/assumptionFull_hr
+covid:assumptionFull_hr rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf covid:assumptionFull .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/assumptionFull_sd
+covid:assumptionFull_sd rdf:type owl:DatatypeProperty ;
+                        rdfs:subPropertyOf covid:assumptionFull .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/countyFIPS
+covid:countyFIPS rdf:type owl:DatatypeProperty ;
+                 rdfs:domain covid:Place ;
+                 rdfs:range xsd:string .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/hasPlaceName
+covid:hasPlaceName rdf:type owl:DatatypeProperty ;
+                   rdfs:domain covid:Place ;
+                   rdfs:range xsd:string .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/hasWebsite
+covid:hasWebsite rdf:type owl:DatatypeProperty ;
+                 rdfs:domain covid:Model ;
+                 rdfs:range xsd:anyURI .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/methodFull
+covid:methodFull rdf:type owl:DatatypeProperty ;
+                 rdfs:domain covid:Method ;
+                 rdfs:range xsd:string .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/modelBrief
+covid:modelBrief rdf:type owl:DatatypeProperty ;
+                 rdfs:domain covid:Model ;
+                 rdfs:range xsd:string .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/modelDesc
+covid:modelDesc rdf:type owl:DatatypeProperty ;
+                rdfs:domain covid:Model ;
+                rdfs:range xsd:string .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/point
+covid:point rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf sosa:hasSimpleResult .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/quantile_0.01
+covid:quantile_0.01 rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf sosa:hasSimpleResult .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/quantile_0.025
+covid:quantile_0.025 rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf sosa:hasSimpleResult .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/quantile_0.05
+covid:quantile_0.05 rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf sosa:hasSimpleResult .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/quantile_0.1
+covid:quantile_0.1 rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf sosa:hasSimpleResult .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/quantile_0.15
+covid:quantile_0.15 rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf sosa:hasSimpleResult .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/quantile_0.2
+covid:quantile_0.2 rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf sosa:hasSimpleResult .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/quantile_0.25
+covid:quantile_0.25 rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf sosa:hasSimpleResult .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/quantile_0.3
+covid:quantile_0.3 rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf sosa:hasSimpleResult .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/quantile_0.35
+covid:quantile_0.35 rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf sosa:hasSimpleResult .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/quantile_0.4
+covid:quantile_0.4 rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf sosa:hasSimpleResult .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/quantile_0.45
+covid:quantile_0.45 rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf sosa:hasSimpleResult .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/quantile_0.5
+covid:quantile_0.5 rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf sosa:hasSimpleResult .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/quantile_0.55
+covid:quantile_0.55 rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf sosa:hasSimpleResult .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/quantile_0.6
+covid:quantile_0.6 rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf sosa:hasSimpleResult .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/quantile_0.65
+covid:quantile_0.65 rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf sosa:hasSimpleResult .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/quantile_0.7
+covid:quantile_0.7 rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf sosa:hasSimpleResult .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/quantile_0.75
+covid:quantile_0.75 rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf sosa:hasSimpleResult .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/quantile_0.8
+covid:quantile_0.8 rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf sosa:hasSimpleResult .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/quantile_0.85
+covid:quantile_0.85 rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf sosa:hasSimpleResult .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/quantile_0.9
+covid:quantile_0.9 rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf sosa:hasSimpleResult .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/quantile_0.95
+covid:quantile_0.95 rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf sosa:hasSimpleResult .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/quantile_0.975
+covid:quantile_0.975 rdf:type owl:DatatypeProperty ;
+                     rdfs:subPropertyOf sosa:hasSimpleResult .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/quantile_0.99
+covid:quantile_0.99 rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf sosa:hasSimpleResult .
+
+
+###  http://www.w3.org/ns/sosa/hasSimpleResult
+sosa:hasSimpleResult rdfs:domain sosa:Observation ;
+                     rdfs:range xsd:double .
+
+
+###  http://www.w3.org/ns/sosa/resultTime
+sosa:resultTime rdfs:domain sosa:ObservationCollection .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://covid.geog.ucsb.edu/lod/ontology/Affinity
+covid:Affinity rdf:type owl:Class ;
+               rdfs:subClassOf sosa:Sensor .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/Assumption
+covid:Assumption rdf:type owl:Class ;
+                 owl:disjointWith covid:Forecast .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/AssumptionType
+covid:AssumptionType rdf:type owl:Class .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/Forecast
+covid:Forecast rdf:type owl:Class ;
+               rdfs:subClassOf sosa:ObservationCollection .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/GroundTruth
+covid:GroundTruth rdf:type owl:Class ;
+                  rdfs:subClassOf sosa:Observation .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/License
+covid:License rdf:type owl:Class .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/Method
+covid:Method rdf:type owl:Class ;
+             rdfs:subClassOf sosa:Procedure .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/MethodType
+covid:MethodType rdf:type owl:Class .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/Model
+covid:Model rdf:type owl:Class ;
+            rdfs:subClassOf sosa:Sensor .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/ModelDesignation
+covid:ModelDesignation rdf:type owl:Class .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/Organization
+covid:Organization rdf:type owl:Class .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/Place
+covid:Place rdf:type owl:Class ;
+            rdfs:subClassOf sosa:FeatureOfInterest .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/Research
+covid:Research rdf:type owl:Class ;
+               rdfs:subClassOf sosa:ObservationCollection .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/Target
+covid:Target rdf:type owl:Class ;
+             rdfs:subClassOf sosa:Observation .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/TargetType
+covid:TargetType rdf:type owl:Class .
+
+
+###  http://covid.geog.ucsb.edu/lod/ontology/Team
+covid:Team rdf:type owl:Class .
+
+
+###  http://www.w3.org/ns/sosa/ObservationCollection
+sosa:ObservationCollection rdf:type owl:Class .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointProperties ;
+  owl:members ( covid:point
+                covid:quantile_0.01
+                covid:quantile_0.025
+                covid:quantile_0.05
+                covid:quantile_0.1
+                covid:quantile_0.15
+                covid:quantile_0.2
+                covid:quantile_0.25
+                covid:quantile_0.3
+                covid:quantile_0.35
+                covid:quantile_0.4
+                covid:quantile_0.45
+                covid:quantile_0.5
+                covid:quantile_0.55
+                covid:quantile_0.6
+                covid:quantile_0.65
+                covid:quantile_0.7
+                covid:quantile_0.75
+                covid:quantile_0.8
+                covid:quantile_0.85
+                covid:quantile_0.9
+                covid:quantile_0.95
+                covid:quantile_0.975
+                covid:quantile_0.99
+              )
+] .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
