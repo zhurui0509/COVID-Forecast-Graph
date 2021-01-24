@@ -1,5 +1,213 @@
+################# Q1 Which projects have forecasts about [cumulative death] for [California] on [01-16-2021]? When have these forecast been made? Which of them used [regression model]?      #######################
 
-###### Among all the forecasts on the date of 09-05-2020, which model performs the best for each state across the US? 
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX covid-obs-property: <http://covid.geog.ucsb.edu/lod/observedproperty/>
+PREFIX covid-instant: <http://covid.geog.ucsb.edu/lod/instant/>
+PREFIX covid-place: <http://covid.geog.ucsb.edu/lod/place/>
+PREFIX covid: <http://covid.geog.ucsb.edu/lod/ontology/>
+PREFIX covid-method: <http://covid.geog.ucsb.edu/lod/method/>
+
+select ?project_label ?time ?method_type where {
+  ?project a covid:Research ;
+           sosa:hasMember ?forecast ;
+           rdfs:label ?project_label ;
+           sosa:usedProcedure ?method .
+    ?method covid:methodType ?method_type .
+    
+  ?forecast sosa:hasMember ?target ;
+      		sosa:resultTime ?time .
+  ?target sosa:observedProperty covid-obs-property:cum_death ;
+            sosa:phenomenonTime covid-instant:2021-01-16 ;
+            sosa:hasFeatureOfInterest ?place.
+  ?place covid:hasPlaceName "California" .
+}
+
+
+PREFIX covid: <http://covid.geog.ucsb.edu/lod/ontology/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX covid-obs-property: <http://covid.geog.ucsb.edu/lod/observedproperty/>
+PREFIX covid-instant: <http://covid.geog.ucsb.edu/lod/instant/>
+select ?proj_label ?method_label (GROUP_CONCAT(?time; SEPARATOR=",") as ?time_list) where { 
+  
+  			 ?proj a covid:Research ;
+                   rdfs:label ?proj_label ;
+                   sosa:hasMember ?f ;
+                   sosa:usedProcedure ?method .
+  
+             ?f a covid:Forecast ;
+                sosa:resultTime ?time ;
+                sosa:hasMember ?m .
+  
+             ?m sosa:hasFeatureOfInterest ?p ;
+                sosa:observedProperty covid-obs-property:cum_death ;
+                sosa:phenomenonTime covid-instant:2020-09-12 .
+  
+             ?p covid:hasPlaceName 'California' . 
+  
+  			?method rdfs:label ?method_label ;
+                     		    
+                                  } 
+group by ?proj_label ?method_label
+
+
+
+################## Q2 Which projects implement the assumption that [local social distancing policies will be kept in place]? Which methods do these projects utilize?  ####################
+
+prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/>
+prefix covid-assumption-type: <http://covid.geog.ucsb.edu/lod/assumptiontype/> 
+prefix sosa: <http://www.w3.org/ns/sosa/> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+
+select ?project_label ?method_label  where {
+
+   ?project a covid:Research ;
+             rdfs:label  ?project_label ;
+             sosa:madeBySensor ?model;
+   			 sosa:usedProcedure ?method .
+  
+     ?model covid:hasAssumption ?assumption ;
+            rdfs:label ?model_label . 
+  	 ?assumption covid:assumptionType_sd covid-assumption-type:sd_continue .
+                 
+     ?method covid:methodFull ?method_label . 
+  
+}
+
+
+
+############### Q3  Find all predicted [cumulative death] in [California] on [01-02-2021], and compare it with the reported [ground truth].  ##################
+
+PREFIX covid: <http://covid.geog.ucsb.edu/lod/ontology/>
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX covid-obs-property: <http://covid.geog.ucsb.edu/lod/observedproperty/>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+select ?project_label ?forecast_time ?ground_value ?upper_bound ?lower_bound ((?upper_bound-?lower_bound) as ?interval) where {
+   ?project sosa:hasMember ?forecast ;
+            rdfs:label ?project_label . 
+    
+   ?forecast sosa:hasMember ?target ;
+             sosa:resultTime ?forecast_time .
+             
+   
+   ?target a covid:Target ;
+            sosa:observedProperty covid-obs-property:cum_death ;
+            sosa:phenomenonTime ?time ;
+            sosa:hasFeatureOfInterest ?place ;
+            covid:quantile_0.01 ?lower_bound ;
+            covid:quantile_0.99 ?upper_bound . 
+    
+  ?ground_truth a covid:GroundTruth ;
+              sosa:hasFeatureOfInterest ?place ;
+              sosa:observedProperty covid-obs-property:cum_death ;
+              sosa:phenomenonTime ?time ;
+               covid:point ?ground_value .
+
+  
+  ?place covid:hasPlaceName "California" .
+  ?time time:inXSDDateTime "2021-01-02" .
+    
+  filter (?ground_value <?upper_bound && ?ground_value>?lower_bound)
+    
+}
+
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX covid-obs-property: <http://covid.geog.ucsb.edu/lod/observedproperty/>
+PREFIX covid-instant: <http://covid.geog.ucsb.edu/lod/instant/>
+PREFIX covid-place: <http://covid.geog.ucsb.edu/lod/place/>
+PREFIX covid: <http://covid.geog.ucsb.edu/lod/ontology/>
+PREFIX covid-method: <http://covid.geog.ucsb.edu/lod/method/>
+PREFIX time: <http://www.w3.org/2006/time#>
+
+select ?forecast ?predict_value ?groundtruth_value where {
+   
+  ?forecast sosa:hasMember ?target .
+  
+  ?target a covid:Target ;
+            sosa:observedProperty covid-obs-property:cum_death ;
+            sosa:phenomenonTime ?time ;
+            covid:point ?predict_value ;
+            sosa:hasFeatureOfInterest ?place .
+    
+  ?ground_truth a covid:GroundTruth ;
+              sosa:hasFeatureOfInterest ?place ;
+              sosa:observedProperty covid-obs-property:cum_death ;
+              sosa:phenomenonTime ?time ;
+              covid:point ?groundtruth_value .
+  
+  ?place covid:hasPlaceName "California" .
+  ?time time:inXSDDateTime "2021-01-02" .
+}
+limit 100 
+
+
+########### Q4 Among all the 4-week ahead forecasts of cumulative death in early August (i.e., before the second wave unfolded in the fall), which model performs the best for each state across the US?  #############
+prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/>
+prefix covid-instant: <http://covid.geog.ucsb.edu/lod/instant/>
+prefix covid-obs-property: <http://covid.geog.ucsb.edu/lod/observedproperty/>
+prefix covid-target-type: <http://covid.geog.ucsb.edu/lod/target-type/> 
+prefix dcterm: <http://purl.org/dc/terms/>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix sosa: <http://www.w3.org/ns/sosa/>
+prefix time: <http://www.w3.org/2006/time#> 
+
+select ?research (min(?result_time) as ?first_september) {
+  
+  	?research sosa:hasMember ?forecast .
+  
+  	?forecast a covid:Forecast ;
+    	sosa:resultTime ?result_time .
+    #?result_time time:inXSDDateTime ?result_time_str .
+  
+    #FILTER (?result_time > "2020-09-10"^^xsd:dateTime)
+ 	FILTER regex(?result_time, "^2020-08") .
+         
+  
+}
+group by ?research
+order by ?first_september
+
+
+
+############# Q5 What is the relation between [reported incident cases] and the [credit card use change in arts, entertainment, and recreation] in [New York]?  #########
+PREFIX econ-affinity: <http://econ.geog.ucsb.edu/lod/affinity/>
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX econ-obs-property: <http://econ.geog.ucsb.edu/lod/observedproperty/>
+PREFIX econ: <http://econ.geog.ucsb.edu/lod/economy/>
+PREFIX covid: <http://covid.geog.ucsb.edu/lod/ontology/>
+PREFIX covid-obs-property: <http://covid.geog.ucsb.edu/lod/observedproperty/>
+
+SELECT distinct ?time ?groundtruth_value ?val_econ where {
+
+    ?groundtruth a covid:GroundTruth ;
+                sosa:phenomenonTime ?time ;
+                sosa:observedProperty covid-obs-property:cum_death ;
+                 sosa:hasFeatureOfInterest ?place ;
+                 covid:point ?groundtruth_value .
+  
+
+    econ-affinity:state-daily sosa:hasMember ?econ_collection .
+    ?econ_colelction sosa:phenomenonTime ?time ;
+                     sosa:hasFeatureOfInterest ?place ;
+                     sosa:hasMember ?econ .
+    ?econ sosa:observedProperty econ-obs-property:spend_aer ;
+      econ:point ?val_econ .
+
+        ?place covid:hasPlaceName "New York" .
+}
+order by DESC(?time)
+limit 100
+
+
+
+########### Among all the forecasts on the date of 09-05-2020, which model performs the best for each state across the US?##########
 
 
 prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/>
@@ -46,7 +254,7 @@ order by ?placeName ?min_gap
 
 
 
-##################### Compare the number of research that are funded by different organizations such as CDC and NSF.  ##################### Which forecasts are made from independent research (i.e., no funding resource)?  
+##################### Compare the number of research that are funded by different organizations such as CDC and NSF.  ######################## Which forecasts are made from independent research (i.e., no funding resource)?  ###########
 
 prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/>
 prefix covid-funding-resource: <http://covid.geog.ucsb.edu/lod/fundingResource/>
