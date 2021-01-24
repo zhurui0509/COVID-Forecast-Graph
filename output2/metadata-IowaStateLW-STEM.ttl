@@ -1,0 +1,30 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-license: <http://covid.geog.ucsb.edu/lod/license/> .
+@prefix covid-method: <http://covid.geog.ucsb.edu/lod/method/> .
+@prefix covid-model: <http://covid.geog.ucsb.edu/lod/model/> .
+@prefix covid-model-designation: <http://covid.geog.ucsb.edu/lod/modelDesignation/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix ns1: <http://www.w3.org/ns/sosa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-research:IowaStateLW-STEM a covid:Research ;
+    rdfs:label "IowaStateLW-STEM" ;
+    ns1:madeBySensor covid-model:IowaStateLW-STEM ;
+    ns1:usedProcedure covid-method:STEM .
+
+covid-method:STEM a covid:Method ;
+    rdfs:label "STEM" .
+
+covid-model:IowaStateLW-STEM a covid:Model ;
+    rdfs:label "IowaStateLW-STEM" ;
+    covid:hasLicense covid-license:cc-by-4.0 ;
+    covid:hasName "Spatiotemporal Epidemic Modeling" ;
+    covid:hasWebsite <https://covid19.stat.iastate.edu> ;
+    covid:modelBrief "Spatiotemporal Dynamics, Nowcasting and Forecasting of COVID-19 in the United  States." ;
+    covid:modelDesc "We develop a nonparametric space-time disease transmission model for  the epidemic data, and to study the spatial-temporal pattern in the spread of COVID-19  at the county level. The proposed methodology can be used to dissect the spatial  structure and dynamics of spread, as well as to forecast how this outbreak may unfold  through time and space in the future. The projections assume that the data used  is reliable, the future will continue to follow the current pattern, and current  interventions will remain the same till the end of forecasting period." ;
+    covid:modelDesignation covid-model-designation:primary ;
+    covid:owner <http://covid.geog.ucsb.edu/lod/owner/Iowa_State__Lily_Wang's_Research_Group> .
+
+<http://covid.geog.ucsb.edu/lod/owner/Iowa_State__Lily_Wang's_Research_Group> a covid:Team ;
+    rdfs:label "Iowa State - Lily Wang's Research Group" .
+

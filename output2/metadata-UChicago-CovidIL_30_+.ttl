@@ -1,0 +1,30 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-funding-resource: <http://covid.geog.ucsb.edu/lod/fundingResource/> .
+@prefix covid-license: <http://covid.geog.ucsb.edu/lod/license/> .
+@prefix covid-model-designation: <http://covid.geog.ucsb.edu/lod/modelDesignation/> .
+@prefix covid-owner: <http://covid.geog.ucsb.edu/lod/owner/> .
+@prefix ns1: <http://www.w3.org/ns/sosa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://covid.geog.ucsb.edu/lod/research/UChicago-CovidIL_30_+> a covid:Research ;
+    rdfs:label "UChicago-CovidIL_30_+" ;
+    ns1:madeBySensor <http://covid.geog.ucsb.edu/lod/model/UChicago-CovidIL_30_+> ;
+    ns1:usedProcedure <http://covid.geog.ucsb.edu/lod/method/CovidIL_30_+> .
+
+<http://covid.geog.ucsb.edu/lod/method/CovidIL_30_+> a covid:Method ;
+    rdfs:label "CovidIL_30_+" .
+
+<http://covid.geog.ucsb.edu/lod/model/UChicago-CovidIL_30_+> a covid:Model ;
+    rdfs:label "UChicago-CovidIL_30_+" ;
+    covid:hasLicense covid-license:cc-by-4.0 ;
+    covid:hasName "CovidIL_30_increase" ;
+    covid:hasWebsite <https://github.com/cobeylab/covid_IL> ;
+    covid:modelBrief "This is a compartmental, age-structured SEIR model that infers past  SARS-CoV-2  transmission rates and forecasts mortality  under current and hypothetical public  health interventions." ;
+    covid:modelDesc "'The model is age-structured to capture both age-specific contact patterns  and age-specific differences in the biological dynamics, such as the probability  of asymptomatic infection. Each model compartment is sub-divided into nine different  age categories.  To model the state of Illinois, we divide the state into four regions  based on the Restore Illinois plan. We infer a common statewide pre-intervention  transmission rate, and a separate post-intervention transmission rate for each of  the four regions. We also infer a region-specific initial number of infected individuals.  Other model parameters are informed by Illinois-specific data or best estimates  from existing literature. We fit the model to incident in-hospital deaths and confirmed  COVID-19 ICU cases prior to May 15, 2020.   For inference, we use maximum likelihood  inference via sequential Monte Carlo for partially observed Markov process models  (POMP).   We assume that hospitalized deaths are reported with probability 0.8075  and we fitted the reporting rate of non-hospitalized deaths.  The model can be adapted  to investigate different types of interventions.  We currently model shelter-in-place  as a reduction in the overall transmission rate, which is shared by all infected  individuals, and reductions in age- and location-specific contact rates." ;
+    covid:modelDesignation covid-model-designation:other ;
+    covid:owner covid-owner:University_of_Chicago .
+
+covid-owner:University_of_Chicago a covid:Team ;
+    rdfs:label "University of Chicago" ;
+    covid:fundingSource covid-funding-resource:NIH .
+

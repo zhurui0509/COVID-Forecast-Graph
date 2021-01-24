@@ -1,0 +1,31 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-license: <http://covid.geog.ucsb.edu/lod/license/> .
+@prefix covid-method: <http://covid.geog.ucsb.edu/lod/method/> .
+@prefix covid-model: <http://covid.geog.ucsb.edu/lod/model/> .
+@prefix covid-model-designation: <http://covid.geog.ucsb.edu/lod/modelDesignation/> .
+@prefix covid-owner: <http://covid.geog.ucsb.edu/lod/owner/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix ns1: <http://www.w3.org/ns/sosa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-research:AIpert-pwllnod a covid:Research ;
+    rdfs:label "AIpert-pwllnod" ;
+    ns1:madeBySensor covid-model:AIpert-pwllnod ;
+    ns1:usedProcedure covid-method:pwllnod .
+
+covid-method:pwllnod a covid:Method ;
+    rdfs:label "pwllnod" .
+
+covid-model:AIpert-pwllnod a covid:Model ;
+    rdfs:label "AIpert-pwllnod" ;
+    covid:hasLicense covid-license:mit ;
+    covid:hasName "Piecewise Log Linear of Death" ;
+    covid:hasWebsite <https://covid19.aipert.org>,
+        <https://github.com/QuocTran/COVID-19> ;
+    covid:modelBrief "Piecewise Log Linear of Death using policy change dates" ;
+    covid:modelDesignation covid-model-designation:primary ;
+    covid:owner covid-owner:AIpertorg_team .
+
+covid-owner:AIpertorg_team a covid:Team ;
+    rdfs:label "AIpert.org team" .
+

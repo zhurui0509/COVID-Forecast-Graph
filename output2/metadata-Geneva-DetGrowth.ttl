@@ -1,0 +1,33 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-funding-resource: <http://covid.geog.ucsb.edu/lod/fundingResource/> .
+@prefix covid-license: <http://covid.geog.ucsb.edu/lod/license/> .
+@prefix covid-method: <http://covid.geog.ucsb.edu/lod/method/> .
+@prefix covid-model: <http://covid.geog.ucsb.edu/lod/model/> .
+@prefix covid-model-designation: <http://covid.geog.ucsb.edu/lod/modelDesignation/> .
+@prefix covid-owner: <http://covid.geog.ucsb.edu/lod/owner/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix ns1: <http://www.w3.org/ns/sosa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-research:Geneva-DetGrowth a covid:Research ;
+    rdfs:label "Geneva-DetGrowth" ;
+    ns1:madeBySensor covid-model:Geneva-DetGrowth ;
+    ns1:usedProcedure covid-method:DetGrowth .
+
+covid-method:DetGrowth a covid:Method ;
+    rdfs:label "DetGrowth" .
+
+covid-model:Geneva-DetGrowth a covid:Model ;
+    rdfs:label "Geneva-DetGrowth" ;
+    covid:hasLicense covid-license:other ;
+    covid:hasName "DeterministicGrowth" ;
+    covid:hasWebsite <https://renkulab.shinyapps.io/COVID-19-Epidemic-Forecasting/> ;
+    covid:modelBrief "We calculate the growth rate of cumulative cases (resp. deaths) between two  days ago and today.  If greater than 5%, we use an exponential model to forecast.  Otherwise, we use a linear model." ;
+    covid:modelDesc "'\"We calculate the growth rate of cumulative cases (resp. deaths) between  two days ago and today.  If it''s greater than 5%, we use an exponential model to  forecast the cumulative number of cases (resp. deaths),  and then derive the daily  number of cases (resp. deaths). If it''s less than 5%, we use an linear model instead.\"'" ;
+    covid:modelDesignation covid-model-designation:primary ;
+    covid:owner covid-owner:University_of_Geneva__Swiss_Data_Science_Center .
+
+covid-owner:University_of_Geneva__Swiss_Data_Science_Center a covid:Team ;
+    rdfs:label "University of Geneva / Swiss Data Science Center" ;
+    covid:fundingSource covid-funding-resource:NA .
+

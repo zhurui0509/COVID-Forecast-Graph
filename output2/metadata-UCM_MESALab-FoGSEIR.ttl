@@ -1,0 +1,33 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-funding-resource: <http://covid.geog.ucsb.edu/lod/fundingResource/> .
+@prefix covid-license: <http://covid.geog.ucsb.edu/lod/license/> .
+@prefix covid-method: <http://covid.geog.ucsb.edu/lod/method/> .
+@prefix covid-model: <http://covid.geog.ucsb.edu/lod/model/> .
+@prefix covid-model-designation: <http://covid.geog.ucsb.edu/lod/modelDesignation/> .
+@prefix covid-owner: <http://covid.geog.ucsb.edu/lod/owner/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix ns1: <http://www.w3.org/ns/sosa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-research:UCM_MESALab-FoGSEIR a covid:Research ;
+    rdfs:label "UCM_MESALab-FoGSEIR" ;
+    ns1:madeBySensor covid-model:UCM_MESALab-FoGSEIR ;
+    ns1:usedProcedure covid-method:FoGSEIR .
+
+covid-method:FoGSEIR a covid:Method ;
+    rdfs:label "FoGSEIR" .
+
+covid-model:UCM_MESALab-FoGSEIR a covid:Model ;
+    rdfs:label "UCM_MESALab-FoGSEIR" ;
+    covid:hasLicense covid-license:cc-by-4.0 ;
+    covid:hasName "Fractional order Generalized SEIR model" ;
+    covid:hasWebsite <http://mechatronics.ucmerced.edu/covid19> ;
+    covid:modelBrief "FoGSEIR model is a modification of integer order SEIR model considering fractional integrals. The model considers the age structure and reopening intervention to minimize infections and deaths." ;
+    covid:modelDesc "\"The fractional order generalized SEIR model considers the power law functions of infection cases, as well as the recovery and death.\\      \\ It is necessary to introduce the fractional integral with long memory property based on the integer  order SEIR model. Through the\\    \\ time-weighted performance index (ITSE) of the model fitting and parameter sensitivity analysis  of the model using Simulink Design Optimization (SLDO),\\    \\ it is proved that the fractional order model is superior to the integer order model in terms of short-term prediction. In our model, the more accurate\\    \\ prediction errors of incident death and cumulative death are provided.\\    \\ Based on this model, we can also study the optimization control problem. By studying mobility data, the lock-down\\    \\ and release policies of different countries, states and counties are changed accordingly. Control infection rates to\\     \\ reduce cumulative infections and deaths effectively. The model can not only fit the prediction of infection cases, but\\    \\ also achieve a balance between the scale of infection and the socioeconomic status by developing age-based re-open\\    \\ intervention through the study of social mobility.\"" ;
+    covid:modelDesignation covid-model-designation:primary ;
+    covid:owner covid-owner:University_of_California_Merced_MESA_Lab .
+
+covid-owner:University_of_California_Merced_MESA_Lab a covid:Team ;
+    rdfs:label "University of California Merced MESA Lab" ;
+    covid:fundingSource covid-funding-resource:Alianza_UCMX_Special_Funding_for_Binational_Collaboration_Addressing_COVID19 .
+

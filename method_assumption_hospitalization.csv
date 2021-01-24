@@ -1,0 +1,10 @@
+﻿Team,Model_matched,Method,Method_filtered,Assumption,Assumption_filtered,Assumption_CDC
+Columbia,,Metapopulation SEIR model,SEIR,"(1) uses state-specific hospitalization data, when available. (2) for states without hospitalization data, the model uses the national average value for hospitalization data.",,fraction_of_infected
+Covid19Sim,,SEIR model,SEIR,"estimated from the number of infections, using state-specific hospitalization rates.",,fraction_of_infected
+GA-DeepCOVID,,Deep learning,ML,"estimated from publicly available, state-level data sources.",,reported_hospitalization
+IHME,,Ensemble of: (1) mechanistic disease transmission model and a (2) curve-fitting approach,Ensemble,"estimated from predictions of daily deaths, using state hospitalization rates, where available.",,number_of_forecasted_death
+JHU,,Metapopulation SEIR model,SEIR,estimated from predictions of daily cases. A standard proportion is applied to all states.,,fraction_of_infected
+Karlen,,Discrete time difference equations,DE,"estimated from state-specific hospitalization data, or from the estimated number of new infections that will occur in each location.",,complex
+LANL,,Statistical dynamical growth model accounting for population susceptibility,Regression,"estimated from state demographics and age-group symptomatic case hospitalization rates, based on estimates of the total number of infections",,fraction_of_infected
+ERDC,,SEIR mechanistic model,SEIR,"estimated from the number of infections, using state-specific hospitalization rates.",,fraction_of_infected
+UCLA,,Modified SEIR model,SEIR,"estimated from the number of infections, using state-specific hospitalization rates.",,fraction_of_infected

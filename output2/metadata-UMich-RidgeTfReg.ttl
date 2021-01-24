@@ -1,0 +1,33 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-funding-resource: <http://covid.geog.ucsb.edu/lod/fundingResource/> .
+@prefix covid-license: <http://covid.geog.ucsb.edu/lod/license/> .
+@prefix covid-method: <http://covid.geog.ucsb.edu/lod/method/> .
+@prefix covid-model: <http://covid.geog.ucsb.edu/lod/model/> .
+@prefix covid-model-designation: <http://covid.geog.ucsb.edu/lod/modelDesignation/> .
+@prefix covid-owner: <http://covid.geog.ucsb.edu/lod/owner/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix ns1: <http://www.w3.org/ns/sosa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-research:UMich-RidgeTfReg a covid:Research ;
+    rdfs:label "UMich-RidgeTfReg" ;
+    ns1:madeBySensor covid-model:UMich-RidgeTfReg ;
+    ns1:usedProcedure covid-method:RidgeTfReg .
+
+covid-method:RidgeTfReg a covid:Method ;
+    rdfs:label "RidgeTfReg" .
+
+covid-model:UMich-RidgeTfReg a covid:Model ;
+    rdfs:label "UMich-RidgeTfReg" ;
+    covid:hasLicense covid-license:cc-by-4.0 ;
+    covid:hasName "RidgeTensorFlowRegressor" ;
+    covid:hasWebsite <https://gitlab.com/sabcorse/covid-19-collaboration> ;
+    covid:modelBrief "Nation-level model of confirmed cases and deaths based on ridge regression.  No  assumptions made about social distancing." ;
+    covid:modelDesc "\"This model uses ridge regression (penalized Ordinary Least Squares\\  \\ regression) to make predictions about future confirmed case and mortality trends.\\  \\  The model makes forecasts based solely on previous data, so no external  assumptions\\  \\ are necessary.    \\nThe ridge regressors built for this model use Finite Impulse\\  \\ Response (FIR)  filtration to predict each day's confirmed cases and deaths as\\  \\ a function of  the counts on previous days. Specifically, each day's counts are\\  \\ predicted as  a linear combination of the counts on a user-specified number of\\  \\ previous days.  The goal of the regressors is the determination of an optimal\\  \\ coefficient vector  for these predictive linear combinations. The model currently\\  \\ makes predictions  based on the previous 14 days.\\nOnce the regressors are created,\\  \\ bootstrapping is used to create a spectrum of predictions, from which quantiles are\\  \\ determined.\"" ;
+    covid:modelDesignation covid-model-designation:primary ;
+    covid:owner covid-owner:The_University_of_Michigan .
+
+covid-owner:The_University_of_Michigan a covid:Team ;
+    rdfs:label "The University of Michigan" ;
+    covid:fundingSource covid-funding-resource:University_of_Michigan_Physics_Department_University_of_Michigan_Office_of__Research .
+

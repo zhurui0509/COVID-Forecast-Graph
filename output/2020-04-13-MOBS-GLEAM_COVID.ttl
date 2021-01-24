@@ -1,0 +1,1995 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-forecast: <http://covid.geog.ucsb.edu/lod/prediction/> .
+@prefix covid-instant: <http://covid.geog.ucsb.edu/lod/instant/> .
+@prefix covid-obs-property: <http://covid.geog.ucsb.edu/lod/observedproperty/> .
+@prefix covid-place: <http://covid.geog.ucsb.edu/lod/place/> .
+@prefix covid-target: <http://covid.geog.ucsb.edu/lod/target/> .
+@prefix covid-target-type: <http://covid.geog.ucsb.edu/lod/target-type/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+covid-forecast:2020-04-13-MOBS-GLEAM_COVID a covid:Forecast ;
+    rdfs:label "2020-04-13-MOBS-GLEAM_COVID" ;
+    sosa:hasMember covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_01,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_04,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_05,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_06,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_08,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_09,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_10,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_12,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_16,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_17,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_18,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_19,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_20,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_23,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_24,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_25,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_26,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_27,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_29,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_30,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_31,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_32,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_33,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_34,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_35,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_36,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_37,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_38,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_39,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_40,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_41,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_42,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_44,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_45,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_46,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_47,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_48,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_49,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_50,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_51,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_53,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_54,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_55,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_56,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_US,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_01,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_04,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_05,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_06,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_08,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_09,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_10,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_12,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_16,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_17,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_18,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_19,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_20,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_23,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_24,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_25,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_26,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_27,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_29,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_30,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_31,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_32,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_33,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_34,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_35,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_36,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_37,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_38,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_39,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_40,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_41,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_42,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_44,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_45,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_46,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_47,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_48,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_49,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_50,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_51,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_53,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_54,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_55,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_56,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_US,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_01,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_04,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_05,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_06,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_08,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_09,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_10,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_12,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_16,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_17,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_18,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_19,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_20,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_23,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_24,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_25,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_26,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_27,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_29,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_30,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_31,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_32,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_33,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_34,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_35,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_36,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_37,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_38,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_39,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_40,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_41,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_42,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_44,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_45,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_46,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_47,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_48,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_49,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_50,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_51,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_53,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_54,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_55,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_56,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_US,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_01,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_04,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_05,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_06,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_08,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_09,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_10,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_12,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_16,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_17,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_18,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_19,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_20,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_23,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_24,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_25,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_26,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_27,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_29,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_30,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_31,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_32,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_33,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_34,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_35,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_36,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_37,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_38,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_39,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_40,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_41,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_42,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_44,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_45,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_46,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_47,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_48,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_49,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_50,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_51,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_53,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_54,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_55,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_56,
+        covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_US ;
+    sosa:resultTime "2020-04-13" .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_01 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 5.580081e+01 ;
+    covid:quantile_0.1 2.236202e+01 ;
+    covid:quantile_0.5 5.580081e+01 ;
+    covid:quantile_0.9 1.79652e+02 ;
+    sosa:hasFeatureOfInterest covid-place:01 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_04 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 4.567468e+02 ;
+    covid:quantile_0.1 2.037917e+02 ;
+    covid:quantile_0.5 4.567468e+02 ;
+    covid:quantile_0.9 1.331963e+03 ;
+    sosa:hasFeatureOfInterest covid-place:04 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_05 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 3.104028e+01 ;
+    covid:quantile_0.1 1.318018e+01 ;
+    covid:quantile_0.5 3.104028e+01 ;
+    covid:quantile_0.9 9.665566e+01 ;
+    sosa:hasFeatureOfInterest covid-place:05 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_06 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.391336e+03 ;
+    covid:quantile_0.1 9.387335e+02 ;
+    covid:quantile_0.5 1.391336e+03 ;
+    covid:quantile_0.9 2.176359e+03 ;
+    sosa:hasFeatureOfInterest covid-place:06 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_08 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 4.637899e+02 ;
+    covid:quantile_0.1 2.246641e+02 ;
+    covid:quantile_0.5 4.637899e+02 ;
+    covid:quantile_0.9 1.086766e+03 ;
+    sosa:hasFeatureOfInterest covid-place:08 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_09 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 7.439887e+02 ;
+    covid:quantile_0.1 6.016574e+02 ;
+    covid:quantile_0.5 7.439887e+02 ;
+    covid:quantile_0.9 1.356086e+03 ;
+    sosa:hasFeatureOfInterest covid-place:09 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_10 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 5.244791e+01 ;
+    covid:quantile_0.1 3.898873e+01 ;
+    covid:quantile_0.5 5.244791e+01 ;
+    covid:quantile_0.9 8.085462e+01 ;
+    sosa:hasFeatureOfInterest covid-place:10 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_12 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.742501e+03 ;
+    covid:quantile_0.1 6.881064e+02 ;
+    covid:quantile_0.5 1.742501e+03 ;
+    covid:quantile_0.9 4.141452e+03 ;
+    sosa:hasFeatureOfInterest covid-place:12 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_16 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 6.088207e+01 ;
+    covid:quantile_0.1 1.66403e+01 ;
+    covid:quantile_0.5 6.088207e+01 ;
+    covid:quantile_0.9 2.196362e+02 ;
+    sosa:hasFeatureOfInterest covid-place:16 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_17 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 9.235859e+02 ;
+    covid:quantile_0.1 4.108957e+02 ;
+    covid:quantile_0.5 9.235859e+02 ;
+    covid:quantile_0.9 2.735233e+03 ;
+    sosa:hasFeatureOfInterest covid-place:17 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_18 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 2.215599e+02 ;
+    covid:quantile_0.1 9.933032e+01 ;
+    covid:quantile_0.5 2.215599e+02 ;
+    covid:quantile_0.9 7.664908e+02 ;
+    sosa:hasFeatureOfInterest covid-place:18 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_19 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 7.483413e+01 ;
+    covid:quantile_0.1 2.820573e+01 ;
+    covid:quantile_0.5 7.483413e+01 ;
+    covid:quantile_0.9 2.107523e+02 ;
+    sosa:hasFeatureOfInterest covid-place:19 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_20 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.075822e+02 ;
+    covid:quantile_0.1 4.74801e+01 ;
+    covid:quantile_0.5 1.075822e+02 ;
+    covid:quantile_0.9 3.48286e+02 ;
+    sosa:hasFeatureOfInterest covid-place:20 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_23 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 3.969374e+01 ;
+    covid:quantile_0.1 1.546831e+01 ;
+    covid:quantile_0.5 3.969374e+01 ;
+    covid:quantile_0.9 1.559942e+02 ;
+    sosa:hasFeatureOfInterest covid-place:23 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_24 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 6.111509e+02 ;
+    covid:quantile_0.1 1.980987e+02 ;
+    covid:quantile_0.5 6.111509e+02 ;
+    covid:quantile_0.9 2.254594e+03 ;
+    sosa:hasFeatureOfInterest covid-place:24 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_25 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.144117e+03 ;
+    covid:quantile_0.1 8.27e+02 ;
+    covid:quantile_0.5 1.144117e+03 ;
+    covid:quantile_0.9 1.818282e+03 ;
+    sosa:hasFeatureOfInterest covid-place:25 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_26 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 2.489365e+03 ;
+    covid:quantile_0.1 1.680218e+03 ;
+    covid:quantile_0.5 2.489365e+03 ;
+    covid:quantile_0.9 3.733843e+03 ;
+    sosa:hasFeatureOfInterest covid-place:26 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_27 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 2.597513e+02 ;
+    covid:quantile_0.1 1.093554e+02 ;
+    covid:quantile_0.5 2.597513e+02 ;
+    covid:quantile_0.9 6.45581e+02 ;
+    sosa:hasFeatureOfInterest covid-place:27 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_29 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.750372e+02 ;
+    covid:quantile_0.1 7.241233e+01 ;
+    covid:quantile_0.5 1.750372e+02 ;
+    covid:quantile_0.9 5.765226e+02 ;
+    sosa:hasFeatureOfInterest covid-place:29 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_30 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 3.575835e+01 ;
+    covid:quantile_0.1 1.363684e+01 ;
+    covid:quantile_0.5 3.575835e+01 ;
+    covid:quantile_0.9 1.231245e+02 ;
+    sosa:hasFeatureOfInterest covid-place:30 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_31 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 3.934017e+01 ;
+    covid:quantile_0.1 1.52209e+01 ;
+    covid:quantile_0.5 3.934017e+01 ;
+    covid:quantile_0.9 1.320447e+02 ;
+    sosa:hasFeatureOfInterest covid-place:31 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_32 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 3.150894e+02 ;
+    covid:quantile_0.1 1.556136e+02 ;
+    covid:quantile_0.5 3.150894e+02 ;
+    covid:quantile_0.9 8.31143e+02 ;
+    sosa:hasFeatureOfInterest covid-place:32 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_33 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.304388e+02 ;
+    covid:quantile_0.1 5.744257e+01 ;
+    covid:quantile_0.5 1.304388e+02 ;
+    covid:quantile_0.9 5.918749e+02 ;
+    sosa:hasFeatureOfInterest covid-place:33 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_34 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 8.961277e+02 ;
+    covid:quantile_0.1 3.072264e+02 ;
+    covid:quantile_0.5 8.961277e+02 ;
+    covid:quantile_0.9 4.922591e+03 ;
+    sosa:hasFeatureOfInterest covid-place:34 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_35 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 6.857273e+01 ;
+    covid:quantile_0.1 2.86755e+01 ;
+    covid:quantile_0.5 6.857273e+01 ;
+    covid:quantile_0.9 1.816047e+02 ;
+    sosa:hasFeatureOfInterest covid-place:35 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_36 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.377302e+04 ;
+    covid:quantile_0.1 1.082175e+04 ;
+    covid:quantile_0.5 1.377302e+04 ;
+    covid:quantile_0.9 2.289347e+04 ;
+    sosa:hasFeatureOfInterest covid-place:36 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_37 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 2.755657e+02 ;
+    covid:quantile_0.1 1.311556e+02 ;
+    covid:quantile_0.5 2.755657e+02 ;
+    covid:quantile_0.9 7.795194e+02 ;
+    sosa:hasFeatureOfInterest covid-place:37 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_38 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.388276e+01 ;
+    covid:quantile_0.1 4.649542e+00 ;
+    covid:quantile_0.5 1.388276e+01 ;
+    covid:quantile_0.9 4.624847e+01 ;
+    sosa:hasFeatureOfInterest covid-place:38 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_39 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 3.934677e+02 ;
+    covid:quantile_0.1 1.612006e+02 ;
+    covid:quantile_0.5 3.934677e+02 ;
+    covid:quantile_0.9 1.177906e+03 ;
+    sosa:hasFeatureOfInterest covid-place:39 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_40 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 7.947396e+01 ;
+    covid:quantile_0.1 3.367476e+01 ;
+    covid:quantile_0.5 7.947396e+01 ;
+    covid:quantile_0.9 2.280899e+02 ;
+    sosa:hasFeatureOfInterest covid-place:40 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_41 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.961594e+02 ;
+    covid:quantile_0.1 6.341511e+01 ;
+    covid:quantile_0.5 1.961594e+02 ;
+    covid:quantile_0.9 7.970807e+02 ;
+    sosa:hasFeatureOfInterest covid-place:41 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_42 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 4.32695e+02 ;
+    covid:quantile_0.1 1.840656e+02 ;
+    covid:quantile_0.5 4.32695e+02 ;
+    covid:quantile_0.9 1.268253e+03 ;
+    sosa:hasFeatureOfInterest covid-place:42 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_44 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 3.120576e+01 ;
+    covid:quantile_0.1 9.903425e+00 ;
+    covid:quantile_0.5 3.120576e+01 ;
+    covid:quantile_0.9 1.433346e+02 ;
+    sosa:hasFeatureOfInterest covid-place:44 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_45 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.186837e+02 ;
+    covid:quantile_0.1 4.724575e+01 ;
+    covid:quantile_0.5 1.186837e+02 ;
+    covid:quantile_0.9 3.883655e+02 ;
+    sosa:hasFeatureOfInterest covid-place:45 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_46 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.108235e+01 ;
+    covid:quantile_0.1 2.812585e+00 ;
+    covid:quantile_0.5 1.108235e+01 ;
+    covid:quantile_0.9 4.549882e+01 ;
+    sosa:hasFeatureOfInterest covid-place:46 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_47 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.685041e+02 ;
+    covid:quantile_0.1 9.236881e+01 ;
+    covid:quantile_0.5 1.685041e+02 ;
+    covid:quantile_0.9 4.723238e+02 ;
+    sosa:hasFeatureOfInterest covid-place:47 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_48 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.379128e+03 ;
+    covid:quantile_0.1 5.829502e+02 ;
+    covid:quantile_0.5 1.379128e+03 ;
+    covid:quantile_0.9 3.066865e+03 ;
+    sosa:hasFeatureOfInterest covid-place:48 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_49 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.751771e+02 ;
+    covid:quantile_0.1 8.53513e+01 ;
+    covid:quantile_0.5 1.751771e+02 ;
+    covid:quantile_0.9 6.200554e+02 ;
+    sosa:hasFeatureOfInterest covid-place:49 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_50 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.649865e+01 ;
+    covid:quantile_0.1 6.401931e+00 ;
+    covid:quantile_0.5 1.649865e+01 ;
+    covid:quantile_0.9 7.76061e+01 ;
+    sosa:hasFeatureOfInterest covid-place:50 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_51 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 4.984491e+02 ;
+    covid:quantile_0.1 1.740101e+02 ;
+    covid:quantile_0.5 4.984491e+02 ;
+    covid:quantile_0.9 1.514603e+03 ;
+    sosa:hasFeatureOfInterest covid-place:51 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_53 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 7.267236e+02 ;
+    covid:quantile_0.1 2.376242e+02 ;
+    covid:quantile_0.5 7.267236e+02 ;
+    covid:quantile_0.9 2.418764e+03 ;
+    sosa:hasFeatureOfInterest covid-place:53 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_54 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.039126e+01 ;
+    covid:quantile_0.1 3.864039e+00 ;
+    covid:quantile_0.5 1.039126e+01 ;
+    covid:quantile_0.9 3.837447e+01 ;
+    sosa:hasFeatureOfInterest covid-place:54 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_55 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.518402e+02 ;
+    covid:quantile_0.1 6.993146e+01 ;
+    covid:quantile_0.5 1.518402e+02 ;
+    covid:quantile_0.9 4.934528e+02 ;
+    sosa:hasFeatureOfInterest covid-place:55 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_56 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.165466e+01 ;
+    covid:quantile_0.1 3.9005e+00 ;
+    covid:quantile_0.5 1.165466e+01 ;
+    covid:quantile_0.9 2.762833e+01 ;
+    sosa:hasFeatureOfInterest covid-place:56 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-cum-death_US a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 3.712924e+04 ;
+    covid:quantile_0.1 2.655175e+04 ;
+    covid:quantile_0.5 3.712924e+04 ;
+    covid:quantile_0.9 6.155797e+04 ;
+    sosa:hasFeatureOfInterest covid-place:US ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_01 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.695573e+01 ;
+    covid:quantile_0.1 7.407497e+00 ;
+    covid:quantile_0.5 1.695573e+01 ;
+    covid:quantile_0.9 5.201138e+01 ;
+    sosa:hasFeatureOfInterest covid-place:01 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_04 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.352003e+02 ;
+    covid:quantile_0.1 6.050219e+01 ;
+    covid:quantile_0.5 1.352003e+02 ;
+    covid:quantile_0.9 3.631231e+02 ;
+    sosa:hasFeatureOfInterest covid-place:04 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_05 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 9.681378e+00 ;
+    covid:quantile_0.1 4.275524e+00 ;
+    covid:quantile_0.5 9.681378e+00 ;
+    covid:quantile_0.9 2.958493e+01 ;
+    sosa:hasFeatureOfInterest covid-place:05 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_06 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 3.986728e+02 ;
+    covid:quantile_0.1 2.693337e+02 ;
+    covid:quantile_0.5 3.986728e+02 ;
+    covid:quantile_0.9 6.141467e+02 ;
+    sosa:hasFeatureOfInterest covid-place:06 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_08 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.249358e+02 ;
+    covid:quantile_0.1 6.38627e+01 ;
+    covid:quantile_0.5 1.249358e+02 ;
+    covid:quantile_0.9 2.946179e+02 ;
+    sosa:hasFeatureOfInterest covid-place:08 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_09 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 2.045331e+02 ;
+    covid:quantile_0.1 1.604884e+02 ;
+    covid:quantile_0.5 2.045331e+02 ;
+    covid:quantile_0.9 3.330887e+02 ;
+    sosa:hasFeatureOfInterest covid-place:09 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_10 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.556864e+01 ;
+    covid:quantile_0.1 1.132435e+01 ;
+    covid:quantile_0.5 1.556864e+01 ;
+    covid:quantile_0.9 2.268634e+01 ;
+    sosa:hasFeatureOfInterest covid-place:10 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_12 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 5.169014e+02 ;
+    covid:quantile_0.1 2.132518e+02 ;
+    covid:quantile_0.5 5.169014e+02 ;
+    covid:quantile_0.9 1.187485e+03 ;
+    sosa:hasFeatureOfInterest covid-place:12 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_16 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.716193e+01 ;
+    covid:quantile_0.1 5.744104e+00 ;
+    covid:quantile_0.5 1.716193e+01 ;
+    covid:quantile_0.9 6.294451e+01 ;
+    sosa:hasFeatureOfInterest covid-place:16 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_17 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 2.725818e+02 ;
+    covid:quantile_0.1 1.272324e+02 ;
+    covid:quantile_0.5 2.725818e+02 ;
+    covid:quantile_0.9 8.076154e+02 ;
+    sosa:hasFeatureOfInterest covid-place:17 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_18 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 6.561696e+01 ;
+    covid:quantile_0.1 3.081488e+01 ;
+    covid:quantile_0.5 6.561696e+01 ;
+    covid:quantile_0.9 2.113554e+02 ;
+    sosa:hasFeatureOfInterest covid-place:18 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_19 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 2.280191e+01 ;
+    covid:quantile_0.1 9.339743e+00 ;
+    covid:quantile_0.5 2.280191e+01 ;
+    covid:quantile_0.9 5.957861e+01 ;
+    sosa:hasFeatureOfInterest covid-place:19 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_20 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 3.210844e+01 ;
+    covid:quantile_0.1 1.52381e+01 ;
+    covid:quantile_0.5 3.210844e+01 ;
+    covid:quantile_0.9 1.015338e+02 ;
+    sosa:hasFeatureOfInterest covid-place:20 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_23 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.200012e+01 ;
+    covid:quantile_0.1 4.877449e+00 ;
+    covid:quantile_0.5 1.200012e+01 ;
+    covid:quantile_0.9 4.202778e+01 ;
+    sosa:hasFeatureOfInterest covid-place:23 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_24 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.826575e+02 ;
+    covid:quantile_0.1 6.472725e+01 ;
+    covid:quantile_0.5 1.826575e+02 ;
+    covid:quantile_0.9 6.493042e+02 ;
+    sosa:hasFeatureOfInterest covid-place:24 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_25 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 3.098843e+02 ;
+    covid:quantile_0.1 2.312341e+02 ;
+    covid:quantile_0.5 3.098843e+02 ;
+    covid:quantile_0.9 4.815729e+02 ;
+    sosa:hasFeatureOfInterest covid-place:25 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_26 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 6.165703e+02 ;
+    covid:quantile_0.1 4.35444e+02 ;
+    covid:quantile_0.5 6.165703e+02 ;
+    covid:quantile_0.9 8.861455e+02 ;
+    sosa:hasFeatureOfInterest covid-place:26 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_27 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 7.813306e+01 ;
+    covid:quantile_0.1 3.518944e+01 ;
+    covid:quantile_0.5 7.813306e+01 ;
+    covid:quantile_0.9 1.891885e+02 ;
+    sosa:hasFeatureOfInterest covid-place:27 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_29 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 5.139331e+01 ;
+    covid:quantile_0.1 2.241257e+01 ;
+    covid:quantile_0.5 5.139331e+01 ;
+    covid:quantile_0.9 1.522132e+02 ;
+    sosa:hasFeatureOfInterest covid-place:29 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_30 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.125528e+01 ;
+    covid:quantile_0.1 4.33997e+00 ;
+    covid:quantile_0.5 1.125528e+01 ;
+    covid:quantile_0.9 3.385671e+01 ;
+    sosa:hasFeatureOfInterest covid-place:30 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_31 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.201352e+01 ;
+    covid:quantile_0.1 4.758993e+00 ;
+    covid:quantile_0.5 1.201352e+01 ;
+    covid:quantile_0.9 3.666539e+01 ;
+    sosa:hasFeatureOfInterest covid-place:31 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_32 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 8.838577e+01 ;
+    covid:quantile_0.1 4.462065e+01 ;
+    covid:quantile_0.5 8.838577e+01 ;
+    covid:quantile_0.9 2.108721e+02 ;
+    sosa:hasFeatureOfInterest covid-place:32 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_33 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 3.825769e+01 ;
+    covid:quantile_0.1 1.752391e+01 ;
+    covid:quantile_0.5 3.825769e+01 ;
+    covid:quantile_0.9 1.553832e+02 ;
+    sosa:hasFeatureOfInterest covid-place:33 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_34 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 2.721848e+02 ;
+    covid:quantile_0.1 9.485435e+01 ;
+    covid:quantile_0.5 2.721848e+02 ;
+    covid:quantile_0.9 1.123351e+03 ;
+    sosa:hasFeatureOfInterest covid-place:34 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_35 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 2.05197e+01 ;
+    covid:quantile_0.1 9.292622e+00 ;
+    covid:quantile_0.5 2.05197e+01 ;
+    covid:quantile_0.9 5.39506e+01 ;
+    sosa:hasFeatureOfInterest covid-place:35 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_36 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 3.151384e+03 ;
+    covid:quantile_0.1 2.553983e+03 ;
+    covid:quantile_0.5 3.151384e+03 ;
+    covid:quantile_0.9 4.529381e+03 ;
+    sosa:hasFeatureOfInterest covid-place:36 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_37 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 8.611686e+01 ;
+    covid:quantile_0.1 3.90497e+01 ;
+    covid:quantile_0.5 8.611686e+01 ;
+    covid:quantile_0.9 2.177083e+02 ;
+    sosa:hasFeatureOfInterest covid-place:37 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_38 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 4.361977e+00 ;
+    covid:quantile_0.1 1.541138e+00 ;
+    covid:quantile_0.5 4.361977e+00 ;
+    covid:quantile_0.9 1.472565e+01 ;
+    sosa:hasFeatureOfInterest covid-place:38 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_39 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.193401e+02 ;
+    covid:quantile_0.1 4.894595e+01 ;
+    covid:quantile_0.5 1.193401e+02 ;
+    covid:quantile_0.9 3.2008e+02 ;
+    sosa:hasFeatureOfInterest covid-place:39 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_40 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 2.33583e+01 ;
+    covid:quantile_0.1 1.087341e+01 ;
+    covid:quantile_0.5 2.33583e+01 ;
+    covid:quantile_0.9 6.929675e+01 ;
+    sosa:hasFeatureOfInterest covid-place:40 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_41 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 5.846757e+01 ;
+    covid:quantile_0.1 1.973578e+01 ;
+    covid:quantile_0.5 5.846757e+01 ;
+    covid:quantile_0.9 2.096754e+02 ;
+    sosa:hasFeatureOfInterest covid-place:41 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_42 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.318079e+02 ;
+    covid:quantile_0.1 6.010411e+01 ;
+    covid:quantile_0.5 1.318079e+02 ;
+    covid:quantile_0.9 3.361248e+02 ;
+    sosa:hasFeatureOfInterest covid-place:42 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_44 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 9.621941e+00 ;
+    covid:quantile_0.1 3.391329e+00 ;
+    covid:quantile_0.5 9.621941e+00 ;
+    covid:quantile_0.9 4.58396e+01 ;
+    sosa:hasFeatureOfInterest covid-place:44 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_45 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 3.539765e+01 ;
+    covid:quantile_0.1 1.525881e+01 ;
+    covid:quantile_0.5 3.539765e+01 ;
+    covid:quantile_0.9 1.049678e+02 ;
+    sosa:hasFeatureOfInterest covid-place:45 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_46 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 3.541951e+00 ;
+    covid:quantile_0.1 1.049554e+00 ;
+    covid:quantile_0.5 3.541951e+00 ;
+    covid:quantile_0.9 1.410424e+01 ;
+    sosa:hasFeatureOfInterest covid-place:46 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_47 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 5.246965e+01 ;
+    covid:quantile_0.1 2.809147e+01 ;
+    covid:quantile_0.5 5.246965e+01 ;
+    covid:quantile_0.9 1.328802e+02 ;
+    sosa:hasFeatureOfInterest covid-place:47 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_48 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 4.089702e+02 ;
+    covid:quantile_0.1 1.767705e+02 ;
+    covid:quantile_0.5 4.089702e+02 ;
+    covid:quantile_0.9 8.659127e+02 ;
+    sosa:hasFeatureOfInterest covid-place:48 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_49 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 5.284208e+01 ;
+    covid:quantile_0.1 2.594441e+01 ;
+    covid:quantile_0.5 5.284208e+01 ;
+    covid:quantile_0.9 1.649308e+02 ;
+    sosa:hasFeatureOfInterest covid-place:49 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_50 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 5.523622e+00 ;
+    covid:quantile_0.1 2.07394e+00 ;
+    covid:quantile_0.5 5.523622e+00 ;
+    covid:quantile_0.9 2.205085e+01 ;
+    sosa:hasFeatureOfInterest covid-place:50 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_51 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.471565e+02 ;
+    covid:quantile_0.1 5.4626e+01 ;
+    covid:quantile_0.5 1.471565e+02 ;
+    covid:quantile_0.9 4.44449e+02 ;
+    sosa:hasFeatureOfInterest covid-place:51 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_53 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 2.085044e+02 ;
+    covid:quantile_0.1 7.142874e+01 ;
+    covid:quantile_0.5 2.085044e+02 ;
+    covid:quantile_0.9 6.570753e+02 ;
+    sosa:hasFeatureOfInterest covid-place:53 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_54 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 3.224412e+00 ;
+    covid:quantile_0.1 1.235496e+00 ;
+    covid:quantile_0.5 3.224412e+00 ;
+    covid:quantile_0.9 1.157733e+01 ;
+    sosa:hasFeatureOfInterest covid-place:54 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_55 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 4.65519e+01 ;
+    covid:quantile_0.1 2.043654e+01 ;
+    covid:quantile_0.5 4.65519e+01 ;
+    covid:quantile_0.9 1.361964e+02 ;
+    sosa:hasFeatureOfInterest covid-place:55 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_56 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 3.331668e+00 ;
+    covid:quantile_0.1 1.129027e+00 ;
+    covid:quantile_0.5 3.331668e+00 ;
+    covid:quantile_0.9 7.772304e+00 ;
+    sosa:hasFeatureOfInterest covid-place:56 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_1-wk-ahead-inc-death_US a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 9.671074e+03 ;
+    covid:quantile_0.1 6.771665e+03 ;
+    covid:quantile_0.5 9.671074e+03 ;
+    covid:quantile_0.9 1.467201e+04 ;
+    sosa:hasFeatureOfInterest covid-place:US ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-18 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_01 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 7.182206e+01 ;
+    covid:quantile_0.1 2.960191e+01 ;
+    covid:quantile_0.5 7.182206e+01 ;
+    covid:quantile_0.9 2.307743e+02 ;
+    sosa:hasFeatureOfInterest covid-place:01 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_04 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 5.89859e+02 ;
+    covid:quantile_0.1 2.62718e+02 ;
+    covid:quantile_0.5 5.89859e+02 ;
+    covid:quantile_0.9 1.649535e+03 ;
+    sosa:hasFeatureOfInterest covid-place:04 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_05 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 3.965794e+01 ;
+    covid:quantile_0.1 1.726925e+01 ;
+    covid:quantile_0.5 3.965794e+01 ;
+    covid:quantile_0.9 1.244879e+02 ;
+    sosa:hasFeatureOfInterest covid-place:05 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_06 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.776073e+03 ;
+    covid:quantile_0.1 1.195571e+03 ;
+    covid:quantile_0.5 1.776073e+03 ;
+    covid:quantile_0.9 2.754309e+03 ;
+    sosa:hasFeatureOfInterest covid-place:06 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_08 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 5.758545e+02 ;
+    covid:quantile_0.1 2.810234e+02 ;
+    covid:quantile_0.5 5.758545e+02 ;
+    covid:quantile_0.9 1.347383e+03 ;
+    sosa:hasFeatureOfInterest covid-place:08 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_09 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 9.149617e+02 ;
+    covid:quantile_0.1 7.503135e+02 ;
+    covid:quantile_0.5 9.149617e+02 ;
+    covid:quantile_0.9 1.621312e+03 ;
+    sosa:hasFeatureOfInterest covid-place:09 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_10 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 6.761858e+01 ;
+    covid:quantile_0.1 4.923081e+01 ;
+    covid:quantile_0.5 6.761858e+01 ;
+    covid:quantile_0.9 1.00485e+02 ;
+    sosa:hasFeatureOfInterest covid-place:10 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_12 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 2.215584e+03 ;
+    covid:quantile_0.1 8.929027e+02 ;
+    covid:quantile_0.5 2.215584e+03 ;
+    covid:quantile_0.9 5.331662e+03 ;
+    sosa:hasFeatureOfInterest covid-place:12 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_16 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 7.624008e+01 ;
+    covid:quantile_0.1 2.238597e+01 ;
+    covid:quantile_0.5 7.624008e+01 ;
+    covid:quantile_0.9 2.770924e+02 ;
+    sosa:hasFeatureOfInterest covid-place:16 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_17 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.205271e+03 ;
+    covid:quantile_0.1 5.441608e+02 ;
+    covid:quantile_0.5 1.205271e+03 ;
+    covid:quantile_0.9 3.489288e+03 ;
+    sosa:hasFeatureOfInterest covid-place:17 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_18 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 2.828244e+02 ;
+    covid:quantile_0.1 1.294392e+02 ;
+    covid:quantile_0.5 2.828244e+02 ;
+    covid:quantile_0.9 9.466994e+02 ;
+    sosa:hasFeatureOfInterest covid-place:18 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_19 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 9.685119e+01 ;
+    covid:quantile_0.1 3.730782e+01 ;
+    covid:quantile_0.5 9.685119e+01 ;
+    covid:quantile_0.9 2.678573e+02 ;
+    sosa:hasFeatureOfInterest covid-place:19 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_20 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.403571e+02 ;
+    covid:quantile_0.1 6.216379e+01 ;
+    covid:quantile_0.5 1.403571e+02 ;
+    covid:quantile_0.9 4.427988e+02 ;
+    sosa:hasFeatureOfInterest covid-place:20 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_23 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 5.13498e+01 ;
+    covid:quantile_0.1 2.063545e+01 ;
+    covid:quantile_0.5 5.13498e+01 ;
+    covid:quantile_0.9 1.927083e+02 ;
+    sosa:hasFeatureOfInterest covid-place:23 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_24 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 7.810425e+02 ;
+    covid:quantile_0.1 2.607865e+02 ;
+    covid:quantile_0.5 7.810425e+02 ;
+    covid:quantile_0.9 2.845003e+03 ;
+    sosa:hasFeatureOfInterest covid-place:24 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_25 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.426491e+03 ;
+    covid:quantile_0.1 1.020674e+03 ;
+    covid:quantile_0.5 1.426491e+03 ;
+    covid:quantile_0.9 2.246537e+03 ;
+    sosa:hasFeatureOfInterest covid-place:25 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_26 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 3.041289e+03 ;
+    covid:quantile_0.1 2.053783e+03 ;
+    covid:quantile_0.5 3.041289e+03 ;
+    covid:quantile_0.9 4.473321e+03 ;
+    sosa:hasFeatureOfInterest covid-place:26 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_27 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 3.330228e+02 ;
+    covid:quantile_0.1 1.448872e+02 ;
+    covid:quantile_0.5 3.330228e+02 ;
+    covid:quantile_0.9 8.131783e+02 ;
+    sosa:hasFeatureOfInterest covid-place:27 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_29 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 2.21314e+02 ;
+    covid:quantile_0.1 9.356338e+01 ;
+    covid:quantile_0.5 2.21314e+02 ;
+    covid:quantile_0.9 6.980177e+02 ;
+    sosa:hasFeatureOfInterest covid-place:29 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_30 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 4.645205e+01 ;
+    covid:quantile_0.1 1.813496e+01 ;
+    covid:quantile_0.5 4.645205e+01 ;
+    covid:quantile_0.9 1.531069e+02 ;
+    sosa:hasFeatureOfInterest covid-place:30 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_31 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 5.063472e+01 ;
+    covid:quantile_0.1 1.990099e+01 ;
+    covid:quantile_0.5 5.063472e+01 ;
+    covid:quantile_0.9 1.637792e+02 ;
+    sosa:hasFeatureOfInterest covid-place:31 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_32 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 3.991143e+02 ;
+    covid:quantile_0.1 1.992555e+02 ;
+    covid:quantile_0.5 3.991143e+02 ;
+    covid:quantile_0.9 1.023015e+03 ;
+    sosa:hasFeatureOfInterest covid-place:32 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_33 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.658926e+02 ;
+    covid:quantile_0.1 7.489353e+01 ;
+    covid:quantile_0.5 1.658926e+02 ;
+    covid:quantile_0.9 7.269476e+02 ;
+    sosa:hasFeatureOfInterest covid-place:33 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_34 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.166959e+03 ;
+    covid:quantile_0.1 3.997463e+02 ;
+    covid:quantile_0.5 1.166959e+03 ;
+    covid:quantile_0.9 5.833055e+03 ;
+    sosa:hasFeatureOfInterest covid-place:34 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_35 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 8.849698e+01 ;
+    covid:quantile_0.1 3.768271e+01 ;
+    covid:quantile_0.5 8.849698e+01 ;
+    covid:quantile_0.9 2.254615e+02 ;
+    sosa:hasFeatureOfInterest covid-place:35 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_36 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.628798e+04 ;
+    covid:quantile_0.1 1.300074e+04 ;
+    covid:quantile_0.5 1.628798e+04 ;
+    covid:quantile_0.9 2.624701e+04 ;
+    sosa:hasFeatureOfInterest covid-place:36 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_37 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 3.604561e+02 ;
+    covid:quantile_0.1 1.694329e+02 ;
+    covid:quantile_0.5 3.604561e+02 ;
+    covid:quantile_0.9 9.780158e+02 ;
+    sosa:hasFeatureOfInterest covid-place:37 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_38 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.82373e+01 ;
+    covid:quantile_0.1 6.139301e+00 ;
+    covid:quantile_0.5 1.82373e+01 ;
+    covid:quantile_0.9 5.906448e+01 ;
+    sosa:hasFeatureOfInterest covid-place:38 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_39 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 5.084765e+02 ;
+    covid:quantile_0.1 2.05936e+02 ;
+    covid:quantile_0.5 5.084765e+02 ;
+    covid:quantile_0.9 1.469395e+03 ;
+    sosa:hasFeatureOfInterest covid-place:39 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_40 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.042288e+02 ;
+    covid:quantile_0.1 4.52145e+01 ;
+    covid:quantile_0.5 1.042288e+02 ;
+    covid:quantile_0.9 2.943292e+02 ;
+    sosa:hasFeatureOfInterest covid-place:40 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_41 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 2.54217e+02 ;
+    covid:quantile_0.1 8.348526e+01 ;
+    covid:quantile_0.5 2.54217e+02 ;
+    covid:quantile_0.9 9.967534e+02 ;
+    sosa:hasFeatureOfInterest covid-place:41 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_42 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 5.673968e+02 ;
+    covid:quantile_0.1 2.459129e+02 ;
+    covid:quantile_0.5 5.673968e+02 ;
+    covid:quantile_0.9 1.563489e+03 ;
+    sosa:hasFeatureOfInterest covid-place:42 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_44 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 4.063384e+01 ;
+    covid:quantile_0.1 1.326065e+01 ;
+    covid:quantile_0.5 4.063384e+01 ;
+    covid:quantile_0.9 1.858852e+02 ;
+    sosa:hasFeatureOfInterest covid-place:44 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_45 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.530944e+02 ;
+    covid:quantile_0.1 6.314195e+01 ;
+    covid:quantile_0.5 1.530944e+02 ;
+    covid:quantile_0.9 4.987564e+02 ;
+    sosa:hasFeatureOfInterest covid-place:45 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_46 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.469912e+01 ;
+    covid:quantile_0.1 3.896127e+00 ;
+    covid:quantile_0.5 1.469912e+01 ;
+    covid:quantile_0.9 5.843214e+01 ;
+    sosa:hasFeatureOfInterest covid-place:46 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_47 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 2.236493e+02 ;
+    covid:quantile_0.1 1.184669e+02 ;
+    covid:quantile_0.5 2.236493e+02 ;
+    covid:quantile_0.9 6.008935e+02 ;
+    sosa:hasFeatureOfInterest covid-place:47 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_48 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.761247e+03 ;
+    covid:quantile_0.1 7.469844e+02 ;
+    covid:quantile_0.5 1.761247e+03 ;
+    covid:quantile_0.9 3.756899e+03 ;
+    sosa:hasFeatureOfInterest covid-place:48 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_49 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 2.293008e+02 ;
+    covid:quantile_0.1 1.098545e+02 ;
+    covid:quantile_0.5 2.293008e+02 ;
+    covid:quantile_0.9 7.647832e+02 ;
+    sosa:hasFeatureOfInterest covid-place:49 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_50 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 2.166491e+01 ;
+    covid:quantile_0.1 8.567232e+00 ;
+    covid:quantile_0.5 2.166491e+01 ;
+    covid:quantile_0.9 9.862408e+01 ;
+    sosa:hasFeatureOfInterest covid-place:50 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_51 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 6.42372e+02 ;
+    covid:quantile_0.1 2.27525e+02 ;
+    covid:quantile_0.5 6.42372e+02 ;
+    covid:quantile_0.9 1.92562e+03 ;
+    sosa:hasFeatureOfInterest covid-place:51 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_53 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 9.38928e+02 ;
+    covid:quantile_0.1 3.084204e+02 ;
+    covid:quantile_0.5 9.38928e+02 ;
+    covid:quantile_0.9 3.030479e+03 ;
+    sosa:hasFeatureOfInterest covid-place:53 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_54 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.349757e+01 ;
+    covid:quantile_0.1 5.095355e+00 ;
+    covid:quantile_0.5 1.349757e+01 ;
+    covid:quantile_0.9 4.994837e+01 ;
+    sosa:hasFeatureOfInterest covid-place:54 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_55 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.987139e+02 ;
+    covid:quantile_0.1 9.021557e+01 ;
+    covid:quantile_0.5 1.987139e+02 ;
+    covid:quantile_0.9 6.209862e+02 ;
+    sosa:hasFeatureOfInterest covid-place:55 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_56 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.521039e+01 ;
+    covid:quantile_0.1 5.189346e+00 ;
+    covid:quantile_0.5 1.521039e+01 ;
+    covid:quantile_0.9 3.398674e+01 ;
+    sosa:hasFeatureOfInterest covid-place:56 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-cum-death_US a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 4.654812e+04 ;
+    covid:quantile_0.1 3.289214e+04 ;
+    covid:quantile_0.5 4.654812e+04 ;
+    covid:quantile_0.9 7.482623e+04 ;
+    sosa:hasFeatureOfInterest covid-place:US ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_01 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.707784e+01 ;
+    covid:quantile_0.1 7.365393e+00 ;
+    covid:quantile_0.5 1.707784e+01 ;
+    covid:quantile_0.9 5.091494e+01 ;
+    sosa:hasFeatureOfInterest covid-place:01 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_04 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.339628e+02 ;
+    covid:quantile_0.1 5.826843e+01 ;
+    covid:quantile_0.5 1.339628e+02 ;
+    covid:quantile_0.9 3.468316e+02 ;
+    sosa:hasFeatureOfInterest covid-place:04 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_05 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 9.544597e+00 ;
+    covid:quantile_0.1 4.450051e+00 ;
+    covid:quantile_0.5 9.544597e+00 ;
+    covid:quantile_0.9 2.944652e+01 ;
+    sosa:hasFeatureOfInterest covid-place:05 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_06 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 3.749842e+02 ;
+    covid:quantile_0.1 2.537175e+02 ;
+    covid:quantile_0.5 3.749842e+02 ;
+    covid:quantile_0.9 5.826598e+02 ;
+    sosa:hasFeatureOfInterest covid-place:06 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_08 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.156042e+02 ;
+    covid:quantile_0.1 5.830139e+01 ;
+    covid:quantile_0.5 1.156042e+02 ;
+    covid:quantile_0.9 2.635314e+02 ;
+    sosa:hasFeatureOfInterest covid-place:08 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_09 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.810751e+02 ;
+    covid:quantile_0.1 1.37771e+02 ;
+    covid:quantile_0.5 1.810751e+02 ;
+    covid:quantile_0.9 2.785323e+02 ;
+    sosa:hasFeatureOfInterest covid-place:09 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_10 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.47673e+01 ;
+    covid:quantile_0.1 1.021772e+01 ;
+    covid:quantile_0.5 1.47673e+01 ;
+    covid:quantile_0.9 2.185494e+01 ;
+    sosa:hasFeatureOfInterest covid-place:10 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_12 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 4.915997e+02 ;
+    covid:quantile_0.1 2.135575e+02 ;
+    covid:quantile_0.5 4.915997e+02 ;
+    covid:quantile_0.9 1.094723e+03 ;
+    sosa:hasFeatureOfInterest covid-place:12 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_16 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.63412e+01 ;
+    covid:quantile_0.1 5.695005e+00 ;
+    covid:quantile_0.5 1.63412e+01 ;
+    covid:quantile_0.9 5.526664e+01 ;
+    sosa:hasFeatureOfInterest covid-place:16 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_17 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 2.636157e+02 ;
+    covid:quantile_0.1 1.232176e+02 ;
+    covid:quantile_0.5 2.636157e+02 ;
+    covid:quantile_0.9 7.540552e+02 ;
+    sosa:hasFeatureOfInterest covid-place:17 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_18 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 6.333171e+01 ;
+    covid:quantile_0.1 3.10682e+01 ;
+    covid:quantile_0.5 6.333171e+01 ;
+    covid:quantile_0.9 1.92702e+02 ;
+    sosa:hasFeatureOfInterest covid-place:18 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_19 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 2.17346e+01 ;
+    covid:quantile_0.1 9.068505e+00 ;
+    covid:quantile_0.5 2.17346e+01 ;
+    covid:quantile_0.9 5.391385e+01 ;
+    sosa:hasFeatureOfInterest covid-place:19 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_20 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 3.024634e+01 ;
+    covid:quantile_0.1 1.457918e+01 ;
+    covid:quantile_0.5 3.024634e+01 ;
+    covid:quantile_0.9 9.45128e+01 ;
+    sosa:hasFeatureOfInterest covid-place:20 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_23 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.145694e+01 ;
+    covid:quantile_0.1 4.748431e+00 ;
+    covid:quantile_0.5 1.145694e+01 ;
+    covid:quantile_0.9 3.705699e+01 ;
+    sosa:hasFeatureOfInterest covid-place:23 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_24 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.712047e+02 ;
+    covid:quantile_0.1 6.468795e+01 ;
+    covid:quantile_0.5 1.712047e+02 ;
+    covid:quantile_0.9 5.904087e+02 ;
+    sosa:hasFeatureOfInterest covid-place:24 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_25 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 2.779193e+02 ;
+    covid:quantile_0.1 2.107206e+02 ;
+    covid:quantile_0.5 2.779193e+02 ;
+    covid:quantile_0.9 4.226706e+02 ;
+    sosa:hasFeatureOfInterest covid-place:25 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_26 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 5.412122e+02 ;
+    covid:quantile_0.1 3.82967e+02 ;
+    covid:quantile_0.5 5.412122e+02 ;
+    covid:quantile_0.9 7.919379e+02 ;
+    sosa:hasFeatureOfInterest covid-place:26 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_27 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 7.302345e+01 ;
+    covid:quantile_0.1 3.361707e+01 ;
+    covid:quantile_0.5 7.302345e+01 ;
+    covid:quantile_0.9 1.740347e+02 ;
+    sosa:hasFeatureOfInterest covid-place:27 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_29 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 4.929547e+01 ;
+    covid:quantile_0.1 2.182014e+01 ;
+    covid:quantile_0.5 4.929547e+01 ;
+    covid:quantile_0.9 1.418432e+02 ;
+    sosa:hasFeatureOfInterest covid-place:29 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_30 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.06458e+01 ;
+    covid:quantile_0.1 4.526509e+00 ;
+    covid:quantile_0.5 1.06458e+01 ;
+    covid:quantile_0.9 3.105231e+01 ;
+    sosa:hasFeatureOfInterest covid-place:30 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_31 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.10792e+01 ;
+    covid:quantile_0.1 4.620074e+00 ;
+    covid:quantile_0.5 1.10792e+01 ;
+    covid:quantile_0.9 3.211914e+01 ;
+    sosa:hasFeatureOfInterest covid-place:31 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_32 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 8.455745e+01 ;
+    covid:quantile_0.1 4.321747e+01 ;
+    covid:quantile_0.5 8.455745e+01 ;
+    covid:quantile_0.9 1.853118e+02 ;
+    sosa:hasFeatureOfInterest covid-place:32 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_33 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 3.662082e+01 ;
+    covid:quantile_0.1 1.662779e+01 ;
+    covid:quantile_0.5 3.662082e+01 ;
+    covid:quantile_0.9 1.363713e+02 ;
+    sosa:hasFeatureOfInterest covid-place:33 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_34 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 2.543061e+02 ;
+    covid:quantile_0.1 9.173817e+01 ;
+    covid:quantile_0.5 2.543061e+02 ;
+    covid:quantile_0.9 9.151475e+02 ;
+    sosa:hasFeatureOfInterest covid-place:34 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_35 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.981357e+01 ;
+    covid:quantile_0.1 9.058829e+00 ;
+    covid:quantile_0.5 1.981357e+01 ;
+    covid:quantile_0.9 5.259558e+01 ;
+    sosa:hasFeatureOfInterest covid-place:35 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_36 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 2.514959e+03 ;
+    covid:quantile_0.1 2.061669e+03 ;
+    covid:quantile_0.5 2.514959e+03 ;
+    covid:quantile_0.9 3.358369e+03 ;
+    sosa:hasFeatureOfInterest covid-place:36 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_37 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 8.32494e+01 ;
+    covid:quantile_0.1 3.843477e+01 ;
+    covid:quantile_0.5 8.32494e+01 ;
+    covid:quantile_0.9 2.012197e+02 ;
+    sosa:hasFeatureOfInterest covid-place:37 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_38 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 4.183386e+00 ;
+    covid:quantile_0.1 1.459092e+00 ;
+    covid:quantile_0.5 4.183386e+00 ;
+    covid:quantile_0.9 1.325806e+01 ;
+    sosa:hasFeatureOfInterest covid-place:38 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_39 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.15801e+02 ;
+    covid:quantile_0.1 4.649059e+01 ;
+    covid:quantile_0.5 1.15801e+02 ;
+    covid:quantile_0.9 2.914885e+02 ;
+    sosa:hasFeatureOfInterest covid-place:39 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_40 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 2.29548e+01 ;
+    covid:quantile_0.1 1.068657e+01 ;
+    covid:quantile_0.5 2.29548e+01 ;
+    covid:quantile_0.9 6.816233e+01 ;
+    sosa:hasFeatureOfInterest covid-place:40 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_41 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 5.660424e+01 ;
+    covid:quantile_0.1 1.954748e+01 ;
+    covid:quantile_0.5 5.660424e+01 ;
+    covid:quantile_0.9 1.944006e+02 ;
+    sosa:hasFeatureOfInterest covid-place:41 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_42 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.288082e+02 ;
+    covid:quantile_0.1 5.811593e+01 ;
+    covid:quantile_0.5 1.288082e+02 ;
+    covid:quantile_0.9 3.193891e+02 ;
+    sosa:hasFeatureOfInterest covid-place:42 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_44 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 9.530571e+00 ;
+    covid:quantile_0.1 3.373596e+00 ;
+    covid:quantile_0.5 9.530571e+00 ;
+    covid:quantile_0.9 4.225234e+01 ;
+    sosa:hasFeatureOfInterest covid-place:44 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_45 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 3.532778e+01 ;
+    covid:quantile_0.1 1.553132e+01 ;
+    covid:quantile_0.5 3.532778e+01 ;
+    covid:quantile_0.9 1.01084e+02 ;
+    sosa:hasFeatureOfInterest covid-place:45 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_46 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 3.502607e+00 ;
+    covid:quantile_0.1 1.134494e+00 ;
+    covid:quantile_0.5 3.502607e+00 ;
+    covid:quantile_0.9 1.293332e+01 ;
+    sosa:hasFeatureOfInterest covid-place:46 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_47 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 5.241106e+01 ;
+    covid:quantile_0.1 2.790044e+01 ;
+    covid:quantile_0.5 5.241106e+01 ;
+    covid:quantile_0.9 1.27311e+02 ;
+    sosa:hasFeatureOfInterest covid-place:47 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_48 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 3.858421e+02 ;
+    covid:quantile_0.1 1.722315e+02 ;
+    covid:quantile_0.5 3.858421e+02 ;
+    covid:quantile_0.9 7.871259e+02 ;
+    sosa:hasFeatureOfInterest covid-place:48 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_49 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 5.111001e+01 ;
+    covid:quantile_0.1 2.597854e+01 ;
+    covid:quantile_0.5 5.111001e+01 ;
+    covid:quantile_0.9 1.475396e+02 ;
+    sosa:hasFeatureOfInterest covid-place:49 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_50 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 5.460308e+00 ;
+    covid:quantile_0.1 2.156498e+00 ;
+    covid:quantile_0.5 5.460308e+00 ;
+    covid:quantile_0.9 2.052601e+01 ;
+    sosa:hasFeatureOfInterest covid-place:50 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_51 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.401529e+02 ;
+    covid:quantile_0.1 5.497692e+01 ;
+    covid:quantile_0.5 1.401529e+02 ;
+    covid:quantile_0.9 4.017377e+02 ;
+    sosa:hasFeatureOfInterest covid-place:51 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_53 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.975987e+02 ;
+    covid:quantile_0.1 7.216885e+01 ;
+    covid:quantile_0.5 1.975987e+02 ;
+    covid:quantile_0.9 5.754219e+02 ;
+    sosa:hasFeatureOfInterest covid-place:53 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_54 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 3.262117e+00 ;
+    covid:quantile_0.1 1.340817e+00 ;
+    covid:quantile_0.5 3.262117e+00 ;
+    covid:quantile_0.9 1.119641e+01 ;
+    sosa:hasFeatureOfInterest covid-place:54 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_55 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 4.404924e+01 ;
+    covid:quantile_0.1 2.049767e+01 ;
+    covid:quantile_0.5 4.404924e+01 ;
+    covid:quantile_0.9 1.286633e+02 ;
+    sosa:hasFeatureOfInterest covid-place:55 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_56 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 3.067864e+00 ;
+    covid:quantile_0.1 1.259253e+00 ;
+    covid:quantile_0.5 3.067864e+00 ;
+    covid:quantile_0.9 7.126715e+00 ;
+    sosa:hasFeatureOfInterest covid-place:56 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+
+covid-target:2020-04-13-MOBS-GLEAM_COVID_2-wk-ahead-inc-death_US a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 8.286571e+03 ;
+    covid:quantile_0.1 5.873555e+03 ;
+    covid:quantile_0.5 8.286571e+03 ;
+    covid:quantile_0.9 1.279692e+04 ;
+    sosa:hasFeatureOfInterest covid-place:US ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2020-04-25 .
+

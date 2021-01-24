@@ -1,0 +1,86 @@
+
+###### Among all the forecasts on the date of 09-05-2020, which model performs the best for each state across the US? 
+
+
+prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/>
+prefix covid-instant: <http://covid.geog.ucsb.edu/lod/instant/>
+prefix covid-obs-property: <http://covid.geog.ucsb.edu/lod/observedproperty/>
+prefix dcterm: <http://purl.org/dc/terms/>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+prefix sosa: <http://www.w3.org/ns/sosa/>
+
+select ?placeName ?model_name (min(abs(?sv-?gv)) as ?min_gap) {
+	?s a covid:Target ;
+		sosa:phenomenonTime covid-instant:2020-09-05 ;
+		sosa:observedProperty covid-obs-property:inc_death ;
+		sosa:hasFeatureOfInterest ?l ;
+		covid:point ?sv ;
+		^sosa:hasMember/^sosa:hasMember/sosa:madeBySensor ?model ;
+		.
+
+	?model rdfs:label ?model_name .
+
+	?g a covid:GroundTruth ;
+		sosa:phenomenonTime covid-instant:2020-09-05 ;
+		sosa:observedProperty covid-obs-property:inc_death ;
+		sosa:hasFeatureOfInterest ?l ;
+		covid:point ?gv ;
+		.
+
+	?l covid:hasPlaceName ?placeName .
+
+	values ?placeName {
+		"Alabama" "Alaska" "Arizona" "Arkansas" "California" "Colorado" "Connecticut" "Delaware" "Florida"
+         "Georgia" "Hawaii" "Idaho" "Illinois" "Indiana" 'Iowa' 'Kansas' 'Kentucky' 'Louisiana' 'Maine'
+         'Maryland' 'Massachusetts' 'Michigan' 'Minnesota' 'Mississippi' 'Missouri' 'Montana' 'Nebraska' 'Nevada'
+         'New Hampshire' 'New Jersey' 'New Mexico' 'New York' 'North Carolina' 'North Dakota' 'Ohio' 'Oklahoma' 'Oregon'
+         'Pennsylvania' 'Rhode Island' 'South Carolina' 'South Dakota' 'Tennessee' 'Texas' 'Utah' 'Vermont' 'Virginia' 
+         'Washington' 'West Virginia' 'Wisconsin' 'Wyoming'
+	}
+}
+group by ?model_name ?placeName
+order by ?placeName ?min_gap
+
+
+
+##################### Compare the number of research that are funded by different organizations such as CDC and NSF.  ##################### Which forecasts are made from independent research (i.e., no funding resource)?  
+
+prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/>
+prefix covid-funding-resource: <http://covid.geog.ucsb.edu/lod/fundingResource/>
+prefix dcterm: <http://purl.org/dc/terms/>
+
+select ?model_label ?owner_label ?org where {
+  ?model a covid:Model ;
+      rdfs:label ?model_label ;          
+      covid:owner ?owner .
+  
+  
+  ?owner covid:fundingSource ?org ;
+          rdfs:label ?owner_label
+  #?org rdf:label ?org_label
+}
+
+
+
+prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/>
+prefix covid-assumption-type: <http://covid.geog.ucsb.edu/lod/assumptiontype/> 
+prefix sosa: <http://www.w3.org/ns/sosa/> 
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+
+
+select ?project_label ?model_label ?method_label where {
+  
+  	 ?project a covid:Research ;
+             rdfs:label  ?project_label ;
+             sosa:madeBySensor ?model;
+   			 sosa:usedProcedure ?method .
+                
+     ?model covid:hasAssumption ?assumption .
+  	 ?assumption covid:assumptionType_sd covid-assumption-type:sd_continue ;
+            rdfs:label ?model_label . 
+  
+     ?method rdfs:label  ?method_label . 
+}

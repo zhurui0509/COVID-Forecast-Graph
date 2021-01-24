@@ -1,0 +1,55 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-forecast: <http://covid.geog.ucsb.edu/lod/prediction/> .
+@prefix covid-instant: <http://covid.geog.ucsb.edu/lod/instant/> .
+@prefix covid-obs-property: <http://covid.geog.ucsb.edu/lod/observedproperty/> .
+@prefix covid-place: <http://covid.geog.ucsb.edu/lod/place/> .
+@prefix covid-target: <http://covid.geog.ucsb.edu/lod/target/> .
+@prefix covid-target-type: <http://covid.geog.ucsb.edu/lod/target-type/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+covid-forecast:2020-07-01-QJHong-Encounter a covid:Forecast ;
+    rdfs:label "2020-07-01-QJHong-Encounter" ;
+    sosa:hasMember covid-target:2020-07-01-QJHong-Encounter_1-wk-ahead-cum-death_US,
+        covid-target:2020-07-01-QJHong-Encounter_2-wk-ahead-cum-death_US,
+        covid-target:2020-07-01-QJHong-Encounter_3-wk-ahead-cum-death_US,
+        covid-target:2020-07-01-QJHong-Encounter_4-wk-ahead-cum-death_US ;
+    sosa:resultTime "2020-07-01" .
+
+covid-target:2020-07-01-QJHong-Encounter_1-wk-ahead-cum-death_US a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.376831e+05 ;
+    covid:quantile_0.1 1.358463e+05 ;
+    covid:quantile_0.9 1.395199e+05 ;
+    sosa:hasFeatureOfInterest covid-place:US ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-07-11 .
+
+covid-target:2020-07-01-QJHong-Encounter_2-wk-ahead-cum-death_US a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.466797e+05 ;
+    covid:quantile_0.1 1.431379e+05 ;
+    covid:quantile_0.9 1.502759e+05 ;
+    sosa:hasFeatureOfInterest covid-place:US ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-07-18 .
+
+covid-target:2020-07-01-QJHong-Encounter_3-wk-ahead-cum-death_US a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 1.588122e+05 ;
+    covid:quantile_0.1 1.521541e+05 ;
+    covid:quantile_0.9 1.665627e+05 ;
+    sosa:hasFeatureOfInterest covid-place:US ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-07-25 .
+
+covid-target:2020-07-01-QJHong-Encounter_4-wk-ahead-cum-death_US a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 1.769449e+05 ;
+    covid:quantile_0.1 1.643876e+05 ;
+    covid:quantile_0.9 1.957202e+05 ;
+    sosa:hasFeatureOfInterest covid-place:US ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2020-08-01 .
+

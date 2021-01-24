@@ -1,0 +1,31 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-license: <http://covid.geog.ucsb.edu/lod/license/> .
+@prefix covid-method: <http://covid.geog.ucsb.edu/lod/method/> .
+@prefix covid-model: <http://covid.geog.ucsb.edu/lod/model/> .
+@prefix covid-model-designation: <http://covid.geog.ucsb.edu/lod/modelDesignation/> .
+@prefix covid-owner: <http://covid.geog.ucsb.edu/lod/owner/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix ns1: <http://www.w3.org/ns/sosa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-research:Covid19Sim-Simulator a covid:Research ;
+    rdfs:label "Covid19Sim-Simulator" ;
+    ns1:madeBySensor covid-model:Covid19Sim-Simulator ;
+    ns1:usedProcedure covid-method:Simulator .
+
+covid-method:Simulator a covid:Method ;
+    rdfs:label "Simulator" .
+
+covid-model:Covid19Sim-Simulator a covid:Model ;
+    rdfs:label "Covid19Sim-Simulator" ;
+    covid:hasLicense covid-license:cc-by-nc-4.0 ;
+    covid:hasName "Simulator" ;
+    covid:hasWebsite <https://covid19sim.org/> ;
+    covid:modelBrief "An interactive tool developed by researchers at Mass General Hospital, Harvard  Medical School, Georgia Tech and Boston Medical Center to inform COVID-19 intervention  policy decisions in the US." ;
+    covid:modelDesc "'The COVID-19 Simulator uses a validated compartment model to simulate  the trajectory of COVID-19 at the state level from March 15, 2020 to August 31,  2020 in the United States. Utilizing the most recent data for each state, the COVID-19  Simulator considers state-specific disease spread dynamics. Specifically, to reproduce  the observed trends and project future cases of COVID-19, time-varying and state-specific  effective reproductive numbers are estimated and fed as inputs into a compartment  model. The compartment model is defined using Susceptible, Exposed, Infectious,  and Recovered compartments (i.e., SEIR model) with continuous time progression.  Model programming and analysis were performed in R (version 3.6.2), and the package  deSolve was used to solve the ordinary differential equation system. '" ;
+    covid:modelDesignation covid-model-designation:primary ;
+    covid:owner covid-owner:COVID19_Simulator .
+
+covid-owner:COVID19_Simulator a covid:Team ;
+    rdfs:label "COVID-19 Simulator" .
+

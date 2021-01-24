@@ -1,0 +1,743 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-assumption: <http://covid.geog.ucsb.edu/lod/assumption/> .
+@prefix covid-assumption-type: <http://covid.geog.ucsb.edu/lod/assumptiontype/> .
+@prefix covid-method: <http://covid.geog.ucsb.edu/lod/method/> .
+@prefix covid-method-type: <http://covid.geog.ucsb.edu/lod/methodtype/> .
+@prefix covid-model: <http://covid.geog.ucsb.edu/lod/model/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-method:3PU covid:methodFull "Statistical growth model" ;
+    covid:methodType covid-method-type:Regression .
+
+covid-method:ACTS covid:methodFull "An attention mechanism (deep learning) time series model" ;
+    covid:methodType covid-method-type:Machine_Learning .
+
+covid-method:AEM covid:methodFull "SEIR model informed with with ensemble neural networks " ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:BayesOpt covid:methodFull "Bayesian SEIR model" ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:Bucky covid:methodFull "Metapopulation SEIR model" ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:CLEP covid:methodFull "Ensemble of combined linear and exponential predictors (CLEP)" ;
+    covid:methodType covid-method-type:Ensemble .
+
+covid-method:COVID19 covid:methodFull "Agent-based model" ;
+    covid:methodType covid-method-type:Agent-based_Modeling .
+
+covid-method:CPF covid:methodFull " SEIR model fit with machine learning" ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:CovidComplete covid:methodFull "Statistical prediction model" ;
+    covid:methodType covid-method-type:Regression .
+
+covid-method:CovidIL covid:methodFull "SEIR model" ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:CovidIL_100 covid:methodFull "SEIR model" ;
+    covid:methodType covid-method-type:SEIR .
+
+<http://covid.geog.ucsb.edu/lod/method/CovidIL_10_+> covid:methodFull "SEIR model" ;
+    covid:methodType covid-method-type:SEIR .
+
+<http://covid.geog.ucsb.edu/lod/method/CovidIL_30_+> covid:methodFull "SEIR model" ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:CovidIL_40 covid:methodFull "SEIR model" ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:CovidIL_60 covid:methodFull "SEIR model" ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:CovidIL_80 covid:methodFull "SEIR model" ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:CovidProject covid:methodFull "SEIR model with machine learning." ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:CovidSP covid:methodFull "Metapopulation SEIR model" ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:CurveFit covid:methodFull "Combination of a mechanistic disease transmission model and a curve-fitting approach" ;
+    covid:methodType covid-method-type:Ensemble .
+
+covid-method:DECOM covid:methodFull "Machine learning" ;
+    covid:methodType covid-method-type:Machine_Learning .
+
+covid-method:DELPHI covid:methodFull "SEIR model " ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:DRAFT covid:methodFull "Stochastic SEIRX model" ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:DeepCOVID covid:methodFull "Deep learning" ;
+    covid:methodType covid-method-type:Machine_Learning .
+
+covid-method:DeepGLEAM covid:methodFull "Age-structured metapopulation model with deep learning" ;
+    covid:methodType covid-method-type:Machine_Learning .
+
+covid-method:DeepSTIA covid:methodFull "SEIR model on a spatiotemporal network" ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:DetGrowth covid:methodFull "Exponential and linear statistical models fit to the recent growth rate of cumulative deaths" ;
+    covid:methodType covid-method-type:Regression .
+
+covid-method:ERDC_SEIR covid:methodFull "SEIR model" ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:ESG covid:methodFull "Fitting reported data to multiple skewed gaussian distributions" ;
+    covid:methodType covid-method-type:Regression .
+
+covid-method:Encounter covid:methodFull "Machine learning using case data and mobility data" ;
+    covid:methodType covid-method-type:Machine_Learning .
+
+covid-method:Ensemble covid:methodFull "This forecast is an ensemble of three different models: An auto-regressive model, a machine learning (long short-memory) model, and a SEIR model." ;
+    covid:methodType covid-method-type:Ensemble .
+
+covid-method:EpiCovDA covid:methodFull "SIR model with data assimilation" ;
+    covid:methodType covid-method-type:SIR .
+
+covid-method:ExpertCrowd covid:methodFull "The ensemble is a combination of 4 to 20 models, depending on the availability of forecasts for each location. To ensure consistency, the ensemble includes only models with 4 week-ahead forecasts." ;
+    covid:methodType covid-method-type:Ensemble .
+
+covid-method:FRED covid:methodFull "Agent-based model" ;
+    covid:methodType covid-method-type:Agent-based_Modeling .
+
+covid-method:FoGSEIR covid:methodFull " SEIR model" ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:GBCF covid:methodFull "Machine learning" ;
+    covid:methodType covid-method-type:Machine_Learning .
+
+covid-method:GLEAM_COVID covid:methodFull "Metapopulation, age-structured SLIR model" ;
+    covid:methodType covid-method-type:SLIR .
+
+covid-method:GRU covid:methodFull "Machine learning" ;
+    covid:methodType covid-method-type:Machine_Learning .
+
+covid-method:GrowthRate covid:methodFull "Statistical dynamical growth model accounting for population susceptibility" ;
+    covid:methodType covid-method-type:Regression .
+
+covid-method:LogForecasting covid:methodFull "Logistic growth" ;
+    covid:methodType covid-method-type:Regression .
+
+covid-method:ML covid:methodFull "Machine learning models." ;
+    covid:methodType covid-method-type:Machine_Learning .
+
+covid-method:MechBayes covid:methodFull "Mechanistic Bayesian compartment model" ;
+    covid:methodType covid-method-type:Bayesian .
+
+covid-method:Mob_Collision covid:methodFull "SIR model fit to mobility data" ;
+    covid:methodType covid-method-type:SIR .
+
+covid-method:NBDS covid:methodFull "Bayesian hierarchical model" ;
+    covid:methodType covid-method-type:Bayesian .
+
+covid-method:NRAR covid:methodFull "A machine learning model, combined with an auto-regressive model" ;
+    covid:methodType covid-method-type:Machine_Learning .
+
+covid-method:Navigator covid:methodFull "Time-dependent SIR model for detected and undetected cases" ;
+    covid:methodType covid-method-type:SIR .
+
+covid-method:PRM covid:methodFull "Phenomenological statistical model" ;
+    covid:methodType covid-method-type:Phenomenological .
+
+covid-method:ParamSearch covid:methodFull "SEIR model with machine learning for parameter estimation" ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:RidgeTfReg covid:methodFull "Ridge regression" ;
+    covid:methodType covid-method-type:Regression .
+
+covid-method:RtDriven covid:methodFull "SIR model" ;
+    covid:methodType covid-method-type:SIR .
+
+covid-method:SEIR covid:methodFull "Fitted SEIR model" ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:SEIR_CAN covid:methodFull "Fitted SEIR model" ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:SEIR_MCMC covid:methodFull " Bayesian SEIR model" ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:SIR covid:methodFull "SIR model " ;
+    covid:methodType covid-method-type:SIR .
+
+covid-method:SI_kJalpha covid:methodFull "SIR model" ;
+    covid:methodType covid-method-type:SIR .
+
+covid-method:SI_kJalpha_RF covid:methodFull "SIR model" ;
+    covid:methodType covid-method-type:SIR .
+
+covid-method:SLPHospEns covid:methodFull "Metapopulation SEIR model" ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:STAN covid:methodFull "Spatiotemporal attention network model" ;
+    covid:methodType covid-method-type:Machine_Learning .
+
+covid-method:STEM covid:methodFull "Nonparametric spatiotemporal model" ;
+    covid:methodType covid-method-type:Nonparametric .
+
+covid-method:Simulator covid:methodFull "SEIR model" ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:StatMechPool covid:methodFull "This forecast is an ensemble of two different models: A multiplicative growth model and a curve fitting model." ;
+    covid:methodType covid-method-type:Ensemble .
+
+covid-method:SuEIR covid:methodFull "Modified SEIR model" ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:SurvCon covid:methodFull "Statistical survival-convolutional model" ;
+    covid:methodType covid-method-type:Survival .
+
+covid-method:TS covid:methodFull "Autoregressive time-series model" ;
+    covid:methodType covid-method-type:Regression .
+
+covid-method:TimeSeries covid:methodFull " Autoregressive time-series model",
+        "Combination of a mechanistic disease transmission model and a curve-fitting approach" ;
+    covid:methodType covid-method-type:Ensemble,
+        covid-method-type:Regression .
+
+covid-method:USCounty covid:methodFull "Random forest machine learning model" ;
+    covid:methodType covid-method-type:Machine_Learning .
+
+covid-method:Walk covid:methodFull "Statistical random walk model" ;
+    covid:methodType covid-method-type:Machine_Learning .
+
+covid-method:ens1 covid:methodFull "Machine learning" ;
+    covid:methodType covid-method-type:Machine_Learning .
+
+covid-method:ensemble1 covid:methodFull "Ensembles of mechanistic transmission models, fit to different parameter assumptions",
+        "This forecast is an ensemble of three different models: A time-varying reproductive number-base model, a time series model based on numbers of deaths, and a time series model based on numbers of cases and deaths. " ;
+    covid:methodType covid-method-type:Ensemble .
+
+covid-method:ensemble2 covid:methodFull "Ensembles of mechanistic transmission models, fit to different parameter assumptions" ;
+    covid:methodType covid-method-type:Ensemble .
+
+covid-method:mobility covid:methodFull "SEIR model fit to data on deaths, test positivity, and population mobility" ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:nochange covid:methodFull "Metapopulation SEIR model" ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:pypm covid:methodFull "Discrete time difference equations" ;
+    covid:methodType covid-method-type:Discrete_Differential .
+
+covid-method:scenario_high covid:methodFull "Metapopulation SEIR model" ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:scenario_low covid:methodFull "Metapopulation SEIR model" ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:scenario_mid covid:methodFull "Metapopulation SEIR model" ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:select covid:methodFull "Metapopulation SEIR model" ;
+    covid:methodType covid-method-type:SEIR .
+
+covid-method:squider covid:methodFull "SIR model" ;
+    covid:methodType covid-method-type:SIR .
+
+covid-model:Auquan-SEIR covid:hasAssumption covid-assumption:Auquan-SEIR_Assumption .
+
+covid-model:BPagano-RtDriven covid:hasAssumption covid-assumption:BPagano-RtDriven_Assumption .
+
+covid-model:CDDEP-SEIR_MCMC covid:hasAssumption covid-assumption:CDDEP-SEIR_MCMC_Assumption .
+
+covid-model:CEID-Walk covid:hasAssumption covid-assumption:CEID-Walk_Assumption .
+
+covid-model:CMU-TimeSeries covid:hasAssumption covid-assumption:CMU-TimeSeries_Assumption .
+
+covid-model:CU-nochange covid:hasAssumption covid-assumption:CU-nochange_Assumption .
+
+covid-model:CU-scenario_high covid:hasAssumption covid-assumption:CU-scenario_high_Assumption .
+
+covid-model:CU-scenario_low covid:hasAssumption covid-assumption:CU-scenario_low_Assumption .
+
+covid-model:CU-scenario_mid covid:hasAssumption covid-assumption:CU-scenario_mid_Assumption .
+
+covid-model:CU-select covid:hasAssumption covid-assumption:CU-select_Assumption .
+
+covid-model:Columbia_UNC-SurvCon covid:hasAssumption covid-assumption:Columbia_UNC-SurvCon_Assumption .
+
+covid-model:Covid19Sim-Simulator covid:hasAssumption covid-assumption:Covid19Sim-Simulator_Assumption .
+
+covid-model:CovidActNow-SEIR_CAN covid:hasAssumption covid-assumption:CovidActNow-SEIR_CAN_Assumption .
+
+covid-model:CovidAnalytics-DELPHI covid:hasAssumption covid-assumption:CovidAnalytics-DELPHI_Assumption .
+
+covid-model:DDS-NBDS covid:hasAssumption covid-assumption:DDS-NBDS_Assumption .
+
+covid-model:FAIR-NRAR covid:hasAssumption covid-assumption:FAIR-NRAR_Assumption .
+
+covid-model:GT-DeepCOVID covid:hasAssumption covid-assumption:GT-DeepCOVID_Assumption .
+
+covid-model:GT_CHHS-COVID19 covid:hasAssumption covid-assumption:GT_CHHS-COVID19_Assumption .
+
+covid-model:Geneva-DetGrowth covid:hasAssumption covid-assumption:Geneva-DetGrowth_Assumption .
+
+covid-model:Google_Harvard-CPF covid:hasAssumption covid-assumption:Google_Harvard-CPF_Assumption .
+
+covid-model:IBF-TimeSeries covid:hasAssumption covid-assumption:IBF-TimeSeries_Assumption .
+
+covid-model:IEM_MED-CovidProject covid:hasAssumption covid-assumption:IEM_MED-CovidProject_Assumption .
+
+covid-model:IHME-CurveFit covid:hasAssumption covid-assumption:IHME-CurveFit_Assumption .
+
+covid-model:IQVIA_ACOE-STAN covid:hasAssumption covid-assumption:IQVIA_ACOE-STAN_Assumption .
+
+covid-model:Imperial-ensemble1 covid:hasAssumption covid-assumption:Imperial-ensemble1_Assumption .
+
+covid-model:Imperial-ensemble2 covid:hasAssumption covid-assumption:Imperial-ensemble2_Assumption .
+
+covid-model:IowaStateLW-STEM covid:hasAssumption covid-assumption:IowaStateLW-STEM_Assumption .
+
+covid-model:JCB-PRM covid:hasAssumption covid-assumption:JCB-PRM_Assumption .
+
+covid-model:JHUAPL-Bucky covid:hasAssumption covid-assumption:JHUAPL-Bucky_Assumption .
+
+covid-model:JHUAPL-SLPHospEns covid:hasAssumption covid-assumption:JHUAPL-SLPHospEns_Assumption .
+
+covid-model:JHU_CSSE-DECOM covid:hasAssumption covid-assumption:JHU_CSSE-DECOM_Assumption .
+
+covid-model:JHU_IDD-CovidSP covid:hasAssumption covid-assumption:JHU_IDD-CovidSP_Assumption .
+
+covid-model:JHU_UNC_GAS-StatMechPool covid:hasAssumption covid-assumption:JHU_UNC_GAS-StatMechPool_Assumption .
+
+covid-model:Karlen-pypm covid:hasAssumption covid-assumption:Karlen-pypm_Assumption .
+
+covid-model:LANL-GrowthRate covid:hasAssumption covid-assumption:LANL-GrowthRate_Assumption .
+
+covid-model:LNQ-ens1 covid:hasAssumption covid-assumption:LNQ-ens1_Assumption .
+
+covid-model:MITCovAlliance-SIR covid:hasAssumption covid-assumption:MITCovAlliance-SIR_Assumption .
+
+covid-model:MIT_CritData-GBCF covid:hasAssumption covid-assumption:MIT_CritData-GBCF_Assumption .
+
+covid-model:MOBS-GLEAM_COVID covid:hasAssumption covid-assumption:MOBS-GLEAM_COVID_Assumption .
+
+covid-model:Microsoft-DeepSTIA covid:hasAssumption covid-assumption:Microsoft-DeepSTIA_Assumption .
+
+covid-model:NotreDame-FRED covid:hasAssumption covid-assumption:NotreDame-FRED_Assumption .
+
+covid-model:NotreDame-mobility covid:hasAssumption covid-assumption:NotreDame-mobility_Assumption .
+
+covid-model:OliverWyman-Navigator covid:hasAssumption covid-assumption:OliverWyman-Navigator_Assumption .
+
+covid-model:OneQuietNight-ML covid:hasAssumption covid-assumption:OneQuietNight-ML_Assumption .
+
+covid-model:PSI-DRAFT covid:hasAssumption covid-assumption:PSI-DRAFT_Assumption .
+
+covid-model:PandemicCentral-USCounty covid:hasAssumption covid-assumption:PandemicCentral-USCounty_Assumption .
+
+covid-model:QJHong-Encounter covid:hasAssumption covid-assumption:QJHong-Encounter_Assumption .
+
+covid-model:RPI_UW-Mob_Collision covid:hasAssumption covid-assumption:RPI_UW-Mob_Collision_Assumption .
+
+covid-model:RobertWalraven-ESG covid:hasAssumption covid-assumption:RobertWalraven-ESG_Assumption .
+
+covid-model:STH-3PU covid:hasAssumption covid-assumption:STH-3PU_Assumption .
+
+covid-model:SigSci-TS covid:hasAssumption covid-assumption:SigSci-TS_Assumption .
+
+covid-model:SteveMcConnell-CovidComplete covid:hasAssumption covid-assumption:SteveMcConnell-CovidComplete_Assumption .
+
+covid-model:TTU-squider covid:hasAssumption covid-assumption:TTU-squider_Assumption .
+
+covid-model:UA-EpiCovDA covid:hasAssumption covid-assumption:UA-EpiCovDA_Assumption .
+
+covid-model:UCF-AEM covid:hasAssumption covid-assumption:UCF-AEM_Assumption .
+
+covid-model:UCLA-SuEIR covid:hasAssumption covid-assumption:UCLA-SuEIR_Assumption .
+
+covid-model:UCM_MESALab-FoGSEIR covid:hasAssumption covid-assumption:UCM_MESALab-FoGSEIR_Assumption .
+
+covid-model:UCSB-ACTS covid:hasAssumption covid-assumption:UCSB-ACTS_Assumption .
+
+covid-model:UCSD_NEU-DeepGLEAM covid:hasAssumption covid-assumption:UCSD_NEU-DeepGLEAM_Assumption .
+
+covid-model:UChicago-CovidIL covid:hasAssumption covid-assumption:UChicago-CovidIL_Assumption .
+
+covid-model:UChicago-CovidIL_100 covid:hasAssumption covid-assumption:UChicago-CovidIL_100_Assumption .
+
+<http://covid.geog.ucsb.edu/lod/model/UChicago-CovidIL_10_+> covid:hasAssumption <http://covid.geog.ucsb.edu/lod/assumption/UChicago-CovidIL_10_+_Assumption> .
+
+<http://covid.geog.ucsb.edu/lod/model/UChicago-CovidIL_30_+> covid:hasAssumption <http://covid.geog.ucsb.edu/lod/assumption/UChicago-CovidIL_30_+_Assumption> .
+
+covid-model:UChicago-CovidIL_40 covid:hasAssumption covid-assumption:UChicago-CovidIL_40_Assumption .
+
+covid-model:UChicago-CovidIL_60 covid:hasAssumption covid-assumption:UChicago-CovidIL_60_Assumption .
+
+covid-model:UChicago-CovidIL_80 covid:hasAssumption covid-assumption:UChicago-CovidIL_80_Assumption .
+
+covid-model:UMass-ExpertCrowd covid:hasAssumption covid-assumption:UMass-ExpertCrowd_Assumption .
+
+covid-model:UMass-MechBayes covid:hasAssumption covid-assumption:UMass-MechBayes_Assumption .
+
+covid-model:UMich-RidgeTfReg covid:hasAssumption covid-assumption:UMich-RidgeTfReg_Assumption .
+
+covid-model:USACE-ERDC_SEIR covid:hasAssumption covid-assumption:USACE-ERDC_SEIR_Assumption .
+
+covid-model:USC-SI_kJalpha covid:hasAssumption covid-assumption:USC-SI_kJalpha_Assumption .
+
+covid-model:USC-SI_kJalpha_RF covid:hasAssumption covid-assumption:USC-SI_kJalpha_RF_Assumption .
+
+covid-model:UVA-Ensemble covid:hasAssumption covid-assumption:UVA-Ensemble_Assumption .
+
+covid-model:UpstateSU-GRU covid:hasAssumption covid-assumption:UpstateSU-GRU_Assumption .
+
+covid-model:Wadhwani_AI-BayesOpt covid:hasAssumption covid-assumption:Wadhwani_AI-BayesOpt_Assumption .
+
+covid-model:WalmartLabsML-LogForecasting covid:hasAssumption covid-assumption:WalmartLabsML-LogForecasting_Assumption .
+
+covid-model:YYG-ParamSearch covid:hasAssumption covid-assumption:YYG-ParamSearch_Assumption .
+
+covid-model:Yu_Group-CLEP covid:hasAssumption covid-assumption:Yu_Group-CLEP_Assumption .
+
+covid-model:epiforecasts-ensemble1 covid:hasAssumption covid-assumption:epiforecasts-ensemble1_Assumption .
+
+covid-assumption:Auquan-SEIR_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections do not make specific assumptions about which interventions have been implemented or will remain in place.  " .
+
+covid-assumption:BPagano-RtDriven_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections assume that the effects of interventions are reflected in the observed data and will continue going forward." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:CDDEP-SEIR_MCMC_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd " This model assumes that the effects of interventions are reflected in the observed data and will continue going forward." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:CEID-Walk_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "The projections assume that social distancing policies in place at the date of calibration are extended for the future weeks." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:CMU-TimeSeries_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd " These projections do not make specific assumptions about which interventions have been implemented or will remain in place." .
+
+covid-assumption:CU-nochange_Assumption a covid:Assumption ;
+    covid:assumptionFull_hr "The model uses state-specific hospitalization data, when available. In states without hospitalization data, the model uses the national average value for hospitalization data." ;
+    covid:assumptionFull_sd "This model assumes that contact rates will increase 5% during the first week of the forecast period. Following week 1, the reproductive number is then set to 1.0." ;
+    covid:assumptionType_hr covid-assumption-type:fraction_of_infected ;
+    covid:assumptionType_sd covid-assumption-type:sd_change .
+
+covid-assumption:CU-scenario_high_Assumption a covid:Assumption ;
+    covid:assumptionFull_hr "The model uses state-specific hospitalization data, when available. In states without hospitalization data, the model uses the national average value for hospitalization data." ;
+    covid:assumptionFull_sd "This model assumes that contact rates will increase 5% during the first week of the forecast period. Following week 1, the reproductive number is then set to 1.0." ;
+    covid:assumptionType_hr covid-assumption-type:fraction_of_infected ;
+    covid:assumptionType_sd covid-assumption-type:sd_change .
+
+covid-assumption:CU-scenario_low_Assumption a covid:Assumption ;
+    covid:assumptionFull_hr "The model uses state-specific hospitalization data, when available. In states without hospitalization data, the model uses the national average value for hospitalization data." ;
+    covid:assumptionFull_sd "This model assumes that contact rates will increase 5% during the first week of the forecast period. Following week 1, the reproductive number is then set to 1.0." ;
+    covid:assumptionType_hr covid-assumption-type:fraction_of_infected ;
+    covid:assumptionType_sd covid-assumption-type:sd_change .
+
+covid-assumption:CU-scenario_mid_Assumption a covid:Assumption ;
+    covid:assumptionFull_hr "The model uses state-specific hospitalization data, when available. In states without hospitalization data, the model uses the national average value for hospitalization data." ;
+    covid:assumptionFull_sd "This model assumes that contact rates will increase 5% during the first week of the forecast period. Following week 1, the reproductive number is then set to 1.0." ;
+    covid:assumptionType_hr covid-assumption-type:fraction_of_infected ;
+    covid:assumptionType_sd covid-assumption-type:sd_change .
+
+covid-assumption:CU-select_Assumption a covid:Assumption ;
+    covid:assumptionFull_hr "The model uses state-specific hospitalization data, when available. In states without hospitalization data, the model uses the national average value for hospitalization data." ;
+    covid:assumptionFull_sd "This model assumes that contact rates will increase 5% during the first week of the forecast period. Following week 1, the reproductive number is then set to 1.0." ;
+    covid:assumptionType_hr covid-assumption-type:fraction_of_infected ;
+    covid:assumptionType_sd covid-assumption-type:sd_change .
+
+covid-assumption:Columbia_UNC-SurvCon_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "This model assumes that transmission intensity will peak in early July and then gradually decline." .
+
+covid-assumption:Covid19Sim-Simulator_Assumption a covid:Assumption ;
+    covid:assumptionFull_hr "The number of new hospitalizations per day are estimated from the number of infections, using state-specific hospitalization rates." ;
+    covid:assumptionFull_sd "This model is based on assumptions about how levels of social distancing will change in the future." ;
+    covid:assumptionType_hr covid-assumption-type:fraction_of_infected ;
+    covid:assumptionType_sd covid-assumption-type:sd_change .
+
+covid-assumption:CovidActNow-SEIR_CAN_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections do not make any specific assumptions about which interventions have been implemented or will remain in place." .
+
+covid-assumption:CovidAnalytics-DELPHI_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "The projections assume that current interventions will remain in place indefinitely." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:DDS-NBDS_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "This model assumes that the effects of interventions are reflected in the observed data and will continue going forward." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:FAIR-NRAR_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "This model assumes that the effects of interventions are reflected in the observed data and will continue going forward." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:GT-DeepCOVID_Assumption a covid:Assumption ;
+    covid:assumptionFull_hr "Daily hospitalizations are predicted from publicly available, state-level data sources." ;
+    covid:assumptionFull_sd "This model assumes that the effects of interventions are reflected in the observed data and will continue going forward." ;
+    covid:assumptionType_hr covid-assumption-type:reported_hospitalization ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:GT_CHHS-COVID19_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "This model assumes that that once stay-at-home orders are lifted, contact rates will gradually increase. It also assumes that some households containing symptomatic cases will self-quarantine." .
+
+covid-assumption:Geneva-DetGrowth_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "The projections assume that social distancing policies in place at the date of calibration are extended for the future weeks." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:Google_Harvard-CPF_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These forecasts implement changes to future population mobility in order to predict COVID-19 transmission intensity." ;
+    covid:assumptionType_sd covid-assumption-type:sd_change .
+
+covid-assumption:IBF-TimeSeries_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections do not make specific assumptions about which interventions have been implemented or will remain in place." .
+
+covid-assumption:IEM_MED-CovidProject_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections assume that current interventions will not change during the forecasted period." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:IHME-CurveFit_Assumption a covid:Assumption ;
+    covid:assumptionFull_hr "Daily hospitalizations are estimated from predictions of daily deaths, using state hospitalization rates, where available." ;
+    covid:assumptionFull_sd "Projections are adjusted to reflect differences in aggregate population mobility and community mitigation policies." ;
+    covid:assumptionType_hr covid-assumption-type:number_of_forecasted_death .
+
+covid-assumption:IQVIA_ACOE-STAN_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "This model assumes that the effects of interventions are reflected in the observed data and will continue going forward." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:Imperial-ensemble1_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections do not make any specific assumptions about which interventions have been implemented or will remain in place." .
+
+covid-assumption:Imperial-ensemble2_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections do not make any specific assumptions about which interventions have been implemented or will remain in place." .
+
+covid-assumption:IowaStateLW-STEM_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections do not make any specific assumptions about which interventions have been implemented or will remain in place." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:JCB-PRM_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "The incidence of COVID-19 in the population determines the strength of and resulting impact of control measures in the future." .
+
+covid-assumption:JHUAPL-Bucky_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "This model assumes that the effects of interventions are reflected in the observed data and will continue going forward." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:JHUAPL-SLPHospEns_Assumption a covid:Assumption .
+
+covid-assumption:JHU_CSSE-DECOM_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections assume that current interventions will not change during the forecasted period." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:JHU_IDD-CovidSP_Assumption a covid:Assumption ;
+    covid:assumptionFull_hr "Daily hospitalizations are estimated from predictions of daily cases. A standard proportion is applied to all states." ;
+    covid:assumptionFull_sd "This model assumes that the effectiveness of interventions is reduced after shelter-in-place orders are lifted." ;
+    covid:assumptionType_hr covid-assumption-type:fraction_of_infected ;
+    covid:assumptionType_sd covid-assumption-type:sd_change .
+
+covid-assumption:JHU_UNC_GAS-StatMechPool_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections assume that current interventions will not change during the forecasted period." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:Karlen-pypm_Assumption a covid:Assumption ;
+    covid:assumptionFull_hr "The model uses state-specific hospitalization data. New hospitalizations are estimated from these data, or from the estimated number of new infections that will occur in each location." ;
+    covid:assumptionFull_sd "This model assumes that the effects of interventions are reflected in the observed data and will continue going forward." ;
+    covid:assumptionType_hr covid-assumption-type:complex ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:LANL-GrowthRate_Assumption a covid:Assumption ;
+    covid:assumptionFull_hr "State demographics and age-group symptomatic case hospitalization rates are used to estimate the daily number of hospitalizations, based on estimates of the total number of infections." ;
+    covid:assumptionFull_sd "This model assumes interventions in place on the first day of the forecast will remain in place for the next four weeks. " ;
+    covid:assumptionType_hr covid-assumption-type:fraction_of_infected ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:LNQ-ens1_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "This model assumes that the effects of interventions are reflected in the observed data and will continue going forward." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:MITCovAlliance-SIR_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "The projections assume that current interventions will remain in place indefinitely." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:MIT_CritData-GBCF_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "The projections assume that current interventions will remain in place indefinitely." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:MOBS-GLEAM_COVID_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "The projections assume that social distancing policies in place at the date of calibration are extended for the future weeks." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:Microsoft-DeepSTIA_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections assume that current interventions will not change during the forecasted period." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:NotreDame-FRED_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These forecasts assume that population-level mobility is a reliable proxy for adherence to social distancing, and that recent trends in mobility will continue over the coming weeks." .
+
+covid-assumption:NotreDame-mobility_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These forecasts assume that population-level mobility is a reliable proxy for adherence to social distancing, and that recent trends in mobility will continue over the coming weeks." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:OliverWyman-Navigator_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections assume that current interventions will not change during the forecasted period." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:OneQuietNight-ML_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections assume that current interventions will not change during the forecasted period." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:PSI-DRAFT_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections assume that current interventions will not change during the forecasted period." ;
+    covid:assumptionType_sd covid-assumption-type:sd_change .
+
+covid-assumption:PandemicCentral-USCounty_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections assume that current interventions will not change during the forecasted period." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:QJHong-Encounter_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections assume that current interventions will not change during the forecasted period." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:RPI_UW-Mob_Collision_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections calibrate the rate of transmission to the average rate of population mobility since the start of the epidemic and assume that this relationship will not change in the next four weeks." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:RobertWalraven-ESG_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections assume that current interventions will not change during the forecasted period." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:STH-3PU_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections assume that current interventions will not change during the forecasted period." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:SigSci-TS_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections assume that current interventions will not change during the forecasted period." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:SteveMcConnell-CovidComplete_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "This model assumes that the effects of interventions are reflected in the observed data and will continue going forward." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:TTU-squider_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "This model assumes that the effects of interventions are reflected in the observed data and will continue going forward." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:UA-EpiCovDA_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "This model assumes that current interventions will remain in effect for at least four weeks after the forecasts are made." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:UCF-AEM_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections assume that current interventions will not change during the forecasted period." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:UCLA-SuEIR_Assumption a covid:Assumption ;
+    covid:assumptionFull_hr "The number of new hospitalizations per day are estimated from the number of infections, using state-specific hospitalization rates." ;
+    covid:assumptionFull_sd "This model assumes that contact rates will increase as states reopen. The increase in contact rates is calculated for each state." ;
+    covid:assumptionType_hr covid-assumption-type:fraction_of_infected ;
+    covid:assumptionType_sd covid-assumption-type:sd_change .
+
+covid-assumption:UCM_MESALab-FoGSEIR_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections assume that current interventions will not change during the forecasted period." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:UCSB-ACTS_Assumption a covid:Assumption ;
+    covid:assumptionFull_hr "The number of new hospitalizations per day are estimated from the number of infections, using state-specific hospitalization rates." ;
+    covid:assumptionFull_sd "These projections assume that current interventions will not change during the forecasted period." ;
+    covid:assumptionType_hr covid-assumption-type:fraction_of_infected ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:UCSD_NEU-DeepGLEAM_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections assume that current interventions will not change during the forecasted period." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:UChicago-CovidIL_100_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These forecasts assume that transmission rate will increase by 10% when stay-at-home policies are lifted." .
+
+<http://covid.geog.ucsb.edu/lod/assumption/UChicago-CovidIL_10_+_Assumption> a covid:Assumption ;
+    covid:assumptionFull_sd "These forecasts assume that transmission rate will increase by 10% when stay-at-home policies are lifted." .
+
+<http://covid.geog.ucsb.edu/lod/assumption/UChicago-CovidIL_30_+_Assumption> a covid:Assumption ;
+    covid:assumptionFull_sd "These forecasts assume that transmission rate will increase by 10% when stay-at-home policies are lifted." .
+
+covid-assumption:UChicago-CovidIL_40_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These forecasts assume that transmission rate will increase by 10% when stay-at-home policies are lifted." .
+
+covid-assumption:UChicago-CovidIL_60_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These forecasts assume that transmission rate will increase by 10% when stay-at-home policies are lifted." .
+
+covid-assumption:UChicago-CovidIL_80_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These forecasts assume that transmission rate will increase by 10% when stay-at-home policies are lifted." .
+
+covid-assumption:UChicago-CovidIL_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These forecasts assume that transmission rate will increase by 10% when stay-at-home policies are lifted." .
+
+covid-assumption:UMass-ExpertCrowd_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "The ensemble forecasts include all submitted forecasts, derived from models that assume certain social distancing measures will continue and models that assume those measures will not continue." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:UMass-MechBayes_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections do not make any specific assumptions about which interventions have been implemented or will remain in place." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:UMich-RidgeTfReg_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections assume that current interventions will not change during the forecasted period." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:USACE-ERDC_SEIR_Assumption a covid:Assumption ;
+    covid:assumptionFull_hr "The number of new hospitalizations per day are estimated from the number of infections, using state-specific hospitalization rates." ;
+    covid:assumptionFull_sd "These projections assume that current interventions will not change during the forecasted period." ;
+    covid:assumptionType_hr covid-assumption-type:fraction_of_infected ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:USC-SI_kJalpha_Assumption a covid:Assumption ;
+    covid:assumptionFull_hr "The number of new hospitalizations per day are estimated from the number of infections." ;
+    covid:assumptionFull_sd "These projections assume that current interventions will not change during the forecasted period." ;
+    covid:assumptionType_hr covid-assumption-type:fraction_of_infected ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:USC-SI_kJalpha_RF_Assumption a covid:Assumption ;
+    covid:assumptionFull_hr "The number of new hospitalizations per day are estimated from the number of infections." ;
+    covid:assumptionFull_sd "These projections assume that current interventions will not change during the forecasted period." ;
+    covid:assumptionType_hr covid-assumption-type:fraction_of_infected ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:UVA-Ensemble_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "There are two different assumptions influencing this ensemble model. Two of the three models assume that the effects of interventions are reflected in the observed data and will continue going forward, while the third model assumes that interventions will change in the future." .
+
+covid-assumption:UpstateSU-GRU_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections assume that current interventions will not change during the forecasted period." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:Wadhwani_AI-BayesOpt_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections assume that current interventions will not change during the forecasted period." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:WalmartLabsML-LogForecasting_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections do not make any specific assumptions about which interventions have been implemented or will remain in place." .
+
+covid-assumption:YYG-ParamSearch_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "The model accounts for individual state-by-state re-openings and responses to increasing cases and their impact on infections and deaths." .
+
+covid-assumption:Yu_Group-CLEP_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "This model assumes that the effects of interventions are reflected in the observed data and will continue going forward.  " ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption:epiforecasts-ensemble1_Assumption a covid:Assumption ;
+    covid:assumptionFull_sd "These projections assume that current interventions will not change during the forecasted period." ;
+    covid:assumptionType_sd covid-assumption-type:sd_continue .
+
+covid-assumption-type:complex a covid:AssumptionType ;
+    rdfs:label "uses the rate of reported infections to estimate the number of new hospitalizations in a given jurisdiction, unless the rates of reported infections and hospitalizations differ. In that case, the rate of reported hospitalizations is used to forecast new hospitalizations." .
+
+covid-assumption-type:number_of_forecasted_death a covid:AssumptionType ;
+    rdfs:label "estimates hospitalizations based on numbers of forecasted deaths." .
+
+covid-assumption-type:reported_hospitalization a covid:AssumptionType ;
+    rdfs:label "uses COVID-19 hospitalization data reported by some states to forecast future hospitalizations." .
+
+covid-assumption-type:sd_change a covid:AssumptionType ;
+    rdfs:label "levels of social distancing will change in the future." .
+
+covid-assumption-type:fraction_of_infected a covid:AssumptionType ;
+    rdfs:label "a certain fraction of infected people will be hospitalized." .
+
+covid-assumption-type:sd_continue a covid:AssumptionType ;
+    rdfs:label "existing social distancing measures in each state will continue through the projected four-week time period." .
+
