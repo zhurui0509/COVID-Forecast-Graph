@@ -5,23 +5,23 @@ This is the repository for the paper "COVID-Forecast-Graph: An Open Knowledge Gr
 The longer the COVID-19 pandemic lasts, the more apparent is becomes that understanding its social drivers may be as important as understanding the virus itself. One such social driver of the ongoing spread of COVID-19 is misinformation and distrust in institutions. This is particularly interesting as the scientific process is more transparent than ever before. Numerous scientific teams across the world have published data sets that cover almost any imaginable aspects of this crisis, e.g., daily reported cases and death numbers, forecast of the future death numbers, economic impacts, human mobility, imposed restrictions, biological genes, and so on. However, how to consistently and efficiently integrate and make sense of these separate data 'silos' and present them to scientists, decision makers, journalists, and more importantly the general public remains a key challenge. One approach to integrate COVID-19 related data across domains is knowledge graphs, and several such graphs have been published over the past months. These graphs excel at enabling data crosswalks and exploring auxiliary data to contextualize the patterns of spread. Interestingly, none of these graphs has focused on COVID-19 forecasts and the assumptions underlying these forecasts despite them acting as the underpinning for decision making at NGOs, the industry, and governments from the local to the state level. In this work we report on our work in developing such a graph, motivate the need for exposing forecasts as a knowledge graph, showcase several types of queries that can be run against the graph, and geographically interlink forecast data with indicators of economic impacts.
 
 ## Data Sources 
-Our graph is generated based on mainly three repositories: 
+Our graph is generated based on mainly four repositories: 
 
 * COVID-19 Forecast\
-  The project page can be found at https://covid19forecasthub.org/. The folder <em>[covid19-forecast-hub]</em> is forked from the public repository https://github.com/reichlab/COVID19-forecast-hub. Collected observable properties include: 
+  [COVID-19 Forecast](https://covid19forecasthub.org/) collects forecasts of COVID-19 related observations made by various teams using different methods. The folder <em>[covid19-forecast-hub]</em> is forked from the public repository https://github.com/reichlab/COVID19-forecast-hub. Collected observable properties from this repository include: 
   * incident death 
   * incident case
   * cumulative death
   * incident hospitalization
   
 * JHU CSSE Reported Cases \
- JHU CSSE's reported cases are regarded as the 'ground truth' of the observations. We directly used the processed data from the COVID-19 Forecast repository. Other options include [NYT's Covid-19 Data in the United States](https://github.com/nytimes/covid-19-data). Collected observable properties include: 
+ JHU CSSE's reported cases and deaths are regarded as the 'ground truth' of the observations in this work. We directly use the processed JHU CSSE case and death numbers provided by the COVID-19 Forecast repository. Other options include [NYT's Covid-19 Data in the United States](https://github.com/nytimes/covid-19-data). Collected observable properties include: 
   * incident death
   * incident case 
   * cumulative death 
  
 * Economic Tracker \
-We use [Opportunity Insights](https://tracktherecovery.org/) team's [Economic Tracker](https://github.com/OpportunityInsights/EconomicTracker) repository to collect the economic related data. Data in the <em>[EconomicTracker]</em> is forked from this repository. Collected observable properties in this work include:
+We use [Opportunity Insights](https://tracktherecovery.org/) team's [Economic Tracker](https://github.com/OpportunityInsights/EconomicTracker) repository to collect the economic related data. Data in the <em>[EconomicTracker]</em> folder is forked from this repository. Collected observable properties include:
   * Spending data from [Affinity Solutions](https://www.affinity.solutions/)
   * Job postings from [Burning Glass Technologies](https://www.burning-glass.com/)
   * Employment levels relative to Jan 4-31 from [Paychex](https://www.paychex.com/), [Intuit](https://www.intuit.com/), [Earnin](https://www.earnin.com/) and [Kronos](https://www.kronos.com/)
@@ -36,7 +36,7 @@ Folder [output_forecast](https://github.com/zhurui0509/COVID-Forecast-Graph/tree
 The graph and corresponding [endpoint](http://stko-roy.geog.ucsb.edu:7201 ) are updated every Tuesday. 
 
 ## COVID-SO Ontology
-To increase the interoperability and reusability of the data, we design a COVID-19 related ontology - COVID-SO - on top of the [W3C recommended Semantic Sensor Network ontology](https://www.w3.org/TR/vocab-ssn/) and [its extensions](https://www.w3.org/TR/vocab-ssn-ext/). Concretely, we designed a three-tier ontology demonstrated as below. COVID-SO can be at in the folder of [COVID-SO Ontology](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/COVID-SO%20Ontology). 
+To increase the interoperability and reusability of the data, we design a COVID-19 related ontology - COVID-SO - on top of the [W3C recommended Semantic Sensor Network ontology](https://www.w3.org/TR/vocab-ssn/) and [its extensions](https://www.w3.org/TR/vocab-ssn-ext/). Concretely, we designed a three-tier ontology demonstrated as below. COVID-SO ontology can be found in the folder of [COVID-SO Ontology](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/COVID-SO%20Ontology). 
 
 * Upper-level ontology
 <p align="center">
