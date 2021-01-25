@@ -72,7 +72,23 @@ The generated graph is served at http://stko-roy.geog.ucsb.edu:7201 and below is
 
 
 ## Competency Questions and Exemplary Queries
-A set of saved exemplary queries to answer the discussed competency questions in the paper can be found at http://stko-roy.geog.ucsb.edu:7201/sparql. 
+A set of saved exemplary queries to answer the discussed competency questions in the paper can be found in [this document](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/example_queries.txt). Moreover, these exmplary queires are pre-stored in the [endpoint](http://stko-roy.geog.ucsb.edu:7201/sparql) and can be direcyly tested in COVID-Forecast-KG. 
+
+1. Which projects have forecasts about cumulative death for California on 01-16-2021? When have these forecast been made? Which of them used regression model? \
+First part of the question can be tested [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q1_project_forecast_timelist&owner=admin) and the other part can be tested [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q1_project_forecast_method&owner=admin). 
+
+2. Which projects implement the assumption that local social distancing policies will be kept in place? Which methods do these projects utilize? \
+The query can be tested [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q2_project_assumption_method&owner=admin). 
+
+3. Find all predicted cumulative death in California on 01-02-2021, and compare it with the reported ground truth. Further check the prediction interval of forecasts that include the reported 'ground truth'.
+The first part can be tested at [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q3_prediction_groundtruth&owner=admin) and the second part can be evaluated [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q3_groundtruth_forecast_interval&owner=admin)
+
+
+4. Among all the 4-week ahead forecasts of cumulative death in early August (i.e., before the second wave unfolded in the fall), which model performs the best for each state across the US?
+There are multiple steps involving in answering this question. First, we extract the earliest forecast date of each research project in August 2020, whose query can be found [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q4_1_first_date_of_August&owner=admin). 
+
+5. What is the relation between reported incident cases and the credit card use change in arts, entertainment, and recreation in New York?
+This question can be ansered by [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q5_coviddeath_economic&owner=admin). 
 
 ## Code Usage 
 
