@@ -91,5 +91,16 @@ There are multiple steps involving in answering this question. First, we extract
 This question can be ansered by [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q5_coviddeath_economic&owner=admin). 
 
 ## Code Usage 
+To triplify forecast, reported 'ground truth', and CDC reported model assumption and method types:
+'''
+python forecast_triplify_NEW.py 
+'''
+To triplify economic data:
+'''
+python economy_general.py
+'''
+To upload generated triples into GraphDB-based COVID-Forecast-Graph:
+
+
 
 ## Funding 
