@@ -92,15 +92,16 @@ This question can be ansered by [here](http://stko-roy.geog.ucsb.edu:7201/sparql
 
 ## Code Usage 
 To triplify forecast, reported 'ground truth', and CDC reported model assumption and method types:
-'''
+```
 python forecast_triplify_NEW.py 
-'''
+```
 To triplify economic data:
-'''
+```
 python economy_general.py
-'''
-To upload generated triples into GraphDB-based COVID-Forecast-Graph:
-
-
-
+```
+To upload generated triples into GraphDB-based COVID-Forecast-Graph (have to install GraphDB and set up the repository first):
+```
+~/graphdb-free-9.5.1/bin$ ./loadrdf -f -i Covid-KG -m parallel ../../NSF-RAPID/output2
+~/graphdb-free-9.5.1/bin$ ./loadrdf -f -i Covid-KG -m parallel ../../NSF-RAPID/output_economy2
+```
 ## Funding 
