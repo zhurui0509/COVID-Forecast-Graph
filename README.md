@@ -65,7 +65,11 @@ To increase the interoperability and reusability of the data, we design a COVID-
     <img src="https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/COVID-SO%20Ontology/images/placetime.png" alt="framework" >
     </p>
 ## COVID-Forecast-KG 
-The generated graph is served at http://stko-roy.geog.ucsb.edu:7201 
+The generated graph is served at http://stko-roy.geog.ucsb.edu:7201 and below is a sub graph visualization of COVID-Forecast-KG:
+    <p align="center">
+    <img src="https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/COVID-SO%20Ontology/images/graphdb_screenshot.png" alt="framework" >
+    </p>
+
 
 ## Competency Questions and Exemplary Queries
 A set of saved exemplary queries to answer the discussed competency questions in the paper can be found at http://stko-roy.geog.ucsb.edu:7201/sparql. 
