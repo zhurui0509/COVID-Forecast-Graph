@@ -8,7 +8,7 @@ The longer the COVID-19 pandemic lasts, the more apparent is becomes that unders
 Our graph is generated based on mainly four repositories: 
 
 * COVID-19 Forecast\
-  [COVID-19 Forecast](https://covid19forecasthub.org/) collects forecasts of COVID-19 related observations made by various teams using different methods. The folder <em>[covid19-forecast-hub]</em> is forked from the public repository https://github.com/reichlab/COVID19-forecast-hub. Collected observable properties from this repository include: 
+  [COVID-19 Forecast](https://covid19forecasthub.org/) collects forecasts of COVID-19 related observations made by various teams using different methods. The folder ./covid19-forecast-hub is forked from the public repository https://github.com/reichlab/COVID19-forecast-hub. Collected observable properties from this repository include: 
   * incident death 
   * incident case
   * cumulative death
@@ -21,7 +21,7 @@ Our graph is generated based on mainly four repositories:
   * cumulative death 
  
 * Economic Tracker \
-We use [Opportunity Insights](https://tracktherecovery.org/) team's [Economic Tracker](https://github.com/OpportunityInsights/EconomicTracker) repository to collect the economic related data. Data in the <em>[EconomicTracker]</em> folder is forked from this repository. Collected observable properties include:
+We use [Opportunity Insights](https://tracktherecovery.org/) team's [Economic Tracker](https://github.com/OpportunityInsights/EconomicTracker) repository to collect the economic related data. Data in the ./EconomicTracker folder is forked from this repository. Collected observable properties include:
   * Spending data from [Affinity Solutions](https://www.affinity.solutions/)
   * Job postings from [Burning Glass Technologies](https://www.burning-glass.com/)
   * Employment levels relative to Jan 4-31 from [Paychex](https://www.paychex.com/), [Intuit](https://www.intuit.com/), [Earnin](https://www.earnin.com/) and [Kronos](https://www.kronos.com/)
@@ -29,14 +29,14 @@ We use [Opportunity Insights](https://tracktherecovery.org/) team's [Economic Tr
   * Small business revenue data from [Womply](https://www.womply.com/)
 
 * CDC Model Assumptions and Method Types \
-The underlying model assumptions and method types of involved [COVID-19 Forecasts](https://github.com/reichlab/COVID19-forecast-hub) are linked to the [CDC reported data](https://github.com/cdcepi/COVID-19-Forecasts). However, the naming schema are quite different between these two repositories. Therefore, we manually matched the team names used by CDC and project names used by COVID-19 Forecast. Moreoever, we categorized the methods into types such as: Machine Leanring, SEIR, SIR, Regression Analysis, Bayesian Analysis, and so on. The processed data is stored as [cdc_model_assumptions.csv](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/cdc_model_assumptions.csv) 
+The underlying model assumptions and method types of involved [COVID-19 Forecasts](https://github.com/reichlab/COVID19-forecast-hub) are linked to the [CDC reported data](https://github.com/cdcepi/COVID-19-Forecasts). However, the naming schema are quite different between these two repositories. Therefore, we manually matched the team names used by CDC and project names used by COVID-19 Forecast. Moreoever, we categorized the methods into types such as: Machine Leanring, SEIR, SIR, Regression Analysis, Bayesian Analysis, and so on. The processed data is stored as <em>[./cdc_model_assumptions.csv](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/cdc_model_assumptions.csv)</em>.
 
 Folder [output_forecast](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output_forecast) contains the triplified forecasts untill 09-30-2020, folder [output2_forecast](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output2_forecast) include forecasts after 09-30-2020. Folder [output_economy] collects graphs of economic-related observations. All data are represnted in the format of [RDF](https://www.w3.org/RDF/) and stored as [turtle files](https://www.w3.org/TR/turtle/). 
 
 The graph and corresponding [endpoint](http://stko-roy.geog.ucsb.edu:7201 ) are updated every Tuesday. 
 
 ## COVID-SO Ontology
-To increase the interoperability and reusability of the data, we design a COVID-19 related ontology - COVID-SO - on top of the [W3C recommended Semantic Sensor Network ontology](https://www.w3.org/TR/vocab-ssn/) and [its extensions](https://www.w3.org/TR/vocab-ssn-ext/). Concretely, we designed a three-tier ontology demonstrated as below. COVID-SO ontology can be found in the folder of [COVID-SO Ontology](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/COVID-SO%20Ontology). 
+To increase the interoperability and reusability of the data, we design a COVID-19 related ontology - COVID-SO - on top of the [W3C recommended Semantic Sensor Network ontology](https://www.w3.org/TR/vocab-ssn/) and [its extensions](https://www.w3.org/TR/vocab-ssn-ext/). Concretely, we designed a three-tier ontology demonstrated as below. COVID-SO ontology can be found in the folder of <em>[./COVID-SO Ontology](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/COVID-SO%20Ontology)</em>. 
 
 * Upper-level ontology
 <p align="center">
@@ -72,25 +72,173 @@ The generated graph is served at http://stko-roy.geog.ucsb.edu:7201 and below is
 
 
 ## Competency Questions and Exemplary Queries
-A set of saved exemplary queries to answer the discussed competency questions in the paper can be found in [this document](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/example_queries.txt). Moreover, these exmplary queires are pre-stored in the [endpoint](http://stko-roy.geog.ucsb.edu:7201/sparql) and can be direcyly tested in COVID-Forecast-KG. 
+A set of saved exemplary SPARQL queries to answer the discussed competency questions in the paper can be found in <em>[./example_queries.txt](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/example_queries.txt)</em>. Moreover, these exmplary queires are pre-stored in the [endpoint](http://stko-roy.geog.ucsb.edu:7201/sparql) and can be direcyly tested in COVID-Forecast-KG. 
 
-1. Which projects have forecasts about cumulative death for California on 01-16-2021? When have these forecast been made? Which of them used regression model? \
-First part of the question can be tested [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q1_project_forecast_timelist&owner=admin) and the other part can be tested [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q1_project_forecast_method&owner=admin). 
+1. Which projects have forecasts about cumulative death for California on 01-16-2021? When have these forecast been made? Which of them used regression analysis? \
+First part of the question can be tested [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q1_project_forecast_timelist&owner=admin) and the query is listed below:
+```
+select ?proj_label ?method_label (GROUP_CONCAT(?time; SEPARATOR=",") as ?time_list) where { 
+  
+  			 ?proj a covid:Research ;
+                   rdfs:label ?proj_label ;
+                   sosa:hasMember ?f ;
+                   sosa:usedProcedure ?method .
+  
+             ?f a covid:Forecast ;
+                sosa:resultTime ?time ;
+                sosa:hasMember ?m .
+  
+             ?m sosa:hasFeatureOfInterest ?p ;
+                sosa:observedProperty covid-obs-property:cum_death ;
+                sosa:phenomenonTime covid-instant:2020-09-12 .
+  
+             ?p covid:hasPlaceName 'California' . 
+  
+  			?method rdfs:label ?method_label ;
+                     		    
+                                  } 
+group by ?proj_label ?method_label
+```
+
+The second part can be tested [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q1_project_forecast_method&owner=admin) and the query is listed as:
+```
+select ?project_label where {
+  ?project a covid:Research ;
+           sosa:hasMember ?forecast ;
+           rdfs:label ?project_label ;
+           sosa:usedProcedure ?method .
+    ?method covid:methodType ?method_type .
+    ?method_type rdfs:label 'Regression Analysis' .
+    
+  ?forecast sosa:hasMember ?target ;
+      		sosa:resultTime ?time .
+  ?target sosa:observedProperty covid-obs-property:cum_death ;
+            sosa:phenomenonTime covid-instant:2021-01-16 ;
+            sosa:hasFeatureOfInterest ?place.
+  ?place covid:hasPlaceName "California" .
+}
+```
 
 2. Which projects implement the assumption that local social distancing policies will be kept in place? Which methods do these projects utilize? \
-The query can be tested [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q2_project_assumption_method&owner=admin). 
+The query can be tested [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q2_project_assumption_method&owner=admin) and the specific SPARQl query is: 
+```
+select ?project_label ?method_label  where {
 
-3. Find all predicted cumulative death in California on 01-02-2021, and compare it with the reported ground truth. Further check the prediction interval of forecasts that include the reported 'ground truth'.
-The first part can be tested at [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q3_prediction_groundtruth&owner=admin) and the second part can be evaluated [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q3_groundtruth_forecast_interval&owner=admin)
+   ?project a covid:Research ;
+             rdfs:label  ?project_label ;
+             sosa:madeBySensor ?model;
+   			 sosa:usedProcedure ?method .
+  
+     ?model covid:hasAssumption ?assumption ;
+            rdfs:label ?model_label . 
+  	 ?assumption covid:assumptionType_sd covid-assumption-type:sd_continue .
+                 
+     ?method covid:methodFull ?method_label . 
+  
+}
+```
 
+3. Find all predicted cumulative death in California on 01-02-2021, and compare it with the reported ground truth. Further check the prediction interval of forecasts that include the reported 'ground truth'.\
+The first part can be tested [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q3_prediction_groundtruth&owner=admin) and below is the SPARQL query:
+```
+select ?forecast ?predict_value ?groundtruth_value where {
+   
+  ?forecast sosa:hasMember ?target .
+  
+  ?target a covid:Target ;
+            sosa:observedProperty covid-obs-property:cum_death ;
+            sosa:phenomenonTime ?time ;
+            covid:point ?predict_value ;
+            sosa:hasFeatureOfInterest ?place .
+    
+  ?ground_truth a covid:GroundTruth ;
+              sosa:hasFeatureOfInterest ?place ;
+              sosa:observedProperty covid-obs-property:cum_death ;
+              sosa:phenomenonTime ?time ;
+              covid:point ?groundtruth_value .
+  
+  ?place covid:hasPlaceName "California" .
+  ?time time:inXSDDateTime "2021-01-02" .
+}
+```
 
-4. Among all the 4-week ahead forecasts of cumulative death in early August (i.e., before the second wave unfolded in the fall), which model performs the best for each state across the US?
-There are multiple steps involving in answering this question. First, we extract the earliest forecast date of each research project in August 2020, whose query can be found [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q4_1_first_date_of_August&owner=admin). 
+The second part can be evaluated [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q3_groundtruth_forecast_interval&owner=admin) and its SPARQL query is:
+```
+select ?project_label ?forecast_time ?ground_value ?upper_bound ?lower_bound ((?upper_bound-?lower_bound) as ?interval) where {
+   ?project sosa:hasMember ?forecast ;
+            rdfs:label ?project_label . 
+    
+   ?forecast sosa:hasMember ?target ;
+             sosa:resultTime ?forecast_time .
+             
+   
+   ?target a covid:Target ;
+            sosa:observedProperty covid-obs-property:cum_death ;
+            sosa:phenomenonTime ?time ;
+            sosa:hasFeatureOfInterest ?place ;
+            covid:quantile_0.01 ?lower_bound ;
+            covid:quantile_0.99 ?upper_bound . 
+    
+  ?ground_truth a covid:GroundTruth ;
+              sosa:hasFeatureOfInterest ?place ;
+              sosa:observedProperty covid-obs-property:cum_death ;
+              sosa:phenomenonTime ?time ;
+               covid:point ?ground_value .
 
-5. What is the relation between reported incident cases and the credit card use change in arts, entertainment, and recreation in New York?
-This question can be ansered by [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q5_coviddeath_economic&owner=admin). 
+  
+  ?place covid:hasPlaceName "California" .
+  ?time time:inXSDDateTime "2021-01-02" .
+    
+  filter (?ground_value <?upper_bound && ?ground_value>?lower_bound)
+    
+}
+```
+
+4. Among all the 4-week ahead forecasts of cumulative death in early August (i.e., before the second wave unfolded in the fall), which model performs the best for each state across the US?\
+There are multiple steps involved in answering this question. First, we extract the earliest forecast date of each research project in August 2020, whose query can be found [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q4_1_first_date_of_August&owner=admin) and the SPARQL query can be found below. The result is stored at <em>[./Question4-Analysis/model_first_august.csv](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/Question4-Analysis/model_first_august.csv)</em>. Then we use simple Python scripts to loop through each state finding their best models and subsequently visualize them as a map. All Python scripts can be found at <em>[./Question4-Analysis/Q5_COVID-Best_model.ipynb](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/Question4-Analysis/Q5_COVID-Best_model.ipynb)</em>.
+
+```
+select ?research (min(?result_time) as ?first_august) {
+  
+  	?research sosa:hasMember ?forecast .
+  
+  	?forecast a covid:Forecast ;
+    	sosa:resultTime ?result_time .
+
+ 	FILTER regex(?result_time, "^2020-08") .
+}
+group by ?research
+order by ?first_september
+```
+
+5. What is the relation between reported incident cases and the credit card use change in arts, entertainment, and recreation in New York?\
+This question can be tested [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q5_coviddeath_economic&owner=admin) and below is the specific query:
+```
+SELECT distinct ?time ?groundtruth_value ?val_econ where {
+
+    ?groundtruth a covid:GroundTruth ;
+                sosa:phenomenonTime ?time ;
+                sosa:observedProperty covid-obs-property:cum_death ;
+                 sosa:hasFeatureOfInterest ?place ;
+                 covid:point ?groundtruth_value .
+  
+
+    econ-affinity:state-daily sosa:hasMember ?econ_collection .
+    ?econ_colelction sosa:phenomenonTime ?time ;
+                     sosa:hasFeatureOfInterest ?place ;
+                     sosa:hasMember ?econ .
+    ?econ sosa:observedProperty econ-obs-property:spend_aer ;
+      econ:point ?val_econ .
+
+        ?place covid:hasPlaceName "New York" .
+}
+order by DESC(?time)
+limit 100
+
+```
 
 ## Code Usage 
+Codes to triplify the data collected from various repositories are organized at <em>[./codes](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/code)</em>. 
 To triplify forecast, reported 'ground truth', and CDC reported model assumption and method types:
 ```
 python forecast_triplify_NEW.py 
@@ -105,3 +253,4 @@ To upload generated triples into GraphDB-based COVID-Forecast-Graph (have to ins
 ~/graphdb-free-9.5.1/bin$ ./loadrdf -f -i Covid-KG -m parallel ../../NSF-RAPID/output_economy2
 ```
 ## Funding 
+The work is funded by the National Science Foundation (Awards No. 2028310, 1936677, and 2033521)
