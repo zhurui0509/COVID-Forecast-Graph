@@ -249,8 +249,7 @@ python economy_general.py
 ```
 To upload generated triples into GraphDB-based COVID-Forecast-Graph (have to install GraphDB and set up the repository first):
 ```
-~/graphdb-free-9.5.1/bin$ ./loadrdf -f -i Covid-KG -m parallel ../../NSF-RAPID/output2
-~/graphdb-free-9.5.1/bin$ ./loadrdf -f -i Covid-KG -m parallel ../../NSF-RAPID/output_economy2
+~/graphdb-free-9.5.1/bin$ ./loadrdf -v -i Covid-KG -m parallel ../../NSF-RAPID/output_economy2 ../../NSF-RAPID/output2_forecast
 ```
 ## Funding 
 The work is funded by the National Science Foundation (Awards No. 2028310, 1936677, and 2033521)
