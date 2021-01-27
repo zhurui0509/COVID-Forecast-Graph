@@ -218,7 +218,7 @@ SELECT distinct ?time ?groundtruth_value ?val_econ where {
 
     ?groundtruth a covid:GroundTruth ;
                 sosa:phenomenonTime ?time ;
-                sosa:observedProperty covid-obs-property:cum_death ;
+                sosa:observedProperty covid-obs-property:inc_case ;
                  sosa:hasFeatureOfInterest ?place ;
                  covid:point ?groundtruth_value .
   
@@ -241,7 +241,7 @@ limit 100
 Codes to triplify the data collected from various repositories are organized at <em>[./codes](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/code)</em>. 
 To triplify forecast, reported 'ground truth', and CDC reported model assumption and method types:
 ```
-python forecast_triplify_NEW.py 
+python forecast_triplify_NEW.py [output_folder] [start_date]
 ```
 To triplify economic data:
 ```
@@ -249,7 +249,7 @@ python economy_general.py
 ```
 To upload generated triples into GraphDB-based COVID-Forecast-Graph (have to install GraphDB and set up the repository first):
 ```
-~/graphdb-free-9.5.1/bin$ ./loadrdf -v -i Covid-KG -m parallel ../../NSF-RAPID/output_economy2 ../../NSF-RAPID/output2_forecast
+~/graphdb-free-9.5.1/bin$ ./loadrdf -v -f -i Covid-KG -m parallel [economy_data_folder] [forecast_groundtruth_data_folder]
 ```
 ## Funding 
 The work is funded by the National Science Foundation (Awards No. 2028310, 1936677, and 2033521)
