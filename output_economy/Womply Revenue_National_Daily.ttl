@@ -382,7 +382,7 @@ econ-womplyrevenue:national-daily a econ:EconomicTracker ;
         econ-womplyrevenue-stat-collection:2020-12-30-national-daily-US,
         econ-womplyrevenue-stat-collection:2020-12-31-national-daily-US ;
     sosa:madeBySensor econ:WomplyRevenue ;
-    sosa:resultTime "2021-01-21" .
+    sosa:resultTime "2021-01-26" .
 
 covid-instant:2020-01-10 a time:Instant ;
     time:inXSDDateTime "2020-01-10" .

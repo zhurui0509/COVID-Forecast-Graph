@@ -142,7 +142,7 @@ def triplify_economy(source_name, data_file, column_list, temporal_resolution, s
     econ_g.bind('time', TIME)
     econ_g.bind('sosa', SOSA)
 
-    data_dir = './EconomicTracker/data/'
+    data_dir = '../EconomicTracker/data/'
 
     data_df = pd.read_csv(data_dir + data_file)
     data_df= data_df.applymap(lambda x: str(numeric_conversion(x)))
@@ -150,7 +150,7 @@ def triplify_economy(source_name, data_file, column_list, temporal_resolution, s
     data_list = data_df.values.tolist()
 
     output = data_file.replace(" - ", "_")
-    output = './output_economy2/'+output.replace(".csv", ".ttl")
+    output = '../output_economy/'+output.replace(".csv", ".ttl")
 
 
     # step1: build the EconomicTracker level observation collection 

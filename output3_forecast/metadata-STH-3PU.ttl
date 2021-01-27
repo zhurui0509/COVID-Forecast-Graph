@@ -1,0 +1,31 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-license: <http://covid.geog.ucsb.edu/lod/license/> .
+@prefix covid-method: <http://covid.geog.ucsb.edu/lod/method/> .
+@prefix covid-model: <http://covid.geog.ucsb.edu/lod/model/> .
+@prefix covid-model-designation: <http://covid.geog.ucsb.edu/lod/modelDesignation/> .
+@prefix covid-owner: <http://covid.geog.ucsb.edu/lod/owner/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix ns1: <http://www.w3.org/ns/sosa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-research:STH-3PU a covid:Research ;
+    rdfs:label "STH-3PU" ;
+    ns1:madeBySensor covid-model:STH-3PU ;
+    ns1:usedProcedure covid-method:3PU .
+
+covid-method:3PU a covid:Method ;
+    rdfs:label "3PU" .
+
+covid-model:STH-3PU a covid:Model ;
+    rdfs:label "STH-3PU" ;
+    covid:hasLicense covid-license:cc-by-4.0 ;
+    covid:hasName "3 Phase Unadjusted" ;
+    covid:hasWebsite <https://public.tableau.com/profile/covid19model#!/vizhome/COVID-19DeathProjections/USDeaths> ;
+    covid:modelBrief ">-    Model assumes pandemics hit in 3 distinct phases. Each phase can be represented by a single function and therefore the variables can be isolated." ;
+    covid:modelDesc ">-    Simplified model: Deaths(x) = Deaths(x-1)*R  * (1-E) * (1-H) where                R is the rate of growth in a given society with no prior infections and no societal intervention.                E is the effectiveness of societal interventions such as social distancing, face masks, etc.                 H is the % of the population with immunity to the virus        In modeling E known societal restrictions are used for near-term projections. Projections greater than 1 month out assume that                 effectiveness will be adjusted relative to the daily deaths at that location on April 30. i.e.  The more that day's deaths is below the April 30,                mark the greater the effectiveness will be reduced and the more that day's deaths exceed deaths on April 30, the more the effectiveness is increased.        In modeling H, death totals and not infection totals are used. Current assumptions being a 0.50% death rate and 20% of the population had                 some prior resistance." ;
+    covid:modelDesignation covid-model-designation:primary ;
+    covid:owner covid-owner:STH .
+
+covid-owner:STH a covid:Team ;
+    rdfs:label "STH" .
+

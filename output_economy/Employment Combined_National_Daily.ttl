@@ -352,12 +352,13 @@ econ-aychex_intuit_earnin_kronos:national-daily a econ:EconomicTracker ;
         econ-aychex_intuit_earnin_kronos-stat-collection:2020-12-16-national-daily-US,
         econ-aychex_intuit_earnin_kronos-stat-collection:2020-12-17-national-daily-US,
         econ-aychex_intuit_earnin_kronos-stat-collection:2020-12-18-national-daily-US,
-        econ-aychex_intuit_earnin_kronos-stat-collection:2020-12-19-national-daily-US ;
+        econ-aychex_intuit_earnin_kronos-stat-collection:2020-12-19-national-daily-US,
+        econ-aychex_intuit_earnin_kronos-stat-collection:2020-12-20-national-daily-US ;
     sosa:madeBySensor econ:Aychex,
         econ:Earnin,
         econ:Intuit,
         econ:Kronos ;
-    sosa:resultTime "2021-01-21" .
+    sosa:resultTime "2021-01-26" .
 
 covid-instant:2020-01-14 a time:Instant ;
     time:inXSDDateTime "2020-01-14" .
@@ -1381,6 +1382,9 @@ covid-instant:2020-12-18 a time:Instant ;
 
 covid-instant:2020-12-19 a time:Instant ;
     time:inXSDDateTime "2020-12-19" .
+
+covid-instant:2020-12-20 a time:Instant ;
+    time:inXSDDateTime "2020-12-20" .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-01-14-national-daily-US-emp_combined a econ:Stats ;
     econ:point -9.87e-03 ;
@@ -9019,7 +9023,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-08-13-national-daily-US-emp_combined 
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-08-13-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 5.84e-05 ;
+    econ:point 5.084e-04 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-08-13-national-daily-US-emp_combined_inclow a econ:Stats ;
@@ -11575,7 +11579,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-10-23-national-daily-US-emp_combined 
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-23-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.62e-02 ;
+    econ:point 1.61e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-23-national-daily-US-emp_combined_inclow a econ:Stats ;
@@ -11587,7 +11591,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-10-23-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-23-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.3e-02 ;
+    econ:point -4.31e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-23-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -11611,7 +11615,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-10-24-national-daily-US-emp_combined 
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-24-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.64e-02 ;
+    econ:point 1.62e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-24-national-daily-US-emp_combined_inclow a econ:Stats ;
@@ -11623,7 +11627,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-10-24-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-24-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.21e-02 ;
+    econ:point -4.22e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-24-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -11647,11 +11651,11 @@ econ-aychex_intuit_earnin_kronos-stat:2020-10-25-national-daily-US-emp_combined 
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-25-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.66e-02 ;
+    econ:point 1.64e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-25-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.06e-01 ;
+    econ:point -2.05e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-25-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -11659,7 +11663,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-10-25-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-25-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.12e-02 ;
+    econ:point -4.13e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-25-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -11683,7 +11687,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-10-26-national-daily-US-emp_combined 
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-26-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.63e-02 ;
+    econ:point 1.62e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-26-national-daily-US-emp_combined_inclow a econ:Stats ;
@@ -11695,7 +11699,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-10-26-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-26-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.1e-02 ;
+    econ:point -4.13e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-26-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -11715,15 +11719,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-10-26-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-27-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -6.24e-02 ;
+    econ:point -6.25e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-27-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.6e-02 ;
+    econ:point 1.59e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-27-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.07e-01 ;
+    econ:point -2.06e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-27-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -11731,7 +11735,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-10-27-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-27-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.09e-02 ;
+    econ:point -4.12e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-27-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -11751,7 +11755,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-10-27-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-28-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -6.25e-02 ;
+    econ:point -6.26e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-28-national-daily-US-emp_combined_inchigh a econ:Stats ;
@@ -11759,7 +11763,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-10-28-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-28-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.07e-01 ;
+    econ:point -2.06e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-28-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -11767,7 +11771,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-10-28-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-28-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.08e-02 ;
+    econ:point -4.12e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-28-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -11787,11 +11791,11 @@ econ-aychex_intuit_earnin_kronos-stat:2020-10-28-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-29-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -6.25e-02 ;
+    econ:point -6.27e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-29-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.54e-02 ;
+    econ:point 1.56e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-29-national-daily-US-emp_combined_inclow a econ:Stats ;
@@ -11803,7 +11807,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-10-29-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-29-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.07e-02 ;
+    econ:point -4.11e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-29-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -11823,11 +11827,11 @@ econ-aychex_intuit_earnin_kronos-stat:2020-10-29-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-30-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -6.25e-02 ;
+    econ:point -6.28e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-30-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.51e-02 ;
+    econ:point 1.55e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-30-national-daily-US-emp_combined_inclow a econ:Stats ;
@@ -11839,7 +11843,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-10-30-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-30-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.07e-02 ;
+    econ:point -4.11e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-30-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -11859,15 +11863,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-10-30-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-31-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -6.26e-02 ;
+    econ:point -6.29e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-31-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.49e-02 ;
+    econ:point 1.54e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-31-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.07e-01 ;
+    econ:point -2.08e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-31-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -11875,7 +11879,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-10-31-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-31-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.07e-02 ;
+    econ:point -4.12e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-10-31-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -11895,15 +11899,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-10-31-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-01-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -6.27e-02 ;
+    econ:point -6.3e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-01-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.46e-02 ;
+    econ:point 1.53e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-01-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.07e-01 ;
+    econ:point -2.08e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-01-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -11911,7 +11915,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-01-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-01-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.08e-02 ;
+    econ:point -4.13e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-01-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -11931,15 +11935,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-01-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-02-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -6.22e-02 ;
+    econ:point -6.25e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-02-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.47e-02 ;
+    econ:point 1.55e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-02-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.06e-01 ;
+    econ:point -2.07e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-02-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -11947,7 +11951,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-02-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-02-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.03e-02 ;
+    econ:point -4.08e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-02-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -11967,15 +11971,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-02-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-03-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -6.17e-02 ;
+    econ:point -6.21e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-03-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.49e-02 ;
+    econ:point 1.57e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-03-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.05e-01 ;
+    econ:point -2.06e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-03-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -11983,7 +11987,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-03-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-03-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -3.99e-02 ;
+    econ:point -4.04e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-03-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -12003,15 +12007,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-03-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-04-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -6.23e-02 ;
+    econ:point -6.27e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-04-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.45e-02 ;
+    econ:point 1.52e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-04-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.06e-01 ;
+    econ:point -2.07e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-04-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -12019,7 +12023,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-04-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-04-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.05e-02 ;
+    econ:point -4.1e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-04-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -12039,15 +12043,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-04-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-05-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -6.3e-02 ;
+    econ:point -6.33e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-05-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.42e-02 ;
+    econ:point 1.47e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-05-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.07e-01 ;
+    econ:point -2.08e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-05-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -12055,7 +12059,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-05-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-05-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.12e-02 ;
+    econ:point -4.16e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-05-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -12075,15 +12079,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-05-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-06-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -6.37e-02 ;
+    econ:point -6.4e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-06-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.4e-02 ;
+    econ:point 1.42e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-06-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.08e-01 ;
+    econ:point -2.09e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-06-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -12091,7 +12095,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-06-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-06-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.19e-02 ;
+    econ:point -4.23e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-06-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -12111,15 +12115,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-06-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-07-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -6.45e-02 ;
+    econ:point -6.47e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-07-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.38e-02 ;
+    econ:point 1.37e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-07-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.09e-01 ;
+    econ:point -2.1e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-07-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -12127,7 +12131,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-07-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-07-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.27e-02 ;
+    econ:point -4.3e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-07-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -12151,7 +12155,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-08-national-daily-US-emp_combined 
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-08-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.36e-02 ;
+    econ:point 1.33e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-08-national-daily-US-emp_combined_inclow a econ:Stats ;
@@ -12163,7 +12167,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-08-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-08-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.35e-02 ;
+    econ:point -4.37e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-08-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -12183,15 +12187,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-08-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-09-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -6.67e-02 ;
+    econ:point -6.66e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-09-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.31e-02 ;
+    econ:point 1.27e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-09-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.12e-01 ;
+    econ:point -2.13e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-09-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -12199,7 +12203,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-09-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-09-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.48e-02 ;
+    econ:point -4.49e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-09-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -12219,11 +12223,11 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-09-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-10-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -6.81e-02 ;
+    econ:point -6.79e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-10-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.26e-02 ;
+    econ:point 1.22e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-10-national-daily-US-emp_combined_inclow a econ:Stats ;
@@ -12255,11 +12259,11 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-10-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-11-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -6.81e-02 ;
+    econ:point -6.79e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-11-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.29e-02 ;
+    econ:point 1.26e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-11-national-daily-US-emp_combined_inclow a econ:Stats ;
@@ -12271,7 +12275,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-11-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-11-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.62e-02 ;
+    econ:point -4.61e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-11-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -12291,7 +12295,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-11-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-12-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -6.8e-02 ;
+    econ:point -6.79e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-12-national-daily-US-emp_combined_inchigh a econ:Stats ;
@@ -12299,7 +12303,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-12-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-12-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.15e-01 ;
+    econ:point -2.14e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-12-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -12307,7 +12311,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-12-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-12-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.62e-02 ;
+    econ:point -4.61e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-12-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -12327,15 +12331,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-12-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-13-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -6.79e-02 ;
+    econ:point -6.78e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-13-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.33e-02 ;
+    econ:point 1.37e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-13-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.15e-01 ;
+    econ:point -2.14e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-13-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -12343,7 +12347,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-13-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-13-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.61e-02 ;
+    econ:point -4.6e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-13-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -12367,7 +12371,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-14-national-daily-US-emp_combined 
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-14-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.35e-02 ;
+    econ:point 1.43e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-14-national-daily-US-emp_combined_inclow a econ:Stats ;
@@ -12399,11 +12403,11 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-14-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-15-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -6.75e-02 ;
+    econ:point -6.78e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-15-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.36e-02 ;
+    econ:point 1.45e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-15-national-daily-US-emp_combined_inclow a econ:Stats ;
@@ -12415,7 +12419,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-15-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-15-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.59e-02 ;
+    econ:point -4.6e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-15-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -12435,11 +12439,11 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-15-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-16-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -6.61e-02 ;
+    econ:point -6.67e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-16-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.43e-02 ;
+    econ:point 1.53e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-16-national-daily-US-emp_combined_inclow a econ:Stats ;
@@ -12451,7 +12455,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-16-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-16-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.47e-02 ;
+    econ:point -4.5e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-16-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -12471,11 +12475,11 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-16-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-17-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -6.46e-02 ;
+    econ:point -6.55e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-17-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.49e-02 ;
+    econ:point 1.61e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-17-national-daily-US-emp_combined_inclow a econ:Stats ;
@@ -12487,7 +12491,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-17-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-17-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.34e-02 ;
+    econ:point -4.4e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-17-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -12507,15 +12511,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-17-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-18-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -6.46e-02 ;
+    econ:point -6.59e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-18-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.45e-02 ;
+    econ:point 1.59e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-18-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.1e-01 ;
+    econ:point -2.12e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-18-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -12523,7 +12527,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-18-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-18-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.36e-02 ;
+    econ:point -4.45e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-18-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -12543,15 +12547,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-18-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-19-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -6.46e-02 ;
+    econ:point -6.64e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-19-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.4e-02 ;
+    econ:point 1.56e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-19-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.1e-01 ;
+    econ:point -2.13e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-19-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -12559,7 +12563,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-19-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-19-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.38e-02 ;
+    econ:point -4.5e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-19-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -12579,15 +12583,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-19-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-20-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -6.46e-02 ;
+    econ:point -6.68e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-20-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.35e-02 ;
+    econ:point 1.53e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-20-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.1e-01 ;
+    econ:point -2.14e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-20-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -12595,7 +12599,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-20-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-20-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.39e-02 ;
+    econ:point -4.55e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-20-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -12615,15 +12619,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-20-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-21-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -6.46e-02 ;
+    econ:point -6.8e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-21-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.28e-02 ;
+    econ:point 1.45e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-21-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.09e-01 ;
+    econ:point -2.17e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-21-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -12631,7 +12635,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-21-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-21-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.42e-02 ;
+    econ:point -4.67e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-21-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -12651,15 +12655,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-21-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-22-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -6.48e-02 ;
+    econ:point -6.93e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-22-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.2e-02 ;
+    econ:point 1.4e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-22-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.09e-01 ;
+    econ:point -2.19e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-22-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -12667,7 +12671,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-22-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-22-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.47e-02 ;
+    econ:point -4.79e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-22-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -12687,15 +12691,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-22-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-23-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -6.66e-02 ;
+    econ:point -7.06e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-23-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.05e-02 ;
+    econ:point 1.34e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-23-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.11e-01 ;
+    econ:point -2.21e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-23-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -12703,7 +12707,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-23-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-23-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.66e-02 ;
+    econ:point -4.91e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-23-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -12723,15 +12727,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-23-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-24-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -6.89e-02 ;
+    econ:point -7.18e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-24-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 8.94e-03 ;
+    econ:point 1.3e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-24-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.13e-01 ;
+    econ:point -2.24e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-24-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -12739,7 +12743,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-24-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-24-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -4.92e-02 ;
+    econ:point -5.03e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-24-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -12759,15 +12763,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-24-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-25-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -7.1e-02 ;
+    econ:point -7.31e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-25-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 7.84e-03 ;
+    econ:point 1.25e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-25-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.15e-01 ;
+    econ:point -2.26e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-25-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -12795,15 +12799,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-25-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-26-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -7.39e-02 ;
+    econ:point -7.43e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-26-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 6.61e-03 ;
+    econ:point 1.22e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-26-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.17e-01 ;
+    econ:point -2.28e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-26-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -12811,7 +12815,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-26-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-26-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -5.46e-02 ;
+    econ:point -5.26e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-26-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -12831,15 +12835,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-26-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-27-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -7.76e-02 ;
+    econ:point -7.56e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-27-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 5.26e-03 ;
+    econ:point 1.19e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-27-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.21e-01 ;
+    econ:point -2.31e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-27-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -12847,7 +12851,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-27-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-27-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -5.84e-02 ;
+    econ:point -5.38e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-27-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -12867,15 +12871,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-27-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-28-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -8.19e-02 ;
+    econ:point -7.68e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-28-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 3.8e-03 ;
+    econ:point 1.16e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-28-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.25e-01 ;
+    econ:point -2.33e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-28-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -12883,7 +12887,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-28-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-28-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -6.29e-02 ;
+    econ:point -5.5e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-28-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -12903,15 +12907,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-28-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-29-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -8.63e-02 ;
+    econ:point -7.81e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-29-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 2.3e-03 ;
+    econ:point 1.1e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-29-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.3e-01 ;
+    econ:point -2.35e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-29-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -12919,7 +12923,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-29-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-29-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -6.74e-02 ;
+    econ:point -5.61e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-29-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -12939,15 +12943,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-29-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-30-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -9.03e-02 ;
+    econ:point -7.93e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-30-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 8.55e-04 ;
+    econ:point 1.04e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-30-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.34e-01 ;
+    econ:point -2.38e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-30-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -12955,7 +12959,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-30-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-30-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -7.13e-02 ;
+    econ:point -5.73e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-11-30-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -12975,15 +12979,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-11-30-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-01-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -9.34e-02 ;
+    econ:point -7.9e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-01-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point -4.93e-04 ;
+    econ:point 1.07e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-01-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.38e-01 ;
+    econ:point -2.37e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-01-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -12991,7 +12995,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-01-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-01-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -7.43e-02 ;
+    econ:point -5.71e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-01-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -13011,15 +13015,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-01-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-02-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -9.55e-02 ;
+    econ:point -7.88e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-02-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point -1.71e-03 ;
+    econ:point 1.08e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-02-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.41e-01 ;
+    econ:point -2.37e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-02-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -13027,7 +13031,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-02-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-02-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -7.62e-02 ;
+    econ:point -5.69e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-02-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -13047,15 +13051,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-02-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-03-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -9.65e-02 ;
+    econ:point -7.85e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-03-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point -2.77e-03 ;
+    econ:point 1.1e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-03-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.43e-01 ;
+    econ:point -2.36e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-03-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -13063,7 +13067,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-03-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-03-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -7.68e-02 ;
+    econ:point -5.68e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-03-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -13083,15 +13087,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-03-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-04-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -9.62e-02 ;
+    econ:point -7.82e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-04-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point -3.66e-03 ;
+    econ:point 1.11e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-04-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.44e-01 ;
+    econ:point -2.35e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-04-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -13099,7 +13103,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-04-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-04-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -7.6e-02 ;
+    econ:point -5.66e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-04-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -13119,15 +13123,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-04-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-05-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -9.49e-02 ;
+    econ:point -7.8e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-05-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point -4.33e-03 ;
+    econ:point 1.12e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-05-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.45e-01 ;
+    econ:point -2.35e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-05-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -13135,7 +13139,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-05-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-05-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -7.41e-02 ;
+    econ:point -5.64e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-05-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -13155,15 +13159,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-05-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-06-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -9.29e-02 ;
+    econ:point -7.85e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-06-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point -4.68e-03 ;
+    econ:point 1.1e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-06-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.45e-01 ;
+    econ:point -2.36e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-06-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -13171,7 +13175,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-06-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-06-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -7.15e-02 ;
+    econ:point -5.7e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-06-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -13191,15 +13195,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-06-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-07-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -9.08e-02 ;
+    econ:point -7.91e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-07-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point -4.59e-03 ;
+    econ:point 1.09e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-07-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.45e-01 ;
+    econ:point -2.37e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-07-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -13207,7 +13211,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-07-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-07-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -6.89e-02 ;
+    econ:point -5.75e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-07-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -13227,15 +13231,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-07-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-08-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -8.88e-02 ;
+    econ:point -7.97e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-08-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point -3.95e-03 ;
+    econ:point 1.07e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-08-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.45e-01 ;
+    econ:point -2.38e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-08-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -13243,7 +13247,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-08-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-08-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -6.65e-02 ;
+    econ:point -5.81e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-08-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -13263,15 +13267,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-08-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-09-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -8.7e-02 ;
+    econ:point -8.02e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-09-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point -2.71e-03 ;
+    econ:point 1.05e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-09-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.44e-01 ;
+    econ:point -2.39e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-09-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -13279,7 +13283,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-09-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-09-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -6.46e-02 ;
+    econ:point -5.87e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-09-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -13299,15 +13303,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-09-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-10-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -8.56e-02 ;
+    econ:point -8.08e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-10-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point -8.6e-04 ;
+    econ:point 1.03e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-10-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.44e-01 ;
+    econ:point -2.4e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-10-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -13315,7 +13319,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-10-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-10-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -6.32e-02 ;
+    econ:point -5.92e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-10-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -13335,15 +13339,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-10-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-11-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -8.46e-02 ;
+    econ:point -8.14e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-11-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 1.58e-03 ;
+    econ:point 1.01e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-11-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.44e-01 ;
+    econ:point -2.41e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-11-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -13351,7 +13355,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-11-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-11-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -6.24e-02 ;
+    econ:point -5.98e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-11-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -13371,15 +13375,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-11-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-12-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -8.39e-02 ;
+    econ:point -8.19e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-12-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 4.52e-03 ;
+    econ:point 9.89e-03 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-12-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.45e-01 ;
+    econ:point -2.42e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-12-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -13387,7 +13391,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-12-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-12-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -6.22e-02 ;
+    econ:point -6.03e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-12-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -13407,15 +13411,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-12-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-13-national-daily-US-emp_combined a econ:Stats ;
-    econ:point -8.35e-02 ;
+    econ:point -8.25e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-13-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 7.62e-03 ;
+    econ:point 9.69e-03 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-13-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point -2.45e-01 ;
+    econ:point -2.43e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-13-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -13423,7 +13427,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-13-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-13-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point -6.23e-02 ;
+    econ:point -6.09e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-13-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -13443,15 +13447,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-13-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-14-national-daily-US-emp_combined a econ:Stats ;
-    econ:point 0e+00 ;
+    econ:point -8.31e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-14-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 0e+00 ;
+    econ:point 9.5e-03 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-14-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point 0e+00 ;
+    econ:point -2.44e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-14-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -13459,7 +13463,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-14-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-14-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point 0e+00 ;
+    econ:point -6.15e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-14-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -13479,15 +13483,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-14-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-15-national-daily-US-emp_combined a econ:Stats ;
-    econ:point 0e+00 ;
+    econ:point -8.36e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-15-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 0e+00 ;
+    econ:point 9.3e-03 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-15-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point 0e+00 ;
+    econ:point -2.46e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-15-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -13495,7 +13499,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-15-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-15-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point 0e+00 ;
+    econ:point -6.2e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-15-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -13515,15 +13519,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-15-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-16-national-daily-US-emp_combined a econ:Stats ;
-    econ:point 0e+00 ;
+    econ:point -8.42e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-16-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 0e+00 ;
+    econ:point 9.11e-03 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-16-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point 0e+00 ;
+    econ:point -2.47e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-16-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -13531,7 +13535,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-16-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-16-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point 0e+00 ;
+    econ:point -6.26e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-16-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -13551,15 +13555,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-16-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-17-national-daily-US-emp_combined a econ:Stats ;
-    econ:point 0e+00 ;
+    econ:point -8.48e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-17-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 0e+00 ;
+    econ:point 8.92e-03 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-17-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point 0e+00 ;
+    econ:point -2.48e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-17-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -13567,7 +13571,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-17-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-17-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point 0e+00 ;
+    econ:point -6.32e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-17-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -13587,15 +13591,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-17-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-18-national-daily-US-emp_combined a econ:Stats ;
-    econ:point 0e+00 ;
+    econ:point -8.53e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-18-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 0e+00 ;
+    econ:point 8.72e-03 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-18-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point 0e+00 ;
+    econ:point -2.49e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-18-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -13603,7 +13607,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-18-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-18-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point 0e+00 ;
+    econ:point -6.37e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-18-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -13623,15 +13627,15 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-18-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-19-national-daily-US-emp_combined a econ:Stats ;
-    econ:point 0e+00 ;
+    econ:point -8.59e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-19-national-daily-US-emp_combined_inchigh a econ:Stats ;
-    econ:point 0e+00 ;
+    econ:point 8.53e-03 ;
     sosa:observedProperty econ-obs-property:emp_combined_inchigh .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-19-national-daily-US-emp_combined_inclow a econ:Stats ;
-    econ:point 0e+00 ;
+    econ:point -2.5e-01 ;
     sosa:observedProperty econ-obs-property:emp_combined_inclow .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-19-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
@@ -13639,7 +13643,7 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-19-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-19-national-daily-US-emp_combined_incmiddle a econ:Stats ;
-    econ:point 0e+00 ;
+    econ:point -6.43e-02 ;
     sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-19-national-daily-US-emp_combined_ss40 a econ:Stats ;
@@ -13655,6 +13659,42 @@ econ-aychex_intuit_earnin_kronos-stat:2020-12-19-national-daily-US-emp_combined_
     sosa:observedProperty econ-obs-property:emp_combined_ss65 .
 
 econ-aychex_intuit_earnin_kronos-stat:2020-12-19-national-daily-US-emp_combined_ss70 a econ:Stats ;
+    econ:point 0e+00 ;
+    sosa:observedProperty econ-obs-property:emp_combined_ss70 .
+
+econ-aychex_intuit_earnin_kronos-stat:2020-12-20-national-daily-US-emp_combined a econ:Stats ;
+    econ:point -8.65e-02 ;
+    sosa:observedProperty econ-obs-property:emp_combined .
+
+econ-aychex_intuit_earnin_kronos-stat:2020-12-20-national-daily-US-emp_combined_inchigh a econ:Stats ;
+    econ:point 8.33e-03 ;
+    sosa:observedProperty econ-obs-property:emp_combined_inchigh .
+
+econ-aychex_intuit_earnin_kronos-stat:2020-12-20-national-daily-US-emp_combined_inclow a econ:Stats ;
+    econ:point -2.51e-01 ;
+    sosa:observedProperty econ-obs-property:emp_combined_inclow .
+
+econ-aychex_intuit_earnin_kronos-stat:2020-12-20-national-daily-US-emp_combined_inclow_advance a econ:Stats ;
+    econ:point 1e+00 ;
+    sosa:observedProperty econ-obs-property:emp_combined_inclow_advance .
+
+econ-aychex_intuit_earnin_kronos-stat:2020-12-20-national-daily-US-emp_combined_incmiddle a econ:Stats ;
+    econ:point -6.49e-02 ;
+    sosa:observedProperty econ-obs-property:emp_combined_incmiddle .
+
+econ-aychex_intuit_earnin_kronos-stat:2020-12-20-national-daily-US-emp_combined_ss40 a econ:Stats ;
+    econ:point 0e+00 ;
+    sosa:observedProperty econ-obs-property:emp_combined_ss40 .
+
+econ-aychex_intuit_earnin_kronos-stat:2020-12-20-national-daily-US-emp_combined_ss60 a econ:Stats ;
+    econ:point 0e+00 ;
+    sosa:observedProperty econ-obs-property:emp_combined_ss60 .
+
+econ-aychex_intuit_earnin_kronos-stat:2020-12-20-national-daily-US-emp_combined_ss65 a econ:Stats ;
+    econ:point 0e+00 ;
+    sosa:observedProperty econ-obs-property:emp_combined_ss65 .
+
+econ-aychex_intuit_earnin_kronos-stat:2020-12-20-national-daily-US-emp_combined_ss70 a econ:Stats ;
     econ:point 0e+00 ;
     sosa:observedProperty econ-obs-property:emp_combined_ss70 .
 
@@ -18090,6 +18130,19 @@ econ-aychex_intuit_earnin_kronos-stat-collection:2020-12-19-national-daily-US a 
         econ-aychex_intuit_earnin_kronos-stat:2020-12-19-national-daily-US-emp_combined_ss65,
         econ-aychex_intuit_earnin_kronos-stat:2020-12-19-national-daily-US-emp_combined_ss70 ;
     sosa:phenomenonTime covid-instant:2020-12-19 .
+
+econ-aychex_intuit_earnin_kronos-stat-collection:2020-12-20-national-daily-US a econ:StatsCollection ;
+    sosa:hasFeatureOfInterest covid-place:US ;
+    sosa:hasMember econ-aychex_intuit_earnin_kronos-stat:2020-12-20-national-daily-US-emp_combined,
+        econ-aychex_intuit_earnin_kronos-stat:2020-12-20-national-daily-US-emp_combined_inchigh,
+        econ-aychex_intuit_earnin_kronos-stat:2020-12-20-national-daily-US-emp_combined_inclow,
+        econ-aychex_intuit_earnin_kronos-stat:2020-12-20-national-daily-US-emp_combined_inclow_advance,
+        econ-aychex_intuit_earnin_kronos-stat:2020-12-20-national-daily-US-emp_combined_incmiddle,
+        econ-aychex_intuit_earnin_kronos-stat:2020-12-20-national-daily-US-emp_combined_ss40,
+        econ-aychex_intuit_earnin_kronos-stat:2020-12-20-national-daily-US-emp_combined_ss60,
+        econ-aychex_intuit_earnin_kronos-stat:2020-12-20-national-daily-US-emp_combined_ss65,
+        econ-aychex_intuit_earnin_kronos-stat:2020-12-20-national-daily-US-emp_combined_ss70 ;
+    sosa:phenomenonTime covid-instant:2020-12-20 .
 
 econ-obs-property:emp_combined a sosa:ObservableProperty ;
     rdfs:label "Employment level for all workers." .

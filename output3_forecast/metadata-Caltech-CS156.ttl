@@ -1,0 +1,32 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-funding-resource: <http://covid.geog.ucsb.edu/lod/fundingResource/> .
+@prefix covid-license: <http://covid.geog.ucsb.edu/lod/license/> .
+@prefix covid-method: <http://covid.geog.ucsb.edu/lod/method/> .
+@prefix covid-model: <http://covid.geog.ucsb.edu/lod/model/> .
+@prefix covid-model-designation: <http://covid.geog.ucsb.edu/lod/modelDesignation/> .
+@prefix covid-owner: <http://covid.geog.ucsb.edu/lod/owner/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix ns1: <http://www.w3.org/ns/sosa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-research:Caltech-CS156 a covid:Research ;
+    rdfs:label "Caltech-CS156" ;
+    ns1:madeBySensor covid-model:Caltech-CS156 ;
+    ns1:usedProcedure covid-method:CS156 .
+
+covid-method:CS156 a covid:Method ;
+    rdfs:label "CS156" .
+
+covid-model:Caltech-CS156 a covid:Model ;
+    rdfs:label "Caltech-CS156" ;
+    covid:hasLicense covid-license:cc-by-nc-4.0 ;
+    covid:hasName "CS156" ;
+    covid:hasWebsite <http://cs156.caltech.edu> ;
+    covid:modelBrief "Aggregate of 14 machine learning (neural network, autoregressive, decision tree, etc.) and epidemiological models guided by machine learning." ;
+    covid:modelDesignation covid-model-designation:primary ;
+    covid:owner covid-owner:Caltech_CS156 .
+
+covid-owner:Caltech_CS156 a covid:Team ;
+    rdfs:label "Caltech CS156" ;
+    covid:fundingSource covid-funding-resource:Clinard_Innovation_Fund_Caltech_SURF_Office_Mr_Charles_Trimble_and_Ms_Liying_Huang .
+

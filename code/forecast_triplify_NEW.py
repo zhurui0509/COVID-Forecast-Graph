@@ -19,6 +19,7 @@ from rdflib import URIRef, BNode, Literal
 import datetime as datetime
 import os
 from glob import glob
+import sys
 
 SOSA = SSN
 covid = Namespace("http://covid.geog.ucsb.edu/lod/ontology/")
@@ -866,23 +867,23 @@ def main_places():
     triplify_place(place_file, output)
 
 ### serierliaze groundtruth data 
-def main_groundTruth(initial_date):
-    truth_incident_deaths_csv = './covid19-forecast-hub/data-truth/truth-Incident Deaths.csv'
+def main_groundTruth(initial_date, output):
+    truth_incident_deaths_csv = '../covid19-forecast-hub/data-truth/truth-Incident Deaths.csv'
     gt_type_inc_death = 'inc_death'
-    output_inc_death = './output2/groundtruth_inc_death_'+initial_date+'.ttl'
+    output_inc_death = '../'+output+'/groundtruth_inc_death_'+initial_date+'.ttl'
 
-    truth_incident_cases_csv = './covid19-forecast-hub/data-truth/truth-Incident Cases.csv'
+    truth_incident_cases_csv = '../covid19-forecast-hub/data-truth/truth-Incident Cases.csv'
     gt_type_inc_case = 'inc_case'
-    output_inc_case = './output2/groundtruth_inc_case_'+initial_date+'.ttl'
+    output_inc_case = '../'+output+'/groundtruth_inc_case_'+initial_date+'.ttl'
 
 
-    truth_cumulative_deaths_csv = './covid19-forecast-hub/data-truth/truth-Cumulative Deaths.csv'
+    truth_cumulative_deaths_csv = '../covid19-forecast-hub/data-truth/truth-Cumulative Deaths.csv'
     gt_type_cum_death = 'cum_death'
-    output_cum_death = './output2/groundtruth_cum_death_'+initial_date+'.ttl'
+    output_cum_death = '../'+output+'/groundtruth_cum_death_'+initial_date+'.ttl'
 
-    truth_cumulative_cases_csv = './covid19-forecast-hub/data-truth/truth-Cumulative Cases.csv'
+    truth_cumulative_cases_csv = '../covid19-forecast-hub/data-truth/truth-Cumulative Cases.csv'
     gt_type_cum_case = 'cum_case'
-    output_cum_case = './output2/groundtruth_cum_case_'+initial_date+'.ttl'
+    output_cum_case = '../'+output+'/groundtruth_cum_case_'+initial_date+'.ttl'
 
     ## to triplify all dates
     #triplify_groundtruth(truth_incident_deaths_csv, gt_type_inc_death, output_inc_death)
@@ -907,10 +908,14 @@ def main_model_assumption_method():
 
 def main():
 
+    arg_time = sys.argv[1]
+    arg_out = sys.argv[2]
+    print("Processing triples after %s"%(arg_time))
+
     #forecast_file_list = ['./prediction_data/2020-07-23-YYG-ParamSearch.csv']
     #meta_file_list  = ['./prediction_data/metadata-YYG-ParamSearch.txt']
 
-    PATH = './covid19-forecast-hub/data-processed'
+    PATH = '../covid19-forecast-hub/data-processed'
     EXT = "*.csv"
     EXT_m = "*.txt"
     forecast_file_list = [file for path, subdir, files in os.walk(PATH) for file in glob(os.path.join(path, EXT))]
@@ -928,7 +933,7 @@ def main():
 
 
     #progress_file = 'progress_file.csv'
-    progress_file = 'progress_file.csv'
+    progress_file = '../progress_file.csv'
 
     ### Triplify the forecast data 
     for forecast_file in forecast_file_list:
@@ -938,9 +943,9 @@ def main():
                 for line in fr:
                     progress_file_list.append(line.strip().replace('\n', ''))
 
-        if forecast_file not in progress_file_list:
+        if forecast_file.replace("../", './') not in progress_file_list:
             print('Triplify for %s'%(forecast_file))
-            output_file = './output2/'+forecast_file.split('/')[-1].replace('csv', 'ttl')
+            output_file = '../'+arg_out+'/'+forecast_file.split('/')[-1].replace('csv', 'ttl')
             forecast_tmp = loadCSV_new(forecast_file)
             target_tmp, target_date_tmp, target_location_tmp, research_forecast_tuple = triplify_forecast(forecast_file, forecast_tmp, output_file)
             target_types_list.update(target_tmp)
@@ -966,7 +971,8 @@ def main():
         #if meta_file not in progress_file_list:
         if 1>0: # regenerate the meta triples as some of them are updated
             print('Triplify for %s'%(meta_file))
-            output_file = './output2/'+meta_file.split('/')[-1].replace('txt', 'ttl')
+            #output_file = './output2/'+meta_file.split('/')[-1].replace('txt', 'ttl')
+            output_file = '../'+arg_out+'/'+ meta_file.split('/')[-1].replace('txt', 'ttl')
             meta_tmp = loadMetaTxt(meta_file)
             team_tmp, license_tmp, model_designation_tmp, funding_source_tmp = triplify_meta(meta_file, meta_tmp, output_file)
             team_list.update(team_tmp)
@@ -983,17 +989,20 @@ def main():
     ###  Triplify the target types (only run it once or add a date to the output file)
     #rdfType(target_types_list, 'covid-target-type', covid_target_type, './output2/target_type.ttl')
     ###  Triplify the team/contributor (only run it once)
-    rdfType(team_list, 'covid-owner', covid_owner, './output2/team.ttl')   
+    rdfType(team_list, 'covid-owner', covid_owner, '../'+arg_out+'/team.ttl')   
     ###  Triplify the license 
-    rdfType(license_list, 'covid-license', covid_license, './output2/license.ttl')
+    rdfType(license_list, 'covid-license', covid_license, '../'+arg_out+'/license.ttl')
     ###  Triplify the model designation  
-    rdfType(model_designation_list, 'covid-model-designation', covid_modelDesignation, './output2/modelDesignation.ttl')
+    rdfType(model_designation_list, 'covid-model-designation', covid_modelDesignation, '../'+arg_out+'/modelDesignation.ttl')
     ###  Triplify the funding resource  
-    rdfType(funding_source_list, 'covid-funding-resource', covid_fundingResource, './output2/fundingResource.ttl')
+    rdfType(funding_source_list, 'covid-funding-resource', covid_fundingResource, '../'+arg_out+'/fundingResource.ttl')
     ### Triplify the time 
-    rdfType_time(target_dates_list, 'covid-instant', covid_instant, './output2/timeInstant_01172021.ttl')
+    rdfType_time(target_dates_list, 'covid-instant', covid_instant, '../'+arg_out+'/timeInstant_01172021.ttl')
     ### Triplify the research_forecast
-    research2forecast(research_forecast_list, './output2/research2forecast_01172021.ttl')
+    research2forecast(research_forecast_list, '../'+arg_out+'/research2forecast.ttl')
+
+    main_groundTruth(arg_time, arg_out)  ## 2020-09-03
+
 
 def main_rdftype():
     target_types_list, target_dates_list, target_location_list, research_forecast_list = pickle.load( open( "target.p", "rb" ) )
@@ -1018,5 +1027,5 @@ if __name__ == "__main__":
     main()
     #main_model_assumption_method() # only need to run it once the CDC model description changes
     #main_places() # only need to run it once
-    main_groundTruth("2021-01-17")  ## 2020-09-03
+    #main_groundTruth("2021-01-18", 'output3_forecast')  ## 2020-09-03
     #main_rdftype() # do not need to run it every time. Run it only if encoutered errors in main()

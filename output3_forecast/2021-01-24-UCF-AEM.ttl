@@ -1,0 +1,135 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-forecast: <http://covid.geog.ucsb.edu/lod/prediction/> .
+@prefix covid-instant: <http://covid.geog.ucsb.edu/lod/instant/> .
+@prefix covid-obs-property: <http://covid.geog.ucsb.edu/lod/observedproperty/> .
+@prefix covid-place: <http://covid.geog.ucsb.edu/lod/place/> .
+@prefix covid-target: <http://covid.geog.ucsb.edu/lod/target/> .
+@prefix covid-target-type: <http://covid.geog.ucsb.edu/lod/target-type/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+covid-forecast:2021-01-24-UCF-AEM a covid:Forecast ;
+    rdfs:label "2021-01-24-UCF-AEM" ;
+    sosa:hasMember covid-target:2021-01-24-UCF-AEM_1-wk-ahead-inc-case_US,
+        covid-target:2021-01-24-UCF-AEM_2-wk-ahead-inc-case_US,
+        covid-target:2021-01-24-UCF-AEM_3-wk-ahead-inc-case_US,
+        covid-target:2021-01-24-UCF-AEM_4-wk-ahead-inc-case_US,
+        covid-target:2021-01-24-UCF-AEM_5-wk-ahead-inc-case_US,
+        covid-target:2021-01-24-UCF-AEM_6-wk-ahead-inc-case_US,
+        covid-target:2021-01-24-UCF-AEM_7-wk-ahead-inc-case_US,
+        covid-target:2021-01-24-UCF-AEM_8-wk-ahead-inc-case_US ;
+    sosa:resultTime "2021-01-24" .
+
+covid-target:2021-01-24-UCF-AEM_1-wk-ahead-inc-case_US a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 1169503 ;
+    covid:quantile_0.025 1129137 ;
+    covid:quantile_0.1 1129311 ;
+    covid:quantile_0.25 1155265 ;
+    covid:quantile_0.5 1172748 ;
+    covid:quantile_0.75 1197766 ;
+    covid:quantile_0.9 1200311 ;
+    covid:quantile_0.975 1201982 ;
+    sosa:hasFeatureOfInterest covid-place:US ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-01-30 .
+
+covid-target:2021-01-24-UCF-AEM_2-wk-ahead-inc-case_US a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 1093767 ;
+    covid:quantile_0.025 1030358 ;
+    covid:quantile_0.1 1032962 ;
+    covid:quantile_0.25 1064662 ;
+    covid:quantile_0.5 1095326 ;
+    covid:quantile_0.75 1119702 ;
+    covid:quantile_0.9 1147391 ;
+    covid:quantile_0.975 1165970 ;
+    sosa:hasFeatureOfInterest covid-place:US ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-02-06 .
+
+covid-target:2021-01-24-UCF-AEM_3-wk-ahead-inc-case_US a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 1020671 ;
+    covid:quantile_0.025 955185 ;
+    covid:quantile_0.1 957095 ;
+    covid:quantile_0.25 972828 ;
+    covid:quantile_0.5 1011562 ;
+    covid:quantile_0.75 1036944 ;
+    covid:quantile_0.9 1084009 ;
+    covid:quantile_0.975 1127071 ;
+    sosa:hasFeatureOfInterest covid-place:US ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-02-13 .
+
+covid-target:2021-01-24-UCF-AEM_4-wk-ahead-inc-case_US a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 947402 ;
+    covid:quantile_0.025 889428 ;
+    covid:quantile_0.1 889747 ;
+    covid:quantile_0.25 894783 ;
+    covid:quantile_0.5 929336 ;
+    covid:quantile_0.75 947290 ;
+    covid:quantile_0.9 1016398 ;
+    covid:quantile_0.975 1064831 ;
+    sosa:hasFeatureOfInterest covid-place:US ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-02-20 .
+
+covid-target:2021-01-24-UCF-AEM_5-wk-ahead-inc-case_US a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 881520 ;
+    covid:quantile_0.025 814926 ;
+    covid:quantile_0.1 822919 ;
+    covid:quantile_0.25 839470 ;
+    covid:quantile_0.5 858134 ;
+    covid:quantile_0.75 871359 ;
+    covid:quantile_0.9 960109 ;
+    covid:quantile_0.975 1003721 ;
+    sosa:hasFeatureOfInterest covid-place:US ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-02-27 .
+
+covid-target:2021-01-24-UCF-AEM_6-wk-ahead-inc-case_US a covid:Target ;
+    covid:hasTargetType covid-target-type:6_wk_ahead_inc_case ;
+    covid:point 817212 ;
+    covid:quantile_0.025 746459 ;
+    covid:quantile_0.1 760305 ;
+    covid:quantile_0.25 776781 ;
+    covid:quantile_0.5 796756 ;
+    covid:quantile_0.75 806491 ;
+    covid:quantile_0.9 896199 ;
+    covid:quantile_0.975 937492 ;
+    sosa:hasFeatureOfInterest covid-place:US ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-03-06 .
+
+covid-target:2021-01-24-UCF-AEM_7-wk-ahead-inc-case_US a covid:Target ;
+    covid:hasTargetType covid-target-type:7_wk_ahead_inc_case ;
+    covid:point 761250 ;
+    covid:quantile_0.025 690064 ;
+    covid:quantile_0.1 702111 ;
+    covid:quantile_0.25 716000 ;
+    covid:quantile_0.5 733203 ;
+    covid:quantile_0.75 759307 ;
+    covid:quantile_0.9 846448 ;
+    covid:quantile_0.975 881619 ;
+    sosa:hasFeatureOfInterest covid-place:US ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-01-24-UCF-AEM_8-wk-ahead-inc-case_US a covid:Target ;
+    covid:hasTargetType covid-target-type:8_wk_ahead_inc_case ;
+    covid:point 700172 ;
+    covid:quantile_0.025 625467 ;
+    covid:quantile_0.1 631712 ;
+    covid:quantile_0.25 650454 ;
+    covid:quantile_0.5 681558 ;
+    covid:quantile_0.75 715148 ;
+    covid:quantile_0.9 786459 ;
+    covid:quantile_0.975 810407 ;
+    sosa:hasFeatureOfInterest covid-place:US ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+

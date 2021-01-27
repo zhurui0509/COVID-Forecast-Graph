@@ -1,0 +1,33 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-funding-resource: <http://covid.geog.ucsb.edu/lod/fundingResource/> .
+@prefix covid-license: <http://covid.geog.ucsb.edu/lod/license/> .
+@prefix covid-method: <http://covid.geog.ucsb.edu/lod/method/> .
+@prefix covid-model: <http://covid.geog.ucsb.edu/lod/model/> .
+@prefix covid-model-designation: <http://covid.geog.ucsb.edu/lod/modelDesignation/> .
+@prefix covid-owner: <http://covid.geog.ucsb.edu/lod/owner/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix ns1: <http://www.w3.org/ns/sosa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-research:UChicagoCHATTOPADHYAY-UnIT a covid:Research ;
+    rdfs:label "UChicagoCHATTOPADHYAY-UnIT" ;
+    ns1:madeBySensor covid-model:UChicagoCHATTOPADHYAY-UnIT ;
+    ns1:usedProcedure covid-method:UnIT .
+
+covid-method:UnIT a covid:Method ;
+    rdfs:label "UnIT" .
+
+covid-model:UChicagoCHATTOPADHYAY-UnIT a covid:Model ;
+    rdfs:label "UChicagoCHATTOPADHYAY-UnIT" ;
+    covid:hasLicense covid-license:mit ;
+    covid:hasName "Universal Influenza-like Transmission Risk" ;
+    covid:hasWebsite <https://github.com/zeroknowledgediscovery/unitcov> ;
+    covid:modelBrief "Stochastic similarity via sequence likelihood divergence, General Linear Models, Tensorflow, Ensemble Regressors" ;
+    covid:modelDesc "\"We introduce the concept of a universal geo-spatial risk that strongly influences person-to-person viral transmission in the US, in effect quantifying the risk exposure of the individual US counties to diseases thattransmit like the seasonal Influenza. We call this the Universal Influenza-like Transmission (UnIT) score. This new epidemiologically informed risk score leverages subtle geospatial patterns from seasonal flu epidemics of the past, and significantly improves incidence forecasts for COVID-19. Additionally, the UnIT score emerges as the most important factor explaining observed county-specific incidence trends for COVID-19 in the US, with coefficients in multi-variate regression far outweighing those for typical co-variates. Thus, our key insight is that past incidence patterns for a different pathogen can substantially inform current projections, provided the transmission mechanisms are broadly similar. And our key technical contribution is the development of the precise algorithm to transfer this knowledge to the new context, by rigorously estimating thedivergence of hidden generators of complex stochastic phenomena from observation of short sample paths.\"" ;
+    covid:modelDesignation covid-model-designation:primary ;
+    covid:owner covid-owner:University_of_Chicago_Chattopadhyay_Lab .
+
+covid-owner:University_of_Chicago_Chattopadhyay_Lab a covid:Team ;
+    rdfs:label "University of Chicago, Chattopadhyay Lab" ;
+    covid:fundingSource covid-funding-resource:Defense_Advanced_Research_Projects_Agency_DARPA_Defense_Sciences_Office_DSO .
+

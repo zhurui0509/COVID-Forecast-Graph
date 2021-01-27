@@ -227,6 +227,10 @@ covid-interval:2021-01-15-weekly a time:Interval ;
     time:hasBeginning covid-instant:2021-01-09 ;
     time:hasEnd covid-instant:2021-01-15 .
 
+covid-interval:2021-01-22-weekly a time:Interval ;
+    time:hasBeginning covid-instant:2021-01-16 ;
+    time:hasEnd covid-instant:2021-01-22 .
+
 econ-burningglass:national-weekly a econ:EconomicTracker ;
     rdfs:label "National level state level weekly count of new job postings, sourced from over 40,000 online job boards. New job postings are defined as those that have not had a duplicate posting for at least 60 days prior." ;
     sosa:hasMember econ-burningglass-stat-collection:2020-01-10-national-weekly-US,
@@ -282,9 +286,10 @@ econ-burningglass:national-weekly a econ:EconomicTracker ;
         econ-burningglass-stat-collection:2020-12-25-national-weekly-US,
         econ-burningglass-stat-collection:2021-01-01-national-weekly-US,
         econ-burningglass-stat-collection:2021-01-08-national-weekly-US,
-        econ-burningglass-stat-collection:2021-01-15-national-weekly-US ;
+        econ-burningglass-stat-collection:2021-01-15-national-weekly-US,
+        econ-burningglass-stat-collection:2021-01-22-national-weekly-US ;
     sosa:madeBySensor econ:BurningGlass ;
-    sosa:resultTime "2021-01-21" .
+    sosa:resultTime "2021-01-26" .
 
 covid-instant:2020-01-04 a time:Instant ;
     time:inXSDDateTime "2020-01-04" .
@@ -447,6 +452,9 @@ covid-instant:2021-01-02 a time:Instant ;
 
 covid-instant:2021-01-09 a time:Instant ;
     time:inXSDDateTime "2021-01-09" .
+
+covid-instant:2021-01-16 a time:Instant ;
+    time:inXSDDateTime "2021-01-16" .
 
 econ-burningglass-stat:2020-01-10-national-weekly-US-bg_posts a econ:Stats ;
     econ:point -5.31e-02 ;
@@ -3101,159 +3109,211 @@ econ-burningglass-stat:2020-12-25-national-weekly-US-bg_posts_ss70 a econ:Stats 
     sosa:observedProperty econ-obs-property:bg_posts_ss70 .
 
 econ-burningglass-stat:2021-01-01-national-weekly-US-bg_posts a econ:Stats ;
-    econ:point -4.45e-01 ;
+    econ:point -4.43e-01 ;
     sosa:observedProperty econ-obs-property:bg_posts .
 
 econ-burningglass-stat:2021-01-01-national-weekly-US-bg_posts_jz1 a econ:Stats ;
-    econ:point -3.62e-01 ;
+    econ:point -3.59e-01 ;
     sosa:observedProperty econ-obs-property:bg_posts_jz1 .
 
 econ-burningglass-stat:2021-01-01-national-weekly-US-bg_posts_jz2 a econ:Stats ;
-    econ:point -3.43e-01 ;
+    econ:point -3.4e-01 ;
     sosa:observedProperty econ-obs-property:bg_posts_jz2 .
 
 econ-burningglass-stat:2021-01-01-national-weekly-US-bg_posts_jz3 a econ:Stats ;
-    econ:point -3.68e-01 ;
+    econ:point -3.66e-01 ;
     sosa:observedProperty econ-obs-property:bg_posts_jz3 .
 
 econ-burningglass-stat:2021-01-01-national-weekly-US-bg_posts_jz4 a econ:Stats ;
-    econ:point -5.89e-01 ;
+    econ:point -5.87e-01 ;
     sosa:observedProperty econ-obs-property:bg_posts_jz4 .
 
 econ-burningglass-stat:2021-01-01-national-weekly-US-bg_posts_jz5 a econ:Stats ;
-    econ:point -5.02e-01 ;
+    econ:point -5.01e-01 ;
     sosa:observedProperty econ-obs-property:bg_posts_jz5 .
 
 econ-burningglass-stat:2021-01-01-national-weekly-US-bg_posts_jzgrp12 a econ:Stats ;
-    econ:point -3.44e-01 ;
+    econ:point -3.41e-01 ;
     sosa:observedProperty econ-obs-property:bg_posts_jzgrp12 .
 
 econ-burningglass-stat:2021-01-01-national-weekly-US-bg_posts_jzgrp345 a econ:Stats ;
-    econ:point -4.93e-01 ;
+    econ:point -4.91e-01 ;
     sosa:observedProperty econ-obs-property:bg_posts_jzgrp345 .
 
 econ-burningglass-stat:2021-01-01-national-weekly-US-bg_posts_ss30 a econ:Stats ;
-    econ:point -5.29e-01 ;
+    econ:point -5.27e-01 ;
     sosa:observedProperty econ-obs-property:bg_posts_ss30 .
 
 econ-burningglass-stat:2021-01-01-national-weekly-US-bg_posts_ss55 a econ:Stats ;
-    econ:point -4.81e-01 ;
+    econ:point -4.78e-01 ;
     sosa:observedProperty econ-obs-property:bg_posts_ss55 .
 
 econ-burningglass-stat:2021-01-01-national-weekly-US-bg_posts_ss60 a econ:Stats ;
-    econ:point -5.6e-01 ;
+    econ:point -5.57e-01 ;
     sosa:observedProperty econ-obs-property:bg_posts_ss60 .
 
 econ-burningglass-stat:2021-01-01-national-weekly-US-bg_posts_ss65 a econ:Stats ;
-    econ:point -3.95e-01 ;
+    econ:point -3.93e-01 ;
     sosa:observedProperty econ-obs-property:bg_posts_ss65 .
 
 econ-burningglass-stat:2021-01-01-national-weekly-US-bg_posts_ss70 a econ:Stats ;
-    econ:point -4.73e-01 ;
+    econ:point -4.71e-01 ;
     sosa:observedProperty econ-obs-property:bg_posts_ss70 .
 
 econ-burningglass-stat:2021-01-08-national-weekly-US-bg_posts a econ:Stats ;
-    econ:point -1.72e-01 ;
+    econ:point -1.04e-01 ;
     sosa:observedProperty econ-obs-property:bg_posts .
 
 econ-burningglass-stat:2021-01-08-national-weekly-US-bg_posts_jz1 a econ:Stats ;
-    econ:point -4.67e-02 ;
+    econ:point 7.69e-02 ;
     sosa:observedProperty econ-obs-property:bg_posts_jz1 .
 
 econ-burningglass-stat:2021-01-08-national-weekly-US-bg_posts_jz2 a econ:Stats ;
-    econ:point -1.78e-02 ;
+    econ:point 6.98e-02 ;
     sosa:observedProperty econ-obs-property:bg_posts_jz2 .
 
 econ-burningglass-stat:2021-01-08-national-weekly-US-bg_posts_jz3 a econ:Stats ;
-    econ:point -7.68e-02 ;
+    econ:point -1.14e-02 ;
     sosa:observedProperty econ-obs-property:bg_posts_jz3 .
 
 econ-burningglass-stat:2021-01-08-national-weekly-US-bg_posts_jz4 a econ:Stats ;
-    econ:point -3.68e-01 ;
+    econ:point -3.16e-01 ;
     sosa:observedProperty econ-obs-property:bg_posts_jz4 .
 
 econ-burningglass-stat:2021-01-08-national-weekly-US-bg_posts_jz5 a econ:Stats ;
-    econ:point -2.78e-01 ;
+    econ:point -2.37e-01 ;
     sosa:observedProperty econ-obs-property:bg_posts_jz5 .
 
 econ-burningglass-stat:2021-01-08-national-weekly-US-bg_posts_jzgrp12 a econ:Stats ;
-    econ:point -2e-02 ;
+    econ:point 7.03e-02 ;
     sosa:observedProperty econ-obs-property:bg_posts_jzgrp12 .
 
 econ-burningglass-stat:2021-01-08-national-weekly-US-bg_posts_jzgrp345 a econ:Stats ;
-    econ:point -2.46e-01 ;
+    econ:point -1.91e-01 ;
     sosa:observedProperty econ-obs-property:bg_posts_jzgrp345 .
 
 econ-burningglass-stat:2021-01-08-national-weekly-US-bg_posts_ss30 a econ:Stats ;
-    econ:point -2.09e-01 ;
+    econ:point -1.41e-01 ;
     sosa:observedProperty econ-obs-property:bg_posts_ss30 .
 
 econ-burningglass-stat:2021-01-08-national-weekly-US-bg_posts_ss55 a econ:Stats ;
-    econ:point -2.92e-01 ;
+    econ:point -2.27e-01 ;
     sosa:observedProperty econ-obs-property:bg_posts_ss55 .
 
 econ-burningglass-stat:2021-01-08-national-weekly-US-bg_posts_ss60 a econ:Stats ;
-    econ:point -3.53e-01 ;
+    econ:point -2.99e-01 ;
     sosa:observedProperty econ-obs-property:bg_posts_ss60 .
 
 econ-burningglass-stat:2021-01-08-national-weekly-US-bg_posts_ss65 a econ:Stats ;
-    econ:point -1.17e-01 ;
+    econ:point -5.86e-02 ;
     sosa:observedProperty econ-obs-property:bg_posts_ss65 .
 
 econ-burningglass-stat:2021-01-08-national-weekly-US-bg_posts_ss70 a econ:Stats ;
-    econ:point -1.58e-01 ;
+    econ:point -6.04e-02 ;
     sosa:observedProperty econ-obs-property:bg_posts_ss70 .
 
 econ-burningglass-stat:2021-01-15-national-weekly-US-bg_posts a econ:Stats ;
-    econ:point -4.36e-02 ;
+    econ:point 4.56e-02 ;
     sosa:observedProperty econ-obs-property:bg_posts .
 
 econ-burningglass-stat:2021-01-15-national-weekly-US-bg_posts_jz1 a econ:Stats ;
-    econ:point -6.18e-02 ;
+    econ:point 8e-02 ;
     sosa:observedProperty econ-obs-property:bg_posts_jz1 .
 
 econ-burningglass-stat:2021-01-15-national-weekly-US-bg_posts_jz2 a econ:Stats ;
-    econ:point 6.66e-02 ;
+    econ:point 1.77e-01 ;
     sosa:observedProperty econ-obs-property:bg_posts_jz2 .
 
 econ-burningglass-stat:2021-01-15-national-weekly-US-bg_posts_jz3 a econ:Stats ;
-    econ:point 8.22e-02 ;
+    econ:point 1.67e-01 ;
     sosa:observedProperty econ-obs-property:bg_posts_jz3 .
 
 econ-burningglass-stat:2021-01-15-national-weekly-US-bg_posts_jz4 a econ:Stats ;
-    econ:point -2.12e-01 ;
+    econ:point -1.38e-01 ;
     sosa:observedProperty econ-obs-property:bg_posts_jz4 .
 
 econ-burningglass-stat:2021-01-15-national-weekly-US-bg_posts_jz5 a econ:Stats ;
-    econ:point -1.56e-01 ;
+    econ:point -9.86e-02 ;
     sosa:observedProperty econ-obs-property:bg_posts_jz5 .
 
 econ-burningglass-stat:2021-01-15-national-weekly-US-bg_posts_jzgrp12 a econ:Stats ;
-    econ:point 5.66e-02 ;
+    econ:point 1.7e-01 ;
     sosa:observedProperty econ-obs-property:bg_posts_jzgrp12 .
 
 econ-burningglass-stat:2021-01-15-national-weekly-US-bg_posts_jzgrp345 a econ:Stats ;
-    econ:point -9.35e-02 ;
+    econ:point -1.81e-02 ;
     sosa:observedProperty econ-obs-property:bg_posts_jzgrp345 .
 
 econ-burningglass-stat:2021-01-15-national-weekly-US-bg_posts_ss30 a econ:Stats ;
-    econ:point -2.97e-02 ;
+    econ:point 5.98e-02 ;
     sosa:observedProperty econ-obs-property:bg_posts_ss30 .
 
 econ-burningglass-stat:2021-01-15-national-weekly-US-bg_posts_ss55 a econ:Stats ;
-    econ:point -1.02e-01 ;
+    econ:point -7.3e-03 ;
     sosa:observedProperty econ-obs-property:bg_posts_ss55 .
 
 econ-burningglass-stat:2021-01-15-national-weekly-US-bg_posts_ss60 a econ:Stats ;
-    econ:point -1.73e-01 ;
+    econ:point -9.72e-02 ;
     sosa:observedProperty econ-obs-property:bg_posts_ss60 .
 
 econ-burningglass-stat:2021-01-15-national-weekly-US-bg_posts_ss65 a econ:Stats ;
-    econ:point 3.14e-02 ;
+    econ:point 1.04e-01 ;
     sosa:observedProperty econ-obs-property:bg_posts_ss65 .
 
 econ-burningglass-stat:2021-01-15-national-weekly-US-bg_posts_ss70 a econ:Stats ;
-    econ:point -1.69e-01 ;
+    econ:point -5.04e-02 ;
+    sosa:observedProperty econ-obs-property:bg_posts_ss70 .
+
+econ-burningglass-stat:2021-01-22-national-weekly-US-bg_posts a econ:Stats ;
+    econ:point -3.77e-02 ;
+    sosa:observedProperty econ-obs-property:bg_posts .
+
+econ-burningglass-stat:2021-01-22-national-weekly-US-bg_posts_jz1 a econ:Stats ;
+    econ:point -5.56e-02 ;
+    sosa:observedProperty econ-obs-property:bg_posts_jz1 .
+
+econ-burningglass-stat:2021-01-22-national-weekly-US-bg_posts_jz2 a econ:Stats ;
+    econ:point 7.87e-02 ;
+    sosa:observedProperty econ-obs-property:bg_posts_jz2 .
+
+econ-burningglass-stat:2021-01-22-national-weekly-US-bg_posts_jz3 a econ:Stats ;
+    econ:point 6.62e-02 ;
+    sosa:observedProperty econ-obs-property:bg_posts_jz3 .
+
+econ-burningglass-stat:2021-01-22-national-weekly-US-bg_posts_jz4 a econ:Stats ;
+    econ:point -2.08e-01 ;
+    sosa:observedProperty econ-obs-property:bg_posts_jz4 .
+
+econ-burningglass-stat:2021-01-22-national-weekly-US-bg_posts_jz5 a econ:Stats ;
+    econ:point -1.31e-01 ;
+    sosa:observedProperty econ-obs-property:bg_posts_jz5 .
+
+econ-burningglass-stat:2021-01-22-national-weekly-US-bg_posts_jzgrp12 a econ:Stats ;
+    econ:point 6.83e-02 ;
+    sosa:observedProperty econ-obs-property:bg_posts_jzgrp12 .
+
+econ-burningglass-stat:2021-01-22-national-weekly-US-bg_posts_jzgrp345 a econ:Stats ;
+    econ:point -9.39e-02 ;
+    sosa:observedProperty econ-obs-property:bg_posts_jzgrp345 .
+
+econ-burningglass-stat:2021-01-22-national-weekly-US-bg_posts_ss30 a econ:Stats ;
+    econ:point 1.01e-01 ;
+    sosa:observedProperty econ-obs-property:bg_posts_ss30 .
+
+econ-burningglass-stat:2021-01-22-national-weekly-US-bg_posts_ss55 a econ:Stats ;
+    econ:point -8.74e-02 ;
+    sosa:observedProperty econ-obs-property:bg_posts_ss55 .
+
+econ-burningglass-stat:2021-01-22-national-weekly-US-bg_posts_ss60 a econ:Stats ;
+    econ:point -1.41e-01 ;
+    sosa:observedProperty econ-obs-property:bg_posts_ss60 .
+
+econ-burningglass-stat:2021-01-22-national-weekly-US-bg_posts_ss65 a econ:Stats ;
+    econ:point -1.06e-02 ;
+    sosa:observedProperty econ-obs-property:bg_posts_ss65 .
+
+econ-burningglass-stat:2021-01-22-national-weekly-US-bg_posts_ss70 a econ:Stats ;
+    econ:point -1.7e-01 ;
     sosa:observedProperty econ-obs-property:bg_posts_ss70 .
 
 econ-burningglass-stat-collection:2020-01-10-national-weekly-US a econ:StatsCollection ;
@@ -4174,6 +4234,23 @@ econ-burningglass-stat-collection:2021-01-15-national-weekly-US a econ:StatsColl
         econ-burningglass-stat:2021-01-15-national-weekly-US-bg_posts_ss70 ;
     sosa:phenomenonTime covid-instant:2021-01-15 .
 
+econ-burningglass-stat-collection:2021-01-22-national-weekly-US a econ:StatsCollection ;
+    sosa:hasFeatureOfInterest covid-place:US ;
+    sosa:hasMember econ-burningglass-stat:2021-01-22-national-weekly-US-bg_posts,
+        econ-burningglass-stat:2021-01-22-national-weekly-US-bg_posts_jz1,
+        econ-burningglass-stat:2021-01-22-national-weekly-US-bg_posts_jz2,
+        econ-burningglass-stat:2021-01-22-national-weekly-US-bg_posts_jz3,
+        econ-burningglass-stat:2021-01-22-national-weekly-US-bg_posts_jz4,
+        econ-burningglass-stat:2021-01-22-national-weekly-US-bg_posts_jz5,
+        econ-burningglass-stat:2021-01-22-national-weekly-US-bg_posts_jzgrp12,
+        econ-burningglass-stat:2021-01-22-national-weekly-US-bg_posts_jzgrp345,
+        econ-burningglass-stat:2021-01-22-national-weekly-US-bg_posts_ss30,
+        econ-burningglass-stat:2021-01-22-national-weekly-US-bg_posts_ss55,
+        econ-burningglass-stat:2021-01-22-national-weekly-US-bg_posts_ss60,
+        econ-burningglass-stat:2021-01-22-national-weekly-US-bg_posts_ss65,
+        econ-burningglass-stat:2021-01-22-national-weekly-US-bg_posts_ss70 ;
+    sosa:phenomenonTime covid-instant:2021-01-22 .
+
 covid-instant:2020-01-10 a time:Instant ;
     time:inXSDDateTime "2020-01-10" .
 
@@ -4335,6 +4412,9 @@ covid-instant:2021-01-08 a time:Instant ;
 
 covid-instant:2021-01-15 a time:Instant ;
     time:inXSDDateTime "2021-01-15" .
+
+covid-instant:2021-01-22 a time:Instant ;
+    time:inXSDDateTime "2021-01-22" .
 
 econ-obs-property:bg_posts a sosa:ObservableProperty ;
     rdfs:label "Average level of job postings relative to January 4-31 2020." .

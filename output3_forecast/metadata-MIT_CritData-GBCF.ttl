@@ -1,0 +1,31 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-license: <http://covid.geog.ucsb.edu/lod/license/> .
+@prefix covid-method: <http://covid.geog.ucsb.edu/lod/method/> .
+@prefix covid-model: <http://covid.geog.ucsb.edu/lod/model/> .
+@prefix covid-model-designation: <http://covid.geog.ucsb.edu/lod/modelDesignation/> .
+@prefix covid-owner: <http://covid.geog.ucsb.edu/lod/owner/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix ns1: <http://www.w3.org/ns/sosa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-research:MIT_CritData-GBCF a covid:Research ;
+    rdfs:label "MIT_CritData-GBCF" ;
+    ns1:madeBySensor covid-model:MIT_CritData-GBCF ;
+    ns1:usedProcedure covid-method:GBCF .
+
+covid-method:GBCF a covid:Method ;
+    rdfs:label "GBCF" .
+
+covid-model:MIT_CritData-GBCF a covid:Model ;
+    rdfs:label "MIT_CritData-GBCF" ;
+    covid:hasLicense covid-license:mit ;
+    covid:hasName "Gradient Boosted COVID Forecaster (GBCF)" ;
+    covid:hasWebsite <https://github.com/sakethsundar/covid-forecaster> ;
+    covid:modelBrief "This gradient boosted regressor model with hyperparameter optimization is trained on prior COVID metrics as well as demographic, socioeconomic, mobility, and health-related county-level covariates." ;
+    covid:modelDesc "This model uses a gradient boosted regressor with hyperparameter optimization that uses prior COVID cases and deaths as well as demographic, socioeconomic, mobility, and healthcare related county-level covariates. This model forecasts COVID deaths at the county level and aggregates to the state and national level. This model does not directly account for state reopenings and closures but indirectly via changes in the mobility measures." ;
+    covid:modelDesignation covid-model-designation:primary ;
+    covid:owner covid-owner:MITCriticalData .
+
+covid-owner:MITCriticalData a covid:Team ;
+    rdfs:label "MIT-CriticalData" .
+

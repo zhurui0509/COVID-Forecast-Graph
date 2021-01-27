@@ -1,0 +1,33 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-funding-resource: <http://covid.geog.ucsb.edu/lod/fundingResource/> .
+@prefix covid-license: <http://covid.geog.ucsb.edu/lod/license/> .
+@prefix covid-method: <http://covid.geog.ucsb.edu/lod/method/> .
+@prefix covid-model: <http://covid.geog.ucsb.edu/lod/model/> .
+@prefix covid-model-designation: <http://covid.geog.ucsb.edu/lod/modelDesignation/> .
+@prefix covid-owner: <http://covid.geog.ucsb.edu/lod/owner/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix ns1: <http://www.w3.org/ns/sosa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-research:CU-scenario_mid a covid:Research ;
+    rdfs:label "CU-scenario_mid" ;
+    ns1:madeBySensor covid-model:CU-scenario_mid ;
+    ns1:usedProcedure covid-method:scenario_mid .
+
+covid-method:scenario_mid a covid:Method ;
+    rdfs:label "scenario_mid" .
+
+covid-model:CU-scenario_mid a covid:Model ;
+    rdfs:label "CU-scenario_mid" ;
+    covid:hasLicense covid-license:apache-2.0 ;
+    covid:hasName "scenario_mid" ;
+    covid:hasWebsite <https://blogs.cuit.columbia.edu/jls106/publications/covid-19-findings-simulations/> ;
+    covid:modelBrief "We produce different intervention scenarios, assuming various interventions  and rates of compliance are implemented in the future. This projection assumes relatively  moderate transmission." ;
+    covid:modelDesc "'This metapopulation county-level SEIR model makes projections of future  COVID-19 incidence and deaths.  We produce a number of different intervention scenarios,  each assuming various interventions and rates of compliance are implemented in the  future.    November 12 - present: ''5_2xbeta'': 5% increase in contact rates for two weeks.  The following week, the reproduction  number R is set to 1.  November 8 - November 11: ''5_2xhold'': 5% increase in contact rates for two weeks.  The following week, the reproduction  number R is set to 1 for the remainder of the projection.   October 4 - November 5:   ''5_1xhold'': This scenario assumes a one-time    5% increase in contact rates, which is applied at the start of the projection and maintained for one week.  After one week, the reproduction    number R is set to 1 for the remainder of the projection.  August 23 - September 27: ''5_2xhold'': This scenario assumes a weekly    5% increase in contact rates for two weeks.  The following week, the reproduction    number R is set to 1 for the remainder of the projection.   June 14 - August 22 ''season4'': This scenario assumes that current contact  rates will remain unchanged in the future.  In addition, we assume a seasonal decrease  in disease transmission leading to a weekly 4% decrease in reproductive number R(t).  May 3 - June 7 ''80contactw5p'': For states maintaining or increasing current social  distancing restrictions, we apply a 20% weekly reductions of contact rates, as described  above. However, in states that reopen, we apply an increase to the contact rate  of counties in those states. In the first scenario, we apply a one-time 10% increase  to the contact rate during the week that the state is scheduled to reopen and maintain  this new increased rate for the remainder of the projection. April 12 - April 26  ''70contact'': This scenario mimics adaptive adjustments in contact imposed both  by government regulations (e.g. school closures, restrictions on mass gatherings)  and population self-regulation (e.g. isolation, mask wearing, social distancing).  Upon  initiation of projections, all counties with 10 or more confirmed cases impose a  30% contact rate reduction. Each week following, if a county newly exceeds 10 confirmed  cases, a 30% contact rate reduction is imposed, depending on the projection scenario.  Counties that had previously exceeded 10 confirmed cases and also experience an  increase in the number of weekly reported confirmed cases impose a further, multiplicative  30% contact rate reduction, depending on the projection scenario. '" ;
+    covid:modelDesignation covid-model-designation:other ;
+    covid:owner covid-owner:Columbia_University .
+
+covid-owner:Columbia_University a covid:Team ;
+    rdfs:label "Columbia University" ;
+    covid:fundingSource covid-funding-resource:Supported_by_US_NIH_grant_GM110748_and_US_NSF_RAPID_grant_DMS2027369 .
+

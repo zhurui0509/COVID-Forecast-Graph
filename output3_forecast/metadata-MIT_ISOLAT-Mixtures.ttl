@@ -1,0 +1,31 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-license: <http://covid.geog.ucsb.edu/lod/license/> .
+@prefix covid-method: <http://covid.geog.ucsb.edu/lod/method/> .
+@prefix covid-model: <http://covid.geog.ucsb.edu/lod/model/> .
+@prefix covid-model-designation: <http://covid.geog.ucsb.edu/lod/modelDesignation/> .
+@prefix covid-owner: <http://covid.geog.ucsb.edu/lod/owner/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix ns1: <http://www.w3.org/ns/sosa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-research:MIT_ISOLAT-Mixtures a covid:Research ;
+    rdfs:label "MIT_ISOLAT-Mixtures" ;
+    ns1:madeBySensor covid-model:MIT_ISOLAT-Mixtures ;
+    ns1:usedProcedure covid-method:Mixtures .
+
+covid-method:Mixtures a covid:Method ;
+    rdfs:label "Mixtures" .
+
+covid-model:MIT_ISOLAT-Mixtures a covid:Model ;
+    rdfs:label "MIT_ISOLAT-Mixtures" ;
+    covid:hasLicense covid-license:cc-by-4.0 ;
+    covid:hasName "Mixtures of Exponentials" ;
+    covid:hasWebsite <https://covidpredictions.mit.edu> ;
+    covid:modelBrief "Non-mechanistic, non-parametric model based on representing time series  as a sum of bell curves." ;
+    covid:modelDesc "A non-mechanistic, non-parametric model for prediction which forecasts  time series as a sum of bell curves. Confidence intervals are provided by assuming  a multiplicative log-Gaussian perturbation on the observed time series. While the   curve-fitting approach is based on a parsimonious function class, we also note that  it arises as a simple outcome of an SIR-like process in a network setting, allowing  the parameters of the fitted curve to contain structural meaning." ;
+    covid:modelDesignation covid-model-designation:primary ;
+    covid:owner covid-owner:IDSS_COVID19_Collaboration_Isolat_at_MIT .
+
+covid-owner:IDSS_COVID19_Collaboration_Isolat_at_MIT a covid:Team ;
+    rdfs:label "IDSS COVID-19 Collaboration (Isolat) at MIT" .
+

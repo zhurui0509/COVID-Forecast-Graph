@@ -1,0 +1,31 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-license: <http://covid.geog.ucsb.edu/lod/license/> .
+@prefix covid-method: <http://covid.geog.ucsb.edu/lod/method/> .
+@prefix covid-model: <http://covid.geog.ucsb.edu/lod/model/> .
+@prefix covid-model-designation: <http://covid.geog.ucsb.edu/lod/modelDesignation/> .
+@prefix covid-owner: <http://covid.geog.ucsb.edu/lod/owner/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix ns1: <http://www.w3.org/ns/sosa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-research:UpstateSU-GRU a covid:Research ;
+    rdfs:label "UpstateSU-GRU" ;
+    ns1:madeBySensor covid-model:UpstateSU-GRU ;
+    ns1:usedProcedure covid-method:GRU .
+
+covid-method:GRU a covid:Method ;
+    rdfs:label "GRU" .
+
+covid-model:UpstateSU-GRU a covid:Model ;
+    rdfs:label "UpstateSU-GRU" ;
+    covid:hasLicense covid-license:mit ;
+    covid:hasName "GRU" ;
+    covid:hasWebsite <ylzhang29.github.io/UpstateSU-GRU-Covid> ;
+    covid:modelBrief "County-level forecast using recurrent neural network seq2seq model with the Gated recurrent units (GRU)" ;
+    covid:modelDesc "We adopted the Sequence-to-sequence learning framework (Seq2Seq) that powers the language-processing apps like Google Translate (Sutskever et al., 2014). The Seq2Seq model is a feed-forward recurrent neural networks (RNN) that are specialized in mapping sequences. The Seq2Seq algorithm trains a model to convert sequences from the input to sequences in the output. Our model input sequences include daily smoothed incident cases and deaths counts google mobility index, and daily reproduction number, R (calculated based on daily indecent cases). We also aggregate the county demographic and health risk indices to model the baseline risk score.  The model takes ‘m’ days data (as well as the demographic and health risk indices) as input, and predict covid-19 cases or deaths for ‘n’ future days." ;
+    covid:modelDesignation covid-model-designation:primary ;
+    covid:owner covid-owner:SUNY_Upstate_and_SU_Covid19_Prediction_Team .
+
+covid-owner:SUNY_Upstate_and_SU_Covid19_Prediction_Team a covid:Team ;
+    rdfs:label "SUNY Upstate and SU Covid-19 Prediction Team" .
+
