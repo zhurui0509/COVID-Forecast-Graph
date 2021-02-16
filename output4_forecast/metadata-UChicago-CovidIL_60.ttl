@@ -1,0 +1,33 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-funding-resource: <http://covid.geog.ucsb.edu/lod/fundingResource/> .
+@prefix covid-license: <http://covid.geog.ucsb.edu/lod/license/> .
+@prefix covid-method: <http://covid.geog.ucsb.edu/lod/method/> .
+@prefix covid-model: <http://covid.geog.ucsb.edu/lod/model/> .
+@prefix covid-model-designation: <http://covid.geog.ucsb.edu/lod/modelDesignation/> .
+@prefix covid-owner: <http://covid.geog.ucsb.edu/lod/owner/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix ns1: <http://www.w3.org/ns/sosa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-research:UChicago-CovidIL_60 a covid:Research ;
+    rdfs:label "UChicago-CovidIL_60" ;
+    ns1:madeBySensor covid-model:UChicago-CovidIL_60 ;
+    ns1:usedProcedure covid-method:CovidIL_60 .
+
+covid-method:CovidIL_60 a covid:Method ;
+    rdfs:label "CovidIL_60" .
+
+covid-model:UChicago-CovidIL_60 a covid:Model ;
+    rdfs:label "UChicago-CovidIL_60" ;
+    covid:hasLicense covid-license:cc-by-nc-4.0 ;
+    covid:hasName "CovidIL_60" ;
+    covid:hasWebsite <https://github.com/cobeylab/covid_IL> ;
+    covid:modelBrief "This is a compartmental, age-structured SEIR model that infers past  SARS-CoV-2  transmission rates and forecasts mortality  under current and hypothetical public  health interventions." ;
+    covid:modelDesc "\"The model is age-structured to capture both age-specific contact patterns\\  \\ and age-specific differences in the biological dynamics, such as the probability\\  \\ of asymptomatic infection. Each model compartment is sub-divided into nine different\\  \\ age categories.  To model the state of Illinois, we divide the state into 3 regions\\  \\ based on similarities in epidemic dynamics. We infer a common statewide pre-intervention\\  \\ transmission rate, and a separate post-intervention transmission rate for each\\  \\ of the three regions. We also infer a region-specific initial number of infected\\  \\ individuals. Other model parameters are informed by Illinois-specific data or\\  \\ best estimates from existing literature. We fit the model to incident in-hospital\\  \\ deaths and confirmed COVID-19 ICU cases prior to May 8, 2020.   For inference,\\  \\ we use maximum likelihood inference via sequential Monte Carlo for partially observed\\  \\ Markov process models (POMP). \\t We assume that hospitalized deaths are reported\\  \\ with probability 0.8075. Because we do not know what might cause underreporting\\  \\ of non-hospitalized deaths, our simulations integrate over that uncertainty by\\  \\ assuming that the reporting rate for non-hospitalized deaths is uniformly distributed\\  \\ from 0.25 to 0.75. The model can be adapted to investigate different types of\\  \\ interventions.  We currently model shelter-in-place as a reduction in the overall\\  \\ transmission rate, which is shared by all infected individuals, and reductions\\  \\ in age- and location-specific contact rates.\\nTo model the relaxing of shelter-in-place\\  \\ interventions, we project four different scenarios. 1) The inferred post-intervention\\  \\ transmission rate remains unchanged. We assume that this is maximum reduction\\  \\ in transmission and call this model CovidIL_100. At our current estimates, this\\  \\ corresponds to a 78% reduction in pre-intervention transmission. 2) Transmission\\  \\ rates increase to 80% of the maximum reduction in transmission according to a\\  \\ logistic function centered on May 29. We call this model CovidIL_80. At our current\\  \\ estimates, this corresopnds to a 74% reduction in pre-intervention transmission.\\  \\ 3) Transmission rates increase to 60% of the maximum reduction in transmission\\  \\ according to a logistic function centered on May 29. We call this model CovidIL_60.\\  \\ At our current estimates, this corresopnds to a 69% reduction in pre-intervention\\  \\ transmission. 4) Transmission rates increase to 40% of the maximum reduction in\\  \\ transmission according to a logistic function centered on May 29. We call this\\  \\ model CovidIL_40. At our current estimates, this corresopnds to a 65% reduction\\  \\ in pre-intervention transmission.\"" ;
+    covid:modelDesignation covid-model-designation:other ;
+    covid:owner covid-owner:University_of_Chicago .
+
+covid-owner:University_of_Chicago a covid:Team ;
+    rdfs:label "University of Chicago" ;
+    covid:fundingSource covid-funding-resource:NIH .
+

@@ -1,0 +1,31 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-license: <http://covid.geog.ucsb.edu/lod/license/> .
+@prefix covid-method: <http://covid.geog.ucsb.edu/lod/method/> .
+@prefix covid-model: <http://covid.geog.ucsb.edu/lod/model/> .
+@prefix covid-model-designation: <http://covid.geog.ucsb.edu/lod/modelDesignation/> .
+@prefix covid-owner: <http://covid.geog.ucsb.edu/lod/owner/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix ns1: <http://www.w3.org/ns/sosa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-research:YYG-ParamSearch a covid:Research ;
+    rdfs:label "YYG-ParamSearch" ;
+    ns1:madeBySensor covid-model:YYG-ParamSearch ;
+    ns1:usedProcedure covid-method:ParamSearch .
+
+covid-method:ParamSearch a covid:Method ;
+    rdfs:label "ParamSearch" .
+
+covid-model:YYG-ParamSearch a covid:Model ;
+    rdfs:label "YYG-ParamSearch" ;
+    covid:hasLicense covid-license:cc-by-4.0 ;
+    covid:hasName "ParamSearch" ;
+    covid:hasWebsite <https://covid19-projections.com> ;
+    covid:modelBrief "An SEIR model that makes daily infections and deaths projections for US states.  A machine learning layer learns the best parameters/inputs for each state.  The model accounts for state reopenings." ;
+    covid:modelDesc "'We''ve built a SEIR model with learned parameters to make daily  projections regarding COVID-19 infections and deaths in all 50 US states and  70+ countries. The model also accounts for individual state-by-state reopenings  and the resulting effects on infections and deaths. The parameters/inputs  of this simulator are learned using hyperparameter optimization that minimizes  the error between the projected outputs (projected daily deaths) and the actual  results (reported daily deaths). Because the infections curve is unique for every  region, we let the model use each region''s own data to learn the best set of parameters  for that region. This includes parameters such as: mortality rate, initial R_0,  post-lockdown R, and the inflection date of any lockdowns. Other variables such  as the latency period, infectious period, and virus shedding period are fixed based  on published literature. After some additional validation techniques to minimize  overfitting, we use the learned parameters to simulate the future and make  projections. See website for full description, methods, and results.'" ;
+    covid:modelDesignation covid-model-designation:primary ;
+    covid:owner covid-owner:Youyang_Gu_YYG .
+
+covid-owner:Youyang_Gu_YYG a covid:Team ;
+    rdfs:label "Youyang Gu (YYG)" .
+

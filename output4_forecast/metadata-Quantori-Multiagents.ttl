@@ -1,0 +1,33 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-funding-resource: <http://covid.geog.ucsb.edu/lod/fundingResource/> .
+@prefix covid-license: <http://covid.geog.ucsb.edu/lod/license/> .
+@prefix covid-method: <http://covid.geog.ucsb.edu/lod/method/> .
+@prefix covid-model: <http://covid.geog.ucsb.edu/lod/model/> .
+@prefix covid-model-designation: <http://covid.geog.ucsb.edu/lod/modelDesignation/> .
+@prefix covid-owner: <http://covid.geog.ucsb.edu/lod/owner/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix ns1: <http://www.w3.org/ns/sosa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-research:Quantori-Multiagents a covid:Research ;
+    rdfs:label "Quantori-Multiagents" ;
+    ns1:madeBySensor covid-model:Quantori-Multiagents ;
+    ns1:usedProcedure covid-method:Multiagents .
+
+covid-method:Multiagents a covid:Method ;
+    rdfs:label "Multiagents" .
+
+covid-model:Quantori-Multiagents a covid:Model ;
+    rdfs:label "Quantori-Multiagents" ;
+    covid:hasLicense covid-license:cc-by-4.0 ;
+    covid:hasName "The Agent-based local stochastic model of COVID-19" ;
+    covid:hasWebsite <https://github.com/reichlab/covid19-forecast-hub/tree/master/data-processed/Quantori-Multiagents> ;
+    covid:modelBrief "The Agent-based local stochastic model of COVID-19 transmission" ;
+    covid:modelDesc "\"This model incorporates the reported geographic incidence data, which\\  \\ include individual\\u2019s age, infection status, and the severity of the disease.\\  \\  The model accounts for the latent period of the individual\\u2019s infection before\\  \\ detection and proper reporting as well as for different disease severity levels.\\  \\  The framework also allows to incorporate the exact geographic addresses of individuals\\  \\ (if available) or the random geographic distribution of individuals.\"" ;
+    covid:modelDesignation covid-model-designation:primary ;
+    covid:owner covid-owner:Quantori_modeling .
+
+covid-owner:Quantori_modeling a covid:Team ;
+    rdfs:label "Quantori modeling" ;
+    covid:fundingSource covid-funding-resource:private .
+

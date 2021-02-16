@@ -71,11 +71,20 @@ def loadCSV_new(fileName):
     forecast = [list(row) for row in data.values]
     return forecast
 
+def paddingCountyFIPS(input_FIPS):
+    input_FIPS = str(input_FIPS)
+    if len(input_FIPS) ==4:
+        input_FIPS = input_FIPS.zfill(5)
+        return input_FIPS
+    else:
+        return input_FIPS
+
 def loadCSV_groundTruth(fileName):
     
     header = ['date', 'location', 'location_name',  'value']
     data = pd.read_csv(fileName)
     data = data[header]
+    data['location'] = data['location'].apply(lambda x: paddingCountyFIPS(x))
 
     ground_truth = [list(row) for row in data.values]
     return ground_truth
@@ -97,6 +106,7 @@ def loadCSV_groundTruth_filter(fileName, initial_date):
     header = ['date', 'location', 'location_name',  'value']
     data = pd.read_csv(fileName)
     data = data[header]
+    data['location'] = data['location'].apply(lambda x: paddingCountyFIPS(x))
 
     ground_truth = [list(row) for row in data.values if compare_date(initial_date, row[0])]
     return ground_truth
@@ -1029,3 +1039,5 @@ if __name__ == "__main__":
     #main_places() # only need to run it once
     #main_groundTruth("2021-01-18", 'output3_forecast')  ## 2020-09-03
     #main_rdftype() # do not need to run it every time. Run it only if encoutered errors in main()
+
+    #main_groundTruth("2020-12-01", 'OW_GT')  ## 2020-09-03

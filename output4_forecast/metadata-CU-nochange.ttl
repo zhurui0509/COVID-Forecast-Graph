@@ -1,0 +1,33 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-funding-resource: <http://covid.geog.ucsb.edu/lod/fundingResource/> .
+@prefix covid-license: <http://covid.geog.ucsb.edu/lod/license/> .
+@prefix covid-method: <http://covid.geog.ucsb.edu/lod/method/> .
+@prefix covid-model: <http://covid.geog.ucsb.edu/lod/model/> .
+@prefix covid-model-designation: <http://covid.geog.ucsb.edu/lod/modelDesignation/> .
+@prefix covid-owner: <http://covid.geog.ucsb.edu/lod/owner/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix ns1: <http://www.w3.org/ns/sosa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-research:CU-nochange a covid:Research ;
+    rdfs:label "CU-nochange" ;
+    ns1:madeBySensor covid-model:CU-nochange ;
+    ns1:usedProcedure covid-method:nochange .
+
+covid-method:nochange a covid:Method ;
+    rdfs:label "nochange" .
+
+covid-model:CU-nochange a covid:Model ;
+    rdfs:label "CU-nochange" ;
+    covid:hasLicense covid-license:apache-2.0 ;
+    covid:hasName "nochange" ;
+    covid:hasWebsite <https://blogs.cuit.columbia.edu/jls106/publications/covid-19-findings-simulations/> ;
+    covid:modelBrief "This metapopulation county-level SEIR model assumes that current contact  rates will remain unchanged in the future." ;
+    covid:modelDesc "'This Metapopulation county-level SEIR model assumes that current contact  rates will remain unchanged in the future. Estimates of spatio-temporal COVID-19  infections, hospitalizations and deaths were  calculated for all US counties. '" ;
+    covid:modelDesignation covid-model-designation:other ;
+    covid:owner covid-owner:Columbia_University .
+
+covid-owner:Columbia_University a covid:Team ;
+    rdfs:label "Columbia University" ;
+    covid:fundingSource covid-funding-resource:Supported_by_US_NIH_grant_GM110748_and_US_NSF_RAPID_grant_DMS2027369 .
+

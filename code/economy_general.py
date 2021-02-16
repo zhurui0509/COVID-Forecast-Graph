@@ -253,105 +253,143 @@ def triplify_economy(source_name, data_file, column_list, temporal_resolution, s
 
 def main():
 
-    #### Triplify Affinity Data #######
-    print('Start triplifying Affinity')
-    source_name = 'Affinity'
-    data_file = ["Affinity - State - Daily.csv", 'Affinity - National - Daily.csv']
-    column_list_state = ['year','month','day','statefips','freq','spend_acf','spend_aer','spend_all','spend_apg','spend_grf','spend_hcs',
-    'spend_tws','spend_all_inchigh','spend_all_inclow','spend_all_incmiddle']
-    column_list_national = ['year', 'month', 'day', 'freq','spend_acf', 'spend_aer', 'spend_all', 'spend_apg', 'spend_grf', 'spend_hcs', 
-    'spend_tws', 'spend_all_inchigh', 'spend_all_inclow', 'spend_all_incmiddle']
+    # #### Triplify Affinity Data #######
+    # print('Start triplifying Affinity')
+    # source_name = 'Affinity'
+    # data_file = ["Affinity - State - Daily.csv", 'Affinity - National - Daily.csv']
+    # column_list_state = ['year','month','day','statefips','freq','spend_acf','spend_aer','spend_all','spend_apg','spend_grf','spend_hcs',
+    # 'spend_tws','spend_all_inchigh','spend_all_inclow','spend_all_incmiddle']
+    # column_list_national = ['year', 'month', 'day', 'freq','spend_acf', 'spend_aer', 'spend_all', 'spend_apg', 'spend_grf', 'spend_hcs', 
+    # 'spend_tws', 'spend_all_inchigh', 'spend_all_inclow', 'spend_all_incmiddle']
     
-    source_stat_label_state = 'State level aggregated and anonymized purchase data from consumer credit and debit card spending. Spending is reported based on the ZIP code where the cardholder lives, not the ZIP code where transactions occurred.'
-    source_stat_label_national = 'National level aggregated and anonymized purchase data from consumer credit and debit card spending. Spending is reported based on the ZIP code where the cardholder lives, not the ZIP code where transactions occurred.'
+    # source_stat_label_state = 'State level aggregated and anonymized purchase data from consumer credit and debit card spending. Spending is reported based on the ZIP code where the cardholder lives, not the ZIP code where transactions occurred.'
+    # source_stat_label_national = 'National level aggregated and anonymized purchase data from consumer credit and debit card spending. Spending is reported based on the ZIP code where the cardholder lives, not the ZIP code where transactions occurred.'
 
-    temporal_resolution = 'daily'
+    # temporal_resolution = 'daily'
 
-    obs_prop_label_dic ={'spend_acf': "Seasonally adjusted credit/debit card spending relative to January 4-31 2020 in accomodation and food service (ACF) MCCs, 7 day moving average, 7 day moving average.",
-                        'spend_aer': "Seasonally adjusted credit/debit card spending relative to January 4-31 2020 in arts, entertainment, and recreation (AER) MCCs, 7 day moving average",
-                        'spend_all': "Seasonally adjusted credit/debit card spending relative to January 4-31 2020 in all merchant category codes (MCC), 7 day moving average.",
-                        'spend_apg': "Seasonally adjusted credit/debit card spending relative to January 4-31 2020 in general merchandise stores (GEN) and apparel and accessories (AAP) MCCs, 7 day moving average.",
-                        'spend_grf': "Seasonally adjusted credit/debit card spending relative to January 4-31 2020 in grocery and food store (GRF) MCCs, 7 day moving average.",
-                        'spend_hcs': "Seasonally adjusted credit/debit card spending relative to January 4-31 2020 in health care and social assistance (HCS) MCCs, 7 day moving average.",
-                        'spend_tws': "Seasonally adjusted credit/debit card spending relative to January 4-31 2020 in transportation and warehousing (TWS) MCCs, 7 day moving average.",
-                        'spend_all_inchigh': "Seasonally adjusted credit/debit card spending by consumers living in ZIP codes with high (top quartile) median income, relative to January 4-31 2020 in all merchant category codes (MCC), 7 day moving average.",
-                        'spend_all_inclow': "Seasonally adjusted credit/debit card spending by consumers living in ZIP codes with middle (middle two quartiles) median income, relative to January 4-31 2020 in all merchant category codes (MCC), 7 day moving average.",
-                        'spend_all_incmiddle': "Seasonally adjusted credit/debit card spending by consumers living in ZIP codes with low (bottom quartiles) median income, relative to January 4-31 2020 in all merchant category codes (MCC), 7 day moving average."}
+    # obs_prop_label_dic ={'spend_acf': "Seasonally adjusted credit/debit card spending relative to January 4-31 2020 in accomodation and food service (ACF) MCCs, 7 day moving average, 7 day moving average.",
+    #                     'spend_aer': "Seasonally adjusted credit/debit card spending relative to January 4-31 2020 in arts, entertainment, and recreation (AER) MCCs, 7 day moving average",
+    #                     'spend_all': "Seasonally adjusted credit/debit card spending relative to January 4-31 2020 in all merchant category codes (MCC), 7 day moving average.",
+    #                     'spend_apg': "Seasonally adjusted credit/debit card spending relative to January 4-31 2020 in general merchandise stores (GEN) and apparel and accessories (AAP) MCCs, 7 day moving average.",
+    #                     'spend_grf': "Seasonally adjusted credit/debit card spending relative to January 4-31 2020 in grocery and food store (GRF) MCCs, 7 day moving average.",
+    #                     'spend_hcs': "Seasonally adjusted credit/debit card spending relative to January 4-31 2020 in health care and social assistance (HCS) MCCs, 7 day moving average.",
+    #                     'spend_tws': "Seasonally adjusted credit/debit card spending relative to January 4-31 2020 in transportation and warehousing (TWS) MCCs, 7 day moving average.",
+    #                     'spend_all_inchigh': "Seasonally adjusted credit/debit card spending by consumers living in ZIP codes with high (top quartile) median income, relative to January 4-31 2020 in all merchant category codes (MCC), 7 day moving average.",
+    #                     'spend_all_inclow': "Seasonally adjusted credit/debit card spending by consumers living in ZIP codes with middle (middle two quartiles) median income, relative to January 4-31 2020 in all merchant category codes (MCC), 7 day moving average.",
+    #                     'spend_all_incmiddle': "Seasonally adjusted credit/debit card spending by consumers living in ZIP codes with low (bottom quartiles) median income, relative to January 4-31 2020 in all merchant category codes (MCC), 7 day moving average."}
     
-    triplify_economy(source_name, data_file[0], column_list_state, temporal_resolution, source_stat_label_state, obs_prop_label_dic)
-    triplify_economy(source_name, data_file[1], column_list_national, temporal_resolution, source_stat_label_national, obs_prop_label_dic)
+    # triplify_economy(source_name, data_file[0], column_list_state, temporal_resolution, source_stat_label_state, obs_prop_label_dic)
+    # triplify_economy(source_name, data_file[1], column_list_national, temporal_resolution, source_stat_label_national, obs_prop_label_dic)
 
-    ###### Triplify Burning Glass Data 
-    print('Start triplifying Burning Glass')
-    source_name = 'BurningGlass'
-    data_file = ["Burning Glass - National - Weekly.csv", 'Burning Glass - State - Weekly.csv']
-    column_list_state = ['year', 'month',  'day_endofweek',  'statefips',  'bg_posts', 'bg_posts_ss30', 'bg_posts_ss55',
-     'bg_posts_ss60', 'bg_posts_ss65', 'bg_posts_ss70', 'bg_posts_jz1','bg_posts_jzgrp12','bg_posts_jz2', 'bg_posts_jz3', 'bg_posts_jzgrp345', 'bg_posts_jz4','bg_posts_jz5']
-    column_list_national = ['year', 'month',  'day_endofweek', 'bg_posts', 'bg_posts_ss30', 'bg_posts_ss55',
-     'bg_posts_ss60', 'bg_posts_ss65', 'bg_posts_ss70', 'bg_posts_jz1','bg_posts_jzgrp12','bg_posts_jz2', 'bg_posts_jz3', 'bg_posts_jzgrp345', 'bg_posts_jz4','bg_posts_jz5']
-    source_stat_label_state = "State level weekly count of new job postings, sourced from over 40,000 online job boards. New job postings are defined as those that have not had a duplicate posting for at least 60 days prior."
-    source_stat_label_national = "National level state level weekly count of new job postings, sourced from over 40,000 online job boards. New job postings are defined as those that have not had a duplicate posting for at least 60 days prior."
+    # ###### Triplify Burning Glass Data 
+    # print('Start triplifying Burning Glass')
+    # source_name = 'BurningGlass'
+    # data_file = ["Burning Glass - National - Weekly.csv", 'Burning Glass - State - Weekly.csv']
+    # column_list_state = ['year', 'month',  'day_endofweek',  'statefips',  'bg_posts', 'bg_posts_ss30', 'bg_posts_ss55',
+    #  'bg_posts_ss60', 'bg_posts_ss65', 'bg_posts_ss70', 'bg_posts_jz1','bg_posts_jzgrp12','bg_posts_jz2', 'bg_posts_jz3', 'bg_posts_jzgrp345', 'bg_posts_jz4','bg_posts_jz5']
+    # column_list_national = ['year', 'month',  'day_endofweek', 'bg_posts', 'bg_posts_ss30', 'bg_posts_ss55',
+    #  'bg_posts_ss60', 'bg_posts_ss65', 'bg_posts_ss70', 'bg_posts_jz1','bg_posts_jzgrp12','bg_posts_jz2', 'bg_posts_jz3', 'bg_posts_jzgrp345', 'bg_posts_jz4','bg_posts_jz5']
+    # source_stat_label_state = "State level weekly count of new job postings, sourced from over 40,000 online job boards. New job postings are defined as those that have not had a duplicate posting for at least 60 days prior."
+    # source_stat_label_national = "National level state level weekly count of new job postings, sourced from over 40,000 online job boards. New job postings are defined as those that have not had a duplicate posting for at least 60 days prior."
 
-    temporal_resolution = 'weekly' 
+    # temporal_resolution = 'weekly' 
 
-    obs_prop_label_dic = {"bg_posts": "Average level of job postings relative to January 4-31 2020.",
-                    "bg_posts_ss30": 'Average level of job postings relative to January 4-31 2020 in manufacturing (NAICS supersector 30).',
-                    "bg_posts_ss55": 'Average level of job postings relative to January 4-31 2020 in financial activities (NAICS supersector 55).',
-                    "bg_posts_ss60": 'Average level of job postings relative to January 4-31 2020 in professional and business services (NAICS supersector 60).',
-                    "bg_posts_ss65": 'Average level of job postings relative to January 4-31 2020 in education and health services (NAICS supersector 65).',
-                    "bg_posts_ss70": 'Average level of job postings relative to January 4-31 2020 in leisure and hospitality (NAICS supersector 70).',
-                    "bg_posts_jz1": 'Average level of job postings relative to January 4-31 2020 requiring little/no preparation (ONET jobzone level 1).',
-                    "bg_posts_jz2": 'Average level of job postings relative to January 4-31 2020 requiring some preparation (ONET jobzone level 2).',
-                    'bg_posts_jz3': 'Average level of job postings relative to January 4-31 2020 requiring medium preparation (ONET jobzone level 3).',
-                    'bg_posts_jz4': 'Average level of job postings relative to January 4-31 2020 requiring considerable preparation (ONET jobzone level 4).',
-                    'bg_posts_jz5': 'Average level of job postings relative to January 4-31 2020 requiring extensive preparation (ONET jobzone level 5).',
-                    'bg_posts_jzgrp12': 'Average level of job postings relative to January 4-31 2020 requiring low preparation (ONET jobzone levels 1 and 2).',
-                    'bg_posts_jzgrp345': 'Average level of job postings relative to January 4-31 2020 requiring high preparation (ONET jobzone levels 3, 4 and 5).'}
+    # obs_prop_label_dic = {"bg_posts": "Average level of job postings relative to January 4-31 2020.",
+    #                 "bg_posts_ss30": 'Average level of job postings relative to January 4-31 2020 in manufacturing (NAICS supersector 30).',
+    #                 "bg_posts_ss55": 'Average level of job postings relative to January 4-31 2020 in financial activities (NAICS supersector 55).',
+    #                 "bg_posts_ss60": 'Average level of job postings relative to January 4-31 2020 in professional and business services (NAICS supersector 60).',
+    #                 "bg_posts_ss65": 'Average level of job postings relative to January 4-31 2020 in education and health services (NAICS supersector 65).',
+    #                 "bg_posts_ss70": 'Average level of job postings relative to January 4-31 2020 in leisure and hospitality (NAICS supersector 70).',
+    #                 "bg_posts_jz1": 'Average level of job postings relative to January 4-31 2020 requiring little/no preparation (ONET jobzone level 1).',
+    #                 "bg_posts_jz2": 'Average level of job postings relative to January 4-31 2020 requiring some preparation (ONET jobzone level 2).',
+    #                 'bg_posts_jz3': 'Average level of job postings relative to January 4-31 2020 requiring medium preparation (ONET jobzone level 3).',
+    #                 'bg_posts_jz4': 'Average level of job postings relative to January 4-31 2020 requiring considerable preparation (ONET jobzone level 4).',
+    #                 'bg_posts_jz5': 'Average level of job postings relative to January 4-31 2020 requiring extensive preparation (ONET jobzone level 5).',
+    #                 'bg_posts_jzgrp12': 'Average level of job postings relative to January 4-31 2020 requiring low preparation (ONET jobzone levels 1 and 2).',
+    #                 'bg_posts_jzgrp345': 'Average level of job postings relative to January 4-31 2020 requiring high preparation (ONET jobzone levels 3, 4 and 5).'}
 
-    triplify_economy(source_name, data_file[0], column_list_national, temporal_resolution, source_stat_label_national, obs_prop_label_dic)
-    triplify_economy(source_name, data_file[1], column_list_state, temporal_resolution, source_stat_label_state, obs_prop_label_dic)
+    # triplify_economy(source_name, data_file[0], column_list_national, temporal_resolution, source_stat_label_national, obs_prop_label_dic)
+    # triplify_economy(source_name, data_file[1], column_list_state, temporal_resolution, source_stat_label_state, obs_prop_label_dic)
 
-  
+   
 
-   ######## Triplify Womply Merchants Data  (opening data)
-    print('Start triplifying Womply Merchants')
+   ######## Triplify Womply Data  (opening data - both Merchants and Revenue)  ###############
+
+    print('Start triplifying Womply data')
     source_name = 'WomplyMerchants'
-    data_file = ["Womply Merchants - National - Daily.csv", 'Womply Merchants - State - Daily.csv']
-    column_list_state = ['year','month','day','statefips','merchants_all','merchants_ss40','merchants_ss60','merchants_ss65','merchants_ss70']
-    column_list_national = ['year','month','day','merchants_all','merchants_ss40','merchants_ss60','merchants_ss65','merchants_ss70']
+    data_file = ["Womply - National - Daily.csv", 'Womply - State - Daily.csv']
+    column_list_state = ['year','month','day','statefips','merchants_all','merchants_inchigh','merchants_inclow','merchants_incmiddle','merchants_ss40','merchants_ss60','merchants_ss65','merchants_ss70',
+                        'revenue_all','revenue_inchigh','revenue_inclow','revenue_incmiddle','revenue_ss40','revenue_ss60','revenue_ss65','revenue_ss70']
+    column_list_national = ['year', 'month', 'day merchants_all', 'merchants_inchigh', 'merchants_inclow','merchants_incmiddle','merchants_ss40', 'merchants_ss60',  
+                            'merchants_ss65', 'merchants_ss70',  'revenue_all', 'revenue_inchigh', 'revenue_inclow', 'revenue_incmiddle', 'revenue_ss40','revenue_ss60', 'revenue_ss65','revenue_ss70']
     source_stat_label_state = "State level number of small businesses open, as defined by having had at least one transaction in the previous 3 days."
-    source_stat_label_national = "National level Number of small businesses open, as defined by having had at least one transaction in the previous 3 days."
+    source_stat_label_national = "National level number of small businesses open, as defined by having had at least one transaction in the previous 3 days."
 
     temporal_resolution = 'daily' 
 
     obs_prop_label_dic = {"merchants_all": "Percent change in number of small businesses open calculated as a seven-day moving average seasonally adjusted and indexed to January 4-31 2020.",
-                         "merchants_ss40": "Percent change in number of small businesses open calculated as a seven-day moving average seasonally adjusted and indexed to January 4-31 2020 in transportation (NAICS supersector 40).",
-                        "merchants_ss60": "Percent change in number of small businesses open calculated as a seven-day moving average seasonally adjusted and indexed to January 4-31 2020 in professional and business services (NAICS supersector 60).",
-                        "merchants_ss65": "Percent change in number of small businesses open calculated as a seven-day moving average seasonally adjusted and indexed to January 4-31 2020 in education and health services (NAICS supersector 65).",
-                        "merchants_ss70": "Percent change in number of small businesses open calculated as a seven-day moving average seasonally adjusted and indexed to January 4-31 2020 in leisure and hospitality (NAICS supersector 70)."}
+"merchants_inchigh": "Percent change in number of small businesses open calculated as a seven-day moving average seasonally adjusted and indexed to January 4-31 2020 in high income (quartile 4 of median income) ZIP codes.",
+"merchants_incmiddle": "Percent change in number of small businesses open calculated as a seven-day moving average seasonally adjusted and indexed to January 4-31 2020 in middle income (quartiles 2 & 3 of median income) ZIP codes.",
+"merchants_inclow": "Percent change in number of small businesses open calculated as a seven-day moving average seasonally adjusted and indexed to January 4-31 2020 in low income (quartile 1 of median income) ZIP codes.",
+"merchants_ss40": "Percent change in number of small businesses open calculated as a seven-day moving average seasonally adjusted and indexed to January 4-31 2020 in transportation (NAICS supersector 40).",
+"merchants_ss60": "Percent change in number of small businesses open calculated as a seven-day moving average seasonally adjusted and indexed to January 4-31 2020 in professional and business services (NAICS supersector 60).",
+"merchants_ss65": "Percent change in number of small businesses open calculated as a seven-day moving average seasonally adjusted and indexed to January 4-31 2020 in education and health services (NAICS supersector 65).",
+"merchants_ss70": "Percent change in number of small businesses open calculated as a seven-day moving average seasonally adjusted and indexed to January 4-31 2020 in leisure and hospitality (NAICS supersector 70).",
+"revenue_all": "Percent change in net revenue for small businesses, calculated as a seven-day moving average, seasonally adjusted, and indexed to January 4-31 2020.",
+"revenue_inchigh": "Percent change in net revenue for small businesses, calculated as a seven-day moving average, seasonally adjusted, and indexed to January 4-31 2020 in high income (quartile 4 of median income) zipcodes.",
+"revenue_incmiddle": "Percent change in net revenue for small businesses, calculated as a seven-day moving average, seasonally adjusted, and indexed to January 4-31 2020 in middle income (quartiles 2 & 3 of median income) zipcodes.",
+"revenue_inclow": "Percent change in net revenue for small businesses, calculated as a seven-day moving average, seasonally adjusted, and indexed to January 4-31 2020 in low income (quartile 1 of median income) zipcodes.",
+"revenue_ss40": "Percent change in net revenue for small businesses, calculated as a seven-day moving average, seasonally adjusted, and indexed to January 4-31 2020 in transportation (NAICS supersector 40).",
+"revenue_ss60": "Percent change in net revenue for small businesses, calculated as a seven-day moving average, seasonally adjusted, and indexed to January 4-31 2020 in professional and business services (NAICS supersector 60).",
+"revenue_ss65": "Percent change in net revenue for small businesses, calculated as a seven-day moving average, seasonally adjusted, and indexed to January 4-31 2020 in education and health services (NAICS supersector 65).",
+"revenue_ss70": "Percent change in net revenue for small businesses, calculated as a seven-day moving average, seasonally adjusted, and indexed to January 4-31 2020 in leisure and hospitality (NAICS supersector 70)."}
 
     triplify_economy(source_name, data_file[0], column_list_national, temporal_resolution, source_stat_label_national, obs_prop_label_dic)
     triplify_economy(source_name, data_file[1], column_list_state, temporal_resolution, source_stat_label_state, obs_prop_label_dic)
 
-   ######## Triplify Womply Revenue Data  (revenue data)
-    print('Start triplifying Womply Revenue')
-    source_name = 'WomplyRevenue'
-    data_file = ["Womply Revenue - National - Daily.csv", 'Womply Revenue - State - Daily.csv']
-    column_list_state = ['year','month','day','statefips', 'revenue_all','revenue_ss40','revenue_ss60','revenue_ss65','revenue_ss70']
-    column_list_national = ['year','month','day','merchants_all','revenue_all','revenue_ss40','revenue_ss60','revenue_ss65','revenue_ss70']
-    source_stat_label_state = "State level small business transactions and revenue data aggregated from several credit card processors. Transactions and revenue are reported based on the ZIP code where the business is located."
-    source_stat_label_national = "National level Small business transactions and revenue data aggregated from several credit card processors. Transactions and revenue are reported based on the ZIP code where the business is located."
 
-    temporal_resolution = 'daily' 
 
-    obs_prop_label_dic = {"merchants_all": "Percent change in net revenue for small businesses, calculated as a seven-day moving average, seasonally adjusted, and indexed to January 4-31 2020.",
-                         "merchants_ss40": "Percent change in net revenue for small businesses, calculated as a seven-day moving average, seasonally adjusted, and indexed to January 4-31 2020 in transportation (NAICS supersector 40).",
-                        "merchants_ss60": "Percent change in net revenue for small businesses, calculated as a seven-day moving average, seasonally adjusted, and indexed to January 4-31 2020 in professional and business services (NAICS supersector 60).",
-                        "merchants_ss65": "Percent change in net revenue for small businesses, calculated as a seven-day moving average, seasonally adjusted, and indexed to January 4-31 2020 in education and health services (NAICS supersector 65).",
-                        "merchants_ss70": "Percent change in net revenue for small businesses, calculated as a seven-day moving average, seasonally adjusted, and indexed to January 4-31 2020 in leisure and hospitality (NAICS supersector 70)."}
+  
 
-    triplify_economy(source_name, data_file[0], column_list_national, temporal_resolution, source_stat_label_national, obs_prop_label_dic)
-    triplify_economy(source_name, data_file[1], column_list_state, temporal_resolution, source_stat_label_state, obs_prop_label_dic)
+   # ######## Triplify Womply Merchants Data  (opening data)
+   #  print('Start triplifying Womply Merchants')
+   #  source_name = 'WomplyMerchants'
+   #  data_file = ["Womply Merchants - National - Daily.csv", 'Womply Merchants - State - Daily.csv']
+   #  column_list_state = ['year','month','day','statefips','merchants_all','merchants_ss40','merchants_ss60','merchants_ss65','merchants_ss70']
+   #  column_list_national = ['year','month','day','merchants_all','merchants_ss40','merchants_ss60','merchants_ss65','merchants_ss70']
+   #  source_stat_label_state = "State level number of small businesses open, as defined by having had at least one transaction in the previous 3 days."
+   #  source_stat_label_national = "National level Number of small businesses open, as defined by having had at least one transaction in the previous 3 days."
+
+   #  temporal_resolution = 'daily' 
+
+   #  obs_prop_label_dic = {"merchants_all": "Percent change in number of small businesses open calculated as a seven-day moving average seasonally adjusted and indexed to January 4-31 2020.",
+   #                       "merchants_ss40": "Percent change in number of small businesses open calculated as a seven-day moving average seasonally adjusted and indexed to January 4-31 2020 in transportation (NAICS supersector 40).",
+   #                      "merchants_ss60": "Percent change in number of small businesses open calculated as a seven-day moving average seasonally adjusted and indexed to January 4-31 2020 in professional and business services (NAICS supersector 60).",
+   #                      "merchants_ss65": "Percent change in number of small businesses open calculated as a seven-day moving average seasonally adjusted and indexed to January 4-31 2020 in education and health services (NAICS supersector 65).",
+   #                      "merchants_ss70": "Percent change in number of small businesses open calculated as a seven-day moving average seasonally adjusted and indexed to January 4-31 2020 in leisure and hospitality (NAICS supersector 70)."}
+
+   #  triplify_economy(source_name, data_file[0], column_list_national, temporal_resolution, source_stat_label_national, obs_prop_label_dic)
+   #  triplify_economy(source_name, data_file[1], column_list_state, temporal_resolution, source_stat_label_state, obs_prop_label_dic)
+
+   # ######## Triplify Womply Revenue Data  (revenue data)
+   #  print('Start triplifying Womply Revenue')
+   #  source_name = 'WomplyRevenue'
+   #  data_file = ["Womply Revenue - National - Daily.csv", 'Womply Revenue - State - Daily.csv']
+   #  column_list_state = ['year','month','day','statefips', 'revenue_all','revenue_ss40','revenue_ss60','revenue_ss65','revenue_ss70']
+   #  column_list_national = ['year','month','day','merchants_all','revenue_all','revenue_ss40','revenue_ss60','revenue_ss65','revenue_ss70']
+   #  source_stat_label_state = "State level small business transactions and revenue data aggregated from several credit card processors. Transactions and revenue are reported based on the ZIP code where the business is located."
+   #  source_stat_label_national = "National level Small business transactions and revenue data aggregated from several credit card processors. Transactions and revenue are reported based on the ZIP code where the business is located."
+
+   #  temporal_resolution = 'daily' 
+
+   #  obs_prop_label_dic = {"merchants_all": "Percent change in net revenue for small businesses, calculated as a seven-day moving average, seasonally adjusted, and indexed to January 4-31 2020.",
+   #                       "merchants_ss40": "Percent change in net revenue for small businesses, calculated as a seven-day moving average, seasonally adjusted, and indexed to January 4-31 2020 in transportation (NAICS supersector 40).",
+   #                      "merchants_ss60": "Percent change in net revenue for small businesses, calculated as a seven-day moving average, seasonally adjusted, and indexed to January 4-31 2020 in professional and business services (NAICS supersector 60).",
+   #                      "merchants_ss65": "Percent change in net revenue for small businesses, calculated as a seven-day moving average, seasonally adjusted, and indexed to January 4-31 2020 in education and health services (NAICS supersector 65).",
+   #                      "merchants_ss70": "Percent change in net revenue for small businesses, calculated as a seven-day moving average, seasonally adjusted, and indexed to January 4-31 2020 in leisure and hospitality (NAICS supersector 70)."}
+
+   #  triplify_economy(source_name, data_file[0], column_list_national, temporal_resolution, source_stat_label_national, obs_prop_label_dic)
+   #  triplify_economy(source_name, data_file[1], column_list_state, temporal_resolution, source_stat_label_state, obs_prop_label_dic)
 
     ######## Triplify  Paychex, Intuit, Earnin and Kronos (employment)
     print('Start triplifying Employment')
