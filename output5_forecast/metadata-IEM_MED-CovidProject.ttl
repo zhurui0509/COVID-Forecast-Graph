@@ -1,0 +1,31 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-license: <http://covid.geog.ucsb.edu/lod/license/> .
+@prefix covid-method: <http://covid.geog.ucsb.edu/lod/method/> .
+@prefix covid-model: <http://covid.geog.ucsb.edu/lod/model/> .
+@prefix covid-model-designation: <http://covid.geog.ucsb.edu/lod/modelDesignation/> .
+@prefix covid-owner: <http://covid.geog.ucsb.edu/lod/owner/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix ns1: <http://www.w3.org/ns/sosa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-research:IEM_MED-CovidProject a covid:Research ;
+    rdfs:label "IEM_MED-CovidProject" ;
+    ns1:madeBySensor covid-model:IEM_MED-CovidProject ;
+    ns1:usedProcedure covid-method:CovidProject .
+
+covid-method:CovidProject a covid:Method ;
+    rdfs:label "CovidProject" .
+
+covid-model:IEM_MED-CovidProject a covid:Model ;
+    rdfs:label "IEM_MED-CovidProject" ;
+    covid:hasLicense covid-license:cc-by-4.0 ;
+    covid:hasName "CovidProjections" ;
+    covid:hasWebsite <https://iem-modeling.com/> ;
+    covid:modelBrief "County-level, state-level, and national-level SEIR model projections for daily incident confirmed COVID   cases by using AI to fit actual cases observed." ;
+    covid:modelDesc "\"IEM is currently using an AI model to fit data from various sources \\  \\ and project new cases of COVID-19. We do not assume the average number of secondary \\  \\ infections (R-value) stays the same over time. Our model makes projections for \\  \\ over 375 individual counties in the U.S., all 50 states, the District of Columbia, \\  \\ and 3 U.S. territories. For each jurisdiction, our model runs 4 million simulations \\  \\ to find the best R value that would allow the SEIR model to fit the data for confirmed \\  \\ cases. Our model assumes that the R value changes quite rapidly over time due to changes \\  \\ in human behavior. Our model uses a sliding window to fit the data and find the best \\  \\ R values for each of the windows. Projections of future cases assume that human behavior \\  \\ and social distancing measures are unchanged.\"" ;
+    covid:modelDesignation covid-model-designation:primary ;
+    covid:owner covid-owner:IEM_MED .
+
+covid-owner:IEM_MED a covid:Team ;
+    rdfs:label "IEM MED" .
+

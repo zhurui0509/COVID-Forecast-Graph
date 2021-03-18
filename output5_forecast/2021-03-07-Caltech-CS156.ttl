@@ -1,0 +1,1775 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-forecast: <http://covid.geog.ucsb.edu/lod/prediction/> .
+@prefix covid-instant: <http://covid.geog.ucsb.edu/lod/instant/> .
+@prefix covid-obs-property: <http://covid.geog.ucsb.edu/lod/observedproperty/> .
+@prefix covid-place: <http://covid.geog.ucsb.edu/lod/place/> .
+@prefix covid-target: <http://covid.geog.ucsb.edu/lod/target/> .
+@prefix covid-target-type: <http://covid.geog.ucsb.edu/lod/target-type/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+covid-forecast:2021-03-07-Caltech-CS156 a covid:Forecast ;
+    rdfs:label "2021-03-07-Caltech-CS156" ;
+    sosa:hasMember covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_01,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_02,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_04,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_05,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_06,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_08,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_09,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_10,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_11,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_12,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_13,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_15,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_16,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_17,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_18,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_19,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_20,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_21,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_22,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_23,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_24,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_25,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_26,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_27,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_28,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_29,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_30,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_31,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_32,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_33,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_34,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_35,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_36,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_37,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_38,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_39,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_40,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_41,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_42,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_44,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_45,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_46,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_47,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_48,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_49,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_50,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_51,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_53,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_54,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_55,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_56,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_66,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_72,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_78,
+        covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_US,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_01,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_02,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_04,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_05,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_06,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_08,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_09,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_10,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_11,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_12,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_13,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_15,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_16,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_17,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_18,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_19,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_20,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_21,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_22,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_23,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_24,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_25,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_26,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_27,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_28,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_29,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_30,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_31,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_32,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_33,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_34,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_35,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_36,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_37,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_38,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_39,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_40,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_41,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_42,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_44,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_45,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_46,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_47,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_48,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_49,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_50,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_51,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_53,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_54,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_55,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_56,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_66,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_72,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_78,
+        covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_US,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_01,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_02,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_04,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_05,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_06,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_08,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_09,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_10,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_11,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_12,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_13,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_15,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_16,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_17,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_18,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_19,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_20,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_21,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_22,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_23,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_24,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_25,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_26,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_27,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_28,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_29,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_30,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_31,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_32,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_33,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_34,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_35,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_36,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_37,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_38,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_39,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_40,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_41,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_42,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_44,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_45,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_46,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_47,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_48,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_49,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_50,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_51,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_53,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_54,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_55,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_56,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_66,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_72,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_78,
+        covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_US,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_01,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_02,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_04,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_05,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_06,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_08,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_09,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_10,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_11,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_12,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_13,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_15,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_16,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_17,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_18,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_19,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_20,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_21,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_22,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_23,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_24,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_25,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_26,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_27,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_28,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_29,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_30,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_31,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_32,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_33,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_34,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_35,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_36,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_37,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_38,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_39,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_40,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_41,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_42,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_44,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_45,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_46,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_47,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_48,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_49,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_50,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_51,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_53,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_54,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_55,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_56,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_66,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_72,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_78,
+        covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_US ;
+    sosa:resultTime "2021-03-07" .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_01 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 2.202351e+02 ;
+    sosa:hasFeatureOfInterest covid-place:01 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_02 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 5.343722e+00 ;
+    sosa:hasFeatureOfInterest covid-place:02 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_04 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 2.661798e+02 ;
+    sosa:hasFeatureOfInterest covid-place:04 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_05 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 6.52359e+01 ;
+    sosa:hasFeatureOfInterest covid-place:05 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_06 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.280272e+03 ;
+    sosa:hasFeatureOfInterest covid-place:06 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_08 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 6.219233e+01 ;
+    sosa:hasFeatureOfInterest covid-place:08 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_09 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 7.374571e+01 ;
+    sosa:hasFeatureOfInterest covid-place:09 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_10 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 4.761301e+01 ;
+    sosa:hasFeatureOfInterest covid-place:10 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_11 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.518364e+01 ;
+    sosa:hasFeatureOfInterest covid-place:11 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_12 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 7.507469e+02 ;
+    sosa:hasFeatureOfInterest covid-place:12 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_13 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 4.469139e+02 ;
+    sosa:hasFeatureOfInterest covid-place:13 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_15 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 5.846938e+00 ;
+    sosa:hasFeatureOfInterest covid-place:15 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_16 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 2.34752e+01 ;
+    sosa:hasFeatureOfInterest covid-place:16 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_17 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 2.056934e+02 ;
+    sosa:hasFeatureOfInterest covid-place:17 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_18 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.496688e+02 ;
+    sosa:hasFeatureOfInterest covid-place:18 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_19 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 4.765536e+01 ;
+    sosa:hasFeatureOfInterest covid-place:19 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_20 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 7.308336e+01 ;
+    sosa:hasFeatureOfInterest covid-place:20 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_21 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.124507e+02 ;
+    sosa:hasFeatureOfInterest covid-place:21 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_22 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.163636e+02 ;
+    sosa:hasFeatureOfInterest covid-place:22 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_23 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.259417e+01 ;
+    sosa:hasFeatureOfInterest covid-place:23 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_24 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.026154e+02 ;
+    sosa:hasFeatureOfInterest covid-place:24 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_25 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 2.184839e+02 ;
+    sosa:hasFeatureOfInterest covid-place:25 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_26 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.53267e+02 ;
+    sosa:hasFeatureOfInterest covid-place:26 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_27 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 6.008932e+01 ;
+    sosa:hasFeatureOfInterest covid-place:27 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_28 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 9.489126e+01 ;
+    sosa:hasFeatureOfInterest covid-place:28 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_29 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.214821e+02 ;
+    sosa:hasFeatureOfInterest covid-place:29 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_30 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.44767e+01 ;
+    sosa:hasFeatureOfInterest covid-place:30 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_31 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 2.196717e+01 ;
+    sosa:hasFeatureOfInterest covid-place:31 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_32 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 7.043594e+01 ;
+    sosa:hasFeatureOfInterest covid-place:32 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_33 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.816175e+01 ;
+    sosa:hasFeatureOfInterest covid-place:33 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_34 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 3.323404e+02 ;
+    sosa:hasFeatureOfInterest covid-place:34 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_35 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 6.171904e+01 ;
+    sosa:hasFeatureOfInterest covid-place:35 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_36 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 6.794784e+02 ;
+    sosa:hasFeatureOfInterest covid-place:36 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_37 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 2.741655e+02 ;
+    sosa:hasFeatureOfInterest covid-place:37 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_38 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 4.933901e+00 ;
+    sosa:hasFeatureOfInterest covid-place:38 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_39 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 4.461107e+02 ;
+    sosa:hasFeatureOfInterest covid-place:39 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_40 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.236911e+02 ;
+    sosa:hasFeatureOfInterest covid-place:40 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_41 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 5.219692e+01 ;
+    sosa:hasFeatureOfInterest covid-place:41 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_42 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 3.535151e+02 ;
+    sosa:hasFeatureOfInterest covid-place:42 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_44 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 4.692025e+01 ;
+    sosa:hasFeatureOfInterest covid-place:44 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_45 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 2.08435e+02 ;
+    sosa:hasFeatureOfInterest covid-place:45 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_46 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.263943e+01 ;
+    sosa:hasFeatureOfInterest covid-place:46 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_47 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.838975e+02 ;
+    sosa:hasFeatureOfInterest covid-place:47 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_48 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 9.958271e+02 ;
+    sosa:hasFeatureOfInterest covid-place:48 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_49 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 4.955853e+01 ;
+    sosa:hasFeatureOfInterest covid-place:49 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_50 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 9.985947e+00 ;
+    sosa:hasFeatureOfInterest covid-place:50 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_51 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 5.651998e+02 ;
+    sosa:hasFeatureOfInterest covid-place:51 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_53 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 9.736873e+01 ;
+    sosa:hasFeatureOfInterest covid-place:53 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_54 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 2.800776e+01 ;
+    sosa:hasFeatureOfInterest covid-place:54 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_55 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 8.225818e+01 ;
+    sosa:hasFeatureOfInterest covid-place:55 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_56 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 6.341538e+00 ;
+    sosa:hasFeatureOfInterest covid-place:56 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_66 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 3.26779e-01 ;
+    sosa:hasFeatureOfInterest covid-place:66 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_72 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 8.085342e+01 ;
+    sosa:hasFeatureOfInterest covid-place:72 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_78 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 4.212674e-01 ;
+    sosa:hasFeatureOfInterest covid-place:78 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_1-wk-ahead-inc-death_US a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 9.552556e+03 ;
+    sosa:hasFeatureOfInterest covid-place:US ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-13 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_01 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.94406e+02 ;
+    sosa:hasFeatureOfInterest covid-place:01 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_02 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 5.608267e+00 ;
+    sosa:hasFeatureOfInterest covid-place:02 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_04 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 2.175328e+02 ;
+    sosa:hasFeatureOfInterest covid-place:04 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_05 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 6.364133e+01 ;
+    sosa:hasFeatureOfInterest covid-place:05 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_06 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.004188e+03 ;
+    sosa:hasFeatureOfInterest covid-place:06 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_08 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 6.200682e+01 ;
+    sosa:hasFeatureOfInterest covid-place:08 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_09 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 6.831066e+01 ;
+    sosa:hasFeatureOfInterest covid-place:09 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_10 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 4.393536e+01 ;
+    sosa:hasFeatureOfInterest covid-place:10 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_11 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.60984e+01 ;
+    sosa:hasFeatureOfInterest covid-place:11 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_12 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 6.912925e+02 ;
+    sosa:hasFeatureOfInterest covid-place:12 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_13 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 4.063012e+02 ;
+    sosa:hasFeatureOfInterest covid-place:13 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_15 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 5.871522e+00 ;
+    sosa:hasFeatureOfInterest covid-place:15 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_16 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 2.346134e+01 ;
+    sosa:hasFeatureOfInterest covid-place:16 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_17 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.881073e+02 ;
+    sosa:hasFeatureOfInterest covid-place:17 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_18 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.318311e+02 ;
+    sosa:hasFeatureOfInterest covid-place:18 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_19 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 3.76494e+01 ;
+    sosa:hasFeatureOfInterest covid-place:19 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_20 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 6.603511e+01 ;
+    sosa:hasFeatureOfInterest covid-place:20 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_21 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.051844e+02 ;
+    sosa:hasFeatureOfInterest covid-place:21 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_22 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.048804e+02 ;
+    sosa:hasFeatureOfInterest covid-place:22 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_23 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.238385e+01 ;
+    sosa:hasFeatureOfInterest covid-place:23 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_24 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 9.153639e+01 ;
+    sosa:hasFeatureOfInterest covid-place:24 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_25 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.874484e+02 ;
+    sosa:hasFeatureOfInterest covid-place:25 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_26 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.511125e+02 ;
+    sosa:hasFeatureOfInterest covid-place:26 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_27 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 6.081934e+01 ;
+    sosa:hasFeatureOfInterest covid-place:27 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_28 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 8.782107e+01 ;
+    sosa:hasFeatureOfInterest covid-place:28 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_29 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.085659e+02 ;
+    sosa:hasFeatureOfInterest covid-place:29 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_30 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.392278e+01 ;
+    sosa:hasFeatureOfInterest covid-place:30 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_31 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 2.090547e+01 ;
+    sosa:hasFeatureOfInterest covid-place:31 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_32 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 5.724443e+01 ;
+    sosa:hasFeatureOfInterest covid-place:32 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_33 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.832275e+01 ;
+    sosa:hasFeatureOfInterest covid-place:33 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_34 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 3.088085e+02 ;
+    sosa:hasFeatureOfInterest covid-place:34 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_35 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 5.461807e+01 ;
+    sosa:hasFeatureOfInterest covid-place:35 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_36 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 6.355017e+02 ;
+    sosa:hasFeatureOfInterest covid-place:36 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_37 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 2.493689e+02 ;
+    sosa:hasFeatureOfInterest covid-place:37 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_38 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 5.294408e+00 ;
+    sosa:hasFeatureOfInterest covid-place:38 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_39 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 3.366057e+02 ;
+    sosa:hasFeatureOfInterest covid-place:39 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_40 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.082594e+02 ;
+    sosa:hasFeatureOfInterest covid-place:40 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_41 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 4.851782e+01 ;
+    sosa:hasFeatureOfInterest covid-place:41 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_42 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 3.265741e+02 ;
+    sosa:hasFeatureOfInterest covid-place:42 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_44 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 4.188432e+01 ;
+    sosa:hasFeatureOfInterest covid-place:44 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_45 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.862389e+02 ;
+    sosa:hasFeatureOfInterest covid-place:45 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_46 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.223924e+01 ;
+    sosa:hasFeatureOfInterest covid-place:46 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_47 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.591944e+02 ;
+    sosa:hasFeatureOfInterest covid-place:47 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_48 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 8.10125e+02 ;
+    sosa:hasFeatureOfInterest covid-place:48 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_49 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 4.716376e+01 ;
+    sosa:hasFeatureOfInterest covid-place:49 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_50 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 1.110032e+01 ;
+    sosa:hasFeatureOfInterest covid-place:50 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_51 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 4.546781e+02 ;
+    sosa:hasFeatureOfInterest covid-place:51 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_53 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 9.129513e+01 ;
+    sosa:hasFeatureOfInterest covid-place:53 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_54 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 2.867136e+01 ;
+    sosa:hasFeatureOfInterest covid-place:54 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_55 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 7.653045e+01 ;
+    sosa:hasFeatureOfInterest covid-place:55 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_56 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 5.944827e+00 ;
+    sosa:hasFeatureOfInterest covid-place:56 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_66 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 3.09517e-01 ;
+    sosa:hasFeatureOfInterest covid-place:66 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_72 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 8.091427e+01 ;
+    sosa:hasFeatureOfInterest covid-place:72 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_78 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 3.633969e-01 ;
+    sosa:hasFeatureOfInterest covid-place:78 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_2-wk-ahead-inc-death_US a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_death ;
+    covid:point 8.326626e+03 ;
+    sosa:hasFeatureOfInterest covid-place:US ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-20 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_01 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 1.913125e+02 ;
+    sosa:hasFeatureOfInterest covid-place:01 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_02 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 5.869459e+00 ;
+    sosa:hasFeatureOfInterest covid-place:02 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_04 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 1.905246e+02 ;
+    sosa:hasFeatureOfInterest covid-place:04 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_05 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 6.254097e+01 ;
+    sosa:hasFeatureOfInterest covid-place:05 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_06 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 8.095052e+02 ;
+    sosa:hasFeatureOfInterest covid-place:06 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_08 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 6.446772e+01 ;
+    sosa:hasFeatureOfInterest covid-place:08 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_09 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 7.0911e+01 ;
+    sosa:hasFeatureOfInterest covid-place:09 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_10 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 3.771109e+01 ;
+    sosa:hasFeatureOfInterest covid-place:10 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_11 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 1.49595e+01 ;
+    sosa:hasFeatureOfInterest covid-place:11 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_12 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 6.432071e+02 ;
+    sosa:hasFeatureOfInterest covid-place:12 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_13 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 3.906887e+02 ;
+    sosa:hasFeatureOfInterest covid-place:13 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_15 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 6.051172e+00 ;
+    sosa:hasFeatureOfInterest covid-place:15 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_16 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 2.357423e+01 ;
+    sosa:hasFeatureOfInterest covid-place:16 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_17 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 1.814654e+02 ;
+    sosa:hasFeatureOfInterest covid-place:17 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_18 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 1.205716e+02 ;
+    sosa:hasFeatureOfInterest covid-place:18 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_19 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 3.379487e+01 ;
+    sosa:hasFeatureOfInterest covid-place:19 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_20 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 6.379011e+01 ;
+    sosa:hasFeatureOfInterest covid-place:20 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_21 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 1.037295e+02 ;
+    sosa:hasFeatureOfInterest covid-place:21 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_22 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 1.018766e+02 ;
+    sosa:hasFeatureOfInterest covid-place:22 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_23 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 1.263159e+01 ;
+    sosa:hasFeatureOfInterest covid-place:23 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_24 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 8.659898e+01 ;
+    sosa:hasFeatureOfInterest covid-place:24 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_25 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 1.664172e+02 ;
+    sosa:hasFeatureOfInterest covid-place:25 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_26 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 1.544023e+02 ;
+    sosa:hasFeatureOfInterest covid-place:26 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_27 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 6.184806e+01 ;
+    sosa:hasFeatureOfInterest covid-place:27 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_28 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 8.424773e+01 ;
+    sosa:hasFeatureOfInterest covid-place:28 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_29 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 9.932777e+01 ;
+    sosa:hasFeatureOfInterest covid-place:29 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_30 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 1.336815e+01 ;
+    sosa:hasFeatureOfInterest covid-place:30 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_31 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 2.016539e+01 ;
+    sosa:hasFeatureOfInterest covid-place:31 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_32 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 5.583434e+01 ;
+    sosa:hasFeatureOfInterest covid-place:32 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_33 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 1.809147e+01 ;
+    sosa:hasFeatureOfInterest covid-place:33 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_34 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 2.982598e+02 ;
+    sosa:hasFeatureOfInterest covid-place:34 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_35 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 5.013273e+01 ;
+    sosa:hasFeatureOfInterest covid-place:35 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_36 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 6.132795e+02 ;
+    sosa:hasFeatureOfInterest covid-place:36 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_37 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 2.27194e+02 ;
+    sosa:hasFeatureOfInterest covid-place:37 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_38 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 5.493389e+00 ;
+    sosa:hasFeatureOfInterest covid-place:38 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_39 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 3.14529e+02 ;
+    sosa:hasFeatureOfInterest covid-place:39 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_40 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 9.687468e+01 ;
+    sosa:hasFeatureOfInterest covid-place:40 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_41 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 4.769916e+01 ;
+    sosa:hasFeatureOfInterest covid-place:41 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_42 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 3.139342e+02 ;
+    sosa:hasFeatureOfInterest covid-place:42 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_44 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 2.850902e+01 ;
+    sosa:hasFeatureOfInterest covid-place:44 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_45 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 1.741755e+02 ;
+    sosa:hasFeatureOfInterest covid-place:45 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_46 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 1.17129e+01 ;
+    sosa:hasFeatureOfInterest covid-place:46 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_47 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 1.52562e+02 ;
+    sosa:hasFeatureOfInterest covid-place:47 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_48 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 7.440406e+02 ;
+    sosa:hasFeatureOfInterest covid-place:48 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_49 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 4.490498e+01 ;
+    sosa:hasFeatureOfInterest covid-place:49 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_50 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 1.189742e+01 ;
+    sosa:hasFeatureOfInterest covid-place:50 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_51 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 3.290851e+02 ;
+    sosa:hasFeatureOfInterest covid-place:51 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_53 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 9.112117e+01 ;
+    sosa:hasFeatureOfInterest covid-place:53 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_54 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 2.941624e+01 ;
+    sosa:hasFeatureOfInterest covid-place:54 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_55 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 7.54779e+01 ;
+    sosa:hasFeatureOfInterest covid-place:55 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_56 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 5.906756e+00 ;
+    sosa:hasFeatureOfInterest covid-place:56 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_66 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 3.22299e-01 ;
+    sosa:hasFeatureOfInterest covid-place:66 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_72 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 8.123603e+01 ;
+    sosa:hasFeatureOfInterest covid-place:72 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_78 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 4.449928e-01 ;
+    sosa:hasFeatureOfInterest covid-place:78 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_3-wk-ahead-inc-death_US a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_death ;
+    covid:point 7.637694e+03 ;
+    sosa:hasFeatureOfInterest covid-place:US ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-03-27 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_01 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 1.923998e+02 ;
+    sosa:hasFeatureOfInterest covid-place:01 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_02 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 6.125491e+00 ;
+    sosa:hasFeatureOfInterest covid-place:02 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_04 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 1.766175e+02 ;
+    sosa:hasFeatureOfInterest covid-place:04 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_05 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 6.218081e+01 ;
+    sosa:hasFeatureOfInterest covid-place:05 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_06 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 7.084662e+02 ;
+    sosa:hasFeatureOfInterest covid-place:06 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_08 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 6.574888e+01 ;
+    sosa:hasFeatureOfInterest covid-place:08 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_09 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 7.722563e+01 ;
+    sosa:hasFeatureOfInterest covid-place:09 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_10 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 3.654884e+01 ;
+    sosa:hasFeatureOfInterest covid-place:10 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_11 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 1.45925e+01 ;
+    sosa:hasFeatureOfInterest covid-place:11 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_12 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 6.13595e+02 ;
+    sosa:hasFeatureOfInterest covid-place:12 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_13 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 4.78117e+02 ;
+    sosa:hasFeatureOfInterest covid-place:13 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_15 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 6.580603e+00 ;
+    sosa:hasFeatureOfInterest covid-place:15 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_16 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 2.408624e+01 ;
+    sosa:hasFeatureOfInterest covid-place:16 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_17 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 1.795187e+02 ;
+    sosa:hasFeatureOfInterest covid-place:17 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_18 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 1.133665e+02 ;
+    sosa:hasFeatureOfInterest covid-place:18 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_19 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 3.88278e+01 ;
+    sosa:hasFeatureOfInterest covid-place:19 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_20 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 6.995917e+01 ;
+    sosa:hasFeatureOfInterest covid-place:20 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_21 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 1.048633e+02 ;
+    sosa:hasFeatureOfInterest covid-place:21 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_22 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 9.66795e+01 ;
+    sosa:hasFeatureOfInterest covid-place:22 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_23 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 1.358991e+01 ;
+    sosa:hasFeatureOfInterest covid-place:23 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_24 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 8.173208e+01 ;
+    sosa:hasFeatureOfInterest covid-place:24 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_25 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 1.481148e+02 ;
+    sosa:hasFeatureOfInterest covid-place:25 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_26 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 1.598253e+02 ;
+    sosa:hasFeatureOfInterest covid-place:26 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_27 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 6.341421e+01 ;
+    sosa:hasFeatureOfInterest covid-place:27 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_28 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 8.203213e+01 ;
+    sosa:hasFeatureOfInterest covid-place:28 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_29 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 1.056601e+02 ;
+    sosa:hasFeatureOfInterest covid-place:29 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_30 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 1.35961e+01 ;
+    sosa:hasFeatureOfInterest covid-place:30 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_31 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 2.038068e+01 ;
+    sosa:hasFeatureOfInterest covid-place:31 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_32 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 5.356442e+01 ;
+    sosa:hasFeatureOfInterest covid-place:32 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_33 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 1.849834e+01 ;
+    sosa:hasFeatureOfInterest covid-place:33 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_34 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 2.900347e+02 ;
+    sosa:hasFeatureOfInterest covid-place:34 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_35 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 4.608783e+01 ;
+    sosa:hasFeatureOfInterest covid-place:35 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_36 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 6.077527e+02 ;
+    sosa:hasFeatureOfInterest covid-place:36 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_37 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 2.212038e+02 ;
+    sosa:hasFeatureOfInterest covid-place:37 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_38 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 5.810626e+00 ;
+    sosa:hasFeatureOfInterest covid-place:38 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_39 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 3.021628e+02 ;
+    sosa:hasFeatureOfInterest covid-place:39 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_40 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 8.956869e+01 ;
+    sosa:hasFeatureOfInterest covid-place:40 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_41 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 4.829351e+01 ;
+    sosa:hasFeatureOfInterest covid-place:41 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_42 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 2.996028e+02 ;
+    sosa:hasFeatureOfInterest covid-place:42 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_44 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 1.342196e+01 ;
+    sosa:hasFeatureOfInterest covid-place:44 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_45 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 1.6231e+02 ;
+    sosa:hasFeatureOfInterest covid-place:45 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_46 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 1.194239e+01 ;
+    sosa:hasFeatureOfInterest covid-place:46 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_47 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 1.461716e+02 ;
+    sosa:hasFeatureOfInterest covid-place:47 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_48 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 6.501736e+02 ;
+    sosa:hasFeatureOfInterest covid-place:48 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_49 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 4.46481e+01 ;
+    sosa:hasFeatureOfInterest covid-place:49 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_50 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 1.246441e+01 ;
+    sosa:hasFeatureOfInterest covid-place:50 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_51 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 1.574927e+02 ;
+    sosa:hasFeatureOfInterest covid-place:51 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_53 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 8.919385e+01 ;
+    sosa:hasFeatureOfInterest covid-place:53 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_54 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 3.014584e+01 ;
+    sosa:hasFeatureOfInterest covid-place:54 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_55 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 7.323009e+01 ;
+    sosa:hasFeatureOfInterest covid-place:55 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_56 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 6.317364e+00 ;
+    sosa:hasFeatureOfInterest covid-place:56 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_66 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 3.25827e-01 ;
+    sosa:hasFeatureOfInterest covid-place:66 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_72 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 8.13779e+01 ;
+    sosa:hasFeatureOfInterest covid-place:72 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_78 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 4.967769e-01 ;
+    sosa:hasFeatureOfInterest covid-place:78 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+
+covid-target:2021-03-07-Caltech-CS156_4-wk-ahead-inc-death_US a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_death ;
+    covid:point 7.216137e+03 ;
+    sosa:hasFeatureOfInterest covid-place:US ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-03 .
+

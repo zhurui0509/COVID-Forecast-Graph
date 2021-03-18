@@ -1,0 +1,3488 @@
+@prefix census: <http://econ.geog.ucsb.edu/lod/census/> .
+@prefix census-obs: <http://covid.geog.ucsb.edu/lod/census_stat/> .
+@prefix census-obs-collection: <http://covid.geog.ucsb.edu/lod/census_stat_collection/> .
+@prefix census-obs-property: <http://covid.geog.ucsb.edu/lod/census_obs_property/> .
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-instant: <http://covid.geog.ucsb.edu/lod/instant/> .
+@prefix covid-place: <http://covid.geog.ucsb.edu/lod/place/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+census-obs-collection:census-stat-collection-01 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Alabama" ;
+    sosa:hasFeatureOfInterest covid-place:01 ;
+    sosa:hasMember census-obs:census-stat-birth-01,
+        census-obs:census-stat-birth-rate-01,
+        census-obs:census-stat-death-01,
+        census-obs:census-stat-death-rate-01,
+        census-obs:census-stat-domestic-migration-01,
+        census-obs:census-stat-domestic-migration-rate-01,
+        census-obs:census-stat-intel-migration-01,
+        census-obs:census-stat-intel-migration-rate-01,
+        census-obs:census-stat-natural-inc-01,
+        census-obs:census-stat-natural-inc-rate-01,
+        census-obs:census-stat-net-migration-01,
+        census-obs:census-stat-net-migration-rate-01,
+        census-obs:census-stat-pop-change-01,
+        census-obs:census-stat-pop-est-01,
+        census-obs:census-stat-residual-01 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-02 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Alaska" ;
+    sosa:hasFeatureOfInterest covid-place:02 ;
+    sosa:hasMember census-obs:census-stat-birth-02,
+        census-obs:census-stat-birth-rate-02,
+        census-obs:census-stat-death-02,
+        census-obs:census-stat-death-rate-02,
+        census-obs:census-stat-domestic-migration-02,
+        census-obs:census-stat-domestic-migration-rate-02,
+        census-obs:census-stat-intel-migration-02,
+        census-obs:census-stat-intel-migration-rate-02,
+        census-obs:census-stat-natural-inc-02,
+        census-obs:census-stat-natural-inc-rate-02,
+        census-obs:census-stat-net-migration-02,
+        census-obs:census-stat-net-migration-rate-02,
+        census-obs:census-stat-pop-change-02,
+        census-obs:census-stat-pop-est-02,
+        census-obs:census-stat-residual-02 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-04 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Arizona" ;
+    sosa:hasFeatureOfInterest covid-place:04 ;
+    sosa:hasMember census-obs:census-stat-birth-04,
+        census-obs:census-stat-birth-rate-04,
+        census-obs:census-stat-death-04,
+        census-obs:census-stat-death-rate-04,
+        census-obs:census-stat-domestic-migration-04,
+        census-obs:census-stat-domestic-migration-rate-04,
+        census-obs:census-stat-intel-migration-04,
+        census-obs:census-stat-intel-migration-rate-04,
+        census-obs:census-stat-natural-inc-04,
+        census-obs:census-stat-natural-inc-rate-04,
+        census-obs:census-stat-net-migration-04,
+        census-obs:census-stat-net-migration-rate-04,
+        census-obs:census-stat-pop-change-04,
+        census-obs:census-stat-pop-est-04,
+        census-obs:census-stat-residual-04 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-05 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Arkansas" ;
+    sosa:hasFeatureOfInterest covid-place:05 ;
+    sosa:hasMember census-obs:census-stat-birth-05,
+        census-obs:census-stat-birth-rate-05,
+        census-obs:census-stat-death-05,
+        census-obs:census-stat-death-rate-05,
+        census-obs:census-stat-domestic-migration-05,
+        census-obs:census-stat-domestic-migration-rate-05,
+        census-obs:census-stat-intel-migration-05,
+        census-obs:census-stat-intel-migration-rate-05,
+        census-obs:census-stat-natural-inc-05,
+        census-obs:census-stat-natural-inc-rate-05,
+        census-obs:census-stat-net-migration-05,
+        census-obs:census-stat-net-migration-rate-05,
+        census-obs:census-stat-pop-change-05,
+        census-obs:census-stat-pop-est-05,
+        census-obs:census-stat-residual-05 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-06 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at California" ;
+    sosa:hasFeatureOfInterest covid-place:06 ;
+    sosa:hasMember census-obs:census-stat-birth-06,
+        census-obs:census-stat-birth-rate-06,
+        census-obs:census-stat-death-06,
+        census-obs:census-stat-death-rate-06,
+        census-obs:census-stat-domestic-migration-06,
+        census-obs:census-stat-domestic-migration-rate-06,
+        census-obs:census-stat-intel-migration-06,
+        census-obs:census-stat-intel-migration-rate-06,
+        census-obs:census-stat-natural-inc-06,
+        census-obs:census-stat-natural-inc-rate-06,
+        census-obs:census-stat-net-migration-06,
+        census-obs:census-stat-net-migration-rate-06,
+        census-obs:census-stat-pop-change-06,
+        census-obs:census-stat-pop-est-06,
+        census-obs:census-stat-residual-06 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-08 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Colorado" ;
+    sosa:hasFeatureOfInterest covid-place:08 ;
+    sosa:hasMember census-obs:census-stat-birth-08,
+        census-obs:census-stat-birth-rate-08,
+        census-obs:census-stat-death-08,
+        census-obs:census-stat-death-rate-08,
+        census-obs:census-stat-domestic-migration-08,
+        census-obs:census-stat-domestic-migration-rate-08,
+        census-obs:census-stat-intel-migration-08,
+        census-obs:census-stat-intel-migration-rate-08,
+        census-obs:census-stat-natural-inc-08,
+        census-obs:census-stat-natural-inc-rate-08,
+        census-obs:census-stat-net-migration-08,
+        census-obs:census-stat-net-migration-rate-08,
+        census-obs:census-stat-pop-change-08,
+        census-obs:census-stat-pop-est-08,
+        census-obs:census-stat-residual-08 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-09 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Connecticut" ;
+    sosa:hasFeatureOfInterest covid-place:09 ;
+    sosa:hasMember census-obs:census-stat-birth-09,
+        census-obs:census-stat-birth-rate-09,
+        census-obs:census-stat-death-09,
+        census-obs:census-stat-death-rate-09,
+        census-obs:census-stat-domestic-migration-09,
+        census-obs:census-stat-domestic-migration-rate-09,
+        census-obs:census-stat-intel-migration-09,
+        census-obs:census-stat-intel-migration-rate-09,
+        census-obs:census-stat-natural-inc-09,
+        census-obs:census-stat-natural-inc-rate-09,
+        census-obs:census-stat-net-migration-09,
+        census-obs:census-stat-net-migration-rate-09,
+        census-obs:census-stat-pop-change-09,
+        census-obs:census-stat-pop-est-09,
+        census-obs:census-stat-residual-09 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-10 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Delaware" ;
+    sosa:hasFeatureOfInterest covid-place:10 ;
+    sosa:hasMember census-obs:census-stat-birth-10,
+        census-obs:census-stat-birth-rate-10,
+        census-obs:census-stat-death-10,
+        census-obs:census-stat-death-rate-10,
+        census-obs:census-stat-domestic-migration-10,
+        census-obs:census-stat-domestic-migration-rate-10,
+        census-obs:census-stat-intel-migration-10,
+        census-obs:census-stat-intel-migration-rate-10,
+        census-obs:census-stat-natural-inc-10,
+        census-obs:census-stat-natural-inc-rate-10,
+        census-obs:census-stat-net-migration-10,
+        census-obs:census-stat-net-migration-rate-10,
+        census-obs:census-stat-pop-change-10,
+        census-obs:census-stat-pop-est-10,
+        census-obs:census-stat-residual-10 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-11 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at District of Columbia" ;
+    sosa:hasFeatureOfInterest covid-place:11 ;
+    sosa:hasMember census-obs:census-stat-birth-11,
+        census-obs:census-stat-birth-rate-11,
+        census-obs:census-stat-death-11,
+        census-obs:census-stat-death-rate-11,
+        census-obs:census-stat-domestic-migration-11,
+        census-obs:census-stat-domestic-migration-rate-11,
+        census-obs:census-stat-intel-migration-11,
+        census-obs:census-stat-intel-migration-rate-11,
+        census-obs:census-stat-natural-inc-11,
+        census-obs:census-stat-natural-inc-rate-11,
+        census-obs:census-stat-net-migration-11,
+        census-obs:census-stat-net-migration-rate-11,
+        census-obs:census-stat-pop-change-11,
+        census-obs:census-stat-pop-est-11,
+        census-obs:census-stat-residual-11 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-12 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Florida" ;
+    sosa:hasFeatureOfInterest covid-place:12 ;
+    sosa:hasMember census-obs:census-stat-birth-12,
+        census-obs:census-stat-birth-rate-12,
+        census-obs:census-stat-death-12,
+        census-obs:census-stat-death-rate-12,
+        census-obs:census-stat-domestic-migration-12,
+        census-obs:census-stat-domestic-migration-rate-12,
+        census-obs:census-stat-intel-migration-12,
+        census-obs:census-stat-intel-migration-rate-12,
+        census-obs:census-stat-natural-inc-12,
+        census-obs:census-stat-natural-inc-rate-12,
+        census-obs:census-stat-net-migration-12,
+        census-obs:census-stat-net-migration-rate-12,
+        census-obs:census-stat-pop-change-12,
+        census-obs:census-stat-pop-est-12,
+        census-obs:census-stat-residual-12 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-13 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Georgia" ;
+    sosa:hasFeatureOfInterest covid-place:13 ;
+    sosa:hasMember census-obs:census-stat-birth-13,
+        census-obs:census-stat-birth-rate-13,
+        census-obs:census-stat-death-13,
+        census-obs:census-stat-death-rate-13,
+        census-obs:census-stat-domestic-migration-13,
+        census-obs:census-stat-domestic-migration-rate-13,
+        census-obs:census-stat-intel-migration-13,
+        census-obs:census-stat-intel-migration-rate-13,
+        census-obs:census-stat-natural-inc-13,
+        census-obs:census-stat-natural-inc-rate-13,
+        census-obs:census-stat-net-migration-13,
+        census-obs:census-stat-net-migration-rate-13,
+        census-obs:census-stat-pop-change-13,
+        census-obs:census-stat-pop-est-13,
+        census-obs:census-stat-residual-13 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-15 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Hawaii" ;
+    sosa:hasFeatureOfInterest covid-place:15 ;
+    sosa:hasMember census-obs:census-stat-birth-15,
+        census-obs:census-stat-birth-rate-15,
+        census-obs:census-stat-death-15,
+        census-obs:census-stat-death-rate-15,
+        census-obs:census-stat-domestic-migration-15,
+        census-obs:census-stat-domestic-migration-rate-15,
+        census-obs:census-stat-intel-migration-15,
+        census-obs:census-stat-intel-migration-rate-15,
+        census-obs:census-stat-natural-inc-15,
+        census-obs:census-stat-natural-inc-rate-15,
+        census-obs:census-stat-net-migration-15,
+        census-obs:census-stat-net-migration-rate-15,
+        census-obs:census-stat-pop-change-15,
+        census-obs:census-stat-pop-est-15,
+        census-obs:census-stat-residual-15 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-16 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Idaho" ;
+    sosa:hasFeatureOfInterest covid-place:16 ;
+    sosa:hasMember census-obs:census-stat-birth-16,
+        census-obs:census-stat-birth-rate-16,
+        census-obs:census-stat-death-16,
+        census-obs:census-stat-death-rate-16,
+        census-obs:census-stat-domestic-migration-16,
+        census-obs:census-stat-domestic-migration-rate-16,
+        census-obs:census-stat-intel-migration-16,
+        census-obs:census-stat-intel-migration-rate-16,
+        census-obs:census-stat-natural-inc-16,
+        census-obs:census-stat-natural-inc-rate-16,
+        census-obs:census-stat-net-migration-16,
+        census-obs:census-stat-net-migration-rate-16,
+        census-obs:census-stat-pop-change-16,
+        census-obs:census-stat-pop-est-16,
+        census-obs:census-stat-residual-16 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-17 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Illinois" ;
+    sosa:hasFeatureOfInterest covid-place:17 ;
+    sosa:hasMember census-obs:census-stat-birth-17,
+        census-obs:census-stat-birth-rate-17,
+        census-obs:census-stat-death-17,
+        census-obs:census-stat-death-rate-17,
+        census-obs:census-stat-domestic-migration-17,
+        census-obs:census-stat-domestic-migration-rate-17,
+        census-obs:census-stat-intel-migration-17,
+        census-obs:census-stat-intel-migration-rate-17,
+        census-obs:census-stat-natural-inc-17,
+        census-obs:census-stat-natural-inc-rate-17,
+        census-obs:census-stat-net-migration-17,
+        census-obs:census-stat-net-migration-rate-17,
+        census-obs:census-stat-pop-change-17,
+        census-obs:census-stat-pop-est-17,
+        census-obs:census-stat-residual-17 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-18 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Indiana" ;
+    sosa:hasFeatureOfInterest covid-place:18 ;
+    sosa:hasMember census-obs:census-stat-birth-18,
+        census-obs:census-stat-birth-rate-18,
+        census-obs:census-stat-death-18,
+        census-obs:census-stat-death-rate-18,
+        census-obs:census-stat-domestic-migration-18,
+        census-obs:census-stat-domestic-migration-rate-18,
+        census-obs:census-stat-intel-migration-18,
+        census-obs:census-stat-intel-migration-rate-18,
+        census-obs:census-stat-natural-inc-18,
+        census-obs:census-stat-natural-inc-rate-18,
+        census-obs:census-stat-net-migration-18,
+        census-obs:census-stat-net-migration-rate-18,
+        census-obs:census-stat-pop-change-18,
+        census-obs:census-stat-pop-est-18,
+        census-obs:census-stat-residual-18 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-19 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Iowa" ;
+    sosa:hasFeatureOfInterest covid-place:19 ;
+    sosa:hasMember census-obs:census-stat-birth-19,
+        census-obs:census-stat-birth-rate-19,
+        census-obs:census-stat-death-19,
+        census-obs:census-stat-death-rate-19,
+        census-obs:census-stat-domestic-migration-19,
+        census-obs:census-stat-domestic-migration-rate-19,
+        census-obs:census-stat-intel-migration-19,
+        census-obs:census-stat-intel-migration-rate-19,
+        census-obs:census-stat-natural-inc-19,
+        census-obs:census-stat-natural-inc-rate-19,
+        census-obs:census-stat-net-migration-19,
+        census-obs:census-stat-net-migration-rate-19,
+        census-obs:census-stat-pop-change-19,
+        census-obs:census-stat-pop-est-19,
+        census-obs:census-stat-residual-19 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-20 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Kansas" ;
+    sosa:hasFeatureOfInterest covid-place:20 ;
+    sosa:hasMember census-obs:census-stat-birth-20,
+        census-obs:census-stat-birth-rate-20,
+        census-obs:census-stat-death-20,
+        census-obs:census-stat-death-rate-20,
+        census-obs:census-stat-domestic-migration-20,
+        census-obs:census-stat-domestic-migration-rate-20,
+        census-obs:census-stat-intel-migration-20,
+        census-obs:census-stat-intel-migration-rate-20,
+        census-obs:census-stat-natural-inc-20,
+        census-obs:census-stat-natural-inc-rate-20,
+        census-obs:census-stat-net-migration-20,
+        census-obs:census-stat-net-migration-rate-20,
+        census-obs:census-stat-pop-change-20,
+        census-obs:census-stat-pop-est-20,
+        census-obs:census-stat-residual-20 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-21 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Kentucky" ;
+    sosa:hasFeatureOfInterest covid-place:21 ;
+    sosa:hasMember census-obs:census-stat-birth-21,
+        census-obs:census-stat-birth-rate-21,
+        census-obs:census-stat-death-21,
+        census-obs:census-stat-death-rate-21,
+        census-obs:census-stat-domestic-migration-21,
+        census-obs:census-stat-domestic-migration-rate-21,
+        census-obs:census-stat-intel-migration-21,
+        census-obs:census-stat-intel-migration-rate-21,
+        census-obs:census-stat-natural-inc-21,
+        census-obs:census-stat-natural-inc-rate-21,
+        census-obs:census-stat-net-migration-21,
+        census-obs:census-stat-net-migration-rate-21,
+        census-obs:census-stat-pop-change-21,
+        census-obs:census-stat-pop-est-21,
+        census-obs:census-stat-residual-21 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-22 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Louisiana" ;
+    sosa:hasFeatureOfInterest covid-place:22 ;
+    sosa:hasMember census-obs:census-stat-birth-22,
+        census-obs:census-stat-birth-rate-22,
+        census-obs:census-stat-death-22,
+        census-obs:census-stat-death-rate-22,
+        census-obs:census-stat-domestic-migration-22,
+        census-obs:census-stat-domestic-migration-rate-22,
+        census-obs:census-stat-intel-migration-22,
+        census-obs:census-stat-intel-migration-rate-22,
+        census-obs:census-stat-natural-inc-22,
+        census-obs:census-stat-natural-inc-rate-22,
+        census-obs:census-stat-net-migration-22,
+        census-obs:census-stat-net-migration-rate-22,
+        census-obs:census-stat-pop-change-22,
+        census-obs:census-stat-pop-est-22,
+        census-obs:census-stat-residual-22 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-23 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Maine" ;
+    sosa:hasFeatureOfInterest covid-place:23 ;
+    sosa:hasMember census-obs:census-stat-birth-23,
+        census-obs:census-stat-birth-rate-23,
+        census-obs:census-stat-death-23,
+        census-obs:census-stat-death-rate-23,
+        census-obs:census-stat-domestic-migration-23,
+        census-obs:census-stat-domestic-migration-rate-23,
+        census-obs:census-stat-intel-migration-23,
+        census-obs:census-stat-intel-migration-rate-23,
+        census-obs:census-stat-natural-inc-23,
+        census-obs:census-stat-natural-inc-rate-23,
+        census-obs:census-stat-net-migration-23,
+        census-obs:census-stat-net-migration-rate-23,
+        census-obs:census-stat-pop-change-23,
+        census-obs:census-stat-pop-est-23,
+        census-obs:census-stat-residual-23 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-24 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Maryland" ;
+    sosa:hasFeatureOfInterest covid-place:24 ;
+    sosa:hasMember census-obs:census-stat-birth-24,
+        census-obs:census-stat-birth-rate-24,
+        census-obs:census-stat-death-24,
+        census-obs:census-stat-death-rate-24,
+        census-obs:census-stat-domestic-migration-24,
+        census-obs:census-stat-domestic-migration-rate-24,
+        census-obs:census-stat-intel-migration-24,
+        census-obs:census-stat-intel-migration-rate-24,
+        census-obs:census-stat-natural-inc-24,
+        census-obs:census-stat-natural-inc-rate-24,
+        census-obs:census-stat-net-migration-24,
+        census-obs:census-stat-net-migration-rate-24,
+        census-obs:census-stat-pop-change-24,
+        census-obs:census-stat-pop-est-24,
+        census-obs:census-stat-residual-24 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-25 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Massachusetts" ;
+    sosa:hasFeatureOfInterest covid-place:25 ;
+    sosa:hasMember census-obs:census-stat-birth-25,
+        census-obs:census-stat-birth-rate-25,
+        census-obs:census-stat-death-25,
+        census-obs:census-stat-death-rate-25,
+        census-obs:census-stat-domestic-migration-25,
+        census-obs:census-stat-domestic-migration-rate-25,
+        census-obs:census-stat-intel-migration-25,
+        census-obs:census-stat-intel-migration-rate-25,
+        census-obs:census-stat-natural-inc-25,
+        census-obs:census-stat-natural-inc-rate-25,
+        census-obs:census-stat-net-migration-25,
+        census-obs:census-stat-net-migration-rate-25,
+        census-obs:census-stat-pop-change-25,
+        census-obs:census-stat-pop-est-25,
+        census-obs:census-stat-residual-25 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-26 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Michigan" ;
+    sosa:hasFeatureOfInterest covid-place:26 ;
+    sosa:hasMember census-obs:census-stat-birth-26,
+        census-obs:census-stat-birth-rate-26,
+        census-obs:census-stat-death-26,
+        census-obs:census-stat-death-rate-26,
+        census-obs:census-stat-domestic-migration-26,
+        census-obs:census-stat-domestic-migration-rate-26,
+        census-obs:census-stat-intel-migration-26,
+        census-obs:census-stat-intel-migration-rate-26,
+        census-obs:census-stat-natural-inc-26,
+        census-obs:census-stat-natural-inc-rate-26,
+        census-obs:census-stat-net-migration-26,
+        census-obs:census-stat-net-migration-rate-26,
+        census-obs:census-stat-pop-change-26,
+        census-obs:census-stat-pop-est-26,
+        census-obs:census-stat-residual-26 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-27 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Minnesota" ;
+    sosa:hasFeatureOfInterest covid-place:27 ;
+    sosa:hasMember census-obs:census-stat-birth-27,
+        census-obs:census-stat-birth-rate-27,
+        census-obs:census-stat-death-27,
+        census-obs:census-stat-death-rate-27,
+        census-obs:census-stat-domestic-migration-27,
+        census-obs:census-stat-domestic-migration-rate-27,
+        census-obs:census-stat-intel-migration-27,
+        census-obs:census-stat-intel-migration-rate-27,
+        census-obs:census-stat-natural-inc-27,
+        census-obs:census-stat-natural-inc-rate-27,
+        census-obs:census-stat-net-migration-27,
+        census-obs:census-stat-net-migration-rate-27,
+        census-obs:census-stat-pop-change-27,
+        census-obs:census-stat-pop-est-27,
+        census-obs:census-stat-residual-27 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-28 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Mississippi" ;
+    sosa:hasFeatureOfInterest covid-place:28 ;
+    sosa:hasMember census-obs:census-stat-birth-28,
+        census-obs:census-stat-birth-rate-28,
+        census-obs:census-stat-death-28,
+        census-obs:census-stat-death-rate-28,
+        census-obs:census-stat-domestic-migration-28,
+        census-obs:census-stat-domestic-migration-rate-28,
+        census-obs:census-stat-intel-migration-28,
+        census-obs:census-stat-intel-migration-rate-28,
+        census-obs:census-stat-natural-inc-28,
+        census-obs:census-stat-natural-inc-rate-28,
+        census-obs:census-stat-net-migration-28,
+        census-obs:census-stat-net-migration-rate-28,
+        census-obs:census-stat-pop-change-28,
+        census-obs:census-stat-pop-est-28,
+        census-obs:census-stat-residual-28 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-29 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Missouri" ;
+    sosa:hasFeatureOfInterest covid-place:29 ;
+    sosa:hasMember census-obs:census-stat-birth-29,
+        census-obs:census-stat-birth-rate-29,
+        census-obs:census-stat-death-29,
+        census-obs:census-stat-death-rate-29,
+        census-obs:census-stat-domestic-migration-29,
+        census-obs:census-stat-domestic-migration-rate-29,
+        census-obs:census-stat-intel-migration-29,
+        census-obs:census-stat-intel-migration-rate-29,
+        census-obs:census-stat-natural-inc-29,
+        census-obs:census-stat-natural-inc-rate-29,
+        census-obs:census-stat-net-migration-29,
+        census-obs:census-stat-net-migration-rate-29,
+        census-obs:census-stat-pop-change-29,
+        census-obs:census-stat-pop-est-29,
+        census-obs:census-stat-residual-29 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-30 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Montana" ;
+    sosa:hasFeatureOfInterest covid-place:30 ;
+    sosa:hasMember census-obs:census-stat-birth-30,
+        census-obs:census-stat-birth-rate-30,
+        census-obs:census-stat-death-30,
+        census-obs:census-stat-death-rate-30,
+        census-obs:census-stat-domestic-migration-30,
+        census-obs:census-stat-domestic-migration-rate-30,
+        census-obs:census-stat-intel-migration-30,
+        census-obs:census-stat-intel-migration-rate-30,
+        census-obs:census-stat-natural-inc-30,
+        census-obs:census-stat-natural-inc-rate-30,
+        census-obs:census-stat-net-migration-30,
+        census-obs:census-stat-net-migration-rate-30,
+        census-obs:census-stat-pop-change-30,
+        census-obs:census-stat-pop-est-30,
+        census-obs:census-stat-residual-30 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-31 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Nebraska" ;
+    sosa:hasFeatureOfInterest covid-place:31 ;
+    sosa:hasMember census-obs:census-stat-birth-31,
+        census-obs:census-stat-birth-rate-31,
+        census-obs:census-stat-death-31,
+        census-obs:census-stat-death-rate-31,
+        census-obs:census-stat-domestic-migration-31,
+        census-obs:census-stat-domestic-migration-rate-31,
+        census-obs:census-stat-intel-migration-31,
+        census-obs:census-stat-intel-migration-rate-31,
+        census-obs:census-stat-natural-inc-31,
+        census-obs:census-stat-natural-inc-rate-31,
+        census-obs:census-stat-net-migration-31,
+        census-obs:census-stat-net-migration-rate-31,
+        census-obs:census-stat-pop-change-31,
+        census-obs:census-stat-pop-est-31,
+        census-obs:census-stat-residual-31 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-32 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Nevada" ;
+    sosa:hasFeatureOfInterest covid-place:32 ;
+    sosa:hasMember census-obs:census-stat-birth-32,
+        census-obs:census-stat-birth-rate-32,
+        census-obs:census-stat-death-32,
+        census-obs:census-stat-death-rate-32,
+        census-obs:census-stat-domestic-migration-32,
+        census-obs:census-stat-domestic-migration-rate-32,
+        census-obs:census-stat-intel-migration-32,
+        census-obs:census-stat-intel-migration-rate-32,
+        census-obs:census-stat-natural-inc-32,
+        census-obs:census-stat-natural-inc-rate-32,
+        census-obs:census-stat-net-migration-32,
+        census-obs:census-stat-net-migration-rate-32,
+        census-obs:census-stat-pop-change-32,
+        census-obs:census-stat-pop-est-32,
+        census-obs:census-stat-residual-32 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-33 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at New Hampshire" ;
+    sosa:hasFeatureOfInterest covid-place:33 ;
+    sosa:hasMember census-obs:census-stat-birth-33,
+        census-obs:census-stat-birth-rate-33,
+        census-obs:census-stat-death-33,
+        census-obs:census-stat-death-rate-33,
+        census-obs:census-stat-domestic-migration-33,
+        census-obs:census-stat-domestic-migration-rate-33,
+        census-obs:census-stat-intel-migration-33,
+        census-obs:census-stat-intel-migration-rate-33,
+        census-obs:census-stat-natural-inc-33,
+        census-obs:census-stat-natural-inc-rate-33,
+        census-obs:census-stat-net-migration-33,
+        census-obs:census-stat-net-migration-rate-33,
+        census-obs:census-stat-pop-change-33,
+        census-obs:census-stat-pop-est-33,
+        census-obs:census-stat-residual-33 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-34 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at New Jersey" ;
+    sosa:hasFeatureOfInterest covid-place:34 ;
+    sosa:hasMember census-obs:census-stat-birth-34,
+        census-obs:census-stat-birth-rate-34,
+        census-obs:census-stat-death-34,
+        census-obs:census-stat-death-rate-34,
+        census-obs:census-stat-domestic-migration-34,
+        census-obs:census-stat-domestic-migration-rate-34,
+        census-obs:census-stat-intel-migration-34,
+        census-obs:census-stat-intel-migration-rate-34,
+        census-obs:census-stat-natural-inc-34,
+        census-obs:census-stat-natural-inc-rate-34,
+        census-obs:census-stat-net-migration-34,
+        census-obs:census-stat-net-migration-rate-34,
+        census-obs:census-stat-pop-change-34,
+        census-obs:census-stat-pop-est-34,
+        census-obs:census-stat-residual-34 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-35 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at New Mexico" ;
+    sosa:hasFeatureOfInterest covid-place:35 ;
+    sosa:hasMember census-obs:census-stat-birth-35,
+        census-obs:census-stat-birth-rate-35,
+        census-obs:census-stat-death-35,
+        census-obs:census-stat-death-rate-35,
+        census-obs:census-stat-domestic-migration-35,
+        census-obs:census-stat-domestic-migration-rate-35,
+        census-obs:census-stat-intel-migration-35,
+        census-obs:census-stat-intel-migration-rate-35,
+        census-obs:census-stat-natural-inc-35,
+        census-obs:census-stat-natural-inc-rate-35,
+        census-obs:census-stat-net-migration-35,
+        census-obs:census-stat-net-migration-rate-35,
+        census-obs:census-stat-pop-change-35,
+        census-obs:census-stat-pop-est-35,
+        census-obs:census-stat-residual-35 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-36 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at New York" ;
+    sosa:hasFeatureOfInterest covid-place:36 ;
+    sosa:hasMember census-obs:census-stat-birth-36,
+        census-obs:census-stat-birth-rate-36,
+        census-obs:census-stat-death-36,
+        census-obs:census-stat-death-rate-36,
+        census-obs:census-stat-domestic-migration-36,
+        census-obs:census-stat-domestic-migration-rate-36,
+        census-obs:census-stat-intel-migration-36,
+        census-obs:census-stat-intel-migration-rate-36,
+        census-obs:census-stat-natural-inc-36,
+        census-obs:census-stat-natural-inc-rate-36,
+        census-obs:census-stat-net-migration-36,
+        census-obs:census-stat-net-migration-rate-36,
+        census-obs:census-stat-pop-change-36,
+        census-obs:census-stat-pop-est-36,
+        census-obs:census-stat-residual-36 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-37 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at North Carolina" ;
+    sosa:hasFeatureOfInterest covid-place:37 ;
+    sosa:hasMember census-obs:census-stat-birth-37,
+        census-obs:census-stat-birth-rate-37,
+        census-obs:census-stat-death-37,
+        census-obs:census-stat-death-rate-37,
+        census-obs:census-stat-domestic-migration-37,
+        census-obs:census-stat-domestic-migration-rate-37,
+        census-obs:census-stat-intel-migration-37,
+        census-obs:census-stat-intel-migration-rate-37,
+        census-obs:census-stat-natural-inc-37,
+        census-obs:census-stat-natural-inc-rate-37,
+        census-obs:census-stat-net-migration-37,
+        census-obs:census-stat-net-migration-rate-37,
+        census-obs:census-stat-pop-change-37,
+        census-obs:census-stat-pop-est-37,
+        census-obs:census-stat-residual-37 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-38 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at North Dakota" ;
+    sosa:hasFeatureOfInterest covid-place:38 ;
+    sosa:hasMember census-obs:census-stat-birth-38,
+        census-obs:census-stat-birth-rate-38,
+        census-obs:census-stat-death-38,
+        census-obs:census-stat-death-rate-38,
+        census-obs:census-stat-domestic-migration-38,
+        census-obs:census-stat-domestic-migration-rate-38,
+        census-obs:census-stat-intel-migration-38,
+        census-obs:census-stat-intel-migration-rate-38,
+        census-obs:census-stat-natural-inc-38,
+        census-obs:census-stat-natural-inc-rate-38,
+        census-obs:census-stat-net-migration-38,
+        census-obs:census-stat-net-migration-rate-38,
+        census-obs:census-stat-pop-change-38,
+        census-obs:census-stat-pop-est-38,
+        census-obs:census-stat-residual-38 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-39 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Ohio" ;
+    sosa:hasFeatureOfInterest covid-place:39 ;
+    sosa:hasMember census-obs:census-stat-birth-39,
+        census-obs:census-stat-birth-rate-39,
+        census-obs:census-stat-death-39,
+        census-obs:census-stat-death-rate-39,
+        census-obs:census-stat-domestic-migration-39,
+        census-obs:census-stat-domestic-migration-rate-39,
+        census-obs:census-stat-intel-migration-39,
+        census-obs:census-stat-intel-migration-rate-39,
+        census-obs:census-stat-natural-inc-39,
+        census-obs:census-stat-natural-inc-rate-39,
+        census-obs:census-stat-net-migration-39,
+        census-obs:census-stat-net-migration-rate-39,
+        census-obs:census-stat-pop-change-39,
+        census-obs:census-stat-pop-est-39,
+        census-obs:census-stat-residual-39 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-40 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Oklahoma" ;
+    sosa:hasFeatureOfInterest covid-place:40 ;
+    sosa:hasMember census-obs:census-stat-birth-40,
+        census-obs:census-stat-birth-rate-40,
+        census-obs:census-stat-death-40,
+        census-obs:census-stat-death-rate-40,
+        census-obs:census-stat-domestic-migration-40,
+        census-obs:census-stat-domestic-migration-rate-40,
+        census-obs:census-stat-intel-migration-40,
+        census-obs:census-stat-intel-migration-rate-40,
+        census-obs:census-stat-natural-inc-40,
+        census-obs:census-stat-natural-inc-rate-40,
+        census-obs:census-stat-net-migration-40,
+        census-obs:census-stat-net-migration-rate-40,
+        census-obs:census-stat-pop-change-40,
+        census-obs:census-stat-pop-est-40,
+        census-obs:census-stat-residual-40 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-41 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Oregon" ;
+    sosa:hasFeatureOfInterest covid-place:41 ;
+    sosa:hasMember census-obs:census-stat-birth-41,
+        census-obs:census-stat-birth-rate-41,
+        census-obs:census-stat-death-41,
+        census-obs:census-stat-death-rate-41,
+        census-obs:census-stat-domestic-migration-41,
+        census-obs:census-stat-domestic-migration-rate-41,
+        census-obs:census-stat-intel-migration-41,
+        census-obs:census-stat-intel-migration-rate-41,
+        census-obs:census-stat-natural-inc-41,
+        census-obs:census-stat-natural-inc-rate-41,
+        census-obs:census-stat-net-migration-41,
+        census-obs:census-stat-net-migration-rate-41,
+        census-obs:census-stat-pop-change-41,
+        census-obs:census-stat-pop-est-41,
+        census-obs:census-stat-residual-41 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-42 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Pennsylvania" ;
+    sosa:hasFeatureOfInterest covid-place:42 ;
+    sosa:hasMember census-obs:census-stat-birth-42,
+        census-obs:census-stat-birth-rate-42,
+        census-obs:census-stat-death-42,
+        census-obs:census-stat-death-rate-42,
+        census-obs:census-stat-domestic-migration-42,
+        census-obs:census-stat-domestic-migration-rate-42,
+        census-obs:census-stat-intel-migration-42,
+        census-obs:census-stat-intel-migration-rate-42,
+        census-obs:census-stat-natural-inc-42,
+        census-obs:census-stat-natural-inc-rate-42,
+        census-obs:census-stat-net-migration-42,
+        census-obs:census-stat-net-migration-rate-42,
+        census-obs:census-stat-pop-change-42,
+        census-obs:census-stat-pop-est-42,
+        census-obs:census-stat-residual-42 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-44 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Rhode Island" ;
+    sosa:hasFeatureOfInterest covid-place:44 ;
+    sosa:hasMember census-obs:census-stat-birth-44,
+        census-obs:census-stat-birth-rate-44,
+        census-obs:census-stat-death-44,
+        census-obs:census-stat-death-rate-44,
+        census-obs:census-stat-domestic-migration-44,
+        census-obs:census-stat-domestic-migration-rate-44,
+        census-obs:census-stat-intel-migration-44,
+        census-obs:census-stat-intel-migration-rate-44,
+        census-obs:census-stat-natural-inc-44,
+        census-obs:census-stat-natural-inc-rate-44,
+        census-obs:census-stat-net-migration-44,
+        census-obs:census-stat-net-migration-rate-44,
+        census-obs:census-stat-pop-change-44,
+        census-obs:census-stat-pop-est-44,
+        census-obs:census-stat-residual-44 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-45 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at South Carolina" ;
+    sosa:hasFeatureOfInterest covid-place:45 ;
+    sosa:hasMember census-obs:census-stat-birth-45,
+        census-obs:census-stat-birth-rate-45,
+        census-obs:census-stat-death-45,
+        census-obs:census-stat-death-rate-45,
+        census-obs:census-stat-domestic-migration-45,
+        census-obs:census-stat-domestic-migration-rate-45,
+        census-obs:census-stat-intel-migration-45,
+        census-obs:census-stat-intel-migration-rate-45,
+        census-obs:census-stat-natural-inc-45,
+        census-obs:census-stat-natural-inc-rate-45,
+        census-obs:census-stat-net-migration-45,
+        census-obs:census-stat-net-migration-rate-45,
+        census-obs:census-stat-pop-change-45,
+        census-obs:census-stat-pop-est-45,
+        census-obs:census-stat-residual-45 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-46 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at South Dakota" ;
+    sosa:hasFeatureOfInterest covid-place:46 ;
+    sosa:hasMember census-obs:census-stat-birth-46,
+        census-obs:census-stat-birth-rate-46,
+        census-obs:census-stat-death-46,
+        census-obs:census-stat-death-rate-46,
+        census-obs:census-stat-domestic-migration-46,
+        census-obs:census-stat-domestic-migration-rate-46,
+        census-obs:census-stat-intel-migration-46,
+        census-obs:census-stat-intel-migration-rate-46,
+        census-obs:census-stat-natural-inc-46,
+        census-obs:census-stat-natural-inc-rate-46,
+        census-obs:census-stat-net-migration-46,
+        census-obs:census-stat-net-migration-rate-46,
+        census-obs:census-stat-pop-change-46,
+        census-obs:census-stat-pop-est-46,
+        census-obs:census-stat-residual-46 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-47 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Tennessee" ;
+    sosa:hasFeatureOfInterest covid-place:47 ;
+    sosa:hasMember census-obs:census-stat-birth-47,
+        census-obs:census-stat-birth-rate-47,
+        census-obs:census-stat-death-47,
+        census-obs:census-stat-death-rate-47,
+        census-obs:census-stat-domestic-migration-47,
+        census-obs:census-stat-domestic-migration-rate-47,
+        census-obs:census-stat-intel-migration-47,
+        census-obs:census-stat-intel-migration-rate-47,
+        census-obs:census-stat-natural-inc-47,
+        census-obs:census-stat-natural-inc-rate-47,
+        census-obs:census-stat-net-migration-47,
+        census-obs:census-stat-net-migration-rate-47,
+        census-obs:census-stat-pop-change-47,
+        census-obs:census-stat-pop-est-47,
+        census-obs:census-stat-residual-47 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-48 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Texas" ;
+    sosa:hasFeatureOfInterest covid-place:48 ;
+    sosa:hasMember census-obs:census-stat-birth-48,
+        census-obs:census-stat-birth-rate-48,
+        census-obs:census-stat-death-48,
+        census-obs:census-stat-death-rate-48,
+        census-obs:census-stat-domestic-migration-48,
+        census-obs:census-stat-domestic-migration-rate-48,
+        census-obs:census-stat-intel-migration-48,
+        census-obs:census-stat-intel-migration-rate-48,
+        census-obs:census-stat-natural-inc-48,
+        census-obs:census-stat-natural-inc-rate-48,
+        census-obs:census-stat-net-migration-48,
+        census-obs:census-stat-net-migration-rate-48,
+        census-obs:census-stat-pop-change-48,
+        census-obs:census-stat-pop-est-48,
+        census-obs:census-stat-residual-48 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-49 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Utah" ;
+    sosa:hasFeatureOfInterest covid-place:49 ;
+    sosa:hasMember census-obs:census-stat-birth-49,
+        census-obs:census-stat-birth-rate-49,
+        census-obs:census-stat-death-49,
+        census-obs:census-stat-death-rate-49,
+        census-obs:census-stat-domestic-migration-49,
+        census-obs:census-stat-domestic-migration-rate-49,
+        census-obs:census-stat-intel-migration-49,
+        census-obs:census-stat-intel-migration-rate-49,
+        census-obs:census-stat-natural-inc-49,
+        census-obs:census-stat-natural-inc-rate-49,
+        census-obs:census-stat-net-migration-49,
+        census-obs:census-stat-net-migration-rate-49,
+        census-obs:census-stat-pop-change-49,
+        census-obs:census-stat-pop-est-49,
+        census-obs:census-stat-residual-49 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-50 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Vermont" ;
+    sosa:hasFeatureOfInterest covid-place:50 ;
+    sosa:hasMember census-obs:census-stat-birth-50,
+        census-obs:census-stat-birth-rate-50,
+        census-obs:census-stat-death-50,
+        census-obs:census-stat-death-rate-50,
+        census-obs:census-stat-domestic-migration-50,
+        census-obs:census-stat-domestic-migration-rate-50,
+        census-obs:census-stat-intel-migration-50,
+        census-obs:census-stat-intel-migration-rate-50,
+        census-obs:census-stat-natural-inc-50,
+        census-obs:census-stat-natural-inc-rate-50,
+        census-obs:census-stat-net-migration-50,
+        census-obs:census-stat-net-migration-rate-50,
+        census-obs:census-stat-pop-change-50,
+        census-obs:census-stat-pop-est-50,
+        census-obs:census-stat-residual-50 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-51 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Virginia" ;
+    sosa:hasFeatureOfInterest covid-place:51 ;
+    sosa:hasMember census-obs:census-stat-birth-51,
+        census-obs:census-stat-birth-rate-51,
+        census-obs:census-stat-death-51,
+        census-obs:census-stat-death-rate-51,
+        census-obs:census-stat-domestic-migration-51,
+        census-obs:census-stat-domestic-migration-rate-51,
+        census-obs:census-stat-intel-migration-51,
+        census-obs:census-stat-intel-migration-rate-51,
+        census-obs:census-stat-natural-inc-51,
+        census-obs:census-stat-natural-inc-rate-51,
+        census-obs:census-stat-net-migration-51,
+        census-obs:census-stat-net-migration-rate-51,
+        census-obs:census-stat-pop-change-51,
+        census-obs:census-stat-pop-est-51,
+        census-obs:census-stat-residual-51 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-53 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Washington" ;
+    sosa:hasFeatureOfInterest covid-place:53 ;
+    sosa:hasMember census-obs:census-stat-birth-53,
+        census-obs:census-stat-birth-rate-53,
+        census-obs:census-stat-death-53,
+        census-obs:census-stat-death-rate-53,
+        census-obs:census-stat-domestic-migration-53,
+        census-obs:census-stat-domestic-migration-rate-53,
+        census-obs:census-stat-intel-migration-53,
+        census-obs:census-stat-intel-migration-rate-53,
+        census-obs:census-stat-natural-inc-53,
+        census-obs:census-stat-natural-inc-rate-53,
+        census-obs:census-stat-net-migration-53,
+        census-obs:census-stat-net-migration-rate-53,
+        census-obs:census-stat-pop-change-53,
+        census-obs:census-stat-pop-est-53,
+        census-obs:census-stat-residual-53 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-54 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at West Virginia" ;
+    sosa:hasFeatureOfInterest covid-place:54 ;
+    sosa:hasMember census-obs:census-stat-birth-54,
+        census-obs:census-stat-birth-rate-54,
+        census-obs:census-stat-death-54,
+        census-obs:census-stat-death-rate-54,
+        census-obs:census-stat-domestic-migration-54,
+        census-obs:census-stat-domestic-migration-rate-54,
+        census-obs:census-stat-intel-migration-54,
+        census-obs:census-stat-intel-migration-rate-54,
+        census-obs:census-stat-natural-inc-54,
+        census-obs:census-stat-natural-inc-rate-54,
+        census-obs:census-stat-net-migration-54,
+        census-obs:census-stat-net-migration-rate-54,
+        census-obs:census-stat-pop-change-54,
+        census-obs:census-stat-pop-est-54,
+        census-obs:census-stat-residual-54 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-55 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Wisconsin" ;
+    sosa:hasFeatureOfInterest covid-place:55 ;
+    sosa:hasMember census-obs:census-stat-birth-55,
+        census-obs:census-stat-birth-rate-55,
+        census-obs:census-stat-death-55,
+        census-obs:census-stat-death-rate-55,
+        census-obs:census-stat-domestic-migration-55,
+        census-obs:census-stat-domestic-migration-rate-55,
+        census-obs:census-stat-intel-migration-55,
+        census-obs:census-stat-intel-migration-rate-55,
+        census-obs:census-stat-natural-inc-55,
+        census-obs:census-stat-natural-inc-rate-55,
+        census-obs:census-stat-net-migration-55,
+        census-obs:census-stat-net-migration-rate-55,
+        census-obs:census-stat-pop-change-55,
+        census-obs:census-stat-pop-est-55,
+        census-obs:census-stat-residual-55 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-56 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Wyoming" ;
+    sosa:hasFeatureOfInterest covid-place:56 ;
+    sosa:hasMember census-obs:census-stat-birth-56,
+        census-obs:census-stat-birth-rate-56,
+        census-obs:census-stat-death-56,
+        census-obs:census-stat-death-rate-56,
+        census-obs:census-stat-domestic-migration-56,
+        census-obs:census-stat-domestic-migration-rate-56,
+        census-obs:census-stat-intel-migration-56,
+        census-obs:census-stat-intel-migration-rate-56,
+        census-obs:census-stat-natural-inc-56,
+        census-obs:census-stat-natural-inc-rate-56,
+        census-obs:census-stat-net-migration-56,
+        census-obs:census-stat-net-migration-rate-56,
+        census-obs:census-stat-pop-change-56,
+        census-obs:census-stat-pop-est-56,
+        census-obs:census-stat-residual-56 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs-collection:census-stat-collection-72 a census:StatsCollection ;
+    rdfs:label "State level census statistics made in 2019 by the U.S. Census Bureau at Puerto Rico" ;
+    sosa:hasFeatureOfInterest covid-place:72 ;
+    sosa:hasMember census-obs:census-stat-birth-72,
+        census-obs:census-stat-birth-rate-72,
+        census-obs:census-stat-death-72,
+        census-obs:census-stat-death-rate-72,
+        census-obs:census-stat-domestic-migration-72,
+        census-obs:census-stat-domestic-migration-rate-72,
+        census-obs:census-stat-intel-migration-72,
+        census-obs:census-stat-intel-migration-rate-72,
+        census-obs:census-stat-natural-inc-72,
+        census-obs:census-stat-natural-inc-rate-72,
+        census-obs:census-stat-net-migration-72,
+        census-obs:census-stat-net-migration-rate-72,
+        census-obs:census-stat-pop-change-72,
+        census-obs:census-stat-pop-est-72,
+        census-obs:census-stat-residual-72 ;
+    sosa:madeBySensor census:CensusBureau ;
+    sosa:phenomenonTime covid-instant:2019 .
+
+census-obs:census-stat-birth-01 covid:point 5.7313e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-02 covid:point 1.0031e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-04 covid:point 8.1942e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-05 covid:point 3.664e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-06 covid:point 4.62617e+05 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-08 covid:point 6.4524e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-09 covid:point 3.4567e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-10 covid:point 1.0683e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-11 covid:point 9.493e+03 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-12 covid:point 2.21695e+05 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-13 covid:point 1.27873e+05 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-15 covid:point 1.6878e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-16 covid:point 2.222e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-17 covid:point 1.44299e+05 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-18 covid:point 8.0711e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-19 covid:point 3.7672e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-20 covid:point 3.5457e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-21 covid:point 5.3471e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-22 covid:point 5.8498e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-23 covid:point 1.2073e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-24 covid:point 7.0091e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-25 covid:point 7.0419e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-26 covid:point 1.09472e+05 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-27 covid:point 6.7642e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-28 covid:point 3.5978e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-29 covid:point 7.1297e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-30 covid:point 1.1618e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-31 covid:point 2.5343e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-32 covid:point 3.5932e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-33 covid:point 1.2004e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-34 covid:point 9.9501e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-35 covid:point 2.3125e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-36 covid:point 2.22924e+05 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-37 covid:point 1.19203e+05 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-38 covid:point 1.0536e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-39 covid:point 1.34291e+05 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-40 covid:point 4.8759e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-41 covid:point 4.3305e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-42 covid:point 1.3519e+05 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-44 covid:point 1.0481e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-45 covid:point 5.6353e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-46 covid:point 1.1911e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-47 covid:point 8.0239e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-48 covid:point 3.78664e+05 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-49 covid:point 4.8642e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-50 covid:point 5.581e+03 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-51 covid:point 9.8403e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-53 covid:point 8.795e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-54 covid:point 1.7888e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-55 covid:point 6.3712e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-56 covid:point 6.601e+03 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-72 covid:point 2.1428e+04 ;
+    sosa:observedProperty census-obs-property:BIRTHS2019 .
+
+census-obs:census-stat-birth-rate-01 covid:point 1.170744e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-02 covid:point 1.367847e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-04 covid:point 1.135187e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-05 covid:point 1.215754e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-06 covid:point 1.171571e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-08 covid:point 1.127055e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-09 covid:point 9.686965e+00 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-10 covid:point 1.10177e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-11 covid:point 1.349112e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-12 covid:point 1.037848e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-13 covid:point 1.210428e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-15 covid:point 1.190073e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-16 covid:point 1.256219e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-17 covid:point 1.136441e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-18 covid:point 1.202155e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-19 covid:point 1.195237e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-20 covid:point 1.217476e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-21 covid:point 1.197716e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-22 covid:point 1.256875e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-23 covid:point 8.998725e+00 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-24 covid:point 1.160305e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-25 covid:point 1.022407e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-26 covid:point 1.096314e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-27 covid:point 1.202965e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-28 covid:point 1.207889e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-29 covid:point 1.163173e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-30 covid:point 1.091177e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-31 covid:point 1.313101e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-32 covid:point 1.176652e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-33 covid:point 8.84867e+00 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-34 covid:point 1.119989e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-35 covid:point 1.103932e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-36 covid:point 1.143672e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-37 covid:point 1.142355e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-38 covid:point 1.386186e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-39 covid:point 1.149484e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-40 covid:point 1.234842e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-41 covid:point 1.031118e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-42 covid:point 1.056052e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-44 covid:point 9.898718e+00 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-45 covid:point 1.101411e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-46 covid:point 1.350946e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-47 covid:point 1.179915e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-48 covid:point 1.314245e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-49 covid:point 1.529741e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-50 covid:point 8.941424e+00 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-51 covid:point 1.155181e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-53 covid:point 1.161918e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-54 covid:point 9.94762e+00 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-55 covid:point 1.095664e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-56 covid:point 1.141686e+01 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-birth-rate-72 covid:point 6.709829e+00 ;
+    sosa:observedProperty census-obs-property:RBIRTH2019 .
+
+census-obs:census-stat-death-01 covid:point 5.3879e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-02 covid:point 4.819e+03 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-04 covid:point 6.0523e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-05 covid:point 3.1322e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-06 covid:point 2.8252e+05 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-08 covid:point 3.9116e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-09 covid:point 3.1149e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-10 covid:point 9.454e+03 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-11 covid:point 5.677e+03 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-12 covid:point 2.11692e+05 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-13 covid:point 8.6319e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-15 covid:point 1.2748e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-16 covid:point 1.3308e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-17 covid:point 1.10004e+05 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-18 covid:point 6.2175e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-19 covid:point 2.8809e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-20 covid:point 2.523e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-21 covid:point 4.6074e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-22 covid:point 4.6343e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-23 covid:point 1.4335e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-24 covid:point 5.1453e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-25 covid:point 5.8564e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-26 covid:point 9.5983e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-27 covid:point 4.32e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-28 covid:point 3.1536e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-29 covid:point 6.0141e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-30 covid:point 9.87e+03 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-31 covid:point 1.5582e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-32 covid:point 2.561e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-33 covid:point 1.2125e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-34 covid:point 7.5723e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-35 covid:point 1.8388e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-36 covid:point 1.64817e+05 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-37 covid:point 9.4312e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-38 covid:point 6.25e+03 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-39 covid:point 1.1775e+05 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-40 covid:point 4.0266e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-41 covid:point 3.6563e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-42 covid:point 1.33439e+05 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-44 covid:point 9.802e+03 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-45 covid:point 5.0744e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-46 covid:point 7.337e+03 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-47 covid:point 6.7977e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-48 covid:point 2.02786e+05 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-49 covid:point 1.7443e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-50 covid:point 5.634e+03 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-51 covid:point 6.9729e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-53 covid:point 5.8587e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-54 covid:point 2.2567e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-55 covid:point 5.0393e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-56 covid:point 4.971e+03 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-72 covid:point 2.8821e+04 ;
+    sosa:observedProperty census-obs-property:DEATHS2019 .
+
+census-obs:census-stat-death-rate-01 covid:point 1.100597e+01 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-02 covid:point 6.571286e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-04 covid:point 8.384579e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-05 covid:point 1.039297e+01 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-06 covid:point 7.154777e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-08 covid:point 6.832475e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-09 covid:point 8.729114e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-10 covid:point 9.750196e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-11 covid:point 8.067954e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-12 covid:point 9.910198e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-13 covid:point 8.170838e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-15 covid:point 8.988653e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-16 covid:point 7.523743e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-17 covid:point 8.663475e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-18 covid:point 9.260696e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-19 covid:point 9.140364e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-20 covid:point 8.663147e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-21 covid:point 1.032028e+01 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-22 covid:point 9.957153e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-23 covid:point 1.068473e+01 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-24 covid:point 8.517664e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-25 covid:point 8.502855e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-26 covid:point 9.612272e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-27 covid:point 7.682813e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-28 covid:point 1.058758e+01 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-29 covid:point 9.811689e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-30 covid:point 9.27003e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-31 covid:point 8.073529e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-32 covid:point 8.386414e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-33 covid:point 8.937865e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-34 covid:point 8.523422e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-35 covid:point 8.777989e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-36 covid:point 8.455642e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-37 covid:point 9.038175e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-38 covid:point 8.222916e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-39 covid:point 1.007899e+01 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-40 covid:point 1.019753e+01 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-41 covid:point 8.705867e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-42 covid:point 1.042374e+01 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-44 covid:point 9.25744e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-45 covid:point 9.917843e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-46 covid:point 8.321627e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-47 covid:point 9.996026e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-48 covid:point 7.038181e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-49 covid:point 5.485644e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-50 covid:point 9.026336e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-51 covid:point 8.18569e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-53 covid:point 7.739999e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-54 covid:point 1.254964e+01 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-55 covid:point 8.666155e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-56 covid:point 8.597669e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-death-rate-72 covid:point 9.024826e+00 ;
+    sosa:observedProperty census-obs-property:RDEATH2019 .
+
+census-obs:census-stat-domestic-migration-01 covid:point 9.387e+03 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-02 covid:point -9.482e+03 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-04 covid:point 9.1017e+04 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-05 covid:point 2.515e+03 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-06 covid:point -2.03414e+05 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-08 covid:point 3.1335e+04 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-09 covid:point -2.2059e+04 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-10 covid:point 6.961e+03 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-11 covid:point -2.203e+03 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-12 covid:point 1.3391e+05 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-13 covid:point 4.968e+04 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-15 covid:point -1.3817e+04 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-16 covid:point 2.736e+04 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-17 covid:point -1.04986e+05 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-18 covid:point 3.997e+03 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-19 covid:point -5.011e+03 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-20 covid:point -1.2357e+04 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-21 covid:point -1.541e+03 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-22 covid:point -2.6045e+04 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-23 covid:point 6.613e+03 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-24 covid:point -2.3665e+04 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-25 covid:point -3.0274e+04 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-26 covid:point -2.367e+04 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-27 covid:point 6.5e+01 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-28 covid:point -1.074e+04 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-29 covid:point -7.1e+02 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-30 covid:point 6.024e+03 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-31 covid:point -4.22e+03 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-32 covid:point 4.3207e+04 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-33 covid:point 4.469e+03 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-34 covid:point -4.8946e+04 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-35 covid:point -2.136e+03 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-36 covid:point -1.80649e+05 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-37 covid:point 6.7338e+04 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-38 covid:point -1.267e+03 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-39 covid:point -1.2916e+04 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-40 covid:point 3.822e+03 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-41 covid:point 2.5821e+04 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-42 covid:point -1.9588e+04 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-44 covid:point -3.215e+03 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-45 covid:point 5.3034e+04 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-46 covid:point 9.64e+02 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-47 covid:point 3.6009e+04 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-48 covid:point 1.2566e+05 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-49 covid:point 1.5588e+04 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-50 covid:point -6.82e+02 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-51 covid:point -9.136e+03 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-53 covid:point 3.7476e+04 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-54 covid:point -7.073e+03 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-55 covid:point -1.438e+03 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-56 covid:point -1.012e+03 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-72 covid:point 0e+00 ;
+    sosa:observedProperty census-obs-property:DOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-01 covid:point 1.917501e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-02 covid:point -1.292985e+01 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-04 covid:point 1.260908e+01 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-05 covid:point 8.345034e-01 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-06 covid:point -5.151429e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-08 covid:point 5.473351e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-09 covid:point -6.181756e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-10 covid:point 7.17909e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-11 covid:point -3.130827e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-12 covid:point 6.268893e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-13 covid:point 4.702641e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-15 covid:point -9.742408e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-16 covid:point 1.546811e+01 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-17 covid:point -8.268277e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-18 covid:point 5.953358e-01 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-19 covid:point -1.589863e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-20 covid:point -4.242985e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-21 covid:point -3.451742e-01 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-22 covid:point -5.59597e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-23 covid:point 4.929062e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-24 covid:point -3.917566e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-25 covid:point -4.395455e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-26 covid:point -2.370446e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-27 covid:point 1.155979e-02 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-28 covid:point -3.60574e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-29 covid:point -1.158328e-01 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-30 covid:point 5.657818e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-31 covid:point -2.186516e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-32 covid:point 1.414884e+01 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-33 covid:point 3.294294e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-34 covid:point -5.509389e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-35 covid:point -1.019675e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-36 covid:point -9.267874e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-37 covid:point 6.453184e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-38 covid:point -1.66695e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-39 covid:point -1.105564e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-40 covid:point 9.679373e-01 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-41 covid:point 6.148133e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-42 covid:point -1.530139e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-44 covid:point -3.036388e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-45 covid:point 1.036542e+01 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-46 covid:point 1.093369e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-47 covid:point 5.295128e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-48 covid:point 4.361336e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-49 covid:point 4.902266e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-50 covid:point -1.092645e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-51 covid:point -1.072502e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-53 covid:point 4.950999e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-54 covid:point -3.933336e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-55 covid:point -2.472949e-01 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-56 covid:point -1.75032e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-domestic-migration-rate-72 covid:point 0e+00 ;
+    sosa:observedProperty census-obs-property:RDOMESTICMIG2019 .
+
+census-obs:census-stat-intel-migration-01 covid:point 2.772e+03 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-02 covid:point 6.59e+02 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-04 covid:point 7.782e+03 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-05 covid:point 2.68e+02 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-06 covid:point 7.4028e+04 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-08 covid:point 1.0523e+04 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-09 covid:point 1.2323e+04 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-10 covid:point 7.3e+01 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-11 covid:point 2.604e+03 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-12 covid:point 8.8678e+04 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-13 covid:point 1.5053e+04 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-15 covid:point 5.014e+03 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-16 covid:point 1.67e+02 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-17 covid:point 1.9209e+04 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-18 covid:point 1.4379e+04 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-19 covid:point 2.663e+03 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-20 covid:point 4.104e+03 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-21 covid:point 7.65e+02 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-22 covid:point 3.04e+03 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-23 covid:point 8.52e+02 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-24 covid:point 1.5011e+04 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-25 covid:point 2.8426e+04 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-26 covid:point 1.3146e+04 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-27 covid:point 9.113e+03 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-28 covid:point 1.429e+03 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-29 covid:point 5.503e+03 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-30 covid:point 3.22e+02 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-31 covid:point 3.295e+03 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-32 covid:point -9.7e+02 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-33 covid:point 1.947e+03 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-34 covid:point 2.1284e+04 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-35 covid:point 1.546e+03 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-36 covid:point 4.5753e+04 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-37 covid:point 1.4184e+04 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-38 covid:point 9.51e+02 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-39 covid:point 9.553e+03 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-40 covid:point 4.484e+03 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-41 covid:point 3.295e+03 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-42 covid:point 1.9532e+04 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-44 covid:point 3.645e+03 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-45 covid:point 5.724e+03 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-46 covid:point 4.18e+02 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-47 covid:point 9.293e+03 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-48 covid:point 6.5044e+04 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-49 covid:point 5.579e+03 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-50 covid:point 3.83e+02 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-51 covid:point 1.4869e+04 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-53 covid:point 2.4103e+04 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-54 covid:point -3.49e+02 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-55 covid:point 3.341e+03 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-56 covid:point 5.38e+02 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-72 covid:point 7.733e+03 ;
+    sosa:observedProperty census-obs-property:INTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-01 covid:point 5.66242e-01 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-02 covid:point 8.986257e-01 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-04 covid:point 1.078083e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-05 covid:point 8.892521e-02 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-06 covid:point 1.874748e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-08 covid:point 1.838075e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-09 covid:point 3.453365e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-10 covid:point 7.528711e-02 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-11 covid:point 3.700714e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-12 covid:point 4.151392e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-13 covid:point 1.424896e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-15 covid:point 3.535386e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-16 covid:point 9.441427e-02 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-17 covid:point 1.512824e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-18 covid:point 2.14169e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-19 covid:point 8.449022e-01 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-20 covid:point 1.409178e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-21 covid:point 1.713551e-01 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-22 covid:point 6.531676e-01 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-23 covid:point 6.350463e-01 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-24 covid:point 2.48496e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-25 covid:point 4.127146e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-26 covid:point 1.316514e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-27 covid:point 1.620682e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-28 covid:point 4.797581e-01 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-29 covid:point 8.977856e-01 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-30 covid:point 3.024265e-01 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-31 covid:point 1.707244e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-32 covid:point -3.176424e-01 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-33 covid:point 1.435218e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-34 covid:point 2.395739e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-35 covid:point 7.380232e-01 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-36 covid:point 2.347276e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-37 covid:point 1.359291e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-38 covid:point 1.251199e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-39 covid:point 8.177034e-01 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-40 covid:point 1.135591e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-41 covid:point 7.84559e-01 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-42 covid:point 1.525764e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-44 covid:point 3.442498e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-45 covid:point 1.118748e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-46 covid:point 4.740957e-01 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-47 covid:point 1.366537e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-48 covid:point 2.25751e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-49 covid:point 1.754538e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-50 covid:point 6.136114e-01 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-51 covid:point 1.745515e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-53 covid:point 3.184276e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-54 covid:point -1.940809e-01 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-55 covid:point 5.745565e-01 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-56 covid:point 9.305061e-01 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-intel-migration-rate-72 covid:point 2.421463e+00 ;
+    sosa:observedProperty census-obs-property:RINTERNATIONALMIG2019 .
+
+census-obs:census-stat-natural-inc-01 covid:point 3.434e+03 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-02 covid:point 5.212e+03 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-04 covid:point 2.1419e+04 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-05 covid:point 5.318e+03 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-06 covid:point 1.80097e+05 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-08 covid:point 2.5408e+04 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-09 covid:point 3.418e+03 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-10 covid:point 1.229e+03 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-11 covid:point 3.816e+03 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-12 covid:point 1.0003e+04 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-13 covid:point 4.1554e+04 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-15 covid:point 4.13e+03 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-16 covid:point 8.912e+03 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-17 covid:point 3.4295e+04 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-18 covid:point 1.8536e+04 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-19 covid:point 8.863e+03 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-20 covid:point 1.0227e+04 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-21 covid:point 7.397e+03 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-22 covid:point 1.2155e+04 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-23 covid:point -2.262e+03 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-24 covid:point 1.8638e+04 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-25 covid:point 1.1855e+04 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-26 covid:point 1.3489e+04 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-27 covid:point 2.4442e+04 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-28 covid:point 4.442e+03 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-29 covid:point 1.1156e+04 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-30 covid:point 1.748e+03 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-31 covid:point 9.761e+03 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-32 covid:point 1.0322e+04 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-33 covid:point -1.21e+02 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-34 covid:point 2.3778e+04 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-35 covid:point 4.737e+03 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-36 covid:point 5.8107e+04 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-37 covid:point 2.4891e+04 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-38 covid:point 4.286e+03 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-39 covid:point 1.6541e+04 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-40 covid:point 8.493e+03 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-41 covid:point 6.742e+03 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-42 covid:point 1.751e+03 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-44 covid:point 6.79e+02 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-45 covid:point 5.609e+03 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-46 covid:point 4.574e+03 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-47 covid:point 1.2262e+04 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-48 covid:point 1.75878e+05 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-49 covid:point 3.1199e+04 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-50 covid:point -5.3e+01 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-51 covid:point 2.8674e+04 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-53 covid:point 2.9363e+04 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-54 covid:point -4.679e+03 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-55 covid:point 1.3319e+04 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-56 covid:point 1.63e+03 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-72 covid:point -7.393e+03 ;
+    sosa:observedProperty census-obs-property:NATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-01 covid:point 7.014701e-01 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-02 covid:point 7.107189e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-04 covid:point 2.96729e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-05 covid:point 1.764568e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-06 covid:point 4.56093e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-08 covid:point 4.43807e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-09 covid:point 9.578513e-01 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-10 covid:point 1.267505e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-11 covid:point 5.423166e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-12 covid:point 4.682827e-01 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-13 covid:point 3.933445e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-15 covid:point 2.912075e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-16 covid:point 5.038443e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-17 covid:point 2.700937e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-18 covid:point 2.760857e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-19 covid:point 2.812005e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-20 covid:point 3.511613e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-21 covid:point 1.656881e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-22 covid:point 2.611596e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-23 covid:point -1.686003e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-24 covid:point 3.085383e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-25 covid:point 1.721217e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-26 covid:point 1.350864e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-27 covid:point 4.346836e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-28 covid:point 1.491312e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-29 covid:point 1.820043e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-30 covid:point 1.641744e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-31 covid:point 5.057484e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-32 covid:point 3.380108e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-33 covid:point -8.919436e-02 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-34 covid:point 2.676465e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-35 covid:point 2.26133e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-36 covid:point 2.981076e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-37 covid:point 2.385372e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-38 covid:point 5.638947e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-39 covid:point 1.415852e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-40 covid:point 2.150887e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-41 covid:point 1.60531e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-42 covid:point 1.367813e-01 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-44 covid:point 6.412775e-01 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-45 covid:point 1.096271e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-46 covid:point 5.187832e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-47 covid:point 1.803129e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-48 covid:point 6.104274e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-49 covid:point 9.811765e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-50 covid:point -8.491229e-02 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-51 covid:point 3.366124e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-53 covid:point 3.879181e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-54 covid:point -2.602019e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-55 covid:point 2.290487e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-56 covid:point 2.819191e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-natural-inc-rate-72 covid:point -2.314997e+00 ;
+    sosa:observedProperty census-obs-property:RNATURALINC2019 .
+
+census-obs:census-stat-net-migration-01 covid:point 1.2159e+04 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-02 covid:point -8.823e+03 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-04 covid:point 9.8799e+04 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-05 covid:point 2.783e+03 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-06 covid:point -1.29386e+05 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-08 covid:point 4.1858e+04 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-09 covid:point -9.736e+03 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-10 covid:point 7.034e+03 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-11 covid:point 4.01e+02 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-12 covid:point 2.22588e+05 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-13 covid:point 6.4733e+04 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-15 covid:point -8.803e+03 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-16 covid:point 2.7527e+04 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-17 covid:point -8.5777e+04 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-18 covid:point 1.8376e+04 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-19 covid:point -2.348e+03 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-20 covid:point -8.253e+03 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-21 covid:point -7.76e+02 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-22 covid:point -2.3005e+04 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-23 covid:point 7.465e+03 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-24 covid:point -8.654e+03 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-25 covid:point -1.848e+03 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-26 covid:point -1.0524e+04 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-27 covid:point 9.178e+03 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-28 covid:point -9.311e+03 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-29 covid:point 4.793e+03 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-30 covid:point 6.346e+03 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-31 covid:point -9.25e+02 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-32 covid:point 4.2237e+04 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-33 covid:point 6.416e+03 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-34 covid:point -2.7662e+04 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-35 covid:point -5.9e+02 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-36 covid:point -1.34896e+05 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-37 covid:point 8.1522e+04 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-38 covid:point -3.16e+02 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-39 covid:point -3.363e+03 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-40 covid:point 8.306e+03 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-41 covid:point 2.9116e+04 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-42 covid:point -5.6e+01 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-44 covid:point 4.3e+02 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-45 covid:point 5.8758e+04 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-46 covid:point 1.382e+03 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-47 covid:point 4.5302e+04 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-48 covid:point 1.90704e+05 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-49 covid:point 2.1167e+04 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-50 covid:point -2.99e+02 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-51 covid:point 5.733e+03 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-53 covid:point 6.1579e+04 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-54 covid:point -7.422e+03 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-55 covid:point 1.903e+03 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-56 covid:point -4.74e+02 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-72 covid:point 7.733e+03 ;
+    sosa:observedProperty census-obs-property:NETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-01 covid:point 2.483744e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-02 covid:point -1.203122e+01 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-04 covid:point 1.368716e+01 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-05 covid:point 9.234286e-01 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-06 covid:point -3.276681e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-08 covid:point 7.311426e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-09 covid:point -2.728391e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-10 covid:point 7.254377e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-11 covid:point 5.698872e-01 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-12 covid:point 1.042029e+01 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-13 covid:point 6.127537e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-15 covid:point -6.207022e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-16 covid:point 1.556252e+01 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-17 covid:point -6.755453e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-18 covid:point 2.737025e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-19 covid:point -7.449607e-01 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-20 covid:point -2.833807e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-21 covid:point -1.73819e-01 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-22 covid:point -4.942803e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-23 covid:point 5.564109e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-24 covid:point -1.432606e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-25 covid:point -2.683095e-01 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-26 covid:point -1.053932e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-27 covid:point 1.632242e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-28 covid:point -3.125981e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-29 covid:point 7.819529e-01 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-30 covid:point 5.960244e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-31 covid:point -4.792719e-01 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-32 covid:point 1.38312e+01 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-33 covid:point 4.729513e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-34 covid:point -3.11365e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-35 covid:point -2.816518e-01 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-36 covid:point -6.920598e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-37 covid:point 7.812475e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-38 covid:point -4.157506e-01 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-39 covid:point -2.87861e-01 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-40 covid:point 2.103529e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-41 covid:point 6.932692e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-42 covid:point -4.374503e-03 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-44 covid:point 4.061109e-01 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-45 covid:point 1.148417e+01 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-46 covid:point 1.567465e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-47 covid:point 6.661665e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-48 covid:point 6.618846e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-49 covid:point 6.656804e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-50 covid:point -4.790335e-01 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-51 covid:point 6.730135e-01 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-53 covid:point 8.135276e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-54 covid:point -4.127417e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-55 covid:point 3.272616e-01 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-56 covid:point -8.198139e-01 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-net-migration-rate-72 covid:point 2.421463e+00 ;
+    sosa:observedProperty census-obs-property:RNETMIG2019 .
+
+census-obs:census-stat-pop-change-01 covid:point 1.5504e+04 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-02 covid:point -3.594e+03 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-04 covid:point 1.20693e+05 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-05 covid:point 8.071e+03 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-06 covid:point 5.0635e+04 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-08 covid:point 6.7449e+04 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-09 covid:point -6.233e+03 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-10 covid:point 8.285e+03 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-11 covid:point 4.202e+03 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-12 covid:point 2.3342e+05 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-13 covid:point 1.06292e+05 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-15 covid:point -4.721e+03 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-16 covid:point 3.6529e+04 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-17 covid:point -5.125e+04 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-18 covid:point 3.6722e+04 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-19 covid:point 6.452e+03 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-20 covid:point 1.955e+03 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-21 covid:point 6.52e+03 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-22 covid:point -1.0896e+04 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-23 covid:point 5.155e+03 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-24 covid:point 9.878e+03 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-25 covid:point 9.868e+03 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-26 covid:point 2.785e+03 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-27 covid:point 3.3383e+04 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-28 covid:point -4.871e+03 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-29 covid:point 1.5805e+04 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-30 covid:point 8.113e+03 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-31 covid:point 8.794e+03 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-32 covid:point 5.2815e+04 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-33 covid:point 6.246e+03 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-34 covid:point -3.835e+03 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-35 covid:point 4.088e+03 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-36 covid:point -7.679e+04 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-37 covid:point 1.06469e+05 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-38 covid:point 3.982e+03 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-39 covid:point 1.2759e+04 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-40 covid:point 1.6736e+04 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-41 covid:point 3.5851e+04 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-42 covid:point 1.067e+03 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-44 covid:point 1.074e+03 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-45 covid:point 6.4558e+04 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-46 covid:point 5.961e+03 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-47 covid:point 5.7543e+04 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-48 covid:point 3.67215e+05 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-49 covid:point 5.2408e+04 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-50 covid:point -3.69e+02 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-51 covid:point 3.4233e+04 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-53 covid:point 9.1024e+04 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-54 covid:point -1.2144e+04 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-55 covid:point 1.5028e+04 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-56 covid:point 1.158e+03 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-change-72 covid:point 3.4e+02 ;
+    sosa:observedProperty census-obs-property:NPOPCHG_2019 .
+
+census-obs:census-stat-pop-est-01 covid:point 4.903185e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-02 covid:point 7.31545e+05 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-04 covid:point 7.278717e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-05 covid:point 3.017804e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-06 covid:point 3.951222e+07 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-08 covid:point 5.758736e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-09 covid:point 3.565287e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-10 covid:point 9.73764e+05 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-11 covid:point 7.05749e+05 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-12 covid:point 2.147774e+07 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-13 covid:point 1.061742e+07 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-15 covid:point 1.415872e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-16 covid:point 1.787065e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-17 covid:point 1.267182e+07 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-18 covid:point 6.732219e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-19 covid:point 3.15507e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-20 covid:point 2.913314e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-21 covid:point 4.467673e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-22 covid:point 4.648794e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-23 covid:point 1.344212e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-24 covid:point 6.04568e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-25 covid:point 6.892503e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-26 covid:point 9.986857e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-27 covid:point 5.639632e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-28 covid:point 2.976149e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-29 covid:point 6.137428e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-30 covid:point 1.068778e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-31 covid:point 1.934408e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-32 covid:point 3.080156e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-33 covid:point 1.359711e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-34 covid:point 8.88219e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-35 covid:point 2.096829e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-36 covid:point 1.945356e+07 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-37 covid:point 1.048808e+07 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-38 covid:point 7.62062e+05 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-39 covid:point 1.16891e+07 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-40 covid:point 3.956971e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-41 covid:point 4.217737e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-42 covid:point 1.280199e+07 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-44 covid:point 1.059361e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-45 covid:point 5.148714e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-46 covid:point 8.84659e+05 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-47 covid:point 6.829174e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-48 covid:point 2.899588e+07 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-49 covid:point 3.205958e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-50 covid:point 6.23989e+05 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-51 covid:point 8.535519e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-53 covid:point 7.614893e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-54 covid:point 1.792147e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-55 covid:point 5.822434e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-56 covid:point 5.78759e+05 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-pop-est-72 covid:point 3.193694e+06 ;
+    sosa:observedProperty census-obs-property:POPESTIMATE2019 .
+
+census-obs:census-stat-residual-01 covid:point -8.9e+01 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-02 covid:point 1.7e+01 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-04 covid:point 4.75e+02 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-05 covid:point -3e+01 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-06 covid:point -7.6e+01 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-08 covid:point 1.83e+02 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-09 covid:point 8.5e+01 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-10 covid:point 2.2e+01 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-11 covid:point -1.5e+01 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-12 covid:point 8.29e+02 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-13 covid:point 5e+00 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-15 covid:point -4.8e+01 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-16 covid:point 9e+01 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-17 covid:point 2.32e+02 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-18 covid:point -1.9e+02 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-19 covid:point -6.3e+01 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-20 covid:point -1.9e+01 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-21 covid:point -1.01e+02 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-22 covid:point -4.6e+01 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-23 covid:point -4.8e+01 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-24 covid:point -1.06e+02 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-25 covid:point -1.39e+02 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-26 covid:point -1.8e+02 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-27 covid:point -2.37e+02 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-28 covid:point -2e+00 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-29 covid:point -1.44e+02 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-30 covid:point 1.9e+01 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-31 covid:point -4.2e+01 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-32 covid:point 2.56e+02 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-33 covid:point -4.9e+01 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-34 covid:point 4.9e+01 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-35 covid:point -5.9e+01 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-36 covid:point -1e+00 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-37 covid:point 5.6e+01 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-38 covid:point 1.2e+01 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-39 covid:point -4.19e+02 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-40 covid:point -6.3e+01 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-41 covid:point -7e+00 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-42 covid:point -6.28e+02 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-44 covid:point -3.5e+01 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-45 covid:point 1.91e+02 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-46 covid:point 5e+00 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-47 covid:point -2.1e+01 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-48 covid:point 6.33e+02 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-49 covid:point 4.2e+01 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-50 covid:point -1.7e+01 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-51 covid:point -1.74e+02 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-53 covid:point 8.2e+01 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-54 covid:point -4.3e+01 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-55 covid:point -1.94e+02 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-56 covid:point 2e+00 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs:census-stat-residual-72 covid:point 0e+00 ;
+    sosa:observedProperty census-obs-property:RESIDUAL2019 .
+
+census-obs-property:BIRTHS2019 a sosa:ObservableProperty ;
+    rdfs:label "Births in period 7/1/2018 to 6/30/2019" .
+
+census-obs-property:DEATHS2019 a sosa:ObservableProperty ;
+    rdfs:label "Deaths in period 7/1/2018 to 6/30/2019" .
+
+census-obs-property:DOMESTICMIG2019 a sosa:ObservableProperty ;
+    rdfs:label "Net domestic migration in period 7/1/2018 to 6/30/2019" .
+
+census-obs-property:INTERNATIONALMIG2019 a sosa:ObservableProperty ;
+    rdfs:label "Net international migration in period 7/1/2018t o 6/30/2019" .
+
+census-obs-property:NATURALINC2019 a sosa:ObservableProperty ;
+    rdfs:label "Natural increase in period 7/1/2018 to 6/30/2019" .
+
+census-obs-property:NETMIG2019 a sosa:ObservableProperty ;
+    rdfs:label "Net migration in period 7/1/2018 to 6/30/2019" .
+
+census-obs-property:NPOPCHG_2019 a sosa:ObservableProperty ;
+    rdfs:label "Numeric change in resident total population 7/1/2018 to 7/1/2019" .
+
+census-obs-property:POPESTIMATE2019 a sosa:ObservableProperty ;
+    rdfs:label "7/1/2019 resident total population estimate" .
+
+census-obs-property:RBIRTH2019 a sosa:ObservableProperty ;
+    rdfs:label "Birth rate in period 7/1/2018 to 6/30/2019" .
+
+census-obs-property:RDEATH2019 a sosa:ObservableProperty ;
+    rdfs:label "Death rate in period 7/1/2018 to 6/30/2019" .
+
+census-obs-property:RDOMESTICMIG2019 a sosa:ObservableProperty ;
+    rdfs:label "Net domestic migration rate in period 7/1/2018 to 6/30/2019" .
+
+census-obs-property:RESIDUAL2019 a sosa:ObservableProperty ;
+    rdfs:label "Residual for period 7/1/2018 to 6/30/2019" .
+
+census-obs-property:RINTERNATIONALMIG2019 a sosa:ObservableProperty ;
+    rdfs:label "Net international migration rate in period 7/1/2018 to 6/30/2019" .
+
+census-obs-property:RNATURALINC2019 a sosa:ObservableProperty ;
+    rdfs:label "Natural increase rate in period 7/1/2018 to 6/30/2019" .
+
+census-obs-property:RNETMIG2019 a sosa:ObservableProperty ;
+    rdfs:label "Net migration rate in period 7/1/2018 to 6/30/2019" .
+

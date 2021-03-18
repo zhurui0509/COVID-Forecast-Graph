@@ -1,0 +1,7 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-research:LICENSE-IHME a covid:Research ;
+    rdfs:label "LICENSE-IHME" .
+

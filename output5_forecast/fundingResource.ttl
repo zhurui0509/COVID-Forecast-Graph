@@ -1,0 +1,109 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-funding-resource: <http://covid.geog.ucsb.edu/lod/fundingResource/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-funding-resource:Alianza_UCMX_Special_Funding_for_Binational_Collaboration_Addressing_COVID19 a covid:Organization ;
+    rdfs:label "Alianza UCMX Special Funding for Binational Collaboration Addressing COVID-19" .
+
+covid-funding-resource:Bill__Melinda_Gates_Foundation a covid:Organization ;
+    rdfs:label "Bill & Melinda Gates Foundation" .
+
+covid-funding-resource:CDC a covid:Organization ;
+    rdfs:label "CDC" .
+
+covid-funding-resource:CDC_Center_of_Excellence_gifts_from_Google_and_Facebook a covid:Organization ;
+    rdfs:label "CDC Center of Excellence, gifts from Google and Facebook" .
+
+covid-funding-resource:Clinard_Innovation_Fund_Caltech_SURF_Office_Mr_Charles_Trimble_and_Ms_Liying_Huang a covid:Organization ;
+    rdfs:label "Clinard Innovation Fund, Caltech SURF Office, Mr. Charles Trimble and Ms. Liying Huang" .
+
+covid-funding-resource:Construx_Software a covid:Organization ;
+    rdfs:label "Construx Software" .
+
+covid-funding-resource:Defense_Advanced_Research_Projects_Agency_DARPA_Defense_Sciences_Office_DSO a covid:Organization ;
+    rdfs:label "Defense Advanced Research Projects Agency (DARPA), Defense Sciences Office (DSO)" .
+
+covid-funding-resource:GE_and_TAP_were_supported_by_a_RAPID_grant_from_the_National_Science__Foundation_DEB_2027718 a covid:Organization ;
+    rdfs:label "GE and TAP were supported by a RAPID grant from the National Science  Foundation (DEB 2027718)." .
+
+covid-funding-resource:Institute_of_Business_Forecasting a covid:Organization ;
+    rdfs:label "Institute of Business Forecasting" .
+
+covid-funding-resource:Internal_RD_funding a covid:Organization ;
+    rdfs:label "Internal R&D funding" .
+
+covid-funding-resource:NA a covid:Organization ;
+    rdfs:label "NA" .
+
+covid-funding-resource:NIH a covid:Organization ;
+    rdfs:label "NIH" .
+
+covid-funding-resource:NIH_grant_GM124104 a covid:Organization ;
+    rdfs:label "NIH grant GM124104" .
+
+covid-funding-resource:NSF a covid:Organization ;
+    rdfs:label "NSF" .
+
+covid-funding-resource:No_funding_support a covid:Organization ;
+    rdfs:label "No funding support." .
+
+covid-funding-resource:None a covid:Organization ;
+    rdfs:label "None" .
+
+<http://covid.geog.ucsb.edu/lod/fundingResource/None_I'm_a_retired_Experimental_Physicist_working_at_home> a covid:Organization ;
+    rdfs:label "None (I'm a retired Experimental Physicist working at home)" .
+
+covid-funding-resource:Partly_supported_by_multiple_grants_from_NSF__NSF_CAREER_NSF_CISE__Expeditions_NSF_IIS_NSF_COVID_RAPID_and_GA_Tech a covid:Organization ;
+    rdfs:label "Partly supported by multiple grants from NSF  (NSF CAREER, NSF CISE  Expeditions, NSF IIS, NSF COVID RAPID) and GA Tech" .
+
+covid-funding-resource:State_of_California_and_US_Government a covid:Organization ;
+    rdfs:label "State of California and US Government" .
+
+covid-funding-resource:Supported_by_Intramural_Research_Program_of_the_NIHNIDDK a covid:Organization ;
+    rdfs:label "Supported by Intramural Research Program of the NIH/NIDDK" .
+
+covid-funding-resource:Supported_by_US_NIH_grant_GM110748_and_US_NSF_RAPID_grant_DMS2027369 a covid:Organization ;
+    rdfs:label "Supported by US NIH grant GM110748 and US NSF RAPID grant DMS2027369" .
+
+covid-funding-resource:Supported_by_US_National_Science_Foundation_Award_No_2027007_RAPID a covid:Organization ;
+    rdfs:label "Supported by US National Science Foundation Award No. 2027007 (RAPID)" .
+
+covid-funding-resource:TBD a covid:Organization ;
+    rdfs:label "TBD" .
+
+<http://covid.geog.ucsb.edu/lod/fundingResource/This_model's_development_is_funded_by_the_US_CDC_grant_number_U01IP001122_The_content_is_solely_the_responsibility_of_the_authors_and_does_not_necessarily_represent_the_official_views_of_NIGMS_or_the_National_Institutes_of_Health> a covid:Organization ;
+    rdfs:label "This model's development is funded by the US CDC grant number U01IP001122. The content is solely the responsibility of the authors and does not necessarily represent the official views of NIGMS or the National Institutes of Health." .
+
+covid-funding-resource:This_model_development_is_supported_by_NIGMS_grant_R35GM119582_The_content_is_solely_the_responsibility_of_the_authors_and_does_not_necessarily_represent_the_official_views_of_NIGMS_or_the_National_Institutes_of_Health a covid:Organization ;
+    rdfs:label "This model development is supported by NIGMS grant R35GM119582. The content is solely the responsibility of the authors and does not necessarily represent the official views of NIGMS or the National Institutes of Health." .
+
+covid-funding-resource:UCF_COVID19_Artificial_Intelligence_and_Big_Data_Seed_Funding_Program_Dr_Liqiang_Wang_and_Dr_Shunpu_Zhang a covid:Organization ;
+    rdfs:label "UCF COVID-19 Artificial Intelligence and Big Data Seed Funding Program (Dr. Liqiang Wang and Dr. Shunpu Zhang)" .
+
+covid-funding-resource:USAID a covid:Organization ;
+    rdfs:label "USAID" .
+
+covid-funding-resource:US_Army_Geospatial_Task_Force a covid:Organization ;
+    rdfs:label "US Army Geospatial Task Force" .
+
+covid-funding-resource:US_Department_of_Energy a covid:Organization ;
+    rdfs:label "U.S. Department of Energy" .
+
+covid-funding-resource:University_of_Michigan_Physics_Department_University_of_Michigan_Office_of__Research a covid:Organization ;
+    rdfs:label "University of Michigan Physics Department; University of Michigan Office of  Research" .
+
+covid-funding-resource:Walmart a covid:Organization ;
+    rdfs:label "Walmart" .
+
+covid-funding-resource:Wellcome_Trust a covid:Organization ;
+    rdfs:label "Wellcome Trust" .
+
+covid-funding-resource:Will_get a covid:Organization ;
+    rdfs:label "Will get." .
+
+covid-funding-resource:none a covid:Organization ;
+    rdfs:label "none" .
+
+covid-funding-resource:private a covid:Organization ;
+    rdfs:label "private" .
+

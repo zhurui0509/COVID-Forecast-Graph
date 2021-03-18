@@ -1,0 +1,567 @@
+@prefix covid-instant: <http://covid.geog.ucsb.edu/lod/instant/> .
+@prefix ns1: <http://www.w3.org/2006/time#> .
+
+covid-instant:2021-01-19 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-01-19" .
+
+covid-instant:2021-01-20 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-01-20" .
+
+covid-instant:2021-01-21 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-01-21" .
+
+covid-instant:2021-01-22 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-01-22" .
+
+covid-instant:2021-01-23 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-01-23" .
+
+covid-instant:2021-01-24 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-01-24" .
+
+covid-instant:2021-01-25 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-01-25" .
+
+covid-instant:2021-01-26 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-01-26" .
+
+covid-instant:2021-01-27 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-01-27" .
+
+covid-instant:2021-01-28 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-01-28" .
+
+covid-instant:2021-01-29 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-01-29" .
+
+covid-instant:2021-01-30 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-01-30" .
+
+covid-instant:2021-01-31 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-01-31" .
+
+covid-instant:2021-02-01 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-01" .
+
+covid-instant:2021-02-02 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-02" .
+
+covid-instant:2021-02-03 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-03" .
+
+covid-instant:2021-02-04 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-04" .
+
+covid-instant:2021-02-05 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-05" .
+
+covid-instant:2021-02-06 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-06" .
+
+covid-instant:2021-02-07 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-07" .
+
+covid-instant:2021-02-08 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-08" .
+
+covid-instant:2021-02-09 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-09" .
+
+covid-instant:2021-02-10 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-10" .
+
+covid-instant:2021-02-11 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-11" .
+
+covid-instant:2021-02-12 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-12" .
+
+covid-instant:2021-02-13 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-13" .
+
+covid-instant:2021-02-14 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-14" .
+
+covid-instant:2021-02-15 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-15" .
+
+covid-instant:2021-02-16 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-16" .
+
+covid-instant:2021-02-17 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-17" .
+
+covid-instant:2021-02-18 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-18" .
+
+covid-instant:2021-02-19 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-19" .
+
+covid-instant:2021-02-20 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-20" .
+
+covid-instant:2021-02-21 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-21" .
+
+covid-instant:2021-02-22 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-22" .
+
+covid-instant:2021-02-23 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-23" .
+
+covid-instant:2021-02-24 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-24" .
+
+covid-instant:2021-02-25 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-25" .
+
+covid-instant:2021-02-26 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-26" .
+
+covid-instant:2021-02-27 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-27" .
+
+covid-instant:2021-02-28 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-02-28" .
+
+covid-instant:2021-03-01 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-01" .
+
+covid-instant:2021-03-02 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-02" .
+
+covid-instant:2021-03-03 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-03" .
+
+covid-instant:2021-03-04 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-04" .
+
+covid-instant:2021-03-05 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-05" .
+
+covid-instant:2021-03-06 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-06" .
+
+covid-instant:2021-03-07 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-07" .
+
+covid-instant:2021-03-08 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-08" .
+
+covid-instant:2021-03-09 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-09" .
+
+covid-instant:2021-03-10 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-10" .
+
+covid-instant:2021-03-11 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-11" .
+
+covid-instant:2021-03-12 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-12" .
+
+covid-instant:2021-03-13 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-13" .
+
+covid-instant:2021-03-14 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-14" .
+
+covid-instant:2021-03-15 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-15" .
+
+covid-instant:2021-03-16 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-16" .
+
+covid-instant:2021-03-17 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-17" .
+
+covid-instant:2021-03-18 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-18" .
+
+covid-instant:2021-03-19 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-19" .
+
+covid-instant:2021-03-20 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-20" .
+
+covid-instant:2021-03-21 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-21" .
+
+covid-instant:2021-03-22 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-22" .
+
+covid-instant:2021-03-23 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-23" .
+
+covid-instant:2021-03-24 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-24" .
+
+covid-instant:2021-03-25 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-25" .
+
+covid-instant:2021-03-26 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-26" .
+
+covid-instant:2021-03-27 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-27" .
+
+covid-instant:2021-03-28 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-28" .
+
+covid-instant:2021-03-29 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-29" .
+
+covid-instant:2021-03-30 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-30" .
+
+covid-instant:2021-03-31 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-03-31" .
+
+covid-instant:2021-04-01 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-01" .
+
+covid-instant:2021-04-02 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-02" .
+
+covid-instant:2021-04-03 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-03" .
+
+covid-instant:2021-04-04 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-04" .
+
+covid-instant:2021-04-05 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-05" .
+
+covid-instant:2021-04-06 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-06" .
+
+covid-instant:2021-04-07 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-07" .
+
+covid-instant:2021-04-08 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-08" .
+
+covid-instant:2021-04-09 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-09" .
+
+covid-instant:2021-04-10 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-10" .
+
+covid-instant:2021-04-11 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-11" .
+
+covid-instant:2021-04-12 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-12" .
+
+covid-instant:2021-04-13 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-13" .
+
+covid-instant:2021-04-14 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-14" .
+
+covid-instant:2021-04-15 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-15" .
+
+covid-instant:2021-04-16 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-16" .
+
+covid-instant:2021-04-17 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-17" .
+
+covid-instant:2021-04-18 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-18" .
+
+covid-instant:2021-04-19 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-19" .
+
+covid-instant:2021-04-20 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-20" .
+
+covid-instant:2021-04-21 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-21" .
+
+covid-instant:2021-04-22 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-22" .
+
+covid-instant:2021-04-23 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-23" .
+
+covid-instant:2021-04-24 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-24" .
+
+covid-instant:2021-04-25 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-25" .
+
+covid-instant:2021-04-26 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-26" .
+
+covid-instant:2021-04-27 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-27" .
+
+covid-instant:2021-04-28 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-28" .
+
+covid-instant:2021-04-29 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-29" .
+
+covid-instant:2021-04-30 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-04-30" .
+
+covid-instant:2021-05-01 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-01" .
+
+covid-instant:2021-05-02 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-02" .
+
+covid-instant:2021-05-03 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-03" .
+
+covid-instant:2021-05-04 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-04" .
+
+covid-instant:2021-05-05 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-05" .
+
+covid-instant:2021-05-06 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-06" .
+
+covid-instant:2021-05-07 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-07" .
+
+covid-instant:2021-05-08 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-08" .
+
+covid-instant:2021-05-09 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-09" .
+
+covid-instant:2021-05-10 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-10" .
+
+covid-instant:2021-05-11 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-11" .
+
+covid-instant:2021-05-12 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-12" .
+
+covid-instant:2021-05-13 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-13" .
+
+covid-instant:2021-05-14 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-14" .
+
+covid-instant:2021-05-15 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-15" .
+
+covid-instant:2021-05-16 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-16" .
+
+covid-instant:2021-05-17 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-17" .
+
+covid-instant:2021-05-18 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-18" .
+
+covid-instant:2021-05-19 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-19" .
+
+covid-instant:2021-05-20 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-20" .
+
+covid-instant:2021-05-21 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-21" .
+
+covid-instant:2021-05-22 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-22" .
+
+covid-instant:2021-05-23 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-23" .
+
+covid-instant:2021-05-24 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-24" .
+
+covid-instant:2021-05-25 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-25" .
+
+covid-instant:2021-05-26 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-26" .
+
+covid-instant:2021-05-27 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-27" .
+
+covid-instant:2021-05-28 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-28" .
+
+covid-instant:2021-05-29 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-29" .
+
+covid-instant:2021-05-30 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-30" .
+
+covid-instant:2021-05-31 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-05-31" .
+
+covid-instant:2021-06-01 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-01" .
+
+covid-instant:2021-06-02 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-02" .
+
+covid-instant:2021-06-03 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-03" .
+
+covid-instant:2021-06-04 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-04" .
+
+covid-instant:2021-06-05 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-05" .
+
+covid-instant:2021-06-06 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-06" .
+
+covid-instant:2021-06-07 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-07" .
+
+covid-instant:2021-06-08 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-08" .
+
+covid-instant:2021-06-09 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-09" .
+
+covid-instant:2021-06-10 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-10" .
+
+covid-instant:2021-06-11 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-11" .
+
+covid-instant:2021-06-12 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-12" .
+
+covid-instant:2021-06-13 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-13" .
+
+covid-instant:2021-06-14 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-14" .
+
+covid-instant:2021-06-15 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-15" .
+
+covid-instant:2021-06-16 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-16" .
+
+covid-instant:2021-06-17 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-17" .
+
+covid-instant:2021-06-18 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-18" .
+
+covid-instant:2021-06-19 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-19" .
+
+covid-instant:2021-06-20 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-20" .
+
+covid-instant:2021-06-21 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-21" .
+
+covid-instant:2021-06-22 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-22" .
+
+covid-instant:2021-06-23 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-23" .
+
+covid-instant:2021-06-24 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-24" .
+
+covid-instant:2021-06-25 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-25" .
+
+covid-instant:2021-06-26 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-26" .
+
+covid-instant:2021-06-27 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-27" .
+
+covid-instant:2021-06-28 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-28" .
+
+covid-instant:2021-06-29 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-29" .
+
+covid-instant:2021-06-30 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-06-30" .
+
+covid-instant:2021-07-01 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-07-01" .
+
+covid-instant:2021-07-02 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-07-02" .
+
+covid-instant:2021-07-03 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-07-03" .
+
+covid-instant:2021-07-04 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-07-04" .
+
+covid-instant:2021-07-05 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-07-05" .
+
+covid-instant:2021-07-06 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-07-06" .
+
+covid-instant:2021-07-07 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-07-07" .
+
+covid-instant:2021-07-08 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-07-08" .
+
+covid-instant:2021-07-09 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-07-09" .
+
+covid-instant:2021-07-10 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-07-10" .
+
+covid-instant:2021-07-11 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-07-11" .
+
+covid-instant:2021-07-12 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-07-12" .
+
+covid-instant:2021-07-13 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-07-13" .
+
+covid-instant:2021-07-14 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-07-14" .
+
+covid-instant:2021-07-15 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-07-15" .
+
+covid-instant:2021-07-16 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-07-16" .
+
+covid-instant:2021-07-17 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-07-17" .
+
+covid-instant:2021-07-18 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-07-18" .
+
+covid-instant:2021-07-19 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-07-19" .
+
+covid-instant:2021-07-20 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-07-20" .
+
+covid-instant:2021-07-21 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-07-21" .
+
+covid-instant:2021-07-22 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-07-22" .
+
+covid-instant:2021-07-23 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-07-23" .
+
+covid-instant:2021-07-24 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-07-24" .
+
+covid-instant:2021-07-31 a ns1:Instant ;
+    ns1:inXSDDateTime "2021-07-31" .
+

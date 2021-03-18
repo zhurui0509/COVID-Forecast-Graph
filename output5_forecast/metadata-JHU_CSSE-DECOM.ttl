@@ -1,0 +1,30 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-license: <http://covid.geog.ucsb.edu/lod/license/> .
+@prefix covid-method: <http://covid.geog.ucsb.edu/lod/method/> .
+@prefix covid-model: <http://covid.geog.ucsb.edu/lod/model/> .
+@prefix covid-model-designation: <http://covid.geog.ucsb.edu/lod/modelDesignation/> .
+@prefix covid-owner: <http://covid.geog.ucsb.edu/lod/owner/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix ns1: <http://www.w3.org/ns/sosa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-research:JHU_CSSE-DECOM a covid:Research ;
+    rdfs:label "JHU_CSSE-DECOM" ;
+    ns1:madeBySensor covid-model:JHU_CSSE-DECOM ;
+    ns1:usedProcedure covid-method:DECOM .
+
+covid-method:DECOM a covid:Method ;
+    rdfs:label "DECOM" .
+
+covid-model:JHU_CSSE-DECOM a covid:Model ;
+    rdfs:label "JHU_CSSE-DECOM" ;
+    covid:hasLicense covid-license:cc-by-4.0 ;
+    covid:hasName "Dynamic, Empirical COVID-19 Outbreak Model" ;
+    covid:hasWebsite <https://systems.jhu.edu/research/public-health/predicting-covid-19-risk/> ;
+    covid:modelBrief "County-level, empirical machine learning model driven by epidemiological, mobility, demographic, and behavioral data." ;
+    covid:modelDesignation covid-model-designation:primary ;
+    covid:owner covid-owner:Johns_Hopkins_Center_for_Systems_Science_and_Engineering .
+
+covid-owner:Johns_Hopkins_Center_for_Systems_Science_and_Engineering a covid:Team ;
+    rdfs:label "Johns Hopkins Center for Systems Science and Engineering" .
+

@@ -1,0 +1,33 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-funding-resource: <http://covid.geog.ucsb.edu/lod/fundingResource/> .
+@prefix covid-license: <http://covid.geog.ucsb.edu/lod/license/> .
+@prefix covid-method: <http://covid.geog.ucsb.edu/lod/method/> .
+@prefix covid-model: <http://covid.geog.ucsb.edu/lod/model/> .
+@prefix covid-model-designation: <http://covid.geog.ucsb.edu/lod/modelDesignation/> .
+@prefix covid-owner: <http://covid.geog.ucsb.edu/lod/owner/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix ns1: <http://www.w3.org/ns/sosa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-research:IUPUI-HkPrMobiDyR a covid:Research ;
+    rdfs:label "IUPUI-HkPrMobiDyR" ;
+    ns1:madeBySensor covid-model:IUPUI-HkPrMobiDyR ;
+    ns1:usedProcedure covid-method:HkPrMobiDyR .
+
+covid-method:HkPrMobiDyR a covid:Method ;
+    rdfs:label "HkPrMobiDyR" .
+
+covid-model:IUPUI-HkPrMobiDyR a covid:Model ;
+    rdfs:label "IUPUI-HkPrMobiDyR" ;
+    covid:hasLicense covid-license:cc-by-4.0 ;
+    covid:hasName "HkPrMobiDyR" ;
+    covid:hasWebsite <https://github.com/chiangwe/HawkPR> ;
+    covid:modelBrief "Hawkes processes with Dynamic reproduce number." ;
+    covid:modelDesc "'Note that we submit our first predictions on 02/23/2021. Therefore, the predicitons are made on 02/22/2021. All the predictions are made when the models are trained carefully in a split of datasets. The training set has only included the dates before forecasting. Therefore, we carefully avoid the data leakage issue. Hawkes processes are used in machine learning for event clustering and causal inference, while they also can be viewed as stochastic versions of popular compartmental models used in epidemiology. Here we show how to develop accurate models of COVID-19 transmission using Hawkes processes with spatial-temporal covariates. We model the conditional intensity of new COVID-19 cases and deaths in the U.S. at the county level, estimating the dynamic reproduction number of the virus within an EM algorithm through a regression on Google mobility indices and demographic covariates in the maximization step. We validate the approach on both short-term and long-term forecasting tasks, showing that the Hawkes process outperforms several benchmark models currently used to track the pandemic, including an ensemble approach and an SEIR-variant. We also investigate which covariates and mobility indices are most important for building forecasts of COVID-19 in the U.S.'" ;
+    covid:modelDesignation covid-model-designation:primary ;
+    covid:owner covid-owner:IUPUI_CIS .
+
+covid-owner:IUPUI_CIS a covid:Team ;
+    rdfs:label "IUPUI CIS" ;
+    covid:fundingSource covid-funding-resource:Will_get .
+

@@ -1,0 +1,33 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-funding-resource: <http://covid.geog.ucsb.edu/lod/fundingResource/> .
+@prefix covid-license: <http://covid.geog.ucsb.edu/lod/license/> .
+@prefix covid-method: <http://covid.geog.ucsb.edu/lod/method/> .
+@prefix covid-model: <http://covid.geog.ucsb.edu/lod/model/> .
+@prefix covid-model-designation: <http://covid.geog.ucsb.edu/lod/modelDesignation/> .
+@prefix covid-owner: <http://covid.geog.ucsb.edu/lod/owner/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix ns1: <http://www.w3.org/ns/sosa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-research:UT-Mobility a covid:Research ;
+    rdfs:label "UT-Mobility" ;
+    ns1:madeBySensor covid-model:UT-Mobility ;
+    ns1:usedProcedure covid-method:Mobility .
+
+covid-method:Mobility a covid:Method ;
+    rdfs:label "Mobility" .
+
+covid-model:UT-Mobility a covid:Model ;
+    rdfs:label "UT-Mobility" ;
+    covid:hasLicense covid-license:other ;
+    covid:hasName "Mobility" ;
+    covid:hasWebsite <https://covid-19.tacc.utexas.edu/projections/> ;
+    covid:modelBrief "This model makes predictions assuming that social distancing patterns, as  measured by anonymized mobile-phone GPS traces,  remain constant in the future.This  model models only *first-wave deaths*." ;
+    covid:modelDesc "For each US state, we use local data from mobile-phone GPS traces made  available by [SafeGraph] to quantify the changing impact of social-distancing measures  on ``flattening the curve.''  SafeGraph is a data company that aggregates anonymized  location data from numerous applications in order to provide insights about physical  places. To enhance privacy, SafeGraph excludes census block group information if  fewer than five devices visitedan establishment in a month from a given census block  group.  These data are aggregated by state to create metrics of social distancing,  which are used as predictors in the model. We use a Bayesian multilevel negative  binomial regression model for the number of deaths for each day, and implement the  model in R using the rstanarm package. See technical report at https://covid-19.tacc.utexas.edu/media/filer_public/87/63/87635a46-b060-4b5b-a3a5-1b31ab8e0bc6/ut_covid-19_mortality_forecasting_model_latest.pdf" ;
+    covid:modelDesignation covid-model-designation:primary ;
+    covid:owner covid-owner:UTAustin_COVID19_Consortium .
+
+covid-owner:UTAustin_COVID19_Consortium a covid:Team ;
+    rdfs:label "UT-Austin COVID-19 Consortium" ;
+    covid:fundingSource covid-funding-resource:NSF .
+

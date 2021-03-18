@@ -1,0 +1,33 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-funding-resource: <http://covid.geog.ucsb.edu/lod/fundingResource/> .
+@prefix covid-license: <http://covid.geog.ucsb.edu/lod/license/> .
+@prefix covid-method: <http://covid.geog.ucsb.edu/lod/method/> .
+@prefix covid-model: <http://covid.geog.ucsb.edu/lod/model/> .
+@prefix covid-model-designation: <http://covid.geog.ucsb.edu/lod/modelDesignation/> .
+@prefix covid-owner: <http://covid.geog.ucsb.edu/lod/owner/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix ns1: <http://www.w3.org/ns/sosa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-research:IBF-TimeSeries a covid:Research ;
+    rdfs:label "IBF-TimeSeries" ;
+    ns1:madeBySensor covid-model:IBF-TimeSeries ;
+    ns1:usedProcedure covid-method:TimeSeries .
+
+covid-method:TimeSeries a covid:Method ;
+    rdfs:label "TimeSeries" .
+
+covid-model:IBF-TimeSeries a covid:Model ;
+    rdfs:label "IBF-TimeSeries" ;
+    covid:hasLicense covid-license:mit ;
+    covid:hasName "Time Series Model with a unique technique to capture the pattern and using it to prepare the forecast." ;
+    covid:hasWebsite <https://ibf.org> ;
+    covid:modelBrief "Time Series Model with proprietary modifications" ;
+    covid:modelDesc "Time Series Model with proprietary modifications" ;
+    covid:modelDesignation covid-model-designation:primary ;
+    covid:owner covid-owner:Institute_of_Business_Forecasting .
+
+covid-owner:Institute_of_Business_Forecasting a covid:Team ;
+    rdfs:label "Institute of Business Forecasting" ;
+    covid:fundingSource covid-funding-resource:Institute_of_Business_Forecasting .
+

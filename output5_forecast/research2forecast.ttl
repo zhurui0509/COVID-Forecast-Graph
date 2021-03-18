@@ -1,0 +1,607 @@
+@prefix covid-forecast: <http://covid.geog.ucsb.edu/lod/prediction/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+
+covid-research:AIpert-pwllnod sosa:hasMember covid-forecast:2021-01-25-AIpert-pwllnod,
+        covid-forecast:2021-02-01-AIpert-pwllnod,
+        covid-forecast:2021-02-08-AIpert-pwllnod,
+        covid-forecast:2021-02-15-AIpert-pwllnod,
+        covid-forecast:2021-02-22-AIpert-pwllnod,
+        covid-forecast:2021-03-01-AIpert-pwllnod,
+        covid-forecast:2021-03-08-AIpert-pwllnod,
+        covid-forecast:2021-03-15-AIpert-pwllnod .
+
+covid-research:BPagano-RtDriven sosa:hasMember covid-forecast:2021-01-24-BPagano-RtDriven,
+        covid-forecast:2021-01-31-BPagano-RtDriven,
+        covid-forecast:2021-02-07-BPagano-RtDriven,
+        covid-forecast:2021-02-14-BPagano-RtDriven,
+        covid-forecast:2021-02-21-BPagano-RtDriven,
+        covid-forecast:2021-02-28-BPagano-RtDriven,
+        covid-forecast:2021-03-07-BPagano-RtDriven,
+        covid-forecast:2021-03-14-BPagano-RtDriven .
+
+covid-research:CEID-Walk sosa:hasMember covid-forecast:2021-01-25-CEID-Walk,
+        covid-forecast:2021-02-01-CEID-Walk,
+        covid-forecast:2021-02-08-CEID-Walk,
+        covid-forecast:2021-02-15-CEID-Walk,
+        covid-forecast:2021-02-22-CEID-Walk,
+        covid-forecast:2021-03-01-CEID-Walk,
+        covid-forecast:2021-03-08-CEID-Walk,
+        covid-forecast:2021-03-15-CEID-Walk .
+
+covid-research:CMU-TimeSeries sosa:hasMember covid-forecast:2021-01-25-CMU-TimeSeries,
+        covid-forecast:2021-02-01-CMU-TimeSeries,
+        covid-forecast:2021-02-08-CMU-TimeSeries,
+        covid-forecast:2021-02-15-CMU-TimeSeries,
+        covid-forecast:2021-02-22-CMU-TimeSeries,
+        covid-forecast:2021-03-01-CMU-TimeSeries,
+        covid-forecast:2021-03-08-CMU-TimeSeries,
+        covid-forecast:2021-03-15-CMU-TimeSeries .
+
+covid-research:COVIDhub-baseline sosa:hasMember covid-forecast:2021-01-25-COVIDhub-baseline,
+        covid-forecast:2021-02-01-COVIDhub-baseline,
+        covid-forecast:2021-02-08-COVIDhub-baseline,
+        covid-forecast:2021-02-15-COVIDhub-baseline,
+        covid-forecast:2021-02-22-COVIDhub-baseline,
+        covid-forecast:2021-03-01-COVIDhub-baseline,
+        covid-forecast:2021-03-08-COVIDhub-baseline,
+        covid-forecast:2021-03-15-COVIDhub-baseline .
+
+covid-research:COVIDhub-ensemble sosa:hasMember covid-forecast:2021-01-25-COVIDhub-ensemble,
+        covid-forecast:2021-02-01-COVIDhub-ensemble,
+        covid-forecast:2021-02-08-COVIDhub-ensemble,
+        covid-forecast:2021-02-15-COVIDhub-ensemble,
+        covid-forecast:2021-02-22-COVIDhub-ensemble,
+        covid-forecast:2021-03-01-COVIDhub-ensemble,
+        covid-forecast:2021-03-08-COVIDhub-ensemble,
+        covid-forecast:2021-03-15-COVIDhub-ensemble .
+
+covid-research:COVIDhub-trained_ensemble sosa:hasMember covid-forecast:2021-02-01-COVIDhub-trained_ensemble,
+        covid-forecast:2021-02-08-COVIDhub-trained_ensemble,
+        covid-forecast:2021-02-15-COVIDhub-trained_ensemble,
+        covid-forecast:2021-02-22-COVIDhub-trained_ensemble,
+        covid-forecast:2021-03-01-COVIDhub-trained_ensemble .
+
+covid-research:CU-nochange sosa:hasMember covid-forecast:2021-01-24-CU-nochange,
+        covid-forecast:2021-01-31-CU-nochange,
+        covid-forecast:2021-02-07-CU-nochange,
+        covid-forecast:2021-02-14-CU-nochange,
+        covid-forecast:2021-02-21-CU-nochange,
+        covid-forecast:2021-02-28-CU-nochange,
+        covid-forecast:2021-03-07-CU-nochange,
+        covid-forecast:2021-03-14-CU-nochange .
+
+covid-research:CU-scenario_high sosa:hasMember covid-forecast:2021-01-24-CU-scenario_high,
+        covid-forecast:2021-01-31-CU-scenario_high,
+        covid-forecast:2021-02-07-CU-scenario_high,
+        covid-forecast:2021-02-14-CU-scenario_high,
+        covid-forecast:2021-02-21-CU-scenario_high,
+        covid-forecast:2021-02-28-CU-scenario_high,
+        covid-forecast:2021-03-07-CU-scenario_high,
+        covid-forecast:2021-03-14-CU-scenario_high .
+
+covid-research:CU-scenario_low sosa:hasMember covid-forecast:2021-01-24-CU-scenario_low,
+        covid-forecast:2021-01-31-CU-scenario_low,
+        covid-forecast:2021-02-07-CU-scenario_low,
+        covid-forecast:2021-02-14-CU-scenario_low,
+        covid-forecast:2021-02-21-CU-scenario_low,
+        covid-forecast:2021-02-28-CU-scenario_low,
+        covid-forecast:2021-03-07-CU-scenario_low,
+        covid-forecast:2021-03-14-CU-scenario_low .
+
+covid-research:CU-scenario_mid sosa:hasMember covid-forecast:2021-01-24-CU-scenario_mid,
+        covid-forecast:2021-01-31-CU-scenario_mid,
+        covid-forecast:2021-02-07-CU-scenario_mid,
+        covid-forecast:2021-02-14-CU-scenario_mid,
+        covid-forecast:2021-02-21-CU-scenario_mid,
+        covid-forecast:2021-02-28-CU-scenario_mid,
+        covid-forecast:2021-03-07-CU-scenario_mid,
+        covid-forecast:2021-03-14-CU-scenario_mid .
+
+covid-research:CU-select sosa:hasMember covid-forecast:2021-01-24-CU-select,
+        covid-forecast:2021-01-31-CU-select,
+        covid-forecast:2021-02-07-CU-select,
+        covid-forecast:2021-02-14-CU-select,
+        covid-forecast:2021-02-21-CU-select,
+        covid-forecast:2021-02-28-CU-select,
+        covid-forecast:2021-03-07-CU-select,
+        covid-forecast:2021-03-14-CU-select .
+
+covid-research:Caltech-CS156 sosa:hasMember covid-forecast:2021-01-31-Caltech-CS156,
+        covid-forecast:2021-02-07-Caltech-CS156,
+        covid-forecast:2021-02-21-Caltech-CS156,
+        covid-forecast:2021-02-28-Caltech-CS156,
+        covid-forecast:2021-03-07-Caltech-CS156,
+        covid-forecast:2021-03-14-Caltech-CS156 .
+
+covid-research:Columbia_UNC-SurvCon sosa:hasMember covid-forecast:2021-01-24-Columbia_UNC-SurvCon,
+        covid-forecast:2021-01-31-Columbia_UNC-SurvCon,
+        covid-forecast:2021-02-07-Columbia_UNC-SurvCon,
+        covid-forecast:2021-02-14-Columbia_UNC-SurvCon,
+        covid-forecast:2021-02-21-Columbia_UNC-SurvCon,
+        covid-forecast:2021-02-28-Columbia_UNC-SurvCon,
+        covid-forecast:2021-03-07-Columbia_UNC-SurvCon,
+        covid-forecast:2021-03-14-Columbia_UNC-SurvCon .
+
+covid-research:Covid19Sim-Simulator sosa:hasMember covid-forecast:2021-01-24-Covid19Sim-Simulator,
+        covid-forecast:2021-01-31-Covid19Sim-Simulator,
+        covid-forecast:2021-02-07-Covid19Sim-Simulator,
+        covid-forecast:2021-02-14-Covid19Sim-Simulator,
+        covid-forecast:2021-02-21-Covid19Sim-Simulator,
+        covid-forecast:2021-02-28-Covid19Sim-Simulator,
+        covid-forecast:2021-03-07-Covid19Sim-Simulator,
+        covid-forecast:2021-03-14-Covid19Sim-Simulator .
+
+covid-research:CovidAnalytics-DELPHI sosa:hasMember covid-forecast:2021-01-25-CovidAnalytics-DELPHI,
+        covid-forecast:2021-02-01-CovidAnalytics-DELPHI,
+        covid-forecast:2021-02-08-CovidAnalytics-DELPHI,
+        covid-forecast:2021-02-15-CovidAnalytics-DELPHI,
+        covid-forecast:2021-02-22-CovidAnalytics-DELPHI,
+        covid-forecast:2021-03-01-CovidAnalytics-DELPHI,
+        covid-forecast:2021-03-08-CovidAnalytics-DELPHI,
+        covid-forecast:2021-03-15-CovidAnalytics-DELPHI .
+
+covid-research:DDS-NBDS sosa:hasMember covid-forecast:2021-01-18-DDS-NBDS,
+        covid-forecast:2021-01-25-DDS-NBDS,
+        covid-forecast:2021-02-01-DDS-NBDS,
+        covid-forecast:2021-02-08-DDS-NBDS,
+        covid-forecast:2021-02-22-DDS-NBDS,
+        covid-forecast:2021-03-01-DDS-NBDS,
+        covid-forecast:2021-03-08-DDS-NBDS,
+        covid-forecast:2021-03-15-DDS-NBDS .
+
+covid-research:FAIR-NRAR sosa:hasMember covid-forecast:2021-01-18-FAIR-NRAR,
+        covid-forecast:2021-01-19-FAIR-NRAR,
+        covid-forecast:2021-01-21-FAIR-NRAR,
+        covid-forecast:2021-01-22-FAIR-NRAR,
+        covid-forecast:2021-01-23-FAIR-NRAR,
+        covid-forecast:2021-01-24-FAIR-NRAR,
+        covid-forecast:2021-01-25-FAIR-NRAR,
+        covid-forecast:2021-01-27-FAIR-NRAR,
+        covid-forecast:2021-01-29-FAIR-NRAR,
+        covid-forecast:2021-01-31-FAIR-NRAR,
+        covid-forecast:2021-02-01-FAIR-NRAR,
+        covid-forecast:2021-02-02-FAIR-NRAR,
+        covid-forecast:2021-02-04-FAIR-NRAR,
+        covid-forecast:2021-02-05-FAIR-NRAR,
+        covid-forecast:2021-02-06-FAIR-NRAR,
+        covid-forecast:2021-02-07-FAIR-NRAR,
+        covid-forecast:2021-02-08-FAIR-NRAR,
+        covid-forecast:2021-02-12-FAIR-NRAR,
+        covid-forecast:2021-02-13-FAIR-NRAR,
+        covid-forecast:2021-02-15-FAIR-NRAR,
+        covid-forecast:2021-02-16-FAIR-NRAR,
+        covid-forecast:2021-02-17-FAIR-NRAR,
+        covid-forecast:2021-02-18-FAIR-NRAR,
+        covid-forecast:2021-02-20-FAIR-NRAR,
+        covid-forecast:2021-02-21-FAIR-NRAR,
+        covid-forecast:2021-02-22-FAIR-NRAR,
+        covid-forecast:2021-02-23-FAIR-NRAR,
+        covid-forecast:2021-02-24-FAIR-NRAR,
+        covid-forecast:2021-02-25-FAIR-NRAR,
+        covid-forecast:2021-02-28-FAIR-NRAR,
+        covid-forecast:2021-03-01-FAIR-NRAR,
+        covid-forecast:2021-03-02-FAIR-NRAR,
+        covid-forecast:2021-03-03-FAIR-NRAR,
+        covid-forecast:2021-03-04-FAIR-NRAR,
+        covid-forecast:2021-03-05-FAIR-NRAR,
+        covid-forecast:2021-03-07-FAIR-NRAR,
+        covid-forecast:2021-03-08-FAIR-NRAR,
+        covid-forecast:2021-03-09-FAIR-NRAR,
+        covid-forecast:2021-03-10-FAIR-NRAR,
+        covid-forecast:2021-03-11-FAIR-NRAR,
+        covid-forecast:2021-03-12-FAIR-NRAR,
+        covid-forecast:2021-03-13-FAIR-NRAR,
+        covid-forecast:2021-03-15-FAIR-NRAR .
+
+covid-research:FDANIHASU-Sweight sosa:hasMember covid-forecast:2021-01-25-FDANIHASU-Sweight,
+        covid-forecast:2021-02-01-FDANIHASU-Sweight,
+        covid-forecast:2021-02-08-FDANIHASU-Sweight,
+        covid-forecast:2021-02-15-FDANIHASU-Sweight,
+        covid-forecast:2021-02-22-FDANIHASU-Sweight,
+        covid-forecast:2021-03-01-FDANIHASU-Sweight,
+        covid-forecast:2021-03-08-FDANIHASU-Sweight,
+        covid-forecast:2021-03-15-FDANIHASU-Sweight .
+
+covid-research:GT-DeepCOVID sosa:hasMember covid-forecast:2021-01-25-GT-DeepCOVID,
+        covid-forecast:2021-02-01-GT-DeepCOVID,
+        covid-forecast:2021-02-08-GT-DeepCOVID,
+        covid-forecast:2021-02-15-GT-DeepCOVID,
+        covid-forecast:2021-02-22-GT-DeepCOVID,
+        covid-forecast:2021-03-01-GT-DeepCOVID,
+        covid-forecast:2021-03-08-GT-DeepCOVID,
+        covid-forecast:2021-03-15-GT-DeepCOVID .
+
+covid-research:GT_CHHS-COVID19 sosa:hasMember covid-forecast:2021-02-06-GT_CHHS-COVID19,
+        covid-forecast:2021-02-13-GT_CHHS-COVID19,
+        covid-forecast:2021-02-20-GT_CHHS-COVID19,
+        covid-forecast:2021-02-27-GT_CHHS-COVID19,
+        covid-forecast:2021-03-06-GT_CHHS-COVID19,
+        covid-forecast:2021-03-13-GT_CHHS-COVID19 .
+
+covid-research:Geneva-DetGrowth sosa:hasMember covid-forecast:2021-01-24-Geneva-DetGrowth,
+        covid-forecast:2021-01-31-Geneva-DetGrowth,
+        covid-forecast:2021-02-07-Geneva-DetGrowth,
+        covid-forecast:2021-02-14-Geneva-DetGrowth,
+        covid-forecast:2021-02-21-Geneva-DetGrowth,
+        covid-forecast:2021-02-28-Geneva-DetGrowth,
+        covid-forecast:2021-03-07-Geneva-DetGrowth,
+        covid-forecast:2021-03-14-Geneva-DetGrowth .
+
+covid-research:Google_Harvard-CPF sosa:hasMember covid-forecast:2021-01-25-Google_Harvard-CPF,
+        covid-forecast:2021-02-01-Google_Harvard-CPF,
+        covid-forecast:2021-02-07-Google_Harvard-CPF,
+        covid-forecast:2021-02-15-Google_Harvard-CPF,
+        covid-forecast:2021-02-22-Google_Harvard-CPF,
+        covid-forecast:2021-02-28-Google_Harvard-CPF,
+        covid-forecast:2021-03-08-Google_Harvard-CPF,
+        covid-forecast:2021-03-14-Google_Harvard-CPF .
+
+covid-research:IBF-TimeSeries sosa:hasMember covid-forecast:2021-01-25-IBF-TimeSeries,
+        covid-forecast:2021-02-01-IBF-TimeSeries,
+        covid-forecast:2021-02-08-IBF-TimeSeries,
+        covid-forecast:2021-02-15-IBF-TimeSeries,
+        covid-forecast:2021-02-22-IBF-TimeSeries,
+        covid-forecast:2021-03-01-IBF-TimeSeries,
+        covid-forecast:2021-03-08-IBF-TimeSeries,
+        covid-forecast:2021-03-15-IBF-TimeSeries .
+
+covid-research:IEM_MED-CovidProject sosa:hasMember covid-forecast:2021-01-25-IEM_MED-CovidProject,
+        covid-forecast:2021-02-01-IEM_MED-CovidProject,
+        covid-forecast:2021-02-08-IEM_MED-CovidProject,
+        covid-forecast:2021-02-15-IEM_MED-CovidProject,
+        covid-forecast:2021-02-22-IEM_MED-CovidProject,
+        covid-forecast:2021-03-01-IEM_MED-CovidProject,
+        covid-forecast:2021-03-08-IEM_MED-CovidProject,
+        covid-forecast:2021-03-15-IEM_MED-CovidProject .
+
+covid-research:IHME-CurveFit sosa:hasMember covid-forecast:2021-01-22-IHME-CurveFit,
+        covid-forecast:2021-01-29-IHME-CurveFit,
+        covid-forecast:2021-02-05-IHME-CurveFit,
+        covid-forecast:2021-02-12-IHME-CurveFit,
+        covid-forecast:2021-02-22-IHME-CurveFit,
+        covid-forecast:2021-02-25-IHME-CurveFit,
+        covid-forecast:2021-03-15-IHME-CurveFit .
+
+covid-research:IUPUI-HkPrMobiDyR sosa:hasMember covid-forecast:2021-02-22-IUPUI-HkPrMobiDyR,
+        covid-forecast:2021-03-15-IUPUI-HkPrMobiDyR .
+
+covid-research:IowaStateLW-STEM sosa:hasMember covid-forecast:2021-01-24-IowaStateLW-STEM,
+        covid-forecast:2021-01-31-IowaStateLW-STEM,
+        covid-forecast:2021-02-07-IowaStateLW-STEM,
+        covid-forecast:2021-02-14-IowaStateLW-STEM,
+        covid-forecast:2021-02-21-IowaStateLW-STEM,
+        covid-forecast:2021-02-28-IowaStateLW-STEM,
+        covid-forecast:2021-03-07-IowaStateLW-STEM,
+        covid-forecast:2021-03-14-IowaStateLW-STEM .
+
+covid-research:JHUAPL-Bucky sosa:hasMember covid-forecast:2021-01-25-JHUAPL-Bucky,
+        covid-forecast:2021-02-01-JHUAPL-Bucky,
+        covid-forecast:2021-02-08-JHUAPL-Bucky,
+        covid-forecast:2021-02-15-JHUAPL-Bucky,
+        covid-forecast:2021-02-22-JHUAPL-Bucky,
+        covid-forecast:2021-03-01-JHUAPL-Bucky,
+        covid-forecast:2021-03-08-JHUAPL-Bucky,
+        covid-forecast:2021-03-15-JHUAPL-Bucky .
+
+covid-research:JHUAPL-Gecko sosa:hasMember covid-forecast:2021-01-24-JHUAPL-Gecko,
+        covid-forecast:2021-02-01-JHUAPL-Gecko,
+        covid-forecast:2021-02-08-JHUAPL-Gecko,
+        covid-forecast:2021-02-15-JHUAPL-Gecko,
+        covid-forecast:2021-02-22-JHUAPL-Gecko,
+        covid-forecast:2021-03-01-JHUAPL-Gecko,
+        covid-forecast:2021-03-08-JHUAPL-Gecko,
+        covid-forecast:2021-03-14-JHUAPL-Gecko .
+
+covid-research:JHUAPL-SLPHospEns sosa:hasMember covid-forecast:2021-01-18-JHUAPL-SLPHospEns,
+        covid-forecast:2021-01-25-JHUAPL-SLPHospEns,
+        covid-forecast:2021-02-01-JHUAPL-SLPHospEns,
+        covid-forecast:2021-02-08-JHUAPL-SLPHospEns,
+        covid-forecast:2021-02-15-JHUAPL-SLPHospEns,
+        covid-forecast:2021-02-22-JHUAPL-SLPHospEns,
+        covid-forecast:2021-03-01-JHUAPL-SLPHospEns,
+        covid-forecast:2021-03-08-JHUAPL-SLPHospEns .
+
+covid-research:JHU_CSSE-DECOM sosa:hasMember covid-forecast:2021-01-24-JHU_CSSE-DECOM,
+        covid-forecast:2021-01-31-JHU_CSSE-DECOM,
+        covid-forecast:2021-02-07-JHU_CSSE-DECOM,
+        covid-forecast:2021-02-14-JHU_CSSE-DECOM,
+        covid-forecast:2021-02-21-JHU_CSSE-DECOM,
+        covid-forecast:2021-02-28-JHU_CSSE-DECOM,
+        covid-forecast:2021-03-07-JHU_CSSE-DECOM,
+        covid-forecast:2021-03-14-JHU_CSSE-DECOM .
+
+covid-research:JHU_IDD-CovidSP sosa:hasMember covid-forecast:2021-01-24-JHU_IDD-CovidSP,
+        covid-forecast:2021-01-31-JHU_IDD-CovidSP,
+        covid-forecast:2021-02-07-JHU_IDD-CovidSP,
+        covid-forecast:2021-02-14-JHU_IDD-CovidSP,
+        covid-forecast:2021-02-21-JHU_IDD-CovidSP,
+        covid-forecast:2021-02-28-JHU_IDD-CovidSP,
+        covid-forecast:2021-03-07-JHU_IDD-CovidSP,
+        covid-forecast:2021-03-14-JHU_IDD-CovidSP .
+
+covid-research:JHU_UNC_GAS-StatMechPool sosa:hasMember covid-forecast:2021-01-24-JHU_UNC_GAS-StatMechPool,
+        covid-forecast:2021-01-31-JHU_UNC_GAS-StatMechPool,
+        covid-forecast:2021-02-07-JHU_UNC_GAS-StatMechPool,
+        covid-forecast:2021-02-14-JHU_UNC_GAS-StatMechPool,
+        covid-forecast:2021-02-21-JHU_UNC_GAS-StatMechPool,
+        covid-forecast:2021-02-28-JHU_UNC_GAS-StatMechPool,
+        covid-forecast:2021-03-07-JHU_UNC_GAS-StatMechPool .
+
+covid-research:Karlen-pypm sosa:hasMember covid-forecast:2021-01-24-Karlen-pypm,
+        covid-forecast:2021-01-31-Karlen-pypm,
+        covid-forecast:2021-02-07-Karlen-pypm,
+        covid-forecast:2021-02-14-Karlen-pypm,
+        covid-forecast:2021-02-21-Karlen-pypm,
+        covid-forecast:2021-02-28-Karlen-pypm,
+        covid-forecast:2021-03-07-Karlen-pypm,
+        covid-forecast:2021-03-14-Karlen-pypm .
+
+covid-research:LANL-GrowthRate sosa:hasMember covid-forecast:2021-01-21-LANL-GrowthRate,
+        covid-forecast:2021-01-25-LANL-GrowthRate,
+        covid-forecast:2021-01-28-LANL-GrowthRate,
+        covid-forecast:2021-02-01-LANL-GrowthRate,
+        covid-forecast:2021-02-04-LANL-GrowthRate,
+        covid-forecast:2021-02-08-LANL-GrowthRate,
+        covid-forecast:2021-02-11-LANL-GrowthRate,
+        covid-forecast:2021-02-15-LANL-GrowthRate,
+        covid-forecast:2021-02-18-LANL-GrowthRate,
+        covid-forecast:2021-02-22-LANL-GrowthRate,
+        covid-forecast:2021-02-25-LANL-GrowthRate,
+        covid-forecast:2021-03-01-LANL-GrowthRate,
+        covid-forecast:2021-03-04-LANL-GrowthRate,
+        covid-forecast:2021-03-08-LANL-GrowthRate,
+        covid-forecast:2021-03-11-LANL-GrowthRate,
+        covid-forecast:2021-03-15-LANL-GrowthRate .
+
+covid-research:LNQ-ens1 sosa:hasMember covid-forecast:2021-01-24-LNQ-ens1,
+        covid-forecast:2021-01-31-LNQ-ens1,
+        covid-forecast:2021-02-07-LNQ-ens1,
+        covid-forecast:2021-02-14-LNQ-ens1,
+        covid-forecast:2021-02-21-LNQ-ens1,
+        covid-forecast:2021-02-28-LNQ-ens1,
+        covid-forecast:2021-03-07-LNQ-ens1,
+        covid-forecast:2021-03-14-LNQ-ens1 .
+
+covid-research:MITCovAlliance-SIR sosa:hasMember covid-forecast:2021-03-14-MITCovAlliance-SIR .
+
+covid-research:MIT_CritData-GBCF sosa:hasMember covid-forecast:2021-01-24-MIT_CritData-GBCF,
+        covid-forecast:2021-01-31-MIT_CritData-GBCF,
+        covid-forecast:2021-02-07-MIT_CritData-GBCF,
+        covid-forecast:2021-02-14-MIT_CritData-GBCF,
+        covid-forecast:2021-02-21-MIT_CritData-GBCF,
+        covid-forecast:2021-02-28-MIT_CritData-GBCF,
+        covid-forecast:2021-03-07-MIT_CritData-GBCF,
+        covid-forecast:2021-03-14-MIT_CritData-GBCF .
+
+covid-research:MIT_ISOLAT-Mixtures sosa:hasMember covid-forecast:2021-01-25-MIT_ISOLAT-Mixtures,
+        covid-forecast:2021-02-01-MIT_ISOLAT-Mixtures,
+        covid-forecast:2021-02-08-MIT_ISOLAT-Mixtures,
+        covid-forecast:2021-02-15-MIT_ISOLAT-Mixtures,
+        covid-forecast:2021-02-22-MIT_ISOLAT-Mixtures,
+        covid-forecast:2021-03-01-MIT_ISOLAT-Mixtures,
+        covid-forecast:2021-03-08-MIT_ISOLAT-Mixtures,
+        covid-forecast:2021-03-15-MIT_ISOLAT-Mixtures .
+
+covid-research:MOBS-GLEAM_COVID sosa:hasMember covid-forecast:2021-01-25-MOBS-GLEAM_COVID,
+        covid-forecast:2021-02-01-MOBS-GLEAM_COVID,
+        covid-forecast:2021-02-08-MOBS-GLEAM_COVID,
+        covid-forecast:2021-02-15-MOBS-GLEAM_COVID,
+        covid-forecast:2021-02-22-MOBS-GLEAM_COVID,
+        covid-forecast:2021-03-01-MOBS-GLEAM_COVID,
+        covid-forecast:2021-03-08-MOBS-GLEAM_COVID,
+        covid-forecast:2021-03-15-MOBS-GLEAM_COVID .
+
+covid-research:Microsoft-DeepSTIA sosa:hasMember covid-forecast:2021-01-25-Microsoft-DeepSTIA,
+        covid-forecast:2021-02-01-Microsoft-DeepSTIA,
+        covid-forecast:2021-02-08-Microsoft-DeepSTIA,
+        covid-forecast:2021-02-15-Microsoft-DeepSTIA,
+        covid-forecast:2021-02-22-Microsoft-DeepSTIA,
+        covid-forecast:2021-03-01-Microsoft-DeepSTIA,
+        covid-forecast:2021-03-08-Microsoft-DeepSTIA,
+        covid-forecast:2021-03-15-Microsoft-DeepSTIA .
+
+covid-research:NotreDame-FRED sosa:hasMember covid-forecast:2021-02-22-NotreDame-FRED,
+        covid-forecast:2021-03-08-NotreDame-FRED .
+
+covid-research:OliverWyman-Navigator sosa:hasMember covid-forecast:2021-01-24-OliverWyman-Navigator,
+        covid-forecast:2021-01-31-OliverWyman-Navigator,
+        covid-forecast:2021-02-07-OliverWyman-Navigator,
+        covid-forecast:2021-02-14-OliverWyman-Navigator,
+        covid-forecast:2021-02-21-OliverWyman-Navigator,
+        covid-forecast:2021-02-28-OliverWyman-Navigator,
+        covid-forecast:2021-03-07-OliverWyman-Navigator,
+        covid-forecast:2021-03-14-OliverWyman-Navigator .
+
+covid-research:OneQuietNight-ML sosa:hasMember covid-forecast:2021-01-24-OneQuietNight-ML,
+        covid-forecast:2021-01-31-OneQuietNight-ML,
+        covid-forecast:2021-02-07-OneQuietNight-ML,
+        covid-forecast:2021-02-14-OneQuietNight-ML,
+        covid-forecast:2021-02-21-OneQuietNight-ML,
+        covid-forecast:2021-02-28-OneQuietNight-ML,
+        covid-forecast:2021-03-07-OneQuietNight-ML .
+
+covid-research:PSI-DRAFT sosa:hasMember covid-forecast:2021-01-25-PSI-DRAFT,
+        covid-forecast:2021-02-01-PSI-DRAFT,
+        covid-forecast:2021-02-08-PSI-DRAFT,
+        covid-forecast:2021-02-15-PSI-DRAFT,
+        covid-forecast:2021-02-22-PSI-DRAFT,
+        covid-forecast:2021-03-01-PSI-DRAFT,
+        covid-forecast:2021-03-08-PSI-DRAFT,
+        covid-forecast:2021-03-15-PSI-DRAFT .
+
+covid-research:PandemicCentral-USCounty sosa:hasMember covid-forecast:2021-01-24-PandemicCentral-USCounty,
+        covid-forecast:2021-02-01-PandemicCentral-USCounty,
+        covid-forecast:2021-02-07-PandemicCentral-USCounty,
+        covid-forecast:2021-02-15-PandemicCentral-USCounty .
+
+covid-research:QJHong-Encounter sosa:hasMember covid-forecast:2021-01-25-QJHong-Encounter,
+        covid-forecast:2021-01-31-QJHong-Encounter,
+        covid-forecast:2021-02-08-QJHong-Encounter,
+        covid-forecast:2021-02-14-QJHong-Encounter,
+        covid-forecast:2021-02-21-QJHong-Encounter,
+        covid-forecast:2021-03-01-QJHong-Encounter,
+        covid-forecast:2021-03-08-QJHong-Encounter,
+        covid-forecast:2021-03-15-QJHong-Encounter .
+
+covid-research:RPI_UW-Mob_Collision sosa:hasMember covid-forecast:2021-01-24-RPI_UW-Mob_Collision,
+        covid-forecast:2021-01-31-RPI_UW-Mob_Collision,
+        covid-forecast:2021-02-07-RPI_UW-Mob_Collision,
+        covid-forecast:2021-02-14-RPI_UW-Mob_Collision,
+        covid-forecast:2021-02-21-RPI_UW-Mob_Collision,
+        covid-forecast:2021-02-28-RPI_UW-Mob_Collision,
+        covid-forecast:2021-03-07-RPI_UW-Mob_Collision,
+        covid-forecast:2021-03-14-RPI_UW-Mob_Collision .
+
+covid-research:RobertWalraven-ESG sosa:hasMember covid-forecast:2021-01-25-RobertWalraven-ESG,
+        covid-forecast:2021-02-01-RobertWalraven-ESG,
+        covid-forecast:2021-02-08-RobertWalraven-ESG,
+        covid-forecast:2021-02-15-RobertWalraven-ESG,
+        covid-forecast:2021-02-22-RobertWalraven-ESG,
+        covid-forecast:2021-03-01-RobertWalraven-ESG,
+        covid-forecast:2021-03-08-RobertWalraven-ESG,
+        covid-forecast:2021-03-15-RobertWalraven-ESG .
+
+covid-research:SigSci-TS sosa:hasMember covid-forecast:2021-01-25-SigSci-TS,
+        covid-forecast:2021-02-01-SigSci-TS,
+        covid-forecast:2021-02-08-SigSci-TS,
+        covid-forecast:2021-02-15-SigSci-TS,
+        covid-forecast:2021-02-22-SigSci-TS,
+        covid-forecast:2021-03-01-SigSci-TS,
+        covid-forecast:2021-03-08-SigSci-TS,
+        covid-forecast:2021-03-15-SigSci-TS .
+
+covid-research:SteveMcConnell-CovidComplete sosa:hasMember covid-forecast:2021-01-25-SteveMcConnell-CovidComplete,
+        covid-forecast:2021-02-01-SteveMcConnell-CovidComplete,
+        covid-forecast:2021-02-08-SteveMcConnell-CovidComplete,
+        covid-forecast:2021-02-22-SteveMcConnell-CovidComplete,
+        covid-forecast:2021-03-01-SteveMcConnell-CovidComplete,
+        covid-forecast:2021-03-08-SteveMcConnell-CovidComplete,
+        covid-forecast:2021-03-15-SteveMcConnell-CovidComplete .
+
+covid-research:TTU-squider sosa:hasMember covid-forecast:2021-01-24-TTU-squider,
+        covid-forecast:2021-01-31-TTU-squider,
+        covid-forecast:2021-02-07-TTU-squider,
+        covid-forecast:2021-02-14-TTU-squider,
+        covid-forecast:2021-02-21-TTU-squider,
+        covid-forecast:2021-02-28-TTU-squider,
+        covid-forecast:2021-03-07-TTU-squider,
+        covid-forecast:2021-03-14-TTU-squider .
+
+covid-research:UA-EpiCovDA sosa:hasMember covid-forecast:2021-01-24-UA-EpiCovDA,
+        covid-forecast:2021-01-31-UA-EpiCovDA,
+        covid-forecast:2021-02-07-UA-EpiCovDA,
+        covid-forecast:2021-02-14-UA-EpiCovDA,
+        covid-forecast:2021-02-21-UA-EpiCovDA,
+        covid-forecast:2021-02-28-UA-EpiCovDA,
+        covid-forecast:2021-03-07-UA-EpiCovDA,
+        covid-forecast:2021-03-14-UA-EpiCovDA .
+
+covid-research:UCF-AEM sosa:hasMember covid-forecast:2021-01-24-UCF-AEM,
+        covid-forecast:2021-01-31-UCF-AEM,
+        covid-forecast:2021-02-07-UCF-AEM,
+        covid-forecast:2021-02-14-UCF-AEM,
+        covid-forecast:2021-02-21-UCF-AEM,
+        covid-forecast:2021-02-28-UCF-AEM,
+        covid-forecast:2021-03-07-UCF-AEM,
+        covid-forecast:2021-03-14-UCF-AEM .
+
+covid-research:UCLA-SuEIR sosa:hasMember covid-forecast:2021-01-24-UCLA-SuEIR,
+        covid-forecast:2021-01-31-UCLA-SuEIR,
+        covid-forecast:2021-02-07-UCLA-SuEIR,
+        covid-forecast:2021-02-21-UCLA-SuEIR,
+        covid-forecast:2021-02-28-UCLA-SuEIR,
+        covid-forecast:2021-03-07-UCLA-SuEIR,
+        covid-forecast:2021-03-14-UCLA-SuEIR .
+
+covid-research:UCM_MESALab-FoGSEIR sosa:hasMember covid-forecast:2021-01-24-UCM_MESALab-FoGSEIR,
+        covid-forecast:2021-01-31-UCM_MESALab-FoGSEIR,
+        covid-forecast:2021-02-07-UCM_MESALab-FoGSEIR,
+        covid-forecast:2021-02-14-UCM_MESALab-FoGSEIR,
+        covid-forecast:2021-02-21-UCM_MESALab-FoGSEIR,
+        covid-forecast:2021-02-28-UCM_MESALab-FoGSEIR,
+        covid-forecast:2021-03-07-UCM_MESALab-FoGSEIR,
+        covid-forecast:2021-03-14-UCM_MESALab-FoGSEIR .
+
+covid-research:UCSB-ACTS sosa:hasMember covid-forecast:2021-01-24-UCSB-ACTS .
+
+covid-research:UCSD_NEU-DeepGLEAM sosa:hasMember covid-forecast:2021-01-25-UCSD_NEU-DeepGLEAM,
+        covid-forecast:2021-02-01-UCSD_NEU-DeepGLEAM,
+        covid-forecast:2021-02-08-UCSD_NEU-DeepGLEAM,
+        covid-forecast:2021-02-15-UCSD_NEU-DeepGLEAM,
+        covid-forecast:2021-02-22-UCSD_NEU-DeepGLEAM,
+        covid-forecast:2021-03-01-UCSD_NEU-DeepGLEAM,
+        covid-forecast:2021-03-08-UCSD_NEU-DeepGLEAM,
+        covid-forecast:2021-03-15-UCSD_NEU-DeepGLEAM .
+
+covid-research:UChicagoCHATTOPADHYAY-UnIT sosa:hasMember covid-forecast:2021-01-24-UChicagoCHATTOPADHYAY-UnIT,
+        covid-forecast:2021-01-31-UChicagoCHATTOPADHYAY-UnIT,
+        covid-forecast:2021-02-07-UChicagoCHATTOPADHYAY-UnIT,
+        covid-forecast:2021-02-21-UChicagoCHATTOPADHYAY-UnIT,
+        covid-forecast:2021-02-28-UChicagoCHATTOPADHYAY-UnIT,
+        covid-forecast:2021-03-07-UChicagoCHATTOPADHYAY-UnIT,
+        covid-forecast:2021-03-14-UChicagoCHATTOPADHYAY-UnIT .
+
+covid-research:UMass-MechBayes sosa:hasMember covid-forecast:2021-01-24-UMass-MechBayes,
+        covid-forecast:2021-01-31-UMass-MechBayes,
+        covid-forecast:2021-02-07-UMass-MechBayes,
+        covid-forecast:2021-02-14-UMass-MechBayes,
+        covid-forecast:2021-02-21-UMass-MechBayes,
+        covid-forecast:2021-02-28-UMass-MechBayes,
+        covid-forecast:2021-03-07-UMass-MechBayes,
+        covid-forecast:2021-03-14-UMass-MechBayes .
+
+covid-research:UMich-RidgeTfReg sosa:hasMember covid-forecast:2021-01-25-UMich-RidgeTfReg,
+        covid-forecast:2021-02-01-UMich-RidgeTfReg,
+        covid-forecast:2021-02-08-UMich-RidgeTfReg,
+        covid-forecast:2021-02-15-UMich-RidgeTfReg,
+        covid-forecast:2021-02-22-UMich-RidgeTfReg,
+        covid-forecast:2021-03-01-UMich-RidgeTfReg,
+        covid-forecast:2021-03-08-UMich-RidgeTfReg,
+        covid-forecast:2021-03-15-UMich-RidgeTfReg .
+
+covid-research:USC-SI_kJalpha sosa:hasMember covid-forecast:2021-01-24-USC-SI_kJalpha,
+        covid-forecast:2021-01-31-USC-SI_kJalpha,
+        covid-forecast:2021-02-07-USC-SI_kJalpha,
+        covid-forecast:2021-02-14-USC-SI_kJalpha,
+        covid-forecast:2021-02-21-USC-SI_kJalpha,
+        covid-forecast:2021-02-28-USC-SI_kJalpha,
+        covid-forecast:2021-03-07-USC-SI_kJalpha,
+        covid-forecast:2021-03-14-USC-SI_kJalpha .
+
+covid-research:UT-Mobility sosa:hasMember covid-forecast:2021-01-25-UT-Mobility .
+
+covid-research:UVA-Ensemble sosa:hasMember covid-forecast:2021-01-25-UVA-Ensemble,
+        covid-forecast:2021-02-01-UVA-Ensemble,
+        covid-forecast:2021-02-15-UVA-Ensemble,
+        covid-forecast:2021-02-22-UVA-Ensemble,
+        covid-forecast:2021-03-01-UVA-Ensemble,
+        covid-forecast:2021-03-08-UVA-Ensemble,
+        covid-forecast:2021-03-15-UVA-Ensemble .
+
+covid-research:UpstateSU-GRU sosa:hasMember covid-forecast:2021-01-25-UpstateSU-GRU,
+        covid-forecast:2021-02-01-UpstateSU-GRU,
+        covid-forecast:2021-02-08-UpstateSU-GRU,
+        covid-forecast:2021-02-15-UpstateSU-GRU,
+        covid-forecast:2021-02-22-UpstateSU-GRU,
+        covid-forecast:2021-03-01-UpstateSU-GRU,
+        covid-forecast:2021-03-08-UpstateSU-GRU,
+        covid-forecast:2021-03-15-UpstateSU-GRU .
+
+covid-research:WalmartLabsML-LogForecasting sosa:hasMember covid-forecast:2021-01-24-WalmartLabsML-LogForecasting,
+        covid-forecast:2021-01-31-WalmartLabsML-LogForecasting,
+        covid-forecast:2021-02-07-WalmartLabsML-LogForecasting,
+        covid-forecast:2021-02-14-WalmartLabsML-LogForecasting,
+        covid-forecast:2021-02-21-WalmartLabsML-LogForecasting,
+        covid-forecast:2021-03-07-WalmartLabsML-LogForecasting,
+        covid-forecast:2021-03-14-WalmartLabsML-LogForecasting .
+
+covid-research:epiforecasts-ensemble1 sosa:hasMember covid-forecast:2021-01-25-epiforecasts-ensemble1,
+        covid-forecast:2021-02-01-epiforecasts-ensemble1,
+        covid-forecast:2021-02-08-epiforecasts-ensemble1,
+        covid-forecast:2021-02-15-epiforecasts-ensemble1,
+        covid-forecast:2021-02-22-epiforecasts-ensemble1,
+        covid-forecast:2021-03-01-epiforecasts-ensemble1,
+        covid-forecast:2021-03-08-epiforecasts-ensemble1,
+        covid-forecast:2021-03-15-epiforecasts-ensemble1 .
+
