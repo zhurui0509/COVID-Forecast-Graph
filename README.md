@@ -65,7 +65,9 @@ To increase the interoperability and reusability of the data, we design a COVID-
     <img src="https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/COVID-SO%20Ontology/images/placetime.png" alt="framework" >
     </p>
 ## COVID-Forecast-KG 
-The generated graph is served at http://stko-roy.geog.ucsb.edu:7201 and below is a sub graph visualization of COVID-Forecast-KG:
+COVID-Forecast-KG uses the [Resource Description Framework (RDF)](https://www.w3.org/RDF/) to represent the data. Specificly, the data format is [turtle]( https://www.w3.org/TR/turtle/). All forecast-related data are stored in folders: <em>[./output_forecast](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output_forecast)</em>, <em>[./output2_forecast](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output2_forecast)</em>, <em>[./output3_forecast](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output3_forecast)</em>, <em>[./output4_forecast](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output4_forecast)</em>, and <em>[./output5_forecast](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output5_forecast)</em>. And new data are added weekly. Economic indicators are stored in <em>[./output_economy](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output_economy)</em>. Censues related data can be found at <em>[./US_census_population_area](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/US_census_population_area)</em>. 
+
+The generated graph is also served at http://stko-roy.geog.ucsb.edu:7201 and below is a sub graph visualization of COVID-Forecast-KG:
     <p align="center">
     <img src="https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/COVID-SO%20Ontology/images/graphdb_screenshot.png" alt="framework" >
     </p>
