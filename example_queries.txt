@@ -175,8 +175,50 @@ group by ?research
 order by ?first_september
 
 
+############# Q5 Rank model performance on predicting cumulative death on 2021-01-02 for Alabama as an example #########
 
-############# Q5 What is the relation between [reported incident cases] and the [credit card use change in arts, entertainment, and recreation] in [New York]?  #########
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX covid-obs-property: <http://covid.geog.ucsb.edu/lod/observedproperty/>
+PREFIX covid-instant: <http://covid.geog.ucsb.edu/lod/instant/>
+PREFIX covid-place: <http://covid.geog.ucsb.edu/lod/place/>
+PREFIX covid: <http://covid.geog.ucsb.edu/lod/ontology/>
+PREFIX covid-method: <http://covid.geog.ucsb.edu/lod/method/>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+
+### Rank model performance on predicting cumulative death on 2021-01-02 for Alabama as an example
+
+### Note we also provide code to rank models for all states, based on which the perormance of a specific model (e.g., Karlen-pypm) across states is compared and visualized on a map. The code can be found at https://github.com/zhurui0509/COVID-Forecast-Graph (in the folder Question5_Analysis)
+
+select ?modelName (min(abs(?predict_value-?groundtruth_value)) as ?min_gap) where {
+     
+  ?target a covid:Target ;
+            sosa:observedProperty covid-obs-property:cum_death ;
+            sosa:phenomenonTime ?time ;
+            covid:point ?predict_value ;
+            sosa:hasFeatureOfInterest ?place ;
+            ^sosa:hasMember/^sosa:hasMember/sosa:madeBySensor ?model ;
+     .
+   
+  ?model rdfs:label ?modelName .
+            
+  ?ground_truth a covid:GroundTruth ;
+              sosa:hasFeatureOfInterest ?place ;
+              sosa:observedProperty covid-obs-property:cum_death ;
+              sosa:phenomenonTime ?time ;
+              covid:point ?groundtruth_value .
+  
+  ?place covid:placeFIPS '01' .
+    
+  ?time time:inXSDDateTime '2021-01-02' .
+}
+group by ?modelName
+order by ?min_gap
+
+
+
+############# Q6 What is the relation between [reported incident cases] and the [credit card use change in arts, entertainment, and recreation] in [New York]?  #########
 PREFIX econ-affinity: <http://econ.geog.ucsb.edu/lod/affinity/>
 PREFIX sosa: <http://www.w3.org/ns/sosa/>
 PREFIX econ-obs-property: <http://econ.geog.ucsb.edu/lod/observedproperty/>
@@ -206,6 +248,61 @@ order by DESC(?time)
 limit 100
 
 
+PREFIX covid: <http://covid.geog.ucsb.edu/lod/ontology/>
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX covid-obs-property: <http://covid.geog.ucsb.edu/lod/observedproperty/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX census: <http://econ.geog.ucsb.edu/lod/census/>
+PREFIX census-obs-property: <http://covid.geog.ucsb.edu/lod/census_obs_property/>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+########## Q7 To find the relation between population density and the accuracy of models in a Alabama on 2021-01-16
+PREFIX covid: <http://covid.geog.ucsb.edu/lod/ontology/>
+PREFIX sosa: <http://www.w3.org/ns/sosa/>
+PREFIX covid-obs-property: <http://covid.geog.ucsb.edu/lod/observedproperty/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX census: <http://econ.geog.ucsb.edu/lod/census/>
+PREFIX census-obs-property: <http://covid.geog.ucsb.edu/lod/census_obs_property/>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT ?placeName ?modelName (xsd:float(?census_pop_val)/xsd:float(?census_area_val) AS ?population_density) (min(abs(?predict_value-?groundtruth_value)) as ?min_gap)  where {
+	
+    ?target a covid:Target ;
+            sosa:observedProperty covid-obs-property:cum_death ;
+            sosa:phenomenonTime ?time ;
+            covid:point ?predict_value ;
+            sosa:hasFeatureOfInterest ?place ;
+            ^sosa:hasMember/^sosa:hasMember/sosa:madeBySensor ?model ;
+     .
+    
+    ?model rdfs:label ?modelName .
+
+    ?groundtruth a covid:GroundTruth ;
+            sosa:phenomenonTime ?time ;
+            sosa:observedProperty covid-obs-property:cum_death ;
+            sosa:hasFeatureOfInterest ?place ;
+            covid:point ?groundtruth_value .
+  
+    ?census_stat_col a census:StatsCollection ;
+            sosa:hasFeatureOfInterest ?place ;
+            sosa:hasMember ?census_pop ,
+            ?census_area .
+    
+    ?census_pop covid:point ?census_pop_val;
+                sosa:observedProperty census-obs-property:POPESTIMATE2019 . 
+    ?census_area covid:point ?census_area_val;
+                sosa:observedProperty census-obs-property:TotalArea . 
+        
+    ?place covid:placeFIPS '01' ;
+           covid:hasPlaceName ?placeName.
+    
+   	?time time:inXSDDateTime '2021-01-16' .
+
+ }
+group by ?placeName ?modelName ?census_pop_val ?census_area_val
+order by ?min_gap
 
 ########### Among all the forecasts on the date of 09-05-2020, which model performs the best for each state across the US?##########
 
