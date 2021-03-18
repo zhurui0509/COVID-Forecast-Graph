@@ -265,7 +265,7 @@ limit 100
 
 ```
 7. Which model shows the largest deviation in accuracy of forecasting [cumulative death] as a function of [population density]?
-The code for this question can be found at <em>[./Question7-Analysis/deviationAccuracy_populationDensit.ipynb](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/Question7-Analysis/deviationAccuracy_populationDensity.ipynb)</em>. The specific query to find the relation between population density and the accuracy of models (use Alabama on 2021-01-16 as an example) is:
+The code for this question can be found at <em>[./Question7-Analysis/deviationAccuracy_populationDensit.ipynb](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/Question7-Analysis/deviationAccuracy_populationDensity.ipynb)</em>. The specific query to find the relation between population density and the accuracy of models (use Alabama on 2021-01-16 as an example) is listed below and can be tested at [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q7_1_PopulationDensity_ModelAccuracy&owner=admin). 
 ```
 SELECT ?placeName ?modelName (xsd:float(?census_pop_val)/xsd:float(?census_area_val) AS ?population_density) (min(abs(?predict_value-?groundtruth_value)) as ?min_gap)  where {
 	
