@@ -325,3 +325,6 @@ To upload generated triples into GraphDB-based COVID-Forecast-Graph (have to ins
 ```
 ## Funding 
 The work is funded by the National Science Foundation (Awards No. 2028310, 1936677, and 2033521)
+
+## License
+This repository, and associated codes, are distributed under the MIT License. See LICENSE for more information.
