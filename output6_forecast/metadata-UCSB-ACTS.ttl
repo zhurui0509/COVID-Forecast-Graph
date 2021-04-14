@@ -1,0 +1,32 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-funding-resource: <http://covid.geog.ucsb.edu/lod/fundingResource/> .
+@prefix covid-license: <http://covid.geog.ucsb.edu/lod/license/> .
+@prefix covid-method: <http://covid.geog.ucsb.edu/lod/method/> .
+@prefix covid-model: <http://covid.geog.ucsb.edu/lod/model/> .
+@prefix covid-model-designation: <http://covid.geog.ucsb.edu/lod/modelDesignation/> .
+@prefix covid-owner: <http://covid.geog.ucsb.edu/lod/owner/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix ns1: <http://www.w3.org/ns/sosa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-research:UCSB-ACTS a covid:Research ;
+    rdfs:label "UCSB-ACTS" ;
+    ns1:madeBySensor covid-model:UCSB-ACTS ;
+    ns1:usedProcedure covid-method:ACTS .
+
+covid-method:ACTS a covid:Method ;
+    rdfs:label "ACTS" .
+
+covid-model:UCSB-ACTS a covid:Model ;
+    rdfs:label "UCSB-ACTS" ;
+    covid:hasLicense covid-license:cc-by-4.0 ;
+    covid:hasName "ACTS" ;
+    covid:hasWebsite <https://github.com/Gandor26/covid-open> ;
+    covid:modelBrief "This data-driven machine learning model makes predictions by referring to other regions with similar growth patterns and assuming the similar development will take place in the current region." ;
+    covid:modelDesignation covid-model-designation:primary ;
+    covid:owner covid-owner:UCSB .
+
+covid-owner:UCSB a covid:Team ;
+    rdfs:label "UCSB" ;
+    covid:fundingSource covid-funding-resource:NSF .
+

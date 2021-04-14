@@ -1,0 +1,1383 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-forecast: <http://covid.geog.ucsb.edu/lod/prediction/> .
+@prefix covid-instant: <http://covid.geog.ucsb.edu/lod/instant/> .
+@prefix covid-obs-property: <http://covid.geog.ucsb.edu/lod/observedproperty/> .
+@prefix covid-place: <http://covid.geog.ucsb.edu/lod/place/> .
+@prefix covid-target: <http://covid.geog.ucsb.edu/lod/target/> .
+@prefix covid-target-type: <http://covid.geog.ucsb.edu/lod/target-type/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+covid-forecast:2021-04-11-Geneva-DetGrowth a covid:Forecast ;
+    rdfs:label "2021-04-11-Geneva-DetGrowth" ;
+    sosa:hasMember covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_01,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_02,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_04,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_05,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_06,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_08,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_09,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_10,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_11,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_12,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_13,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_15,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_16,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_17,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_18,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_19,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_20,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_21,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_22,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_23,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_24,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_25,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_26,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_27,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_28,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_29,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_30,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_31,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_32,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_33,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_34,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_35,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_36,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_37,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_38,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_39,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_40,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_41,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_42,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_44,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_45,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_46,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_47,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_48,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_49,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_50,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_51,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_53,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_54,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_55,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_56,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_60,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_66,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_69,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_72,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_78,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_US,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_01,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_02,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_04,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_05,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_06,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_08,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_09,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_10,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_11,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_12,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_13,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_15,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_16,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_17,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_18,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_19,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_20,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_21,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_22,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_23,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_24,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_25,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_26,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_27,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_28,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_29,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_30,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_31,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_32,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_33,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_34,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_35,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_36,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_37,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_38,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_39,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_40,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_41,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_42,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_44,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_45,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_46,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_47,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_48,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_49,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_50,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_51,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_53,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_54,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_55,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_56,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_60,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_66,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_69,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_72,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_78,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_US,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_01,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_02,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_04,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_05,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_06,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_08,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_09,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_10,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_11,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_12,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_13,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_15,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_16,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_17,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_18,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_19,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_20,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_21,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_22,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_23,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_24,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_25,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_26,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_27,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_28,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_29,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_30,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_31,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_32,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_33,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_34,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_35,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_36,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_37,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_38,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_39,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_40,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_41,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_42,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_44,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_45,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_46,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_47,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_48,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_49,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_50,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_51,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_53,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_54,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_55,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_56,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_60,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_66,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_69,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_72,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_78,
+        covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_US ;
+    sosa:resultTime "2021-04-11" .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_01 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.082259e+04 ;
+    sosa:hasFeatureOfInterest covid-place:01 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_02 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 3.13251e+02 ;
+    sosa:hasFeatureOfInterest covid-place:02 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_04 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.717183e+04 ;
+    sosa:hasFeatureOfInterest covid-place:04 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_05 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 5.665539e+03 ;
+    sosa:hasFeatureOfInterest covid-place:05 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_06 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 6.102922e+04 ;
+    sosa:hasFeatureOfInterest covid-place:06 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_08 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 6.183858e+03 ;
+    sosa:hasFeatureOfInterest covid-place:08 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_09 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 7.979691e+03 ;
+    sosa:hasFeatureOfInterest covid-place:09 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_10 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.5847e+03 ;
+    sosa:hasFeatureOfInterest covid-place:10 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_11 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.089791e+03 ;
+    sosa:hasFeatureOfInterest covid-place:11 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_12 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 3.425304e+04 ;
+    sosa:hasFeatureOfInterest covid-place:12 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_13 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.974847e+04 ;
+    sosa:hasFeatureOfInterest covid-place:13 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_15 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 4.721682e+02 ;
+    sosa:hasFeatureOfInterest covid-place:15 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_16 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 2.027865e+03 ;
+    sosa:hasFeatureOfInterest covid-place:16 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_17 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 2.393119e+04 ;
+    sosa:hasFeatureOfInterest covid-place:17 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_18 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.320264e+04 ;
+    sosa:hasFeatureOfInterest covid-place:18 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_19 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 5.900077e+03 ;
+    sosa:hasFeatureOfInterest covid-place:19 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_20 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 4.903186e+03 ;
+    sosa:hasFeatureOfInterest covid-place:20 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_21 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 6.315623e+03 ;
+    sosa:hasFeatureOfInterest covid-place:21 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_22 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.024527e+04 ;
+    sosa:hasFeatureOfInterest covid-place:22 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_23 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 7.55585e+02 ;
+    sosa:hasFeatureOfInterest covid-place:23 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_24 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 8.539449e+03 ;
+    sosa:hasFeatureOfInterest covid-place:24 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_25 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.740306e+04 ;
+    sosa:hasFeatureOfInterest covid-place:25 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_26 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.790331e+04 ;
+    sosa:hasFeatureOfInterest covid-place:26 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_27 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 7.123336e+03 ;
+    sosa:hasFeatureOfInterest covid-place:27 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_28 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 7.150931e+03 ;
+    sosa:hasFeatureOfInterest covid-place:28 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_29 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 8.884627e+03 ;
+    sosa:hasFeatureOfInterest covid-place:29 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_30 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.603358e+03 ;
+    sosa:hasFeatureOfInterest covid-place:30 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_31 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 2.268665e+03 ;
+    sosa:hasFeatureOfInterest covid-place:31 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_32 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 5.388401e+03 ;
+    sosa:hasFeatureOfInterest covid-place:32 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_33 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.268878e+03 ;
+    sosa:hasFeatureOfInterest covid-place:33 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_34 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 2.514365e+04 ;
+    sosa:hasFeatureOfInterest covid-place:34 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_35 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 3.99576e+03 ;
+    sosa:hasFeatureOfInterest covid-place:35 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_36 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 5.150356e+04 ;
+    sosa:hasFeatureOfInterest covid-place:36 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_37 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.229637e+04 ;
+    sosa:hasFeatureOfInterest covid-place:37 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_38 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.512154e+03 ;
+    sosa:hasFeatureOfInterest covid-place:38 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_39 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.894518e+04 ;
+    sosa:hasFeatureOfInterest covid-place:39 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_40 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 9.122033e+03 ;
+    sosa:hasFeatureOfInterest covid-place:40 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_41 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 2.487734e+03 ;
+    sosa:hasFeatureOfInterest covid-place:41 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_42 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 2.564732e+04 ;
+    sosa:hasFeatureOfInterest covid-place:42 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_44 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 2.660015e+03 ;
+    sosa:hasFeatureOfInterest covid-place:44 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_45 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 9.343502e+03 ;
+    sosa:hasFeatureOfInterest covid-place:45 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_46 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.946e+03 ;
+    sosa:hasFeatureOfInterest covid-place:46 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_47 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.206168e+04 ;
+    sosa:hasFeatureOfInterest covid-place:47 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_48 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 4.96887e+04 ;
+    sosa:hasFeatureOfInterest covid-place:48 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_49 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 2.202442e+03 ;
+    sosa:hasFeatureOfInterest covid-place:49 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_50 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 2.313629e+02 ;
+    sosa:hasFeatureOfInterest covid-place:50 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_51 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.066862e+04 ;
+    sosa:hasFeatureOfInterest covid-place:51 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_53 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 5.360797e+03 ;
+    sosa:hasFeatureOfInterest covid-place:53 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_54 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 2.83057e+03 ;
+    sosa:hasFeatureOfInterest covid-place:54 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_55 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 7.431135e+03 ;
+    sosa:hasFeatureOfInterest covid-place:55 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_56 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 7.01e+02 ;
+    sosa:hasFeatureOfInterest covid-place:56 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_60 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 0e+00 ;
+    sosa:hasFeatureOfInterest covid-place:60 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_66 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.360529e+02 ;
+    sosa:hasFeatureOfInterest covid-place:66 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_69 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 2e+00 ;
+    sosa:hasFeatureOfInterest covid-place:69 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_72 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 2.186444e+03 ;
+    sosa:hasFeatureOfInterest covid-place:72 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_78 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 2.6e+01 ;
+    sosa:hasFeatureOfInterest covid-place:78 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-cum-death_US a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 5.692473e+05 ;
+    sosa:hasFeatureOfInterest covid-place:US ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_01 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 1.600372e+03 ;
+    sosa:hasFeatureOfInterest covid-place:01 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_02 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 1.773524e+03 ;
+    sosa:hasFeatureOfInterest covid-place:02 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_04 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 5.334558e+03 ;
+    sosa:hasFeatureOfInterest covid-place:04 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_05 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 1.130352e+03 ;
+    sosa:hasFeatureOfInterest covid-place:05 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_06 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 2.026966e+04 ;
+    sosa:hasFeatureOfInterest covid-place:06 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_08 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 1.207253e+04 ;
+    sosa:hasFeatureOfInterest covid-place:08 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_09 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 7.468784e+03 ;
+    sosa:hasFeatureOfInterest covid-place:09 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_10 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 2.295108e+03 ;
+    sosa:hasFeatureOfInterest covid-place:10 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_11 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 8.222168e+02 ;
+    sosa:hasFeatureOfInterest covid-place:11 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_12 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 4.585736e+04 ;
+    sosa:hasFeatureOfInterest covid-place:12 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_13 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 8.420237e+03 ;
+    sosa:hasFeatureOfInterest covid-place:13 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_15 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 7.001052e+02 ;
+    sosa:hasFeatureOfInterest covid-place:15 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_16 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 2.010942e+03 ;
+    sosa:hasFeatureOfInterest covid-place:16 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_17 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 2.561445e+04 ;
+    sosa:hasFeatureOfInterest covid-place:17 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_18 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 8.217075e+03 ;
+    sosa:hasFeatureOfInterest covid-place:18 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_19 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 3.847585e+03 ;
+    sosa:hasFeatureOfInterest covid-place:19 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_20 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 1.044402e+03 ;
+    sosa:hasFeatureOfInterest covid-place:20 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_21 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 3.635782e+03 ;
+    sosa:hasFeatureOfInterest covid-place:21 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_22 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 3.372672e+03 ;
+    sosa:hasFeatureOfInterest covid-place:22 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_23 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 2.579167e+03 ;
+    sosa:hasFeatureOfInterest covid-place:23 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_24 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 1.025294e+04 ;
+    sosa:hasFeatureOfInterest covid-place:24 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_25 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 1.346083e+04 ;
+    sosa:hasFeatureOfInterest covid-place:25 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_26 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 5.984343e+04 ;
+    sosa:hasFeatureOfInterest covid-place:26 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_27 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 1.663163e+04 ;
+    sosa:hasFeatureOfInterest covid-place:27 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_28 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 1.104973e+03 ;
+    sosa:hasFeatureOfInterest covid-place:28 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_29 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 4.798913e+03 ;
+    sosa:hasFeatureOfInterest covid-place:29 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_30 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 1.329616e+03 ;
+    sosa:hasFeatureOfInterest covid-place:30 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_31 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 2.82252e+03 ;
+    sosa:hasFeatureOfInterest covid-place:31 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_32 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 2.950024e+03 ;
+    sosa:hasFeatureOfInterest covid-place:32 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_33 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 3.213694e+03 ;
+    sosa:hasFeatureOfInterest covid-place:33 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_34 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 2.226778e+04 ;
+    sosa:hasFeatureOfInterest covid-place:34 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_35 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 8.758936e+02 ;
+    sosa:hasFeatureOfInterest covid-place:35 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_36 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 5.020021e+04 ;
+    sosa:hasFeatureOfInterest covid-place:36 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_37 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 9.863196e+03 ;
+    sosa:hasFeatureOfInterest covid-place:37 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_38 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 1.092778e+03 ;
+    sosa:hasFeatureOfInterest covid-place:38 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_39 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 1.49749e+04 ;
+    sosa:hasFeatureOfInterest covid-place:39 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_40 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 2.618976e+03 ;
+    sosa:hasFeatureOfInterest covid-place:40 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_41 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 4.213918e+03 ;
+    sosa:hasFeatureOfInterest covid-place:41 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_42 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 2.922858e+04 ;
+    sosa:hasFeatureOfInterest covid-place:42 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_44 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 2.696304e+03 ;
+    sosa:hasFeatureOfInterest covid-place:44 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_45 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 5.4372e+03 ;
+    sosa:hasFeatureOfInterest covid-place:45 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_46 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 1.442685e+03 ;
+    sosa:hasFeatureOfInterest covid-place:46 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_47 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 7.568531e+03 ;
+    sosa:hasFeatureOfInterest covid-place:47 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_48 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 3.021496e+04 ;
+    sosa:hasFeatureOfInterest covid-place:48 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_49 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 2.603205e+03 ;
+    sosa:hasFeatureOfInterest covid-place:49 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_50 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 1.196865e+03 ;
+    sosa:hasFeatureOfInterest covid-place:50 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_51 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 1.05674e+04 ;
+    sosa:hasFeatureOfInterest covid-place:51 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_53 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 9.157652e+03 ;
+    sosa:hasFeatureOfInterest covid-place:53 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_54 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 2.376594e+03 ;
+    sosa:hasFeatureOfInterest covid-place:54 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_55 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 7.431956e+03 ;
+    sosa:hasFeatureOfInterest covid-place:55 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_56 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 3.981752e+02 ;
+    sosa:hasFeatureOfInterest covid-place:56 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_60 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 0e+00 ;
+    sosa:hasFeatureOfInterest covid-place:60 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_66 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 3.23143e+01 ;
+    sosa:hasFeatureOfInterest covid-place:66 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_69 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 9.962137e-01 ;
+    sosa:hasFeatureOfInterest covid-place:69 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_72 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 7.494531e+03 ;
+    sosa:hasFeatureOfInterest covid-place:72 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_78 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 3.809924e+01 ;
+    sosa:hasFeatureOfInterest covid-place:78 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-case_US a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 5.240629e+05 ;
+    sosa:hasFeatureOfInterest covid-place:US ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_01 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.10587e+02 ;
+    sosa:hasFeatureOfInterest covid-place:01 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_02 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 2.510143e-01 ;
+    sosa:hasFeatureOfInterest covid-place:02 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_04 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 7.982751e+01 ;
+    sosa:hasFeatureOfInterest covid-place:04 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_05 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 4.539056e+00 ;
+    sosa:hasFeatureOfInterest covid-place:05 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_06 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 6.462245e+02 ;
+    sosa:hasFeatureOfInterest covid-place:06 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_08 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 2.885791e+01 ;
+    sosa:hasFeatureOfInterest covid-place:08 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_09 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 3.569129e+01 ;
+    sosa:hasFeatureOfInterest covid-place:09 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_10 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 7.700285e+00 ;
+    sosa:hasFeatureOfInterest covid-place:10 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_11 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 8.790808e+00 ;
+    sosa:hasFeatureOfInterest covid-place:11 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_12 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 2.390439e+02 ;
+    sosa:hasFeatureOfInterest covid-place:12 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_13 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 2.604696e+02 ;
+    sosa:hasFeatureOfInterest covid-place:13 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_15 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.168206e+00 ;
+    sosa:hasFeatureOfInterest covid-place:15 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_16 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 3.486518e+01 ;
+    sosa:hasFeatureOfInterest covid-place:16 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_17 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.541921e+02 ;
+    sosa:hasFeatureOfInterest covid-place:17 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_18 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 6.464058e+01 ;
+    sosa:hasFeatureOfInterest covid-place:18 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_19 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 4.307694e+01 ;
+    sosa:hasFeatureOfInterest covid-place:19 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_20 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 8.186356e+00 ;
+    sosa:hasFeatureOfInterest covid-place:20 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_21 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 7.462298e+01 ;
+    sosa:hasFeatureOfInterest covid-place:21 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_22 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 2.92657e+01 ;
+    sosa:hasFeatureOfInterest covid-place:22 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_23 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 5.585012e+00 ;
+    sosa:hasFeatureOfInterest covid-place:23 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_24 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 9.544892e+01 ;
+    sosa:hasFeatureOfInterest covid-place:24 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_25 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 2.405669e+01 ;
+    sosa:hasFeatureOfInterest covid-place:25 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_26 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 3.403097e+02 ;
+    sosa:hasFeatureOfInterest covid-place:26 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_27 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.013361e+02 ;
+    sosa:hasFeatureOfInterest covid-place:27 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_28 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 5.593074e+01 ;
+    sosa:hasFeatureOfInterest covid-place:28 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_29 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 6.266705e-01 ;
+    sosa:hasFeatureOfInterest covid-place:29 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_30 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 8.035806e+01 ;
+    sosa:hasFeatureOfInterest covid-place:30 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_31 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 4.866466e+01 ;
+    sosa:hasFeatureOfInterest covid-place:31 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_32 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 5.640108e+01 ;
+    sosa:hasFeatureOfInterest covid-place:32 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_33 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.287843e+01 ;
+    sosa:hasFeatureOfInterest covid-place:33 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_34 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 2.84654e+02 ;
+    sosa:hasFeatureOfInterest covid-place:34 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_35 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.975986e+01 ;
+    sosa:hasFeatureOfInterest covid-place:35 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_36 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 4.675644e+02 ;
+    sosa:hasFeatureOfInterest covid-place:36 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_37 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 4.836736e+01 ;
+    sosa:hasFeatureOfInterest covid-place:37 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_38 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.015442e+01 ;
+    sosa:hasFeatureOfInterest covid-place:38 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_39 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 1.181759e+02 ;
+    sosa:hasFeatureOfInterest covid-place:39 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_40 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 2.453033e+03 ;
+    sosa:hasFeatureOfInterest covid-place:40 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_41 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 4.773421e+01 ;
+    sosa:hasFeatureOfInterest covid-place:41 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_42 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 2.573201e+02 ;
+    sosa:hasFeatureOfInterest covid-place:42 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_44 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 2.201524e+01 ;
+    sosa:hasFeatureOfInterest covid-place:44 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_45 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 7.050218e+01 ;
+    sosa:hasFeatureOfInterest covid-place:45 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_46 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 0e+00 ;
+    sosa:hasFeatureOfInterest covid-place:46 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_47 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 6.067573e+01 ;
+    sosa:hasFeatureOfInterest covid-place:47 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_48 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 5.006961e+02 ;
+    sosa:hasFeatureOfInterest covid-place:48 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_49 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 4.34424e+01 ;
+    sosa:hasFeatureOfInterest covid-place:49 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_50 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 3.629299e-01 ;
+    sosa:hasFeatureOfInterest covid-place:50 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_51 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 2.106192e+02 ;
+    sosa:hasFeatureOfInterest covid-place:51 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_53 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 3.879684e+01 ;
+    sosa:hasFeatureOfInterest covid-place:53 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_54 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 8.856982e+01 ;
+    sosa:hasFeatureOfInterest covid-place:54 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_55 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 5.213466e+01 ;
+    sosa:hasFeatureOfInterest covid-place:55 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_56 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 0e+00 ;
+    sosa:hasFeatureOfInterest covid-place:56 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_60 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 0e+00 ;
+    sosa:hasFeatureOfInterest covid-place:60 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_66 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 5.289976e-02 ;
+    sosa:hasFeatureOfInterest covid-place:66 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_69 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 0e+00 ;
+    sosa:hasFeatureOfInterest covid-place:69 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_72 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 3.244352e+01 ;
+    sosa:hasFeatureOfInterest covid-place:72 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_78 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 0e+00 ;
+    sosa:hasFeatureOfInterest covid-place:78 ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-11-Geneva-DetGrowth_1-wk-ahead-inc-death_US a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_death ;
+    covid:point 7.465299e+03 ;
+    sosa:hasFeatureOfInterest covid-place:US ;
+    sosa:observedProperty covid-obs-property:inc_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+

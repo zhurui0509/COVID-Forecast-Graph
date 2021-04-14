@@ -1,0 +1,33 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-funding-resource: <http://covid.geog.ucsb.edu/lod/fundingResource/> .
+@prefix covid-license: <http://covid.geog.ucsb.edu/lod/license/> .
+@prefix covid-method: <http://covid.geog.ucsb.edu/lod/method/> .
+@prefix covid-model: <http://covid.geog.ucsb.edu/lod/model/> .
+@prefix covid-model-designation: <http://covid.geog.ucsb.edu/lod/modelDesignation/> .
+@prefix covid-owner: <http://covid.geog.ucsb.edu/lod/owner/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix ns1: <http://www.w3.org/ns/sosa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-research:Columbia_UNC-SurvCon a covid:Research ;
+    rdfs:label "Columbia_UNC-SurvCon" ;
+    ns1:madeBySensor covid-model:Columbia_UNC-SurvCon ;
+    ns1:usedProcedure covid-method:SurvCon .
+
+covid-method:SurvCon a covid:Method ;
+    rdfs:label "SurvCon" .
+
+covid-model:Columbia_UNC-SurvCon a covid:Model ;
+    rdfs:label "Columbia_UNC-SurvCon" ;
+    covid:hasLicense covid-license:apache-2.0 ;
+    covid:hasName "Survival-Convolution Models" ;
+    covid:hasWebsite <https://github.com/COVID19BIOSTAT/covid19_prediction> ;
+    covid:modelBrief "A survival-convolution model with piece-wise transmission rates that incorporates  latent incubation period and provides time-varying effective reproductive number." ;
+    covid:modelDesc "We predict COVID-19 daily new cases using a robust and parsimonious  survival-convolution model. We account for transmission during the pre-symptomatic  incubation period, use a time-varying effective reproductive number (Rt) to reflect  the temporal trend of transmission and change in response to a public health intervention,  and quantify uncertainty by permutation. We use a regression model to predict cumulative  deaths from estimated time-lagged cumulative total number of COVID-19 cases." ;
+    covid:modelDesignation covid-model-designation:primary ;
+    covid:owner covid-owner:Columbia_UNC .
+
+covid-owner:Columbia_UNC a covid:Team ;
+    rdfs:label "Columbia_UNC" ;
+    covid:fundingSource covid-funding-resource:NIH_grant_GM124104 .
+

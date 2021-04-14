@@ -1,0 +1,33 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-funding-resource: <http://covid.geog.ucsb.edu/lod/fundingResource/> .
+@prefix covid-license: <http://covid.geog.ucsb.edu/lod/license/> .
+@prefix covid-method: <http://covid.geog.ucsb.edu/lod/method/> .
+@prefix covid-model: <http://covid.geog.ucsb.edu/lod/model/> .
+@prefix covid-model-designation: <http://covid.geog.ucsb.edu/lod/modelDesignation/> .
+@prefix covid-owner: <http://covid.geog.ucsb.edu/lod/owner/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix ns1: <http://www.w3.org/ns/sosa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-research:USACE-ERDC_SEIR a covid:Research ;
+    rdfs:label "USACE-ERDC_SEIR" ;
+    ns1:madeBySensor covid-model:USACE-ERDC_SEIR ;
+    ns1:usedProcedure covid-method:ERDC_SEIR .
+
+covid-method:ERDC_SEIR a covid:Method ;
+    rdfs:label "ERDC_SEIR" .
+
+covid-model:USACE-ERDC_SEIR a covid:Model ;
+    rdfs:label "USACE-ERDC_SEIR" ;
+    covid:hasLicense covid-license:other ;
+    covid:hasName "ERDC_SEIR" ;
+    covid:hasWebsite <https://github.com/erdc-cv19/seir-model> ;
+    covid:modelBrief "The ERDC SEIR model makes predictions of several variables (e.g., reported  new/cumulative cases  per day, etc.). Model parameters are estimated using historical  data using Bayesian inference." ;
+    covid:modelDesc "'The ERDC SEIR model is a process-based model that mathematically describes  the virus  dynamics in a population center (e.g., state, CBSA) using assumptions  that are common  in compartmental models: (i)   modeled populations are large enough  that fluctuations in the disease  states grow slower than averages (i.e., coefficient  of variation < 1) (ii)  recovered individuals are neither infectious nor become  susceptible to  further infection." ;
+    covid:modelDesignation covid-model-designation:primary ;
+    covid:owner covid-owner:US_Army_Engineer_Research_and_Development_Center .
+
+covid-owner:US_Army_Engineer_Research_and_Development_Center a covid:Team ;
+    rdfs:label "US Army Engineer Research and Development Center" ;
+    covid:fundingSource covid-funding-resource:US_Army_Geospatial_Task_Force .
+

@@ -953,7 +953,7 @@ def main():
                 for line in fr:
                     progress_file_list.append(line.strip().replace('\n', ''))
 
-        if forecast_file.replace("../", './') not in progress_file_list:
+        if (forecast_file.replace("../", './') not in progress_file_list) and (forecast_file not in progress_file_list):
             print('Triplify for %s'%(forecast_file))
             output_file = '../'+arg_out+'/'+forecast_file.split('/')[-1].replace('csv', 'ttl')
             forecast_tmp = loadCSV_new(forecast_file)
