@@ -1,0 +1,30 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-license: <http://covid.geog.ucsb.edu/lod/license/> .
+@prefix covid-method: <http://covid.geog.ucsb.edu/lod/method/> .
+@prefix covid-model: <http://covid.geog.ucsb.edu/lod/model/> .
+@prefix covid-model-designation: <http://covid.geog.ucsb.edu/lod/modelDesignation/> .
+@prefix covid-owner: <http://covid.geog.ucsb.edu/lod/owner/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix ns1: <http://www.w3.org/ns/sosa/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-research:MIT-Cassandra a covid:Research ;
+    rdfs:label "MIT-Cassandra" ;
+    ns1:madeBySensor covid-model:MIT-Cassandra ;
+    ns1:usedProcedure covid-method:Cassandra .
+
+covid-method:Cassandra a covid:Method ;
+    rdfs:label "Cassandra" .
+
+covid-model:MIT-Cassandra a covid:Model ;
+    rdfs:label "MIT-Cassandra" ;
+    covid:hasLicense covid-license:mit ;
+    covid:hasName "MIT-Cassandra" ;
+    covid:hasWebsite <https://github.com/oskali/mit_cassandra> ;
+    covid:modelBrief "Ensemble model aggregating predictions from four constituent models. 1. MDP feature representation 2. KNN time-series 3. Bi-LSTM time-series 4. C-SEIRD epidemiological" ;
+    covid:modelDesignation covid-model-designation:primary ;
+    covid:owner covid-owner:MITCassandra .
+
+covid-owner:MITCassandra a covid:Team ;
+    rdfs:label "MIT-Cassandra" .
+

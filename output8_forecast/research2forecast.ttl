@@ -1,0 +1,192 @@
+@prefix covid-forecast: <http://covid.geog.ucsb.edu/lod/prediction/> .
+@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+
+covid-research:AIpert-pwllnod sosa:hasMember covid-forecast:2021-05-03-AIpert-pwllnod,
+        covid-forecast:2021-05-10-AIpert-pwllnod .
+
+covid-research:BPagano-RtDriven sosa:hasMember covid-forecast:2021-05-02-BPagano-RtDriven,
+        covid-forecast:2021-05-09-BPagano-RtDriven .
+
+covid-research:CEID-Walk sosa:hasMember covid-forecast:2021-05-03-CEID-Walk,
+        covid-forecast:2021-05-10-CEID-Walk .
+
+covid-research:CMU-TimeSeries sosa:hasMember covid-forecast:2021-05-03-CMU-TimeSeries,
+        covid-forecast:2021-05-10-CMU-TimeSeries .
+
+covid-research:COVIDhub-baseline sosa:hasMember covid-forecast:2021-05-03-COVIDhub-baseline,
+        covid-forecast:2021-05-10-COVIDhub-baseline .
+
+covid-research:COVIDhub-ensemble sosa:hasMember covid-forecast:2021-05-03-COVIDhub-ensemble,
+        covid-forecast:2021-05-10-COVIDhub-ensemble .
+
+covid-research:COVIDhub-trained_ensemble sosa:hasMember covid-forecast:2021-05-03-COVIDhub-trained_ensemble,
+        covid-forecast:2021-05-10-COVIDhub-trained_ensemble .
+
+covid-research:CU-nochange sosa:hasMember covid-forecast:2021-05-02-CU-nochange,
+        covid-forecast:2021-05-09-CU-nochange .
+
+covid-research:CU-scenario_high sosa:hasMember covid-forecast:2021-05-02-CU-scenario_high,
+        covid-forecast:2021-05-09-CU-scenario_high .
+
+covid-research:CU-scenario_low sosa:hasMember covid-forecast:2021-05-02-CU-scenario_low,
+        covid-forecast:2021-05-09-CU-scenario_low .
+
+covid-research:CU-scenario_mid sosa:hasMember covid-forecast:2021-05-02-CU-scenario_mid,
+        covid-forecast:2021-05-09-CU-scenario_mid .
+
+covid-research:CU-select sosa:hasMember covid-forecast:2021-05-02-CU-select,
+        covid-forecast:2021-05-09-CU-select .
+
+covid-research:Columbia_UNC-SurvCon sosa:hasMember covid-forecast:2021-05-02-Columbia_UNC-SurvCon,
+        covid-forecast:2021-05-09-Columbia_UNC-SurvCon .
+
+covid-research:Covid19Sim-Simulator sosa:hasMember covid-forecast:2021-05-02-Covid19Sim-Simulator,
+        covid-forecast:2021-05-09-Covid19Sim-Simulator .
+
+covid-research:CovidAnalytics-DELPHI sosa:hasMember covid-forecast:2021-05-03-CovidAnalytics-DELPHI,
+        covid-forecast:2021-05-09-CovidAnalytics-DELPHI .
+
+covid-research:DDS-NBDS sosa:hasMember covid-forecast:2021-05-03-DDS-NBDS,
+        covid-forecast:2021-05-10-DDS-NBDS .
+
+covid-research:FAIR-NRAR sosa:hasMember covid-forecast:2021-04-27-FAIR-NRAR,
+        covid-forecast:2021-04-28-FAIR-NRAR,
+        covid-forecast:2021-04-29-FAIR-NRAR,
+        covid-forecast:2021-04-30-FAIR-NRAR,
+        covid-forecast:2021-05-01-FAIR-NRAR,
+        covid-forecast:2021-05-02-FAIR-NRAR,
+        covid-forecast:2021-05-03-FAIR-NRAR,
+        covid-forecast:2021-05-04-FAIR-NRAR,
+        covid-forecast:2021-05-05-FAIR-NRAR,
+        covid-forecast:2021-05-06-FAIR-NRAR,
+        covid-forecast:2021-05-07-FAIR-NRAR,
+        covid-forecast:2021-05-08-FAIR-NRAR,
+        covid-forecast:2021-05-09-FAIR-NRAR,
+        covid-forecast:2021-05-10-FAIR-NRAR .
+
+covid-research:FDANIHASU-Sweight sosa:hasMember covid-forecast:2021-05-03-FDANIHASU-Sweight,
+        covid-forecast:2021-05-10-FDANIHASU-Sweight .
+
+covid-research:FRBSF_Wilson-Econometric sosa:hasMember covid-forecast:2021-05-03-FRBSF_Wilson-Econometric,
+        covid-forecast:2021-05-10-FRBSF_Wilson-Econometric .
+
+covid-research:GT-DeepCOVID sosa:hasMember covid-forecast:2021-05-03-GT-DeepCOVID,
+        covid-forecast:2021-05-10-GT-DeepCOVID .
+
+covid-research:Geneva-DetGrowth sosa:hasMember covid-forecast:2021-05-02-Geneva-DetGrowth,
+        covid-forecast:2021-05-09-Geneva-DetGrowth .
+
+covid-research:Google_Harvard-CPF sosa:hasMember covid-forecast:2021-05-03-Google_Harvard-CPF,
+        covid-forecast:2021-05-10-Google_Harvard-CPF .
+
+covid-research:IBF-TimeSeries sosa:hasMember covid-forecast:2021-05-03-IBF-TimeSeries,
+        covid-forecast:2021-05-10-IBF-TimeSeries .
+
+covid-research:IEM_MED-CovidProject sosa:hasMember covid-forecast:2021-05-03-IEM_MED-CovidProject,
+        covid-forecast:2021-05-10-IEM_MED-CovidProject .
+
+covid-research:IHME-CurveFit sosa:hasMember covid-forecast:2021-05-07-IHME-CurveFit .
+
+covid-research:JHUAPL-Bucky sosa:hasMember covid-forecast:2021-05-03-JHUAPL-Bucky,
+        covid-forecast:2021-05-10-JHUAPL-Bucky .
+
+covid-research:JHUAPL-Gecko sosa:hasMember covid-forecast:2021-05-02-JHUAPL-Gecko,
+        covid-forecast:2021-05-09-JHUAPL-Gecko .
+
+covid-research:JHUAPL-SLPHospEns sosa:hasMember covid-forecast:2021-05-03-JHUAPL-SLPHospEns,
+        covid-forecast:2021-05-10-JHUAPL-SLPHospEns .
+
+covid-research:JHU_CSSE-DECOM sosa:hasMember covid-forecast:2021-05-02-JHU_CSSE-DECOM,
+        covid-forecast:2021-05-09-JHU_CSSE-DECOM .
+
+covid-research:JHU_IDD-CovidSP sosa:hasMember covid-forecast:2021-05-02-JHU_IDD-CovidSP,
+        covid-forecast:2021-05-09-JHU_IDD-CovidSP .
+
+covid-research:JHU_UNC_GAS-StatMechPool sosa:hasMember covid-forecast:2021-05-02-JHU_UNC_GAS-StatMechPool,
+        covid-forecast:2021-05-09-JHU_UNC_GAS-StatMechPool .
+
+covid-research:KITmetricslab-select_ensemble sosa:hasMember covid-forecast:2021-05-03-KITmetricslab-select_ensemble,
+        covid-forecast:2021-05-10-KITmetricslab-select_ensemble .
+
+covid-research:Karlen-pypm sosa:hasMember covid-forecast:2021-05-02-Karlen-pypm,
+        covid-forecast:2021-05-09-Karlen-pypm .
+
+covid-research:LANL-GrowthRate sosa:hasMember covid-forecast:2021-04-29-LANL-GrowthRate,
+        covid-forecast:2021-05-03-LANL-GrowthRate,
+        covid-forecast:2021-05-06-LANL-GrowthRate,
+        covid-forecast:2021-05-10-LANL-GrowthRate .
+
+covid-research:LNQ-ens1 sosa:hasMember covid-forecast:2021-05-02-LNQ-ens1,
+        covid-forecast:2021-05-09-LNQ-ens1 .
+
+covid-research:MIT-Cassandra sosa:hasMember covid-forecast:2021-05-03-MIT-Cassandra,
+        covid-forecast:2021-05-10-MIT-Cassandra .
+
+covid-research:MIT_CritData-GBCF sosa:hasMember covid-forecast:2021-05-02-MIT_CritData-GBCF,
+        covid-forecast:2021-05-09-MIT_CritData-GBCF .
+
+covid-research:MIT_ISOLAT-Mixtures sosa:hasMember covid-forecast:2021-05-03-MIT_ISOLAT-Mixtures,
+        covid-forecast:2021-05-10-MIT_ISOLAT-Mixtures .
+
+covid-research:MOBS-GLEAM_COVID sosa:hasMember covid-forecast:2021-05-02-MOBS-GLEAM_COVID,
+        covid-forecast:2021-05-10-MOBS-GLEAM_COVID .
+
+covid-research:MUNI-ARIMA sosa:hasMember covid-forecast:2021-05-10-MUNI-ARIMA .
+
+covid-research:Microsoft-DeepSTIA sosa:hasMember covid-forecast:2021-05-10-Microsoft-DeepSTIA .
+
+covid-research:OliverWyman-Navigator sosa:hasMember covid-forecast:2021-05-02-OliverWyman-Navigator,
+        covid-forecast:2021-05-09-OliverWyman-Navigator .
+
+covid-research:PSI-DRAFT sosa:hasMember covid-forecast:2021-05-03-PSI-DRAFT,
+        covid-forecast:2021-05-10-PSI-DRAFT .
+
+covid-research:PandemicCentral-COVIDForest sosa:hasMember covid-forecast:2021-05-01-PandemicCentral-COVIDForest,
+        covid-forecast:2021-05-09-PandemicCentral-COVIDForest .
+
+covid-research:RobertWalraven-ESG sosa:hasMember covid-forecast:2021-05-03-RobertWalraven-ESG,
+        covid-forecast:2021-05-10-RobertWalraven-ESG .
+
+covid-research:SteveMcConnell-CovidComplete sosa:hasMember covid-forecast:2021-05-03-SteveMcConnell-CovidComplete,
+        covid-forecast:2021-05-10-SteveMcConnell-CovidComplete .
+
+covid-research:TTU-squider sosa:hasMember covid-forecast:2021-05-02-TTU-squider,
+        covid-forecast:2021-05-09-TTU-squider .
+
+covid-research:UA-EpiCovDA sosa:hasMember covid-forecast:2021-05-02-UA-EpiCovDA,
+        covid-forecast:2021-05-09-UA-EpiCovDA .
+
+covid-research:UCF-AEM sosa:hasMember covid-forecast:2021-05-02-UCF-AEM,
+        covid-forecast:2021-05-09-UCF-AEM .
+
+covid-research:UCLA-SuEIR sosa:hasMember covid-forecast:2021-05-02-UCLA-SuEIR,
+        covid-forecast:2021-05-09-UCLA-SuEIR .
+
+covid-research:UCM_MESALab-FoGSEIR sosa:hasMember covid-forecast:2021-05-02-UCM_MESALab-FoGSEIR,
+        covid-forecast:2021-05-09-UCM_MESALab-FoGSEIR .
+
+covid-research:UCSD_NEU-DeepGLEAM sosa:hasMember covid-forecast:2021-05-02-UCSD_NEU-DeepGLEAM,
+        covid-forecast:2021-05-10-UCSD_NEU-DeepGLEAM .
+
+covid-research:UChicagoCHATTOPADHYAY-UnIT sosa:hasMember covid-forecast:2021-05-02-UChicagoCHATTOPADHYAY-UnIT,
+        covid-forecast:2021-05-09-UChicagoCHATTOPADHYAY-UnIT .
+
+covid-research:UMass-MechBayes sosa:hasMember covid-forecast:2021-05-02-UMass-MechBayes,
+        covid-forecast:2021-05-09-UMass-MechBayes .
+
+covid-research:UMich-RidgeTfReg sosa:hasMember covid-forecast:2021-05-03-UMich-RidgeTfReg,
+        covid-forecast:2021-05-10-UMich-RidgeTfReg .
+
+covid-research:USC-SI_kJalpha sosa:hasMember covid-forecast:2021-05-02-USC-SI_kJalpha,
+        covid-forecast:2021-05-09-USC-SI_kJalpha .
+
+covid-research:UVA-Ensemble sosa:hasMember covid-forecast:2021-05-03-UVA-Ensemble,
+        covid-forecast:2021-05-10-UVA-Ensemble .
+
+covid-research:UpstateSU-GRU sosa:hasMember covid-forecast:2021-05-03-UpstateSU-GRU,
+        covid-forecast:2021-05-10-UpstateSU-GRU .
+
+covid-research:epiforecasts-ensemble1 sosa:hasMember covid-forecast:2021-05-03-epiforecasts-ensemble1,
+        covid-forecast:2021-05-10-epiforecasts-ensemble1 .
+

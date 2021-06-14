@@ -1,0 +1,13 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-funding-resource: <http://covid.geog.ucsb.edu/lod/fundingResource/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+covid-funding-resource:None a covid:Organization ;
+    rdfs:label "None" .
+
+covid-funding-resource:State_of_California_and_US_Government a covid:Organization ;
+    rdfs:label "State of California and US Government" .
+
+covid-funding-resource:Tilmann_Gneiting_and_Daniel_Wolffram_are_grateful_for_support_by_the_Klaus_Tschira_Foundation_The_work_of_Johannes_Bracher_was_supported_by_the_Helmholtz_Foundation_via_the_SIMCARD_Information__Data_Science_Pilot_Project a covid:Organization ;
+    rdfs:label "Tilmann Gneiting and Daniel Wolffram are grateful for support by the Klaus Tschira Foundation. The work of Johannes Bracher was supported by the Helmholtz Foundation via the SIMCARD Information & Data Science Pilot Project." .
+

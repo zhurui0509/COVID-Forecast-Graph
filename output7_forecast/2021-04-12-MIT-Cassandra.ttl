@@ -1,0 +1,3855 @@
+@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
+@prefix covid-forecast: <http://covid.geog.ucsb.edu/lod/prediction/> .
+@prefix covid-instant: <http://covid.geog.ucsb.edu/lod/instant/> .
+@prefix covid-obs-property: <http://covid.geog.ucsb.edu/lod/observedproperty/> .
+@prefix covid-place: <http://covid.geog.ucsb.edu/lod/place/> .
+@prefix covid-target: <http://covid.geog.ucsb.edu/lod/target/> .
+@prefix covid-target-type: <http://covid.geog.ucsb.edu/lod/target-type/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sosa: <http://www.w3.org/ns/sosa/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+covid-forecast:2021-04-12-MIT-Cassandra a covid:Forecast ;
+    rdfs:label "2021-04-12-MIT-Cassandra" ;
+    sosa:hasMember covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_1,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_10,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_12,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_13,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_16,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_17,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_18,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_19,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_20,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_21,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_22,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_23,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_24,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_25,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_26,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_27,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_28,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_29,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_30,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_31,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_32,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_33,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_34,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_35,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_36,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_37,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_38,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_39,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_4,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_40,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_41,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_42,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_44,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_45,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_46,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_47,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_48,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_49,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_5,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_50,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_51,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_53,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_54,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_55,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_56,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_6,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_8,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_9,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_1,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_10,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_12,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_13,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_16,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_17,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_18,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_19,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_20,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_21,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_22,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_23,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_24,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_25,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_26,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_27,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_28,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_29,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_30,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_31,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_32,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_33,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_34,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_35,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_36,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_37,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_38,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_39,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_4,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_40,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_41,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_42,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_44,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_45,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_46,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_47,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_48,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_49,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_5,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_50,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_51,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_53,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_54,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_55,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_56,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_6,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_8,
+        covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_9,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_1,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_10,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_12,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_13,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_16,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_17,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_18,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_19,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_20,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_21,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_22,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_23,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_24,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_25,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_26,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_27,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_28,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_29,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_30,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_31,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_32,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_33,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_34,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_35,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_36,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_37,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_38,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_39,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_4,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_40,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_41,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_42,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_44,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_45,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_46,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_47,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_48,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_49,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_5,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_50,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_51,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_53,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_54,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_55,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_56,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_6,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_8,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_9,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_1,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_10,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_12,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_13,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_16,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_17,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_18,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_19,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_20,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_21,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_22,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_23,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_24,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_25,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_26,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_27,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_28,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_29,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_30,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_31,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_32,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_33,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_34,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_35,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_36,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_37,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_38,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_39,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_4,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_40,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_41,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_42,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_44,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_45,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_46,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_47,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_48,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_49,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_5,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_50,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_51,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_53,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_54,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_55,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_56,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_6,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_8,
+        covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_9,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_1,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_10,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_12,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_13,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_16,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_17,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_18,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_19,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_20,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_21,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_22,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_23,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_24,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_25,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_26,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_27,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_28,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_29,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_30,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_31,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_32,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_33,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_34,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_35,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_36,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_37,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_38,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_39,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_4,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_40,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_41,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_42,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_44,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_45,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_46,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_47,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_48,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_49,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_5,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_50,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_51,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_53,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_54,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_55,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_56,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_6,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_8,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_9,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_1,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_10,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_12,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_13,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_16,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_17,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_18,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_19,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_20,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_21,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_22,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_23,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_24,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_25,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_26,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_27,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_28,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_29,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_30,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_31,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_32,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_33,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_34,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_35,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_36,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_37,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_38,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_39,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_4,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_40,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_41,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_42,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_44,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_45,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_46,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_47,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_48,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_49,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_5,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_50,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_51,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_53,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_54,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_55,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_56,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_6,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_8,
+        covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_9,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_1,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_10,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_12,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_13,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_16,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_17,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_18,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_19,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_20,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_21,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_22,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_23,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_24,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_25,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_26,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_27,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_28,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_29,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_30,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_31,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_32,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_33,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_34,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_35,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_36,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_37,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_38,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_39,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_4,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_40,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_41,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_42,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_44,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_45,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_46,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_47,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_48,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_49,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_5,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_50,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_51,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_53,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_54,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_55,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_56,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_6,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_8,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_9,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_1,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_10,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_12,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_13,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_16,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_17,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_18,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_19,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_20,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_21,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_22,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_23,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_24,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_25,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_26,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_27,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_28,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_29,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_30,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_31,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_32,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_33,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_34,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_35,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_36,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_37,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_38,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_39,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_4,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_40,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_41,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_42,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_44,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_45,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_46,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_47,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_48,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_49,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_5,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_50,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_51,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_53,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_54,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_55,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_56,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_6,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_8,
+        covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_9,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_1,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_10,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_12,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_13,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_16,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_17,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_18,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_19,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_20,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_21,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_22,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_23,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_24,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_25,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_26,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_27,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_28,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_29,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_30,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_31,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_32,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_33,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_34,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_35,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_36,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_37,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_38,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_39,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_4,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_40,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_41,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_42,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_44,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_45,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_46,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_47,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_48,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_49,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_5,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_50,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_51,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_53,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_54,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_55,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_56,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_6,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_8,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_9,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_1,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_10,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_12,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_13,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_16,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_17,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_18,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_19,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_20,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_21,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_22,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_23,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_24,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_25,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_26,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_27,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_28,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_29,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_30,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_31,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_32,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_33,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_34,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_35,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_36,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_37,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_38,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_39,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_4,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_40,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_41,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_42,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_44,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_45,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_46,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_47,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_48,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_49,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_5,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_50,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_51,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_53,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_54,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_55,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_56,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_6,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_8,
+        covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_9 ;
+    sosa:resultTime "2021-04-12" .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_1 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.0928e+04 ;
+    sosa:hasFeatureOfInterest covid-place:1 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_10 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.594e+03 ;
+    sosa:hasFeatureOfInterest covid-place:10 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_12 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 3.4395e+04 ;
+    sosa:hasFeatureOfInterest covid-place:12 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_13 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.9756e+04 ;
+    sosa:hasFeatureOfInterest covid-place:13 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_16 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 2.01e+03 ;
+    sosa:hasFeatureOfInterest covid-place:16 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_17 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 2.3922e+04 ;
+    sosa:hasFeatureOfInterest covid-place:17 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_18 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.321e+04 ;
+    sosa:hasFeatureOfInterest covid-place:18 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_19 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 5.888e+03 ;
+    sosa:hasFeatureOfInterest covid-place:19 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_20 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 4.947e+03 ;
+    sosa:hasFeatureOfInterest covid-place:20 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_21 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 6.445e+03 ;
+    sosa:hasFeatureOfInterest covid-place:21 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_22 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.0317e+04 ;
+    sosa:hasFeatureOfInterest covid-place:22 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_23 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 7.64e+02 ;
+    sosa:hasFeatureOfInterest covid-place:23 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_24 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 8.545e+03 ;
+    sosa:hasFeatureOfInterest covid-place:24 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_25 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.7548e+04 ;
+    sosa:hasFeatureOfInterest covid-place:25 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_26 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.7848e+04 ;
+    sosa:hasFeatureOfInterest covid-place:26 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_27 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 7.117e+03 ;
+    sosa:hasFeatureOfInterest covid-place:27 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_28 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 7.189e+03 ;
+    sosa:hasFeatureOfInterest covid-place:28 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_29 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 8.906e+03 ;
+    sosa:hasFeatureOfInterest covid-place:29 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_30 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.54e+03 ;
+    sosa:hasFeatureOfInterest covid-place:30 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_31 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 2.26e+03 ;
+    sosa:hasFeatureOfInterest covid-place:31 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_32 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 5.386e+03 ;
+    sosa:hasFeatureOfInterest covid-place:32 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_33 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.269e+03 ;
+    sosa:hasFeatureOfInterest covid-place:33 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_34 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 2.5048e+04 ;
+    sosa:hasFeatureOfInterest covid-place:34 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_35 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 4.001e+03 ;
+    sosa:hasFeatureOfInterest covid-place:35 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_36 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 5.1568e+04 ;
+    sosa:hasFeatureOfInterest covid-place:36 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_37 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.2389e+04 ;
+    sosa:hasFeatureOfInterest covid-place:37 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_38 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.506e+03 ;
+    sosa:hasFeatureOfInterest covid-place:38 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_39 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.8827e+04 ;
+    sosa:hasFeatureOfInterest covid-place:39 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_4 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.7165e+04 ;
+    sosa:hasFeatureOfInterest covid-place:4 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_40 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 6.669e+03 ;
+    sosa:hasFeatureOfInterest covid-place:40 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_41 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 2.484e+03 ;
+    sosa:hasFeatureOfInterest covid-place:41 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_42 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 2.5621e+04 ;
+    sosa:hasFeatureOfInterest covid-place:42 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_44 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 2.66e+03 ;
+    sosa:hasFeatureOfInterest covid-place:44 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_45 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 9.344389e+03 ;
+    sosa:hasFeatureOfInterest covid-place:45 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_46 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.957e+03 ;
+    sosa:hasFeatureOfInterest covid-place:46 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_47 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.2079e+04 ;
+    sosa:hasFeatureOfInterest covid-place:47 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_48 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 4.9534e+04 ;
+    sosa:hasFeatureOfInterest covid-place:48 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_49 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 2.19e+03 ;
+    sosa:hasFeatureOfInterest covid-place:49 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_5 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 5.667e+03 ;
+    sosa:hasFeatureOfInterest covid-place:5 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_50 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 2.37e+02 ;
+    sosa:hasFeatureOfInterest covid-place:50 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_51 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 1.0719e+04 ;
+    sosa:hasFeatureOfInterest covid-place:51 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_53 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 5.364e+03 ;
+    sosa:hasFeatureOfInterest covid-place:53 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_54 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 2.826e+03 ;
+    sosa:hasFeatureOfInterest covid-place:54 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_55 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 7.425e+03 ;
+    sosa:hasFeatureOfInterest covid-place:55 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_56 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 7.01e+02 ;
+    sosa:hasFeatureOfInterest covid-place:56 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_6 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 6.131e+04 ;
+    sosa:hasFeatureOfInterest covid-place:6 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_8 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 6.206e+03 ;
+    sosa:hasFeatureOfInterest covid-place:8 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-cum-death_9 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_cum_death ;
+    covid:point 7.965e+03 ;
+    sosa:hasFeatureOfInterest covid-place:9 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_1 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 3.083763e+03 ;
+    sosa:hasFeatureOfInterest covid-place:1 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_10 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 2.233e+03 ;
+    sosa:hasFeatureOfInterest covid-place:10 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_12 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 4.0547e+04 ;
+    sosa:hasFeatureOfInterest covid-place:12 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_13 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 9.868e+03 ;
+    sosa:hasFeatureOfInterest covid-place:13 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_16 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 1.594e+03 ;
+    sosa:hasFeatureOfInterest covid-place:16 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_17 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 1.9895e+04 ;
+    sosa:hasFeatureOfInterest covid-place:17 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_18 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 7.341e+03 ;
+    sosa:hasFeatureOfInterest covid-place:18 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_19 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 3.365e+03 ;
+    sosa:hasFeatureOfInterest covid-place:19 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_20 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 6.84e+02 ;
+    sosa:hasFeatureOfInterest covid-place:20 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_21 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 4.693e+03 ;
+    sosa:hasFeatureOfInterest covid-place:21 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_22 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 2.234e+03 ;
+    sosa:hasFeatureOfInterest covid-place:22 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_23 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 1.95e+03 ;
+    sosa:hasFeatureOfInterest covid-place:23 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_24 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 9.355e+03 ;
+    sosa:hasFeatureOfInterest covid-place:24 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_25 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 1.5111e+04 ;
+    sosa:hasFeatureOfInterest covid-place:25 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_26 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 3.9983e+04 ;
+    sosa:hasFeatureOfInterest covid-place:26 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_27 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 1.1906e+04 ;
+    sosa:hasFeatureOfInterest covid-place:27 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_28 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 2.858e+03 ;
+    sosa:hasFeatureOfInterest covid-place:28 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_29 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 4.357e+03 ;
+    sosa:hasFeatureOfInterest covid-place:29 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_30 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 9e+02 ;
+    sosa:hasFeatureOfInterest covid-place:30 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_31 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 2.139895e+03 ;
+    sosa:hasFeatureOfInterest covid-place:31 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_32 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 2.754e+03 ;
+    sosa:hasFeatureOfInterest covid-place:32 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_33 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 3.376e+03 ;
+    sosa:hasFeatureOfInterest covid-place:33 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_34 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 2.8714e+04 ;
+    sosa:hasFeatureOfInterest covid-place:34 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_35 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 9.38e+02 ;
+    sosa:hasFeatureOfInterest covid-place:35 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_36 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 5.161e+04 ;
+    sosa:hasFeatureOfInterest covid-place:36 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_37 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 1.0241e+04 ;
+    sosa:hasFeatureOfInterest covid-place:37 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_38 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 6.102084e+02 ;
+    sosa:hasFeatureOfInterest covid-place:38 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_39 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 1.2686e+04 ;
+    sosa:hasFeatureOfInterest covid-place:39 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_4 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 3.0821e+04 ;
+    sosa:hasFeatureOfInterest covid-place:4 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_40 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 2.198e+03 ;
+    sosa:hasFeatureOfInterest covid-place:40 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_41 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 3.335e+03 ;
+    sosa:hasFeatureOfInterest covid-place:41 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_42 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 2.7296e+04 ;
+    sosa:hasFeatureOfInterest covid-place:42 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_44 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 3.622e+03 ;
+    sosa:hasFeatureOfInterest covid-place:44 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_45 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 7.027e+03 ;
+    sosa:hasFeatureOfInterest covid-place:45 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_46 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 1.059e+03 ;
+    sosa:hasFeatureOfInterest covid-place:46 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_47 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 7.914e+03 ;
+    sosa:hasFeatureOfInterest covid-place:47 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_48 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 3.891e+04 ;
+    sosa:hasFeatureOfInterest covid-place:48 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_49 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 2.823e+03 ;
+    sosa:hasFeatureOfInterest covid-place:49 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_5 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 1.05e+03 ;
+    sosa:hasFeatureOfInterest covid-place:5 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_50 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 1.227e+03 ;
+    sosa:hasFeatureOfInterest covid-place:50 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_51 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 7.292946e+03 ;
+    sosa:hasFeatureOfInterest covid-place:51 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_53 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 5.546e+03 ;
+    sosa:hasFeatureOfInterest covid-place:53 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_54 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 2.802168e+03 ;
+    sosa:hasFeatureOfInterest covid-place:54 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_55 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 5.495e+03 ;
+    sosa:hasFeatureOfInterest covid-place:55 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_56 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 4.03e+02 ;
+    sosa:hasFeatureOfInterest covid-place:56 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_6 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 3.074e+04 ;
+    sosa:hasFeatureOfInterest covid-place:6 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_8 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 1.0784e+04 ;
+    sosa:hasFeatureOfInterest covid-place:8 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_1-wk-ahead-inc-case_9 a covid:Target ;
+    covid:hasTargetType covid-target-type:1_wk_ahead_inc_case ;
+    covid:point 5.440832e+03 ;
+    sosa:hasFeatureOfInterest covid-place:9 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-17 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_1 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.1211e+04 ;
+    sosa:hasFeatureOfInterest covid-place:1 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_10 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.615e+03 ;
+    sosa:hasFeatureOfInterest covid-place:10 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_12 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 3.4834e+04 ;
+    sosa:hasFeatureOfInterest covid-place:12 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_13 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 2.0127e+04 ;
+    sosa:hasFeatureOfInterest covid-place:13 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_16 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 2.027e+03 ;
+    sosa:hasFeatureOfInterest covid-place:16 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_17 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 2.407e+04 ;
+    sosa:hasFeatureOfInterest covid-place:17 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_18 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.3282e+04 ;
+    sosa:hasFeatureOfInterest covid-place:18 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_19 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 5.991e+03 ;
+    sosa:hasFeatureOfInterest covid-place:19 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_20 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 4.949e+03 ;
+    sosa:hasFeatureOfInterest covid-place:20 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_21 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 6.698e+03 ;
+    sosa:hasFeatureOfInterest covid-place:21 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_22 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.0442e+04 ;
+    sosa:hasFeatureOfInterest covid-place:22 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_23 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 7.82e+02 ;
+    sosa:hasFeatureOfInterest covid-place:23 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_24 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 8.664e+03 ;
+    sosa:hasFeatureOfInterest covid-place:24 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_25 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.7777e+04 ;
+    sosa:hasFeatureOfInterest covid-place:25 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_26 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.8299e+04 ;
+    sosa:hasFeatureOfInterest covid-place:26 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_27 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 7.214e+03 ;
+    sosa:hasFeatureOfInterest covid-place:27 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_28 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 7.306e+03 ;
+    sosa:hasFeatureOfInterest covid-place:28 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_29 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 8.938e+03 ;
+    sosa:hasFeatureOfInterest covid-place:29 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_30 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.56e+03 ;
+    sosa:hasFeatureOfInterest covid-place:30 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_31 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 2.31e+03 ;
+    sosa:hasFeatureOfInterest covid-place:31 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_32 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 5.43e+03 ;
+    sosa:hasFeatureOfInterest covid-place:32 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_33 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.282e+03 ;
+    sosa:hasFeatureOfInterest covid-place:33 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_34 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 2.5269e+04 ;
+    sosa:hasFeatureOfInterest covid-place:34 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_35 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 4.016e+03 ;
+    sosa:hasFeatureOfInterest covid-place:35 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_36 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 5.2102e+04 ;
+    sosa:hasFeatureOfInterest covid-place:36 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_37 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.2588e+04 ;
+    sosa:hasFeatureOfInterest covid-place:37 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_38 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.511e+03 ;
+    sosa:hasFeatureOfInterest covid-place:38 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_39 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.8827e+04 ;
+    sosa:hasFeatureOfInterest covid-place:39 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_4 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.729e+04 ;
+    sosa:hasFeatureOfInterest covid-place:4 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_40 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 6.669e+03 ;
+    sosa:hasFeatureOfInterest covid-place:40 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_41 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 2.532e+03 ;
+    sosa:hasFeatureOfInterest covid-place:41 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_42 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 2.5836e+04 ;
+    sosa:hasFeatureOfInterest covid-place:42 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_44 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 2.688e+03 ;
+    sosa:hasFeatureOfInterest covid-place:44 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_45 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 9.405058e+03 ;
+    sosa:hasFeatureOfInterest covid-place:45 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_46 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.969e+03 ;
+    sosa:hasFeatureOfInterest covid-place:46 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_47 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.2175e+04 ;
+    sosa:hasFeatureOfInterest covid-place:47 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_48 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 5.0355e+04 ;
+    sosa:hasFeatureOfInterest covid-place:48 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_49 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 2.216e+03 ;
+    sosa:hasFeatureOfInterest covid-place:49 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_5 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 5.667e+03 ;
+    sosa:hasFeatureOfInterest covid-place:5 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_50 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 2.45e+02 ;
+    sosa:hasFeatureOfInterest covid-place:50 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_51 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 1.1047e+04 ;
+    sosa:hasFeatureOfInterest covid-place:51 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_53 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 5.418e+03 ;
+    sosa:hasFeatureOfInterest covid-place:53 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_54 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 2.902e+03 ;
+    sosa:hasFeatureOfInterest covid-place:54 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_55 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 7.474e+03 ;
+    sosa:hasFeatureOfInterest covid-place:55 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_56 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 7.01e+02 ;
+    sosa:hasFeatureOfInterest covid-place:56 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_6 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 6.2526e+04 ;
+    sosa:hasFeatureOfInterest covid-place:6 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_8 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 6.269e+03 ;
+    sosa:hasFeatureOfInterest covid-place:8 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-cum-death_9 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_cum_death ;
+    covid:point 7.988e+03 ;
+    sosa:hasFeatureOfInterest covid-place:9 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_1 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 6.690319e+03 ;
+    sosa:hasFeatureOfInterest covid-place:1 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_10 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 4.34e+03 ;
+    sosa:hasFeatureOfInterest covid-place:10 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_12 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 7.7279e+04 ;
+    sosa:hasFeatureOfInterest covid-place:12 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_13 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 2.0152e+04 ;
+    sosa:hasFeatureOfInterest covid-place:13 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_16 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 3.177e+03 ;
+    sosa:hasFeatureOfInterest covid-place:16 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_17 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 3.9531e+04 ;
+    sosa:hasFeatureOfInterest covid-place:17 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_18 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 1.4639e+04 ;
+    sosa:hasFeatureOfInterest covid-place:18 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_19 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 6.865e+03 ;
+    sosa:hasFeatureOfInterest covid-place:19 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_20 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 2.361e+03 ;
+    sosa:hasFeatureOfInterest covid-place:20 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_21 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 9.77e+03 ;
+    sosa:hasFeatureOfInterest covid-place:21 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_22 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 5.672e+03 ;
+    sosa:hasFeatureOfInterest covid-place:22 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_23 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 3.919e+03 ;
+    sosa:hasFeatureOfInterest covid-place:23 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_24 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 1.8499e+04 ;
+    sosa:hasFeatureOfInterest covid-place:24 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_25 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 2.902e+04 ;
+    sosa:hasFeatureOfInterest covid-place:25 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_26 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 8.8747e+04 ;
+    sosa:hasFeatureOfInterest covid-place:26 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_27 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 2.3265e+04 ;
+    sosa:hasFeatureOfInterest covid-place:27 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_28 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 6.548e+03 ;
+    sosa:hasFeatureOfInterest covid-place:28 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_29 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 8.879e+03 ;
+    sosa:hasFeatureOfInterest covid-place:29 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_30 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 1.802e+03 ;
+    sosa:hasFeatureOfInterest covid-place:30 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_31 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 4.153923e+03 ;
+    sosa:hasFeatureOfInterest covid-place:31 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_32 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 5.764e+03 ;
+    sosa:hasFeatureOfInterest covid-place:32 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_33 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 6.575e+03 ;
+    sosa:hasFeatureOfInterest covid-place:33 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_34 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 5.7757e+04 ;
+    sosa:hasFeatureOfInterest covid-place:34 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_35 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 2.545e+03 ;
+    sosa:hasFeatureOfInterest covid-place:35 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_36 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 1.05271e+05 ;
+    sosa:hasFeatureOfInterest covid-place:36 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_37 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 2.2913e+04 ;
+    sosa:hasFeatureOfInterest covid-place:37 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_38 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 1.145835e+03 ;
+    sosa:hasFeatureOfInterest covid-place:38 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_39 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 2.3859e+04 ;
+    sosa:hasFeatureOfInterest covid-place:39 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_4 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 4.6125e+04 ;
+    sosa:hasFeatureOfInterest covid-place:4 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_40 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 4.802e+03 ;
+    sosa:hasFeatureOfInterest covid-place:40 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_41 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 6.778e+03 ;
+    sosa:hasFeatureOfInterest covid-place:41 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_42 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 5.4283e+04 ;
+    sosa:hasFeatureOfInterest covid-place:42 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_44 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 5.557e+03 ;
+    sosa:hasFeatureOfInterest covid-place:44 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_45 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 1.4157e+04 ;
+    sosa:hasFeatureOfInterest covid-place:45 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_46 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 2.294e+03 ;
+    sosa:hasFeatureOfInterest covid-place:46 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_47 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 1.805e+04 ;
+    sosa:hasFeatureOfInterest covid-place:47 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_48 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 8.7444e+04 ;
+    sosa:hasFeatureOfInterest covid-place:48 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_49 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 5.638e+03 ;
+    sosa:hasFeatureOfInterest covid-place:49 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_5 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 2.128e+03 ;
+    sosa:hasFeatureOfInterest covid-place:5 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_50 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 2.319e+03 ;
+    sosa:hasFeatureOfInterest covid-place:50 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_51 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 1.342884e+04 ;
+    sosa:hasFeatureOfInterest covid-place:51 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_53 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 1.1461e+04 ;
+    sosa:hasFeatureOfInterest covid-place:53 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_54 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 5.494536e+03 ;
+    sosa:hasFeatureOfInterest covid-place:54 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_55 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 1.0841e+04 ;
+    sosa:hasFeatureOfInterest covid-place:55 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_56 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 8.2e+02 ;
+    sosa:hasFeatureOfInterest covid-place:56 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_6 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 6.4544e+04 ;
+    sosa:hasFeatureOfInterest covid-place:6 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_8 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 1.9959e+04 ;
+    sosa:hasFeatureOfInterest covid-place:8 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_2-wk-ahead-inc-case_9 a covid:Target ;
+    covid:hasTargetType covid-target-type:2_wk_ahead_inc_case ;
+    covid:point 1.153909e+04 ;
+    sosa:hasFeatureOfInterest covid-place:9 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-04-24 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_1 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 1.1499e+04 ;
+    sosa:hasFeatureOfInterest covid-place:1 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_10 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 1.631e+03 ;
+    sosa:hasFeatureOfInterest covid-place:10 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_12 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 3.5253e+04 ;
+    sosa:hasFeatureOfInterest covid-place:12 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_13 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 2.0428e+04 ;
+    sosa:hasFeatureOfInterest covid-place:13 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_16 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 2.045e+03 ;
+    sosa:hasFeatureOfInterest covid-place:16 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_17 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 2.4217e+04 ;
+    sosa:hasFeatureOfInterest covid-place:17 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_18 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 1.3354e+04 ;
+    sosa:hasFeatureOfInterest covid-place:18 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_19 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 6.028e+03 ;
+    sosa:hasFeatureOfInterest covid-place:19 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_20 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 4.991e+03 ;
+    sosa:hasFeatureOfInterest covid-place:20 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_21 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 7.111e+03 ;
+    sosa:hasFeatureOfInterest covid-place:21 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_22 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 1.0569e+04 ;
+    sosa:hasFeatureOfInterest covid-place:22 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_23 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 7.97e+02 ;
+    sosa:hasFeatureOfInterest covid-place:23 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_24 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 8.774e+03 ;
+    sosa:hasFeatureOfInterest covid-place:24 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_25 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 1.7998e+04 ;
+    sosa:hasFeatureOfInterest covid-place:25 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_26 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 1.8451e+04 ;
+    sosa:hasFeatureOfInterest covid-place:26 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_27 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 7.31e+03 ;
+    sosa:hasFeatureOfInterest covid-place:27 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_28 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 7.429e+03 ;
+    sosa:hasFeatureOfInterest covid-place:28 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_29 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 8.955e+03 ;
+    sosa:hasFeatureOfInterest covid-place:29 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_30 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 1.57e+03 ;
+    sosa:hasFeatureOfInterest covid-place:30 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_31 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 2.362e+03 ;
+    sosa:hasFeatureOfInterest covid-place:31 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_32 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 5.488e+03 ;
+    sosa:hasFeatureOfInterest covid-place:32 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_33 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 1.296e+03 ;
+    sosa:hasFeatureOfInterest covid-place:33 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_34 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 2.5513e+04 ;
+    sosa:hasFeatureOfInterest covid-place:34 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_35 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 4.045e+03 ;
+    sosa:hasFeatureOfInterest covid-place:35 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_36 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 5.2645e+04 ;
+    sosa:hasFeatureOfInterest covid-place:36 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_37 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 1.2816e+04 ;
+    sosa:hasFeatureOfInterest covid-place:37 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_38 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 1.516e+03 ;
+    sosa:hasFeatureOfInterest covid-place:38 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_39 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 1.8827e+04 ;
+    sosa:hasFeatureOfInterest covid-place:39 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_4 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 1.7473e+04 ;
+    sosa:hasFeatureOfInterest covid-place:4 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_40 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 6.669e+03 ;
+    sosa:hasFeatureOfInterest covid-place:40 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_41 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 2.582e+03 ;
+    sosa:hasFeatureOfInterest covid-place:41 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_42 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 2.601e+04 ;
+    sosa:hasFeatureOfInterest covid-place:42 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_44 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 2.715e+03 ;
+    sosa:hasFeatureOfInterest covid-place:44 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_45 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 9.452437e+03 ;
+    sosa:hasFeatureOfInterest covid-place:45 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_46 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 1.981e+03 ;
+    sosa:hasFeatureOfInterest covid-place:46 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_47 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 1.2264e+04 ;
+    sosa:hasFeatureOfInterest covid-place:47 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_48 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 5.0877e+04 ;
+    sosa:hasFeatureOfInterest covid-place:48 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_49 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 2.251e+03 ;
+    sosa:hasFeatureOfInterest covid-place:49 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_5 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 5.667e+03 ;
+    sosa:hasFeatureOfInterest covid-place:5 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_50 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 2.53e+02 ;
+    sosa:hasFeatureOfInterest covid-place:50 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_51 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 1.1402e+04 ;
+    sosa:hasFeatureOfInterest covid-place:51 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_53 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 5.474e+03 ;
+    sosa:hasFeatureOfInterest covid-place:53 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_54 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 2.982e+03 ;
+    sosa:hasFeatureOfInterest covid-place:54 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_55 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 7.523e+03 ;
+    sosa:hasFeatureOfInterest covid-place:55 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_56 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 7.01e+02 ;
+    sosa:hasFeatureOfInterest covid-place:56 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_6 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 6.3769e+04 ;
+    sosa:hasFeatureOfInterest covid-place:6 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_8 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 6.336e+03 ;
+    sosa:hasFeatureOfInterest covid-place:8 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-cum-death_9 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_cum_death ;
+    covid:point 8.01e+03 ;
+    sosa:hasFeatureOfInterest covid-place:9 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_1 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 1.043171e+04 ;
+    sosa:hasFeatureOfInterest covid-place:1 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_10 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 6.448e+03 ;
+    sosa:hasFeatureOfInterest covid-place:10 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_12 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 1.14056e+05 ;
+    sosa:hasFeatureOfInterest covid-place:12 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_13 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 3.0349e+04 ;
+    sosa:hasFeatureOfInterest covid-place:13 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_16 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 5.557e+03 ;
+    sosa:hasFeatureOfInterest covid-place:16 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_17 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 5.8992e+04 ;
+    sosa:hasFeatureOfInterest covid-place:17 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_18 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 2.0921e+04 ;
+    sosa:hasFeatureOfInterest covid-place:18 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_19 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 1.023e+04 ;
+    sosa:hasFeatureOfInterest covid-place:19 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_20 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 4.503e+03 ;
+    sosa:hasFeatureOfInterest covid-place:20 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_21 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 1.4872e+04 ;
+    sosa:hasFeatureOfInterest covid-place:21 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_22 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 9.099e+03 ;
+    sosa:hasFeatureOfInterest covid-place:22 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_23 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 5.889e+03 ;
+    sosa:hasFeatureOfInterest covid-place:23 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_24 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 2.7246e+04 ;
+    sosa:hasFeatureOfInterest covid-place:24 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_25 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 4.2188e+04 ;
+    sosa:hasFeatureOfInterest covid-place:25 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_26 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 1.40728e+05 ;
+    sosa:hasFeatureOfInterest covid-place:26 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_27 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 3.3411e+04 ;
+    sosa:hasFeatureOfInterest covid-place:27 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_28 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 1.0498e+04 ;
+    sosa:hasFeatureOfInterest covid-place:28 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_29 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 1.3402e+04 ;
+    sosa:hasFeatureOfInterest covid-place:29 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_30 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 2.758e+03 ;
+    sosa:hasFeatureOfInterest covid-place:30 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_31 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 6.117522e+03 ;
+    sosa:hasFeatureOfInterest covid-place:31 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_32 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 8.935e+03 ;
+    sosa:hasFeatureOfInterest covid-place:32 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_33 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 9.73e+03 ;
+    sosa:hasFeatureOfInterest covid-place:33 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_34 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 8.9416e+04 ;
+    sosa:hasFeatureOfInterest covid-place:34 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_35 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 3.91e+03 ;
+    sosa:hasFeatureOfInterest covid-place:35 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_36 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 1.60091e+05 ;
+    sosa:hasFeatureOfInterest covid-place:36 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_37 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 3.5599e+04 ;
+    sosa:hasFeatureOfInterest covid-place:37 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_38 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 1.712163e+03 ;
+    sosa:hasFeatureOfInterest covid-place:38 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_39 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 3.6311e+04 ;
+    sosa:hasFeatureOfInterest covid-place:39 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_4 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 6.0909e+04 ;
+    sosa:hasFeatureOfInterest covid-place:4 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_40 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 7.781e+03 ;
+    sosa:hasFeatureOfInterest covid-place:40 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_41 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 1.0361e+04 ;
+    sosa:hasFeatureOfInterest covid-place:41 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_42 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 8.2697e+04 ;
+    sosa:hasFeatureOfInterest covid-place:42 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_44 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 8.289e+03 ;
+    sosa:hasFeatureOfInterest covid-place:44 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_45 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 2.1443e+04 ;
+    sosa:hasFeatureOfInterest covid-place:45 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_46 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 3.5e+03 ;
+    sosa:hasFeatureOfInterest covid-place:46 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_47 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 2.6865e+04 ;
+    sosa:hasFeatureOfInterest covid-place:47 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_48 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 1.39947e+05 ;
+    sosa:hasFeatureOfInterest covid-place:48 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_49 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 8.443e+03 ;
+    sosa:hasFeatureOfInterest covid-place:49 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_5 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 3.206e+03 ;
+    sosa:hasFeatureOfInterest covid-place:5 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_50 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 3.367e+03 ;
+    sosa:hasFeatureOfInterest covid-place:50 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_51 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 1.857598e+04 ;
+    sosa:hasFeatureOfInterest covid-place:51 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_53 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 1.7204e+04 ;
+    sosa:hasFeatureOfInterest covid-place:53 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_54 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 8.148305e+03 ;
+    sosa:hasFeatureOfInterest covid-place:54 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_55 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 1.5699e+04 ;
+    sosa:hasFeatureOfInterest covid-place:55 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_56 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 1.212e+03 ;
+    sosa:hasFeatureOfInterest covid-place:56 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_6 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 1.0038e+05 ;
+    sosa:hasFeatureOfInterest covid-place:6 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_8 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 3.0054e+04 ;
+    sosa:hasFeatureOfInterest covid-place:8 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_3-wk-ahead-inc-case_9 a covid:Target ;
+    covid:hasTargetType covid-target-type:3_wk_ahead_inc_case ;
+    covid:point 1.766208e+04 ;
+    sosa:hasFeatureOfInterest covid-place:9 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-01 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_1 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 1.1795e+04 ;
+    sosa:hasFeatureOfInterest covid-place:1 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_10 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 1.639e+03 ;
+    sosa:hasFeatureOfInterest covid-place:10 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_12 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 3.5698e+04 ;
+    sosa:hasFeatureOfInterest covid-place:12 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_13 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 2.0774e+04 ;
+    sosa:hasFeatureOfInterest covid-place:13 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_16 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 2.061e+03 ;
+    sosa:hasFeatureOfInterest covid-place:16 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_17 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 2.4365e+04 ;
+    sosa:hasFeatureOfInterest covid-place:17 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_18 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 1.3427e+04 ;
+    sosa:hasFeatureOfInterest covid-place:18 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_19 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 6.127e+03 ;
+    sosa:hasFeatureOfInterest covid-place:19 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_20 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 5.01e+03 ;
+    sosa:hasFeatureOfInterest covid-place:20 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_21 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 7.567e+03 ;
+    sosa:hasFeatureOfInterest covid-place:21 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_22 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 1.0698e+04 ;
+    sosa:hasFeatureOfInterest covid-place:22 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_23 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 8.14e+02 ;
+    sosa:hasFeatureOfInterest covid-place:23 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_24 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 8.891e+03 ;
+    sosa:hasFeatureOfInterest covid-place:24 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_25 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 1.8211e+04 ;
+    sosa:hasFeatureOfInterest covid-place:25 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_26 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 1.8842e+04 ;
+    sosa:hasFeatureOfInterest covid-place:26 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_27 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 7.407e+03 ;
+    sosa:hasFeatureOfInterest covid-place:27 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_28 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 7.555e+03 ;
+    sosa:hasFeatureOfInterest covid-place:28 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_29 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 8.983e+03 ;
+    sosa:hasFeatureOfInterest covid-place:29 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_30 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 1.59e+03 ;
+    sosa:hasFeatureOfInterest covid-place:30 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_31 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 2.415e+03 ;
+    sosa:hasFeatureOfInterest covid-place:31 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_32 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 5.544e+03 ;
+    sosa:hasFeatureOfInterest covid-place:32 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_33 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 1.31e+03 ;
+    sosa:hasFeatureOfInterest covid-place:33 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_34 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 2.5776e+04 ;
+    sosa:hasFeatureOfInterest covid-place:34 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_35 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 4.06e+03 ;
+    sosa:hasFeatureOfInterest covid-place:35 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_36 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 5.3211e+04 ;
+    sosa:hasFeatureOfInterest covid-place:36 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_37 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 1.3021e+04 ;
+    sosa:hasFeatureOfInterest covid-place:37 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_38 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 1.521e+03 ;
+    sosa:hasFeatureOfInterest covid-place:38 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_39 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 1.8827e+04 ;
+    sosa:hasFeatureOfInterest covid-place:39 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_4 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 1.772e+04 ;
+    sosa:hasFeatureOfInterest covid-place:4 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_40 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 6.669e+03 ;
+    sosa:hasFeatureOfInterest covid-place:40 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_41 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 2.633e+03 ;
+    sosa:hasFeatureOfInterest covid-place:41 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_42 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 2.6193e+04 ;
+    sosa:hasFeatureOfInterest covid-place:42 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_44 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 2.743e+03 ;
+    sosa:hasFeatureOfInterest covid-place:44 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_45 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 9.490286e+03 ;
+    sosa:hasFeatureOfInterest covid-place:45 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_46 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 1.997e+03 ;
+    sosa:hasFeatureOfInterest covid-place:46 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_47 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 1.2355e+04 ;
+    sosa:hasFeatureOfInterest covid-place:47 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_48 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 5.1326e+04 ;
+    sosa:hasFeatureOfInterest covid-place:48 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_49 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 2.285e+03 ;
+    sosa:hasFeatureOfInterest covid-place:49 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_5 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 5.667e+03 ;
+    sosa:hasFeatureOfInterest covid-place:5 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_50 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 2.62e+02 ;
+    sosa:hasFeatureOfInterest covid-place:50 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_51 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 1.1781e+04 ;
+    sosa:hasFeatureOfInterest covid-place:51 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_53 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 5.509e+03 ;
+    sosa:hasFeatureOfInterest covid-place:53 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_54 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 3.074e+03 ;
+    sosa:hasFeatureOfInterest covid-place:54 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_55 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 7.572e+03 ;
+    sosa:hasFeatureOfInterest covid-place:55 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_56 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 7.01e+02 ;
+    sosa:hasFeatureOfInterest covid-place:56 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_6 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 6.5251e+04 ;
+    sosa:hasFeatureOfInterest covid-place:6 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_8 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 6.404e+03 ;
+    sosa:hasFeatureOfInterest covid-place:8 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-cum-death_9 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_cum_death ;
+    covid:point 8.032e+03 ;
+    sosa:hasFeatureOfInterest covid-place:9 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_1 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 1.430443e+04 ;
+    sosa:hasFeatureOfInterest covid-place:1 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_10 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 8.794e+03 ;
+    sosa:hasFeatureOfInterest covid-place:10 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_12 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 1.52381e+05 ;
+    sosa:hasFeatureOfInterest covid-place:12 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_13 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 4.0648e+04 ;
+    sosa:hasFeatureOfInterest covid-place:13 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_16 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 6.62e+03 ;
+    sosa:hasFeatureOfInterest covid-place:16 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_17 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 7.8309e+04 ;
+    sosa:hasFeatureOfInterest covid-place:17 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_18 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 2.7839e+04 ;
+    sosa:hasFeatureOfInterest covid-place:18 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_19 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 1.3414e+04 ;
+    sosa:hasFeatureOfInterest covid-place:19 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_20 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 6.109e+03 ;
+    sosa:hasFeatureOfInterest covid-place:20 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_21 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 2.0035e+04 ;
+    sosa:hasFeatureOfInterest covid-place:21 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_22 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 1.2153e+04 ;
+    sosa:hasFeatureOfInterest covid-place:22 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_23 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 7.916e+03 ;
+    sosa:hasFeatureOfInterest covid-place:23 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_24 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 3.5854e+04 ;
+    sosa:hasFeatureOfInterest covid-place:24 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_25 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 5.5251e+04 ;
+    sosa:hasFeatureOfInterest covid-place:25 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_26 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 1.96002e+05 ;
+    sosa:hasFeatureOfInterest covid-place:26 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_27 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 4.5147e+04 ;
+    sosa:hasFeatureOfInterest covid-place:27 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_28 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 1.4589e+04 ;
+    sosa:hasFeatureOfInterest covid-place:28 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_29 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 1.7965e+04 ;
+    sosa:hasFeatureOfInterest covid-place:29 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_30 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 3.698e+03 ;
+    sosa:hasFeatureOfInterest covid-place:30 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_31 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 8.031969e+03 ;
+    sosa:hasFeatureOfInterest covid-place:31 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_32 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 1.2181e+04 ;
+    sosa:hasFeatureOfInterest covid-place:32 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_33 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 1.3144e+04 ;
+    sosa:hasFeatureOfInterest covid-place:33 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_34 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 1.19841e+05 ;
+    sosa:hasFeatureOfInterest covid-place:34 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_35 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 5.236e+03 ;
+    sosa:hasFeatureOfInterest covid-place:35 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_36 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 2.16337e+05 ;
+    sosa:hasFeatureOfInterest covid-place:36 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_37 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 4.8407e+04 ;
+    sosa:hasFeatureOfInterest covid-place:37 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_38 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 2.303693e+03 ;
+    sosa:hasFeatureOfInterest covid-place:38 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_39 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 4.8428e+04 ;
+    sosa:hasFeatureOfInterest covid-place:39 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_4 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 7.5699e+04 ;
+    sosa:hasFeatureOfInterest covid-place:4 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_40 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 9.125e+03 ;
+    sosa:hasFeatureOfInterest covid-place:40 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_41 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 1.3967e+04 ;
+    sosa:hasFeatureOfInterest covid-place:41 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_42 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 1.05199e+05 ;
+    sosa:hasFeatureOfInterest covid-place:42 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_44 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 1.166e+04 ;
+    sosa:hasFeatureOfInterest covid-place:44 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_45 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 2.8715e+04 ;
+    sosa:hasFeatureOfInterest covid-place:45 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_46 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 4.724e+03 ;
+    sosa:hasFeatureOfInterest covid-place:46 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_47 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 3.6584e+04 ;
+    sosa:hasFeatureOfInterest covid-place:47 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_48 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 1.95132e+05 ;
+    sosa:hasFeatureOfInterest covid-place:48 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_49 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 1.1273e+04 ;
+    sosa:hasFeatureOfInterest covid-place:49 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_5 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 4.289e+03 ;
+    sosa:hasFeatureOfInterest covid-place:5 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_50 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 4.904e+03 ;
+    sosa:hasFeatureOfInterest covid-place:50 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_51 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 2.290361e+04 ;
+    sosa:hasFeatureOfInterest covid-place:51 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_53 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 2.3209e+04 ;
+    sosa:hasFeatureOfInterest covid-place:53 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_54 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 1.063692e+04 ;
+    sosa:hasFeatureOfInterest covid-place:54 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_55 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 1.9828e+04 ;
+    sosa:hasFeatureOfInterest covid-place:55 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_56 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 1.663e+03 ;
+    sosa:hasFeatureOfInterest covid-place:56 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_6 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 1.37552e+05 ;
+    sosa:hasFeatureOfInterest covid-place:6 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_8 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 4.0337e+04 ;
+    sosa:hasFeatureOfInterest covid-place:8 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_4-wk-ahead-inc-case_9 a covid:Target ;
+    covid:hasTargetType covid-target-type:4_wk_ahead_inc_case ;
+    covid:point 2.377774e+04 ;
+    sosa:hasFeatureOfInterest covid-place:9 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-08 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_1 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 1.2099e+04 ;
+    sosa:hasFeatureOfInterest covid-place:1 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_10 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 1.667e+03 ;
+    sosa:hasFeatureOfInterest covid-place:10 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_12 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 3.6138e+04 ;
+    sosa:hasFeatureOfInterest covid-place:12 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_13 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 2.1156e+04 ;
+    sosa:hasFeatureOfInterest covid-place:13 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_16 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 2.078e+03 ;
+    sosa:hasFeatureOfInterest covid-place:16 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_17 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 2.4515e+04 ;
+    sosa:hasFeatureOfInterest covid-place:17 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_18 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 1.3501e+04 ;
+    sosa:hasFeatureOfInterest covid-place:18 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_19 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 6.179e+03 ;
+    sosa:hasFeatureOfInterest covid-place:19 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_20 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 5.041e+03 ;
+    sosa:hasFeatureOfInterest covid-place:20 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_21 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 8.066e+03 ;
+    sosa:hasFeatureOfInterest covid-place:21 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_22 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 1.0827e+04 ;
+    sosa:hasFeatureOfInterest covid-place:22 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_23 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 8.32e+02 ;
+    sosa:hasFeatureOfInterest covid-place:23 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_24 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 9.019e+03 ;
+    sosa:hasFeatureOfInterest covid-place:24 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_25 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 1.8431e+04 ;
+    sosa:hasFeatureOfInterest covid-place:25 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_26 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 1.9009e+04 ;
+    sosa:hasFeatureOfInterest covid-place:26 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_27 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 7.506e+03 ;
+    sosa:hasFeatureOfInterest covid-place:27 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_28 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 7.683e+03 ;
+    sosa:hasFeatureOfInterest covid-place:28 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_29 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 9.01e+03 ;
+    sosa:hasFeatureOfInterest covid-place:29 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_30 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 1.604e+03 ;
+    sosa:hasFeatureOfInterest covid-place:30 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_31 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 2.47e+03 ;
+    sosa:hasFeatureOfInterest covid-place:31 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_32 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 5.595e+03 ;
+    sosa:hasFeatureOfInterest covid-place:32 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_33 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 1.325e+03 ;
+    sosa:hasFeatureOfInterest covid-place:33 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_34 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 2.603e+04 ;
+    sosa:hasFeatureOfInterest covid-place:34 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_35 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 4.089e+03 ;
+    sosa:hasFeatureOfInterest covid-place:35 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_36 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 5.3794e+04 ;
+    sosa:hasFeatureOfInterest covid-place:36 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_37 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 1.3249e+04 ;
+    sosa:hasFeatureOfInterest covid-place:37 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_38 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 1.526e+03 ;
+    sosa:hasFeatureOfInterest covid-place:38 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_39 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 1.8827e+04 ;
+    sosa:hasFeatureOfInterest covid-place:39 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_4 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 1.7914e+04 ;
+    sosa:hasFeatureOfInterest covid-place:4 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_40 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 6.669e+03 ;
+    sosa:hasFeatureOfInterest covid-place:40 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_41 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 2.685e+03 ;
+    sosa:hasFeatureOfInterest covid-place:41 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_42 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 2.638e+04 ;
+    sosa:hasFeatureOfInterest covid-place:42 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_44 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 2.771e+03 ;
+    sosa:hasFeatureOfInterest covid-place:44 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_45 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 9.519287e+03 ;
+    sosa:hasFeatureOfInterest covid-place:45 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_46 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 2.006e+03 ;
+    sosa:hasFeatureOfInterest covid-place:46 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_47 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 1.2447e+04 ;
+    sosa:hasFeatureOfInterest covid-place:47 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_48 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 5.1764e+04 ;
+    sosa:hasFeatureOfInterest covid-place:48 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_49 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 2.36e+03 ;
+    sosa:hasFeatureOfInterest covid-place:49 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_5 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 5.667e+03 ;
+    sosa:hasFeatureOfInterest covid-place:5 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_50 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 2.69e+02 ;
+    sosa:hasFeatureOfInterest covid-place:50 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_51 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 1.2165e+04 ;
+    sosa:hasFeatureOfInterest covid-place:51 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_53 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 5.544e+03 ;
+    sosa:hasFeatureOfInterest covid-place:53 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_54 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 3.158e+03 ;
+    sosa:hasFeatureOfInterest covid-place:54 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_55 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 7.622e+03 ;
+    sosa:hasFeatureOfInterest covid-place:55 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_56 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 7.01e+02 ;
+    sosa:hasFeatureOfInterest covid-place:56 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_6 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 6.6668e+04 ;
+    sosa:hasFeatureOfInterest covid-place:6 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_8 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 6.473e+03 ;
+    sosa:hasFeatureOfInterest covid-place:8 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-cum-death_9 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_cum_death ;
+    covid:point 8.054e+03 ;
+    sosa:hasFeatureOfInterest covid-place:9 ;
+    sosa:observedProperty covid-obs-property:cum_death ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_1 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 1.830473e+04 ;
+    sosa:hasFeatureOfInterest covid-place:1 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_10 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 1.0976e+04 ;
+    sosa:hasFeatureOfInterest covid-place:10 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_12 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 1.88028e+05 ;
+    sosa:hasFeatureOfInterest covid-place:12 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_13 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 5.1064e+04 ;
+    sosa:hasFeatureOfInterest covid-place:13 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_16 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 9.17e+03 ;
+    sosa:hasFeatureOfInterest covid-place:16 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_17 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 9.7273e+04 ;
+    sosa:hasFeatureOfInterest covid-place:17 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_18 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 3.4767e+04 ;
+    sosa:hasFeatureOfInterest covid-place:18 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_19 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 1.6876e+04 ;
+    sosa:hasFeatureOfInterest covid-place:19 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_20 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 8.25e+03 ;
+    sosa:hasFeatureOfInterest covid-place:20 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_21 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 2.5257e+04 ;
+    sosa:hasFeatureOfInterest covid-place:21 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_22 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 1.5197e+04 ;
+    sosa:hasFeatureOfInterest covid-place:22 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_23 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 1.0005e+04 ;
+    sosa:hasFeatureOfInterest covid-place:23 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_24 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 4.4101e+04 ;
+    sosa:hasFeatureOfInterest covid-place:24 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_25 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 6.8071e+04 ;
+    sosa:hasFeatureOfInterest covid-place:25 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_26 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 2.54134e+05 ;
+    sosa:hasFeatureOfInterest covid-place:26 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_27 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 5.5194e+04 ;
+    sosa:hasFeatureOfInterest covid-place:27 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_28 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 1.8768e+04 ;
+    sosa:hasFeatureOfInterest covid-place:28 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_29 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 2.2561e+04 ;
+    sosa:hasFeatureOfInterest covid-place:29 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_30 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 4.623e+03 ;
+    sosa:hasFeatureOfInterest covid-place:30 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_31 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 9.898506e+03 ;
+    sosa:hasFeatureOfInterest covid-place:31 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_32 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 1.5455e+04 ;
+    sosa:hasFeatureOfInterest covid-place:32 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_33 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 1.7068e+04 ;
+    sosa:hasFeatureOfInterest covid-place:33 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_34 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 1.55793e+05 ;
+    sosa:hasFeatureOfInterest covid-place:34 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_35 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 6.678e+03 ;
+    sosa:hasFeatureOfInterest covid-place:35 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_36 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 2.74068e+05 ;
+    sosa:hasFeatureOfInterest covid-place:36 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_37 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 6.1398e+04 ;
+    sosa:hasFeatureOfInterest covid-place:37 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_38 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 2.91629e+03 ;
+    sosa:hasFeatureOfInterest covid-place:38 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_39 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 6.0886e+04 ;
+    sosa:hasFeatureOfInterest covid-place:39 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_4 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 9.0342e+04 ;
+    sosa:hasFeatureOfInterest covid-place:4 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_40 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 1.2481e+04 ;
+    sosa:hasFeatureOfInterest covid-place:40 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_41 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 1.7655e+04 ;
+    sosa:hasFeatureOfInterest covid-place:41 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_42 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 1.28237e+05 ;
+    sosa:hasFeatureOfInterest covid-place:42 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_44 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 1.494e+04 ;
+    sosa:hasFeatureOfInterest covid-place:44 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_45 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 3.6076e+04 ;
+    sosa:hasFeatureOfInterest covid-place:45 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_46 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 5.959e+03 ;
+    sosa:hasFeatureOfInterest covid-place:46 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_47 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 4.5736e+04 ;
+    sosa:hasFeatureOfInterest covid-place:47 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_48 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 2.52269e+05 ;
+    sosa:hasFeatureOfInterest covid-place:48 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_49 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 1.4123e+04 ;
+    sosa:hasFeatureOfInterest covid-place:49 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_5 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 5.375e+03 ;
+    sosa:hasFeatureOfInterest covid-place:5 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_50 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 6.354e+03 ;
+    sosa:hasFeatureOfInterest covid-place:50 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_51 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 2.667799e+04 ;
+    sosa:hasFeatureOfInterest covid-place:51 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_53 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 2.8545e+04 ;
+    sosa:hasFeatureOfInterest covid-place:53 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_54 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 1.320016e+04 ;
+    sosa:hasFeatureOfInterest covid-place:54 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_55 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 2.2825e+04 ;
+    sosa:hasFeatureOfInterest covid-place:55 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_56 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 2.178e+03 ;
+    sosa:hasFeatureOfInterest covid-place:56 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_6 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 1.75619e+05 ;
+    sosa:hasFeatureOfInterest covid-place:6 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_8 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 5.0921e+04 ;
+    sosa:hasFeatureOfInterest covid-place:8 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+
+covid-target:2021-04-12-MIT-Cassandra_5-wk-ahead-inc-case_9 a covid:Target ;
+    covid:hasTargetType covid-target-type:5_wk_ahead_inc_case ;
+    covid:point 2.999247e+04 ;
+    sosa:hasFeatureOfInterest covid-place:9 ;
+    sosa:observedProperty covid-obs-property:inc_case ;
+    sosa:phenomenonTime covid-instant:2021-05-15 .
+

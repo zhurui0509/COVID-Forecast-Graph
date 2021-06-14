@@ -394,7 +394,8 @@ def main():
     ######## Triplify  Paychex, Intuit, Earnin and Kronos (employment)
     print('Start triplifying Employment')
     source_name = 'Aychex_Intuit_Earnin_Kronos'
-    data_file = ["Employment Combined - National - Daily.csv", 'Employment Combined - State - Daily.csv']
+    #data_file = ["Employment Combined - National - Daily.csv", 'Employment Combined - State - Daily.csv']
+    data_file = ["Employment - National - Daily.csv", 'Employment - State - Daily.csv']
     column_list_state = ['year','month','day','statefips','emp_combined','emp_combined_inclow','emp_combined_incmiddle','emp_combined_inchigh',
     'emp_combined_ss40','emp_combined_ss60','emp_combined_ss65','emp_combined_ss70']
     column_list_national = ['year', 'month', 'day', 'emp_combined', 'emp_combined_inclow', 'emp_combined_incmiddle', 'emp_combined_inchigh',
