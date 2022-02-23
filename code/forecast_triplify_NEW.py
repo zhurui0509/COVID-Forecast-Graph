@@ -1,4 +1,6 @@
 #### This is the code to triplify the COVID19-prediction csv ####
+#### Author: Rui Zhu 
+#### Update date: Feb 17th, 2022
 
 import rdflib
 import csv 
@@ -15,13 +17,12 @@ from rdflib.namespace import CSVW, DC, DCAT, DCTERMS, DOAP, FOAF, ODRL2, ORG, OW
 from rdflib import Namespace
 from rdflib import Graph
 from rdflib import URIRef, BNode, Literal
-#from datetime import datetime
 import datetime as datetime
 import os
 from glob import glob
 import sys
 
-SOSA = SSN
+#SOSA = SSN
 covid = Namespace("http://covid.geog.ucsb.edu/lod/ontology/")
 covid_research = Namespace("http://covid.geog.ucsb.edu/lod/research/")
 covid_forecast = Namespace("http://covid.geog.ucsb.edu/lod/prediction/")
@@ -869,14 +870,14 @@ def triplify_method_assumption_new(method_assumption_file, output):
 
     covid_ms_g.serialize(destination=output, format='turtle')
 
-### serierlize places and build sameAs connection with wikidata 
+### serialize places and build sameAs connection with wikidata 
 def main_places():
     place_file = './covid19-forecast-hub/data-locations/locations.csv'
-    output = './output2/places_full_new.ttl'
+    output = './output_2022/places_full_new.ttl'
 
     triplify_place(place_file, output)
 
-### serierliaze groundtruth data 
+### serialize groundtruth data 
 def main_groundTruth(initial_date, output):
     truth_incident_deaths_csv = '../covid19-forecast-hub/data-truth/truth-Incident Deaths.csv'
     gt_type_inc_death = 'inc_death'
@@ -909,7 +910,7 @@ def main_groundTruth(initial_date, output):
     triplify_groundtruth_filter(truth_cumulative_cases_csv, gt_type_cum_case, initial_date,output_cum_case)
     #truth_   
 
-### serierliaze model method and assumption
+### serialize model method and assumption
 def main_model_assumption_method():
     method_assumption_out = './output2/method_assumption.ttl'
     #triplify_method_assumption('method_assumption_death.csv', 'method_assumption_hospitalization.csv', method_assumption_out)
@@ -948,12 +949,15 @@ def main():
     ### Triplify the forecast data 
     for forecast_file in forecast_file_list:
         progress_file_list = []
+        forecast_file_name = forecast_file.split('/')[-1].replace('.csv', '')
+        forecast_file_time = forecast_file_name[:10]
+
         if os.path.isfile(progress_file):
             with open(progress_file, newline='') as fr:
                 for line in fr:
                     progress_file_list.append(line.strip().replace('\n', ''))
 
-        if (forecast_file.replace("../", './') not in progress_file_list) and (forecast_file not in progress_file_list):
+        if (forecast_file.replace("../", './') not in progress_file_list) and (compare_date(arg_time, forecast_file_time)):
             print('Triplify for %s'%(forecast_file))
             output_file = '../'+arg_out+'/'+forecast_file.split('/')[-1].replace('csv', 'ttl')
             forecast_tmp = loadCSV_new(forecast_file)
@@ -1007,7 +1011,7 @@ def main():
     ###  Triplify the funding resource  
     rdfType(funding_source_list, 'covid-funding-resource', covid_fundingResource, '../'+arg_out+'/fundingResource.ttl')
     ### Triplify the time 
-    rdfType_time(target_dates_list, 'covid-instant', covid_instant, '../'+arg_out+'/timeInstant_01172021.ttl')
+    rdfType_time(target_dates_list, 'covid-instant', covid_instant, '../'+arg_out+'/timeInstant_02172022.ttl')
     ### Triplify the research_forecast
     research2forecast(research_forecast_list, '../'+arg_out+'/research2forecast.ttl')
 

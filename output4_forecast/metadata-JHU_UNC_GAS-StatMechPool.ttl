@@ -1,7 +1,0 @@
-@prefix covid: <http://covid.geog.ucsb.edu/lod/ontology/> .
-@prefix covid-research: <http://covid.geog.ucsb.edu/lod/research/> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-covid-research:JHU_UNC_GAS-StatMechPool a covid:Research ;
-    rdfs:label "JHU_UNC_GAS-StatMechPool" .
-

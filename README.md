@@ -1,5 +1,5 @@
 # COVID-Forecast-Graph
-This is the repository for the paper "COVID-Forecast-Graph: An Open Knowledge Graph for Consolidating COVID-19 Forecasts and Economic Indicators"
+This is the repository for the paper "COVID-Forecast-Graph: An Open Knowledge Graph for Consolidating COVID-19 Forecasts and Economic Indicators via Place and Time"
 
 ## About The Project
 The longer the COVID-19 pandemic lasts, the more apparent is becomes that understanding its social drivers may be as important as understanding the virus itself. One such social driver of the ongoing spread of COVID-19 is misinformation and distrust in institutions. This is particularly interesting as the scientific process is more transparent than ever before. Numerous scientific teams across the world have published data sets that cover almost any imaginable aspects of this crisis, e.g., daily reported cases and death numbers, forecast of the future death numbers, economic impacts, human mobility, imposed restrictions, biological genes, and so on. However, how to consistently and efficiently integrate and make sense of these separate data 'silos' and present them to scientists, decision makers, journalists, and more importantly the general public remains a key challenge. One approach to integrate COVID-19 related data across domains is knowledge graphs, and several such graphs have been published over the past months. These graphs excel at enabling data crosswalks and exploring auxiliary data to contextualize the patterns of spread. Interestingly, none of these graphs has focused on COVID-19 forecasts and the assumptions underlying these forecasts despite them acting as the underpinning for decision making at NGOs, the industry, and governments from the local to the state level. In this work we report on our work in developing such a graph, motivate the need for exposing forecasts as a knowledge graph, showcase several types of queries that can be run against the graph, and geographically interlink forecast data with indicators of economic impacts.
@@ -74,10 +74,10 @@ The generated graph is also served at http://stko-roy.geog.ucsb.edu:7201 and bel
 
 
 ## Competency Questions and Exemplary Queries
-A set of saved exemplary SPARQL queries to answer the discussed competency questions in the paper can be found in <em>[./example_queries.txt](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/example_queries.txt)</em>. Moreover, these exmplary queires are pre-stored in the [endpoint](http://stko-roy.geog.ucsb.edu:7201/sparql) and can be direcyly tested in COVID-Forecast-KG. 
+A set of saved exemplary SPARQL queries to answer the discussed competency questions in the paper can be found in <em>[./example_queries.txt](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/example_queries.txt)</em>. Moreover, these exmplary queires are pre-stored in the [endpoint](http://stko-roy.geog.ucsb.edu/covid/sparql) and can be direcyly tested in COVID-Forecast-KG. 
 
-1. Which projects have forecasts about cumulative death for California on 01-16-2021? When have these forecast been made? Which of them used regression analysis? \
-First part of the question can be tested [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q1_project_forecast_timelist&owner=admin) and the query is listed below:
+1. Which projects have forecasts about cumulative death for California on 2022-03-12?? When have these forecast been made? Which of them used regression analysis? \
+First part of the question can be tested [here](http://stko-roy.geog.ucsb.edu/covid/sparql?savedQueryName=Q1_project_forecast_timelist&owner=admin) and the query is listed below:
 ```
 select ?proj_label ?method_label (GROUP_CONCAT(?time; SEPARATOR=",") as ?time_list) where { 
   
@@ -92,7 +92,7 @@ select ?proj_label ?method_label (GROUP_CONCAT(?time; SEPARATOR=",") as ?time_li
   
              ?m sosa:hasFeatureOfInterest ?p ;
                 sosa:observedProperty covid-obs-property:cum_death ;
-                sosa:phenomenonTime covid-instant:2020-09-12 .
+                sosa:phenomenonTime covid-instant:2022-03-12 .
   
              ?p covid:hasPlaceName 'California' . 
   
@@ -102,7 +102,7 @@ select ?proj_label ?method_label (GROUP_CONCAT(?time; SEPARATOR=",") as ?time_li
 group by ?proj_label ?method_label
 ```
 
-The second part can be tested [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q1_project_forecast_method&owner=admin) and the query is listed as:
+The second part can be tested [here](http://stko-roy.geog.ucsb.edu/covid/sparql?savedQueryName=Q1_project_forecast_method&owner=admin) and the query is listed as:
 ```
 select ?project_label where {
   ?project a covid:Research ;
@@ -115,14 +115,14 @@ select ?project_label where {
   ?forecast sosa:hasMember ?target ;
       		sosa:resultTime ?time .
   ?target sosa:observedProperty covid-obs-property:cum_death ;
-            sosa:phenomenonTime covid-instant:2021-01-16 ;
+            sosa:phenomenonTime covid-instant:2021-04-10 ;
             sosa:hasFeatureOfInterest ?place.
   ?place covid:hasPlaceName "California" .
 }
 ```
 
 2. Which projects implement the assumption that local social distancing policies will be kept in place? Which methods do these projects utilize? \
-The query can be tested [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q2_project_assumption_method&owner=admin) and the specific SPARQl query is: 
+The query can be tested [here](http://stko-roy.geog.ucsb.edu/covid/sparql?savedQueryName=Q2_project_assumption_method&owner=admin) and the specific SPARQl query is: 
 ```
 select ?project_label ?method_label  where {
 
@@ -140,8 +140,8 @@ select ?project_label ?method_label  where {
 }
 ```
 
-3. Find all predicted cumulative death in California on 01-02-2021, and compare it with the reported ground truth. Further check the prediction interval of forecasts that include the reported 'ground truth'.\
-The first part can be tested [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q3_prediction_groundtruth&owner=admin) and below is the SPARQL query:
+3. Find all predicted cumulative death in California on 2022-02-12, and compare it with the reported ground truth. Further check the prediction interval of forecasts that include the reported 'ground truth'.\
+The first part can be tested [here](http://stko-roy.geog.ucsb.edu/covid/sparql?savedQueryName=Q3_prediction_groundtruth&owner=admin) and below is the SPARQL query:
 ```
 select ?forecast ?predict_value ?groundtruth_value where {
    
@@ -160,11 +160,14 @@ select ?forecast ?predict_value ?groundtruth_value where {
               covid:point ?groundtruth_value .
   
   ?place covid:hasPlaceName "California" .
-  ?time time:inXSDDateTime "2021-01-02" .
+  ?time time:inXSDDateTime "2022-02-12" .
+}
+limit 100
+    
 }
 ```
 
-The second part can be evaluated [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q3_groundtruth_forecast_interval&owner=admin) and its SPARQL query is:
+The second part can be evaluated [here](http://stko-roy.geog.ucsb.edu/covid/sparql?savedQueryName=Q3_groundtruth_forecast_interval&owner=admin) and its SPARQL query is:
 ```
 select ?project_label ?forecast_time ?ground_value ?upper_bound ?lower_bound ((?upper_bound-?lower_bound) as ?interval) where {
    ?project sosa:hasMember ?forecast ;
@@ -189,7 +192,7 @@ select ?project_label ?forecast_time ?ground_value ?upper_bound ?lower_bound ((?
 
   
   ?place covid:hasPlaceName "California" .
-  ?time time:inXSDDateTime "2021-01-02" .
+  ?time time:inXSDDateTime "2022-02-12" .
     
   filter (?ground_value <?upper_bound && ?ground_value>?lower_bound)
     
@@ -197,23 +200,23 @@ select ?project_label ?forecast_time ?ground_value ?upper_bound ?lower_bound ((?
 ```
 
 4. Among all the 4-week ahead forecasts of cumulative death in early August (i.e., before the second wave unfolded in the fall), which model performs the best for each state across the US?\
-There are multiple steps involved in answering this question. First, we extract the earliest forecast date of each research project in August 2020, whose query can be found [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q4_1_first_date_of_August&owner=admin) and the SPARQL query can be found below. The result is stored at <em>[./Question4-Analysis/model_first_august.csv](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/Question4-Analysis/model_first_august.csv)</em>. Then we use simple Python scripts to loop through each state finding their best models and subsequently visualize them as a map. All Python scripts can be found at <em>[./Question4-Analysis/Q5_COVID-Best_model.ipynb](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/Question4-Analysis/Q5_COVID-Best_model.ipynb)</em>.
+There are multiple steps involved in answering this question. First, we extract the earliest forecast date of each research project in January 2022, whose query can be found [here](http://stko-roy.geog.ucsb.edu/covid/sparql?savedQueryName=Q4_1_first_date_of_Jan2022&owner=admin) and the SPARQL query can be found below. The result is stored at <em>[./Question4-Analysis/model_first_august.csv](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/Question4-Analysis/model_first_august.csv)</em>. Then we use simple Python scripts to loop through each state finding their best models and subsequently visualize them as a map. All Python scripts can be found at <em>[./Question4-Analysis/Q5_COVID-Best_model.ipynb](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/Question4-Analysis/Q5_COVID-Best_model.ipynb)</em>.
 
 ```
-select ?research (min(?result_time) as ?first_august) {
+select ?research (min(?result_time) as ?first_jan) {
   
   	?research sosa:hasMember ?forecast .
   
   	?forecast a covid:Forecast ;
     	sosa:resultTime ?result_time .
 
- 	FILTER regex(?result_time, "^2020-08") .
+ 	FILTER regex(?result_time, "^2022-01") .
 }
 group by ?research
-order by ?first_september
+order by ?first_jan
 ```
-5. Which US state does the [Karlen-pypm] model perform the best (and the worst) compared with other models on [2021-01-09]? How do the results differ from forecasts for [2021-01-16] (another target forecast date)? 
-There are multiple steps to answer this question using our COVID-Forecast-Graph. The python code can be found at <em>[./Question5-Analysis/OW-State-Comparision.ipynb](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/Question5-Analysis/OW-State-Comparision.ipynb)</em>. The specific query to rank model performance on predicting cumulative death on 2021-01-02 for Alabama is listed below and can be tested [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q5_1_Karlen-pypm_performance_state&owner=admin). 
+5. Which US state does the [JHUAPL-Bucky] model perform the best (and the worst) compared with other models on [2022-02-05]? How do the results differ from forecasts for [2022-02-12] (another target forecast date)? 
+There are multiple steps to answer this question using our COVID-Forecast-Graph. The python code can be found at <em>[./Question5-Analysis/OW-State-Comparision.ipynb](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/Question5-Analysis/OW-State-Comparision.ipynb)</em>. The specific query to rank model performance on predicting cumulative death on 2021-01-02 for Alabama is listed below and can be tested [here](http://stko-roy.geog.ucsb.edu/covid/sparql?savedQueryName=Q5_1_Karlen-pypm_performance_state&owner=admin). 
 ```
 select ?modelName (min(abs(?predict_value-?groundtruth_value)) as ?min_gap) where {
      
@@ -235,14 +238,14 @@ select ?modelName (min(abs(?predict_value-?groundtruth_value)) as ?min_gap) wher
   
   ?place covid:placeFIPS '01' .
     
-  ?time time:inXSDDateTime '2021-01-02' .
+  ?time time:inXSDDateTime '2022-02-05' .
 }
 group by ?modelName
 order by ?min_gap
 ```
 
-6. What is the relation between reported incident cases and the credit card use change in arts, entertainment, and recreation in New York?\
-This question can be tested [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q6_coviddeath_economic&owner=admin) and below is the specific query. The visualization code can be found at <em>[./Question6-Analysis/TimeSeries-Ecomonic-IncidentCases.ipynb](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/Question6-Analysis/TimeSeries-Ecomonic-IncidentCases.ipynb)</em>
+6. What is the relation between reported incident cases and citizens spending time at retail and recreation locations (collected by Google) in New York??\
+This question can be tested [here](http://stko-roy.geog.ucsb.edu/covid/sparql?savedQueryName=Q6_coviddeath_economic&owner=admin) and below is the specific query. The visualization code can be found at <em>[./Question6-Analysis/TimeSeries-Ecomonic-IncidentCases.ipynb](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/Question6-Analysis/TimeSeries-Ecomonic-IncidentCases.ipynb)</em>
 ```
 SELECT distinct ?time ?groundtruth_value ?val_econ where {
 
@@ -257,7 +260,7 @@ SELECT distinct ?time ?groundtruth_value ?val_econ where {
     ?econ_colelction sosa:phenomenonTime ?time ;
                      sosa:hasFeatureOfInterest ?place ;
                      sosa:hasMember ?econ .
-    ?econ sosa:observedProperty econ-obs-property:spend_aer ;
+    ?econ sosa:observedProperty econ-obs-property:gps_retail_and_recreation ;
       econ:point ?val_econ .
 
         ?place covid:hasPlaceName "New York" .
@@ -267,7 +270,7 @@ limit 100
 
 ```
 7. Which model shows the largest deviation in accuracy of forecasting [cumulative death] as a function of [population density]?
-The code for this question can be found at <em>[./Question7-Analysis/deviationAccuracy_populationDensit.ipynb](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/Question7-Analysis/deviationAccuracy_populationDensity.ipynb)</em>. The specific query to find the relation between population density and the accuracy of models (use Alabama on 2021-01-16 as an example) is listed below and can be tested at [here](http://stko-roy.geog.ucsb.edu:7201/sparql?savedQueryName=Q7_1_PopulationDensity_ModelAccuracy&owner=admin). 
+The code for this question can be found at <em>[./Question7-Analysis/deviationAccuracy_populationDensit.ipynb](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/Question7-Analysis/deviationAccuracy_populationDensity.ipynb)</em>. The specific query to find the relation between population density and the accuracy of models (use Alabama on 2021-01-16 as an example) is listed below and can be tested at [here](http://stko-roy.geog.ucsb.edu/covid/sparql?savedQueryName=Q7_1_PopulationDensity_ModelAccuracy&owner=admin). 
 ```
 SELECT ?placeName ?modelName (xsd:float(?census_pop_val)/xsd:float(?census_area_val) AS ?population_density) (min(abs(?predict_value-?groundtruth_value)) as ?min_gap)  where {
 	
@@ -300,7 +303,7 @@ SELECT ?placeName ?modelName (xsd:float(?census_pop_val)/xsd:float(?census_area_
     ?place covid:placeFIPS '01' ;
            covid:hasPlaceName ?placeName.
     
-   	?time time:inXSDDateTime '2021-01-16' .
+   	?time time:inXSDDateTime '2022-02-12' .
 
  }
 group by ?placeName ?modelName ?census_pop_val ?census_area_val

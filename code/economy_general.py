@@ -20,7 +20,7 @@ from datetime import datetime, timedelta
 import os
 from glob import glob
 
-SOSA = SSN
+#SOSA = SSN
 
 today = datetime.today()
 today_str = today.strftime("%Y-%m-%d") # dd/mm/YY
@@ -150,7 +150,7 @@ def triplify_economy(source_name, data_file, column_list, temporal_resolution, s
     data_list = data_df.values.tolist()
 
     output = data_file.replace(" - ", "_")
-    output = '../output_economy/'+output.replace(".csv", ".ttl")
+    output = '../output_economy_02182022/'+output.replace(".csv", ".ttl")
 
 
     # step1: build the EconomicTracker level observation collection 
@@ -253,7 +253,7 @@ def triplify_economy(source_name, data_file, column_list, temporal_resolution, s
 
 def main():
 
-    # #### Triplify Affinity Data #######
+    #### Triplify Affinity Data #######
     print('Start triplifying Affinity')
     source_name = 'Affinity'
     data_file = ["Affinity - State - Daily.csv", 'Affinity - National - Daily.csv']
@@ -391,32 +391,98 @@ def main():
    #  triplify_economy(source_name, data_file[0], column_list_national, temporal_resolution, source_stat_label_national, obs_prop_label_dic)
    #  triplify_economy(source_name, data_file[1], column_list_state, temporal_resolution, source_stat_label_state, obs_prop_label_dic)
 
-    ######## Triplify  Paychex, Intuit, Earnin and Kronos (employment)
+#     ######## Triplify  Paychex, Intuit, Earnin and Kronos (employment)
     print('Start triplifying Employment')
     source_name = 'Aychex_Intuit_Earnin_Kronos'
-    #data_file = ["Employment Combined - National - Daily.csv", 'Employment Combined - State - Daily.csv']
     data_file = ["Employment - National - Daily.csv", 'Employment - State - Daily.csv']
-    column_list_state = ['year','month','day','statefips','emp_combined','emp_combined_inclow','emp_combined_incmiddle','emp_combined_inchigh',
-    'emp_combined_ss40','emp_combined_ss60','emp_combined_ss65','emp_combined_ss70']
-    column_list_national = ['year', 'month', 'day', 'emp_combined', 'emp_combined_inclow', 'emp_combined_incmiddle', 'emp_combined_inchigh',
-    'emp_combined_ss40', 'emp_combined_ss60','emp_combined_ss65',  'emp_combined_ss70',  'emp_combined_inclow_advance']
+    ## this is the old version
+    #column_list_state = ['year','month','day','statefips','emp_combined','emp_combined_inclow','emp_combined_incmiddle','emp_combined_inchigh',
+    #'emp_combined_ss40','emp_combined_ss60','emp_combined_ss65','emp_combined_ss70']
+    #column_list_national = ['year', 'month', 'day', 'emp_combined', 'emp_combined_inclow', 'emp_combined_incmiddle', 'emp_combined_inchigh',
+    #'emp_combined_ss40', 'emp_combined_ss60','emp_combined_ss65',  'emp_combined_ss70',  'emp_combined_inclow_advance']
+    
+    ## this is the newest version 
+    column_list_state = ['year','month','day','statefips','emp','emp_incq1', 'emp_incq2', 'emp_incq3', 'emp_incq4','emp_incmiddle', 'emp_incbelowmed', 'emp_incabovemed',
+    'emp_ss40','emp_ss60','emp_ss65','emp_ss70']
+    column_list_national = ['year', 'month', 'day', 'emp', 'emp_incq1', 'emp_incq2', 'emp_incq3', 'emp_incq4', 'emp_incmiddle', 'emp_incbelowmed', 'emp_incabovemed', 'emp_subset_unweighted_q1', 'emp_subset_unweighted_q2',
+    'emp_subset_unweighted_q3', 'emp_subset_unweighted_q4', 'emp_subset_reweighted_q1', 'emp_subset_reweighted_q2', 'emp_subset_reweighted_q3', 'emp_ss40', 'emp_ss60','emp_ss65',  'emp_ss70', 'emp_retail', 'emp_retail_inclow','emp_retail_incmiddle',
+    'emp_retail_inchigh', 'emp_size_0', 'emp_size_100', 'emp_size_500', 'emp_size_800', 'emp_s72',  'emp_advance']
+
     source_stat_label_state = "State level number of active employees, aggregating information from multiple data providers. This series is based on firm-level payroll data from Paychex and Intuit, worker-level data on employment and earnings from Earnin, and firm-level timesheet data from Kronos."
     source_stat_label_national = "National level number of active employees, aggregating information from multiple data providers. This series is based on firm-level payroll data from Paychex and Intuit, worker-level data on employment and earnings from Earnin, and firm-level timesheet data from Kronos."
     
     temporal_resolution = 'daily' 
 
-    obs_prop_label_dic = {'emp_combined': 'Employment level for all workers.',
-                        'emp_combined_inclow': 'Employment level for workers in the bottom quartile of the income distribution (incomes approximately under $27,000).',
-                        'emp_combined_incmiddle': 'Employment level for workers in the middle two quartiles of the income distribution (incomes approximately $27,000 to $60,000).',
-                        'emp_combined_inchigh': 'Employment level for workers in the top quartile of the income distribution (incomes approximately over $60,000).',
-                        'emp_combined_ss40': 'Employment level for workers in trade, transportation and utilities (NAICS supersector 40).',
-                        'emp_combined_ss60': 'Employment level for workers in professional and business services (NAICS supersector 60).',
-                        'emp_combined_ss65': 'Employment level for workers in education and health services (NAICS supersector 65).',
-                        'emp_combined_ss70': 'Employment level for workers in leisure and hospitality (NAICS supersector 70).',
-                        'emp_combined_inclow_advance': 'Indicator (0 or 1) for whether emp_combined_inclow is a forecasted employment level based on timecard data from Kronos.'}
+    ## this is the old observable property 
+    # obs_prop_label_dic = {'emp_combined': 'Employment level for all workers.',
+    #                     'emp_combined_inclow': 'Employment level for workers in the bottom quartile of the income distribution (incomes approximately under $27,000).',
+    #                     'emp_combined_incmiddle': 'Employment level for workers in the middle two quartiles of the income distribution (incomes approximately $27,000 to $60,000).',
+    #                     'emp_combined_inchigh': 'Employment level for workers in the top quartile of the income distribution (incomes approximately over $60,000).',
+    #                     'emp_combined_ss40': 'Employment level for workers in trade, transportation and utilities (NAICS supersector 40).',
+    #                     'emp_combined_ss60': 'Employment level for workers in professional and business services (NAICS supersector 60).',
+    #                     'emp_combined_ss65': 'Employment level for workers in education and health services (NAICS supersector 65).',
+    #                     'emp_combined_ss70': 'Employment level for workers in leisure and hospitality (NAICS supersector 70).',
+    #                     'emp_combined_inclow_advance': 'Indicator (0 or 1) for whether emp_combined_inclow is a forecasted employment level based on timecard data from Kronos.'}
+    ## this is the newest version of observable properties 
+    obs_prop_label_dic = {'emp': 'Employment level for all workers.',
+                        'emp_incq1': 'Employment level for workers in the bottom quartile of the income distribution (incomes approximately under $27,000).',
+                        'emp_incq2': 'Employment level for workers in the second quartile of the income distribution (incomes approximately $27,000 to $37,000).',
+                        'emp_incmiddle': 'Employment level for workers in the middle two quartiles of the income distribution (incomes approximately $27,000 to $60,000).',
+                        'emp_incq3': 'Employment level for workers in the third quartile of the income distribution (incomes approximately $37,000 to $60,000).',
+                        'emp_incq4': 'Employment level for workers in the top quartile of the income distribution (incomes approximately over $60,000).',
+                        'emp_incbelowmed': 'Employment level for workers in the bottom half of the income distribution (incomes approximately under $37,000).',
+                        'emp_incabovemed': 'Employment level for workers in the top half of the income distribution (incomes approximately over $37,000).',
+                        'emp_ss40': 'Employment level for workers in trade, transportation and utilities (NAICS supersector 40).',
+                        'emp_ss60': 'Employment level for workers in professional and business services (NAICS supersector 60).',
+                        'emp_ss65': 'Employment level for workers in education and health services (NAICS supersector 65).',
+                        'emp_ss70': 'Employment level for workers in leisure and hospitality (NAICS supersector 70).',
+                        'emp_retail': 'Employment level for workers in retail (NAICS sector 44-45).',
+                        'emp_retail_inclow': 'Employment level for workers in retail (NAICS sector 44-45) and in the bottom quartile of the income distribution (incomes approximately under $27,000).',
+                        'emp_retail_incmiddle': 'Employment level for workers in retail (NAICS sector 44-45) and in the middle two quartiles of the income distribution (incomes approximately $27,000 to $60,000).',
+                        'emp_retail_inchigh': 'Employment level for workers in retail (NAICS sector 44-45) and in the top quartile of the income distribution (incomes approximately over $60,000).',
+                        'emp_s72': 'Employment level for workers in accommodation and food services (NAICS sector 72).',
+                        'emp_subset_unweighted_q1': 'Employment level for workers in the bottom quartile of the income distribution (incomes approximately under $27,000) in county x industry (2-digit NAICS code) cells with nonzero employment for all four income quartiles.',
+                        'emp_subset_unweighted_q2': 'Employment level for workers in the second quartile of the income distribution (incomes approximately $27,000 to $37,000) in county x industry (2-digit NAICS code) cells with nonzero employment for all four income quartiles.',
+                        'emp_subset_unweighted_q3': 'Employment level for workers in the third quartile of the income distribution (incomes approximately $37,000 to $60,000) in county x industry (2-digit NAICS code) cells with nonzero employment for all four income quartiles.',
+                        'emp_subset_unweighted_q4': 'Employment level for workers in the top quartile of the income distribution (incomes approximately over $60,000) in county x industry (2-digit NAICS code) cells with nonzero employment for all four income quartiles.',
+                        'emp_subset_reweighted_q1': 'Employment level for workers in the bottom quartile of the income distribution (incomes approximately under $27,000), reweighting to match the county x industry (2-digit NAICS code) distribution of workers in the top quartile of the income distribution.',
+                        'emp_subset_reweighted_q2': 'Employment level for workers in the bottom quartile of the income distribution (incomes approximately under $27,000), reweighting to match the county x industry (2-digit NAICS code) distribution of workers in the top quartile of the income distribution.',
+                        'emp_subset_reweighted_q3': 'Employment level for workers in the bottom quartile of the income distribution (incomes approximately under $27,000) in county x industry cells with nonzero employment for all four income quartiles, reweighting to match the county x industry (2-digit NAICS code) distribution of workers in the top quartile of the income distribution.',
+                        'emp_advance': 'Indicator (0 or 1) for whether employment data is a forecasted employment level based on timecard data from Kronos and employees on weekly paycycles from Paychex.',
+                        }
+
 
     triplify_economy(source_name, data_file[0], column_list_national, temporal_resolution, source_stat_label_national, obs_prop_label_dic)
     triplify_economy(source_name, data_file[1], column_list_state, temporal_resolution, source_stat_label_state, obs_prop_label_dic)
+
+#     ######## Triplify  Google Mobility #########
+    print('Start triplifying Employment')
+    source_name = 'Google'
+    data_file = ["Google Mobility - National - Daily.csv", 'Google Mobility - State - Daily.csv']
+
+    column_list_state = ['year','month','day','statefips', 'gps_retail_and_recreation', 'gps_grocery_and_pharmacy',
+                        'gps_parks', 'gps_transit_stations', 'gps_workplaces', 'gps_residential', 'gps_away_from_home']
+    column_list_national = ['year', 'month', 'day', 'gps_retail_and_recreation', 'gps_grocery_and_pharmacy',
+                        'gps_parks', 'gps_transit_stations', 'gps_workplaces', 'gps_residential', 'gps_away_from_home']
+
+    source_stat_label_state = "State level time spent at different venues (e.g., retail and recreation, grocery and pharmacy, workplace, away from home, etc.), estimated using cellphone location data from Google users who have enabled the Location History setting. The index is a change relative to the January 2020 index period, not seasonally adjusted."
+    source_stat_label_national = "National level time spend at different venues (e.g., retail and recreation, grocery and pharmacy, workplace, away from home, etc.), estimated using cellphone location data from Google users who have enabled the Location History setting. The index is a change relative to the January 2020 index period, not seasonally adjusted."
+    
+    temporal_resolution = 'daily' 
+
+    obs_prop_label_dic ={
+            'gps_away_from_home': 'Time spent outside of residential locations.',
+            'gps_retail_and_recreation': 'Time spent at retail and recreation locations.',
+            'gps_grocery_and_pharmacy': 'Time spent at grocery and pharmacy locations.',
+            'gps_parks': 'Time spent at parks.',
+            'gps_transit_stations': 'Time at inside transit stations.',
+            'gps_workplaces': 'Time spent at work places.',
+            'gps_residential': 'Time spent at residential locations.',
+    }
+
+    triplify_economy(source_name, data_file[0], column_list_national, temporal_resolution, source_stat_label_national, obs_prop_label_dic)
+    triplify_economy(source_name, data_file[1], column_list_state, temporal_resolution, source_stat_label_state, obs_prop_label_dic)
+
 
 
 if __name__ == "__main__":
