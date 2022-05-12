@@ -1,5 +1,5 @@
 # COVID-Forecast-Graph
-This is the repository for the paper "COVID-Forecast-Graph: An Open Knowledge Graph for Consolidating COVID-19 Forecasts and Economic Indicators via Place and Time"
+This is the repository for the paper "COVID-Forecast-Graph: An Open Knowledge Graph for Consolidating COVID-19 Forecasts and Economic Indicators via Place and Time", which is accepted at [AGILE 2022](https://agile-online.org/conference-2022). 
 
 ## About The Project
 The longer the COVID-19 pandemic lasts, the more apparent is becomes that understanding its social drivers may be as important as understanding the virus itself. One such social driver of the ongoing spread of COVID-19 is misinformation and distrust in institutions. This is particularly interesting as the scientific process is more transparent than ever before. Numerous scientific teams across the world have published data sets that cover almost any imaginable aspects of this crisis, e.g., daily reported cases and death numbers, forecast of the future death numbers, economic impacts, human mobility, imposed restrictions, biological genes, and so on. However, how to consistently and efficiently integrate and make sense of these separate data 'silos' and present them to scientists, decision makers, journalists, and more importantly the general public remains a key challenge. One approach to integrate COVID-19 related data across domains is knowledge graphs, and several such graphs have been published over the past months. These graphs excel at enabling data crosswalks and exploring auxiliary data to contextualize the patterns of spread. Interestingly, none of these graphs has focused on COVID-19 forecasts and the assumptions underlying these forecasts despite them acting as the underpinning for decision making at NGOs, the industry, and governments from the local to the state level. In this work we report on our work in developing such a graph, motivate the need for exposing forecasts as a knowledge graph, showcase several types of queries that can be run against the graph, and geographically interlink forecast data with indicators of economic impacts.
@@ -8,7 +8,7 @@ The longer the COVID-19 pandemic lasts, the more apparent is becomes that unders
 Our graph is generated based on mainly four repositories: 
 
 * COVID-19 Forecast\
-  [COVID-19 Forecast](https://covid19forecasthub.org/) collects forecasts of COVID-19 related observations made by various teams using different methods. The folder ./covid19-forecast-hub is forked from the public repository https://github.com/reichlab/COVID19-forecast-hub. Collected observable properties from this repository include: 
+  [COVID-19 Forecast](https://covid19forecasthub.org/) collects forecasts of COVID-19 related observations made by various teams using different methods. The folder `./covid19-forecast-hub` is forked from the public repository https://github.com/reichlab/COVID19-forecast-hub. Collected observable properties from this repository include: 
   * incident death 
   * incident case
   * cumulative death
@@ -21,22 +21,23 @@ Our graph is generated based on mainly four repositories:
   * cumulative death 
  
 * Economic Tracker \
-We use [Opportunity Insights](https://tracktherecovery.org/) team's [Economic Tracker](https://github.com/OpportunityInsights/EconomicTracker) repository to collect the economic related data. Data in the ./EconomicTracker folder is forked from this repository. Collected observable properties include:
+We use [Opportunity Insights](https://tracktherecovery.org/) team's [Economic Tracker](https://github.com/OpportunityInsights/EconomicTracker) repository to collect the economic related data. Data in the `./EconomicTracker` folder are forked from this repository. Collected observable properties include:
   * Spending data from [Affinity Solutions](https://www.affinity.solutions/)
   * Job postings from [Burning Glass Technologies](https://www.burning-glass.com/)
   * Employment levels relative to Jan 4-31 from [Paychex](https://www.paychex.com/), [Intuit](https://www.intuit.com/), [Earnin](https://www.earnin.com/) and [Kronos](https://www.kronos.com/)
   * Small business openings data from [Womply](https://www.womply.com/)
   * Small business revenue data from [Womply](https://www.womply.com/)
+  * Google mobility data from [Google Mobility](https://www.google.com/covid19/mobility/)
 
 * CDC Model Assumptions and Method Types \
 The underlying model assumptions and method types of involved [COVID-19 Forecasts](https://github.com/reichlab/COVID19-forecast-hub) are linked to the [CDC reported data](https://github.com/cdcepi/COVID-19-Forecasts). However, the naming schema are quite different between these two repositories. Therefore, we manually matched the team names used by CDC and project names used by COVID-19 Forecast. Moreoever, we categorized the methods into types such as: Machine Leanring, SEIR, SIR, Regression Analysis, Bayesian Analysis, and so on. The processed data is stored as <em>[./cdc_model_assumptions.csv](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/cdc_model_assumptions.csv)</em>.
 
-Folder [output_forecast](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output_forecast) contains the triplified forecasts untill 09-30-2020, folder [output2_forecast](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output2_forecast) include forecasts from 10-01-2020 to 01-18-2021, folder [output3_forecast](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output3_forecast) include forecasts from 01-19-2021 to 01-25-2021, folder [output4_forecast](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output4_forecast) include forecasts from 01-25-2021 to 02-15-2021, folder [output5_forecast](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output5_forecast) include forecasts from 02-16-2021 to 03-15-2021, folder [output6_forecast](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output6_forecast) include forecasts from 03-16-2021 to 04-12-2021, folder [output7_forecast](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output7_forecast) include forecasts from 04-13-2021 to 04-26-2021. Folder [output_economy](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output_economy) collects graphs of economic-related observations. All data are represnted in the format of [RDF](https://www.w3.org/RDF/) and stored as [turtle files](https://www.w3.org/TR/turtle/). 
+Folder [output_economy_02182022](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output_economy_02182022) collects graphs of economic-related observations. Folder [output_forecast_02182022](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output_forecast_02182022) contains triplified forecasts untill Feb 18, 2022. All data are represnted in the format of [RDF](https://www.w3.org/RDF/) and stored as [turtle files](https://www.w3.org/TR/turtle/). 
 
-The graph and corresponding [endpoint](http://stko-roy.geog.ucsb.edu:7201 ) are updated every Tuesday. 
+The graph and corresponding [endpoint](http://stko-roy.geog.ucsb.edu:7201 ) are updated every Tuesday. Latest update date: May 12th, 2022. 
 
 ## COVID-SO Ontology
-To increase the interoperability and reusability of the data, we design a COVID-19 related ontology - COVID-SO - on top of the [W3C recommended Semantic Sensor Network ontology](https://www.w3.org/TR/vocab-ssn/) and [its extensions](https://www.w3.org/TR/vocab-ssn-ext/). Concretely, we designed a three-tier ontology demonstrated as below. COVID-SO ontology can be found in the folder of <em>[./COVID-SO Ontology](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/COVID-SO%20Ontology)</em>. 
+To increase the interoperability and reusability of data, we design a COVID-19 forecast related ontology - COVID-SO - on top of the [W3C recommended Semantic Sensor Network ontology](https://www.w3.org/TR/vocab-ssn/) and [its extensions](https://www.w3.org/TR/vocab-ssn-ext/). Concretely, we design a three-tier ontology demonstrated as below. COVID-SO can be found in the folder of <em>[./COVID-SO Ontology](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/COVID-SO%20Ontology)</em>. 
 
 * Upper-level ontology
 <p align="center">
@@ -65,9 +66,9 @@ To increase the interoperability and reusability of the data, we design a COVID-
     <img src="https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/COVID-SO%20Ontology/images/placetime.png" alt="framework" >
     </p>
 ## COVID-Forecast-KG 
-COVID-Forecast-KG uses the [Resource Description Framework (RDF)](https://www.w3.org/RDF/) to represent the data. Specificly, the data format is [turtle]( https://www.w3.org/TR/turtle/). All forecast-related data are stored in folders: <em>[./output_forecast](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output_forecast)</em>, <em>[./output2_forecast](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output2_forecast)</em>, <em>[./output3_forecast](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output3_forecast)</em>, <em>[./output4_forecast](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output4_forecast)</em>, and <em>[./output5_forecast](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output5_forecast)</em>. And new data are added weekly. Economic indicators are stored in <em>[./output_economy](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output_economy)</em>. Censues related data can be found at <em>[./US_census_population_area](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/US_census_population_area)</em>. 
+COVID-Forecast-KG uses the [Resource Description Framework (RDF)](https://www.w3.org/RDF/) to represent the data. Specificly, the data are formed using [turtle]( https://www.w3.org/TR/turtle/). All forecast-related data are stored in folder(s): <em>[./output_forecast_02182022](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output_forecast_02182022)</em>. And new data are added weekly. Economic indicators are stored in <em>[./output_economy_02182022](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output_economy_02182022)</em>. Censues related data can be found at <em>[./US_census_population_area](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/US_census_population_area)</em>. 
 
-The generated graph is also served at http://stko-roy.geog.ucsb.edu:7201 and below is a sub graph visualization of COVID-Forecast-KG:
+The generated graph is also served at https://stko-roy.geog.ucsb.edu/covid and below is a sub graph visualization of COVID-Forecast-KG:
     <p align="center">
     <img src="https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/COVID-SO%20Ontology/images/graphdb_screenshot.png" alt="framework" >
     </p>
@@ -76,7 +77,7 @@ The generated graph is also served at http://stko-roy.geog.ucsb.edu:7201 and bel
 ## Competency Questions and Exemplary Queries
 A set of saved exemplary SPARQL queries to answer the discussed competency questions in the paper can be found in <em>[./example_queries.txt](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/example_queries.txt)</em>. Moreover, these exmplary queires are pre-stored in the [endpoint](http://stko-roy.geog.ucsb.edu/covid/sparql) and can be direcyly tested in COVID-Forecast-KG. 
 
-1. Which projects have forecasts about cumulative death for California on 2022-03-12?? When have these forecast been made? Which of them used regression analysis? \
+1. Which projects have forecasts about cumulative death for California on 2022-03-12? When have these forecast been made? Which of them used regression analysis? \
 First part of the question can be tested [here](http://stko-roy.geog.ucsb.edu/covid/sparql?savedQueryName=Q1_project_forecast_timelist&owner=admin) and the query is listed below:
 ```
 select ?proj_label ?method_label (GROUP_CONCAT(?time; SEPARATOR=",") as ?time_list) where { 
@@ -313,7 +314,25 @@ order by ?min_gap
 
 
 ## Code Usage 
-Codes to triplify the data collected from various repositories are organized at <em>[./codes](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/code)</em>. 
+Codes in this project can be grouped into two catgeories: 1) codes to generate the RDF graph (code is in [python 3](https://www.python.org/download/releases/3.0/)) and 2) codes for analysis (i.e., answering competency questions) using the graph (codes are provided via Jupyter Lab - in .ipynb). 
+
+* Libraries needed to run python code (Category 1):
+	* [rdflib](https://pypi.org/project/rdflib/)
+	* [pandas](https://pandas.pydata.org/docs/getting_started/install.html)
+	* [requests](https://pypi.org/project/requests/)
+	* [datetime](https://pypi.org/project/DateTime/)
+	* [pickle](https://pypi.org/project/pickle5/)
+
+* Libraries needed to run the Jupyter Lab (Category 2):
+	* make sure [jupyter lab](https://jupyter.org/install) is installed
+	* [pandas](https://pandas.pydata.org/docs/getting_started/install.html)
+	* [pymantic](https://pypi.org/project/pymantic/)
+	* [plotly](https://plotly.com/python/getting-started/)
+	* [matplotlib](https://pypi.org/project/matplotlib/)
+	* [pickle](https://pypi.org/project/pickle5/)
+
+
+Codes to triplify the data collected from various repositories (Catgeory 1) are organized at <em>[./codes](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/code)</em>. 
 To triplify forecast, reported 'ground truth', and CDC reported model assumption and method types:
 ```
 python forecast_triplify_NEW.py [start_date] [output_folder]
@@ -326,6 +345,8 @@ To upload generated triples into GraphDB-based COVID-Forecast-Graph (have to ins
 ```
 ~/graphdb-free-9.5.1/bin$ ./loadrdf -v -f -i Covid-KG -m parallel [economy_data_folder] [forecast_groundtruth_data_folder]
 ```
+There are other ways to upload the data to the GraphDB endpoint. More details can be found [here](https://graphdb.ontotext.com/documentation/standard/loading-data.html).
+
 ## Funding 
 The work is funded by the National Science Foundation (Awards No. 2028310, 1936677, and 2033521)
 
