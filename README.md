@@ -200,8 +200,8 @@ select ?project_label ?forecast_time ?ground_value ?upper_bound ?lower_bound ((?
 }
 ```
 
-4. Among all the 4-week ahead forecasts of cumulative death in early August (i.e., before the second wave unfolded in the fall), which model performs the best for each state across the US?\
-There are multiple steps involved in answering this question. First, we extract the earliest forecast date of each research project in January 2022, whose query can be found [here](http://stko-roy.geog.ucsb.edu/covid/sparql?savedQueryName=Q4_1_first_date_of_Jan2022&owner=admin) and the SPARQL query can be found below. The result is stored at <em>[./Question4-Analysis/model_first_august.csv](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/Question4-Analysis/model_first_august.csv)</em>. Then we use simple Python scripts to loop through each state finding their best models and subsequently visualize them as a map. All Python scripts can be found at <em>[./Question4-Analysis/Q5_COVID-Best_model.ipynb](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/Question4-Analysis/Q5_COVID-Best_model.ipynb)</em>.
+4. Among all the 4-week ahead forecasts of cumulative death in early January 2022 (i.e., before the Omicron peak in the US), which model performed the best for each state across the US?\
+There are multiple steps involved in answering this question. First, we extract the earliest forecast date of each research project in January 2022, whose query can be found [here](http://stko-roy.geog.ucsb.edu/covid/sparql?savedQueryName=Q4_1_first_date_of_Jan2022&owner=admin) and the SPARQL query can be found below. The result is stored at <em>[./Question4-Analysis/model_first_august.csv](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/Question4-Analysis/model_first_august.csv)</em>. Then we use simple Python scripts to loop through each state finding their best models and subsequently visualize them as a map. All Python scripts can be found in a Jupter Notebook at <em>[./Question4-Analysis/Q5_COVID-Best_model.ipynb](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/Question4-Analysis/Q5_COVID-Best_model.ipynb)</em>.
 
 ```
 select ?research (min(?result_time) as ?first_jan) {
@@ -217,7 +217,7 @@ group by ?research
 order by ?first_jan
 ```
 5. Which US state does the [JHUAPL-Bucky] model perform the best (and the worst) compared with other models on [2022-02-05]? How do the results differ from forecasts for [2022-02-12] (another target forecast date)? 
-There are multiple steps to answer this question using our COVID-Forecast-Graph. The python code can be found at <em>[./Question5-Analysis/OW-State-Comparision.ipynb](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/Question5-Analysis/OW-State-Comparision.ipynb)</em>. The specific query to rank model performance on predicting cumulative death on 2021-01-02 for Alabama is listed below and can be tested [here](http://stko-roy.geog.ucsb.edu/covid/sparql?savedQueryName=Q5_1_Karlen-pypm_performance_state&owner=admin). 
+There are multiple steps to answer this question using our COVID-Forecast-Graph. The python code can be found in a Jupyter Notebook at <em>[./Question5-Analysis/OW-State-Comparision.ipynb](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/Question5-Analysis/OW-State-Comparision.ipynb)</em>. The specific query to rank model performance on predicting cumulative death on 2021-01-02 for Alabama is listed below and can be tested [here](http://stko-roy.geog.ucsb.edu/covid/sparql?savedQueryName=Q5_1_Karlen-pypm_performance_state&owner=admin). 
 ```
 select ?modelName (min(abs(?predict_value-?groundtruth_value)) as ?min_gap) where {
      
@@ -245,8 +245,8 @@ group by ?modelName
 order by ?min_gap
 ```
 
-6. What is the relation between reported incident cases and citizens spending time at retail and recreation locations (collected by Google) in New York??\
-This question can be tested [here](http://stko-roy.geog.ucsb.edu/covid/sparql?savedQueryName=Q6_coviddeath_economic&owner=admin) and below is the specific query. The visualization code can be found at <em>[./Question6-Analysis/TimeSeries-Ecomonic-IncidentCases.ipynb](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/Question6-Analysis/TimeSeries-Ecomonic-IncidentCases.ipynb)</em>
+6. What is the relation between reported incident cases and citizens spending time at retail and recreation locations (collected by Google) in New York?\
+This question can be tested [here](http://stko-roy.geog.ucsb.edu/covid/sparql?savedQueryName=Q6_coviddeath_economic&owner=admin) and below is the specific query. The visualization code can be found in a Jupyter Notebook at <em>[./Question6-Analysis/TimeSeries-Ecomonic-IncidentCases.ipynb](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/Question6-Analysis/TimeSeries-Ecomonic-IncidentCases.ipynb)</em>
 ```
 SELECT distinct ?time ?groundtruth_value ?val_econ where {
 
@@ -271,7 +271,7 @@ limit 100
 
 ```
 7. Which model shows the largest deviation in accuracy of forecasting [cumulative death] as a function of [population density]?
-The code for this question can be found at <em>[./Question7-Analysis/deviationAccuracy_populationDensit.ipynb](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/Question7-Analysis/deviationAccuracy_populationDensity.ipynb)</em>. The specific query to find the relation between population density and the accuracy of models (use Alabama on 2021-01-16 as an example) is listed below and can be tested at [here](http://stko-roy.geog.ucsb.edu/covid/sparql?savedQueryName=Q7_1_PopulationDensity_ModelAccuracy&owner=admin). 
+The code for this question can be found in a Jupyter Notebook at <em>[./Question7-Analysis/deviationAccuracy_populationDensit.ipynb](https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/Question7-Analysis/deviationAccuracy_populationDensity.ipynb)</em>. The specific query to find the relation between population density and the accuracy of models (use Alabama on 2021-01-16 as an example) is listed below and can be tested at [here](http://stko-roy.geog.ucsb.edu/covid/sparql?savedQueryName=Q7_1_PopulationDensity_ModelAccuracy&owner=admin). 
 ```
 SELECT ?placeName ?modelName (xsd:float(?census_pop_val)/xsd:float(?census_area_val) AS ?population_density) (min(abs(?predict_value-?groundtruth_value)) as ?min_gap)  where {
 	
@@ -314,7 +314,7 @@ order by ?min_gap
 
 
 ## Code Usage 
-Codes in this project can be grouped into two catgeories: 1) codes to generate the RDF graph (code is in [python 3](https://www.python.org/download/releases/3.0/)) and 2) codes for analysis (i.e., answering competency questions) using the graph (codes are provided via Jupyter Lab - in .ipynb). 
+Codes in this project can be grouped into two catgeories: 1) codes to generate the RDF graph (code is in [python 3](https://www.python.org/download/releases/3.0/)) and 2) codes for analysis (i.e., answering competency questions) using the graph (codes are provided via Jupyter Notebook - in .ipynb). 
 
 * Libraries needed to run python code (Category 1):
 	* [rdflib](https://pypi.org/project/rdflib/)
