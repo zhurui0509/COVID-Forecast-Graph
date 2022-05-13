@@ -68,7 +68,7 @@ To increase the interoperability and reusability of data, we design a COVID-19 f
 ## COVID-Forecast-KG 
 COVID-Forecast-KG uses the [Resource Description Framework (RDF)](https://www.w3.org/RDF/) to represent the data. Specificly, the data are formed using [turtle]( https://www.w3.org/TR/turtle/). All forecast-related data are stored in folder(s): <em>[./output_forecast_02182022](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output_forecast_02182022)</em>. And new data are added weekly. Economic indicators are stored in <em>[./output_economy_02182022](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/output_economy_02182022)</em>. Censues related data can be found at <em>[./US_census_population_area](https://github.com/zhurui0509/COVID-Forecast-Graph/tree/main/US_census_population_area)</em>. 
 
-The generated graph is also served at https://stko-roy.geog.ucsb.edu/covid and below is a sub graph visualization of COVID-Forecast-KG:
+The generated graph is also served at https://stko-roy.geog.ucsb.edu/covid (using GraphDB 9.5.1 free version) and below is a sub graph visualization of COVID-Forecast-KG:
     <p align="center">
     <img src="https://github.com/zhurui0509/COVID-Forecast-Graph/blob/main/COVID-SO%20Ontology/images/graphdb_screenshot.png" alt="framework" >
     </p>
